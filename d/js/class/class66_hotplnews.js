@@ -1,0 +1,1 @@
+document.write("<li><a href=\"/a/tupianxinwen/2012-10-11/97.html\" title=\"深圳“营改增”细则公布\">深圳“营改增”细则公布</a></li><li><a href=\"/a/tupianxinwen/2012-10-11/96.html\" title=\"营改增应对要点\">营改增应对要点</a></li><li><a href=\"/a/tupianxinwen/2012-10-11/95.html\" title=\"建筑业“营改增”税负将大增\">建筑业“营改增”税负将大增</a></li>");
