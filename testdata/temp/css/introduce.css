@@ -1,0 +1,57 @@
+#content #left {
+    WIDTH: /*201px*/ 150px;
+    HEIGHT: 490px;
+    PADDING-TOP: 10px;
+    FLOAT: left;
+    background-color:#efebe2;
+/*  background: url("/skin/default/images/left_bar.jpg");
+    background-repeat: repeat;
+    */
+}
+
+#left h2 {
+    PADDING-LEFT: 24px;
+    FONT-SIZE: 16px;
+    PADDING-BOTTOM: 5px;
+    COLOR: #0097c9;
+}
+
+#content > #right {
+    PADDING-RIGHT: 25px;
+    PADDING-LEFT: 25px;
+    PADDING-BOTTOM: 5px;
+    WIDTH: /*702px;*/ 670px;
+    PADDING-TOP: 5px;
+    FLOAT: left;
+}
+
+#left li a {
+PADDING-RIGHT: 30px;
+DISPLAY: block;
+FONT-WEIGHT: 300;
+FONT-SIZE: 14px;
+PADDING-BOTTOM: 8px;
+MARGIN: 0px 3px;
+COLOR: green;
+PADDING-TOP: 12px;
+BORDER-BOTTOM: #dde6eb 1px solid;
+TEXT-DECORATION: none;
+}
+
+#left li a:hover{
+    color: #808080;
+}
+
+ul {
+LIST-STYLE-TYPE: none;
+}
+
+.teampic{
+    width: 220px;
+    padding-right:20px;
+    float:left;
+}
+h3{
+    color: green;
+    padding-top: 20px;
+}

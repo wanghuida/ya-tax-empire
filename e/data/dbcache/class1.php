@@ -19,7 +19,7 @@ $class_r[62]=Array('classid'=>62,
 'dtlisttempid'=>7);
 $class_r[63]=Array('classid'=>63,
 'bclassid'=>0,
-'classname'=>'培训专题',
+'classname'=>'税收大课堂',
 'sonclass'=>'|67|68|69|',
 'featherclass'=>'',
 'islast'=>0,
@@ -28,7 +28,7 @@ $class_r[63]=Array('classid'=>63,
 
 'down_num'=>2,
 'online_num'=>2,
-'islist'=>0,
+'islist'=>2,
 'tbname'=>'news',
 'modid'=>1,
 'lencord'=>25,
@@ -146,8 +146,8 @@ $class_r[68]=Array('classid'=>68,
 'tbname'=>'news',
 'modid'=>1,
 'lencord'=>25,'link_num'=>10,
-'newstempid'=>1,
-'listtempid'=>1,
+'newstempid'=>10,
+'listtempid'=>9,
 'newspath'=>'Y-m-d',
 'filetype'=>'.html',
 
@@ -156,7 +156,7 @@ $class_r[68]=Array('classid'=>68,
 'bname'=>'营改增专题',
 
 'reorder'=>'newstime DESC',
-'dtlisttempid'=>1);
+'dtlisttempid'=>9);
 $class_r[69]=Array('classid'=>69,
 'bclassid'=>63,
 'classname'=>'注册税务师培训',
@@ -183,4 +183,18 @@ $class_r[69]=Array('classid'=>69,
 
 'reorder'=>'newstime DESC',
 'dtlisttempid'=>1);
+$class_r[71]=Array('classid'=>71,
+'bclassid'=>63,
+'classname'=>'培训公告',
+'sonclass'=>'',
+'featherclass'=>'|63|',
+'islast'=>0,
+'classpath'=>'a/peixunzhuanti/peixungonggao',
+'classtype'=>'.html',
+
+'down_num'=>2,
+'online_num'=>2,
+'islist'=>0,
+'tbname'=>'news',
+'modid'=>1);
 ?>

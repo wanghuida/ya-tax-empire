@@ -17,26 +17,22 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skin/default/css/style.css">
+      <file leaf-file-name="train.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testdata/train.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+            <state line="97" column="0" selection-start="4054" selection-end="4054" vertical-scroll-proportion="0.2905983">
               <folding>
-                <marker date="1350012986523" expanded="true" signature="9734:9817" placeholder="{...}" />
-                <marker date="1350012986523" expanded="true" signature="9751:9811" placeholder="{...}" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="38" selection-start="281" selection-end="281" vertical-scroll-proportion="0.12099644">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -51,16 +47,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/e/class/config.php" />
-        <option value="$PROJECT_DIR$/introduce/introduction2.html" />
-        <option value="$PROJECT_DIR$/introduce/introduction.html" />
-        <option value="$PROJECT_DIR$/introduce/contact.html" />
-        <option value="$PROJECT_DIR$/introduce/culture.html" />
-        <option value="$PROJECT_DIR$/skin/default/css/introduce.css" />
-        <option value="$PROJECT_DIR$/service/top.html" />
-        <option value="$PROJECT_DIR$/service/bottom.html" />
-        <option value="$PROJECT_DIR$/service/index.html" />
-        <option value="$PROJECT_DIR$/skin/default/css/style.css" />
+        <option value="$PROJECT_DIR$/testdata/temp/train.htm" />
+        <option value="$PROJECT_DIR$/testdata/temp/index_hw_ok.html" />
+        <option value="$PROJECT_DIR$/testdata/temp/index_i_ok.html" />
+        <option value="$PROJECT_DIR$/testdata/temp/train_clear.htm" />
+        <option value="$PROJECT_DIR$/testdata/temp/js/global_cn.index.js" />
+        <option value="$PROJECT_DIR$/testdata/temp/index_i_ok_clean.html" />
+        <option value="$PROJECT_DIR$/testdata/temp/index_i_ok_clean_nologin.html" />
+        <option value="$PROJECT_DIR$/testdata/temp/css/globle_cn.css" />
+        <option value="$PROJECT_DIR$/testdata/index_clear.php" />
+        <option value="$PROJECT_DIR$/testdata/temp.header.php" />
+        <option value="$PROJECT_DIR$/skin/default/css/yatax.css" />
+        <option value="$PROJECT_DIR$/testdata/自定义内容模板.php" />
+        <option value="$PROJECT_DIR$/testdata/temp/华为 - 新闻.htm" />
+        <option value="$PROJECT_DIR$/testdata/自定义列表模板.php" />
+        <option value="$PROJECT_DIR$/testdata/temp/css/yatax.css" />
+        <option value="$PROJECT_DIR$/testdata/train.php" />
       </list>
     </option>
   </component>
@@ -70,6 +72,40 @@
     <option name="y" value="-4" />
     <option name="width" value="1318" />
     <option name="height" value="776" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CSS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -97,7 +133,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -126,7 +161,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="skin" />
+              <option name="myItemId" value="testdata" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -140,17 +175,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="introduce" />
+              <option name="myItemId" value="skin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.13916667" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testdata" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\coreamp\htdocs\empire\testdata" />
+      <recent name="D:\Dev\coreamp\htdocs\empire\testdata\temp\js" />
+      <recent name="D:\Dev\coreamp\htdocs\empire\testdata\temp" />
+      <recent name="D:\Dev\coreamp\htdocs\empire\skin\default\js" />
+      <recent name="D:\Dev\coreamp\htdocs\empire\skin\default\images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -160,6 +210,9 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
@@ -167,12 +220,30 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="SHOW_TOOLBAR" value="true" />
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e78fd0bf-af33-4b17-94ca-6ea51c3e9f73" name="Default" comment="" />
@@ -181,26 +252,46 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="52" y="-4" width="1318" height="776" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16693038" sideWeight="0.6727273" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.48722044" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18462758" sideWeight="0.50159746" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15134707" sideWeight="0.9967949" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272727" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36842105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960381" sideWeight="0.48076922" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -236,7 +327,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -259,98 +350,88 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skin/default/css/introduce.css">
+    <entry file="file://$PROJECT_DIR$/testdata/temp/css/ya_train.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="17" selection-start="881" selection-end="881" vertical-scroll-proportion="0.73144877" />
+        <state line="19" column="42" selection-start="2123" selection-end="2123" vertical-scroll-proportion="1.2007434" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduce/culture.html">
+    <entry file="file://$PROJECT_DIR$/testdata/def_news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="851" selection-end="851" vertical-scroll-proportion="0.34857142" />
+        <state line="111" column="32" selection-start="5762" selection-end="5762" vertical-scroll-proportion="0.43143812" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e/class/userfun.php">
+    <entry file="file://$PROJECT_DIR$/testdata/temp/css/globle_cn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1316" column="86" selection-start="87845" selection-end="87845" vertical-scroll-proportion="0.6974359" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/temp/index_i_ok_clean_nologin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="103" selection-start="694" selection-end="694" vertical-scroll-proportion="0.02905983" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/temp/css/ent_cn_common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e/class/user.php">
+    <entry file="file://$PROJECT_DIR$/testdata/temp/train_ok_clear.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="55" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/temp.footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
+    <entry file="file://$PROJECT_DIR$/skin/default/css/style - 我的备份.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="15" selection-start="8179" selection-end="8185" vertical-scroll-proportion="-7.392857" />
+        <state line="79" column="20" selection-start="1195" selection-end="1198" vertical-scroll-proportion="0.2034188" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/top.html">
+    <entry file="file://$PROJECT_DIR$/skin/default/css/yatax.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="7" selection-start="3593" selection-end="3593" vertical-scroll-proportion="-11.964286" />
+        <state line="110" column="61" selection-start="6284" selection-end="6284" vertical-scroll-proportion="0.74358976" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/audit.html">
+    <entry file="file://$PROJECT_DIR$/testdata/自定义内容模板.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="50" column="14" selection-start="2046" selection-end="2046" vertical-scroll-proportion="0.14214046" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/help.htm">
+    <entry file="file://$PROJECT_DIR$/testdata/temp/css/yatax.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.08571429" />
+        <state line="286" column="0" selection-start="20049" selection-end="20049" vertical-scroll-proportion="-41.378136" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/bottom.html">
+    <entry file="file://$PROJECT_DIR$/testdata/自定义列表模板.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="406" selection-end="406" vertical-scroll-proportion="-8.821428" />
+        <state line="29" column="13" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.14214046" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduce/introduction.html">
+    <entry file="file://$PROJECT_DIR$/testdata/temp/华为 - 新闻.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="0" selection-end="121" vertical-scroll-proportion="0.07238095" />
+        <state line="762" column="19" selection-start="36533" selection-end="36534" vertical-scroll-proportion="0.02905983" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/default/css/homepage.css">
+    <entry file="file://$PROJECT_DIR$/testdata/temp.header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="353" column="0" selection-start="16941" selection-end="16941" vertical-scroll-proportion="0.02905983" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/index.html">
+    <entry file="file://$PROJECT_DIR$/testdata/index_clear.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.41391304">
-          <folding />
-        </state>
+        <state line="179" column="39" selection-start="8081" selection-end="8081" vertical-scroll-proportion="0.18632479" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e/class/t_functions.php">
+    <entry file="file://$PROJECT_DIR$/testdata/train.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="631" column="25" selection-start="14134" selection-end="14134" vertical-scroll-proportion="0.03024911">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e/class/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3649" column="62" selection-start="109351" selection-end="109355" vertical-scroll-proportion="0.03024911">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/default/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+        <state line="97" column="0" selection-start="4054" selection-end="4054" vertical-scroll-proportion="0.2905983">
           <folding>
-            <marker date="1350012986523" expanded="true" signature="9734:9817" placeholder="{...}" />
-            <marker date="1350012986523" expanded="true" signature="9751:9811" placeholder="{...}" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="281" selection-end="281" vertical-scroll-proportion="0.12099644">
-          <folding />
         </state>
       </provider>
     </entry>

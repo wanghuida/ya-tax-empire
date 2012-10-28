@@ -1,0 +1,32 @@
+.grid215 .leftNav .content div{
+    display: block;
+    border-top: solid 1px #DDD;
+    line-height: 100%;
+    padding-left: 13px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+    position: relative;
+}
+.grid215 .on{
+    color: #B60005;
+    background: url(/skin/default/images/hw_000571.gif) right 50% no-repeat;
+    font-weight: bold;
+    padding-right: 20px;
+    border-bottom: none;
+}
+
+.grid550_l .case ul a{
+    color: #666;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.grid550_l .hr {
+    height: 1px;
+    line-height: 0px;
+    font-size: 0px;
+    border-top: solid 1px #F1F1F1;
+    margin-top: 10px;
+}

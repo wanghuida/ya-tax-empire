@@ -1,0 +1,64 @@
+/* CSS Document */
+.module_home_placeholder{
+	width:0px;
+	height:0px !IMPORTANT;
+	overflow:hidden;
+	display:none;
+	}
+	
+.module_landing_placeholder{
+	width:0px;
+	height:0px !IMPORTANT;
+	overflow:hidden;
+	display:none;
+	}
+	
+.coloredbox_placeholder{
+	width:0px;
+	height:0px !IMPORTANT;
+	overflow:hidden;
+	display:none;
+	}
+	
+.r_col_infobox_placeholder{
+	width:0px;
+	height:0px !IMPORTANT;
+	overflow:hidden;
+	display:none;
+}
+
+.nav_promo_placeholder{
+	width:0px;
+	height:0px !IMPORTANT;
+	overflow:hidden;
+	display:none;
+}
+
+#r_col_imagebox_placeholder{
+	width:0px;
+	height:0px !IMPORTANT;
+	overflow:hidden;
+	display:none;
+}
+
+#c_col_photo_container_placeholder, #r_col_wide_photo_container_placeholder
+{
+	width:0px;
+	height:0px !IMPORTANT;
+	overflow:hidden;
+	display:none;
+}
+
+.static_list_placeholder{
+	width:0px;
+	height:0px !IMPORTANT;
+	overflow:hidden;
+	display:none;
+}
+
+.landing_flash_container_placeholder{
+	width:0px;
+	height:0px !IMPORTANT;
+	overflow:hidden;
+	display:none;
+}

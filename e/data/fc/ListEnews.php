@@ -115,7 +115,7 @@ else
 						</td>
 		 </tr>	
 				<tr>
-			<td id="pr63" class="menu1" onclick="chengstate('63')"><a onmouseout=chft(this,0,63) onmouseover=chft(this,1,63) oncontextmenu=ShRM(this,0,63,'',0)>培训专题</a></td>
+			<td id="pr63" class="menu1" onclick="chengstate('63')"><a onmouseout=chft(this,0,63) onmouseover=chft(this,1,63) oncontextmenu=ShRM(this,0,63,'',0)>税收大课堂</a></td>
 		  </tr>
 				  <tr id="item63" style="display:none">
 			<td class="list">
@@ -127,8 +127,15 @@ else
 			<td id="pr68" class="file" onclick=""><a onclick=tourl(63,68) onmouseout=chft(this,0,68) onmouseover=chft(this,1,68) oncontextmenu=ShRM(this,63,68,'',1)>营改增专题</a></td>
 		  </tr>
 				<tr>
-			<td id="pr69" class="file1" onclick=""><a onclick=tourl(63,69) onmouseout=chft(this,0,69) onmouseover=chft(this,1,69) oncontextmenu=ShRM(this,63,69,'',1)>注册税务师培训</a></td>
+			<td id="pr69" class="file" onclick=""><a onclick=tourl(63,69) onmouseout=chft(this,0,69) onmouseover=chft(this,1,69) oncontextmenu=ShRM(this,63,69,'',1)>注册税务师培训</a></td>
 		  </tr>
+				<tr>
+			<td id="pr71" class="menu3" onclick="chengstate('71')"><a onmouseout=chft(this,0,71) onmouseover=chft(this,1,71) oncontextmenu=ShRM(this,63,71,'',0)>培训公告</a></td>
+		  </tr>
+				  <tr id="item71" style="display:none">
+			<td class="list1">
+						</td>
+		 </tr>	
 			</table>
 				</td>
 		 </tr>	

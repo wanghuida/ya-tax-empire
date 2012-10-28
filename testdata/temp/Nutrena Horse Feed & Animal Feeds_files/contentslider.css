@@ -1,0 +1,181 @@
+﻿.sliderwrapper{
+overflow: hidden; /*leave as is*/
+width: 626px; /*width of featured content slider*/
+height: auto;
+position: relative;
+background: white;
+clear: left;
+}
+
+.sliderwrapper .contentdiv{
+visibility: hidden; /*leave as is*/
+left: 0;  /*leave as is*/
+top: 0;  /*leave as is*/
+width: 626px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: auto;
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+z-index:1;
+overflow:hidden;
+position:absolute;
+}
+
+.contentdiv{
+background-image: url("../../../../wcm/fragments/can_nutrena_home_js_marquee_static_list/_images/gradient_bottom_web_repeat.png");
+background-repeat: repeat-x;
+background-position:left bottom;
+}
+
+.contentdiv img{
+float: left;
+padding: 0;
+margin: 0;
+display: block;
+vertical-align: bottom;
+}
+
+.pagination{
+width: auto; /*Width of pagination DIV. Total width should equal slider's outer width (400+10+10=420)*/
+text-align: left;
+background:none repeat scroll 0 0 transparent;
+padding:0;
+z-index:1000;
+position:absolute;
+bottom: 10px;
+right: 10px;
+}
+
+.pagination a, .pagination a:link{
+/*padding: 0 5px;*/
+padding:3px 5px;
+text-decoration: none; 
+font-weight:bold;
+font-size: 0.9em;
+color: #333333;
+background-color: #E4E2DF;
+border-bottom: 2px solid #848284;
+border-right: 2px solid #848284;
+display: block;
+height: 15px;
+margin-right: 2px;
+opacity: 0.85;
+text-align: center;
+width: 10px;
+float: left;
+}
+
+.pagination a.selected{
+background-color: #CBC2B1;
+color: #333333;
+cursor: default;
+font-size: 0.9em;
+opacity: 0.9;
+}
+
+.pagination a:hover {
+background-color: #F3F1EC;
+color: #333333;
+opacity: 0.85;
+}
+
+.pagination a.selected:hover {
+background-color: #D9CDB5;
+cursor: default;
+opacity: 0.9;
+}
+
+#paginate-slider1 a, #paginate-slider1 a:link{
+/*padding: 0 5px;*/
+padding:3px 5px;
+text-decoration: none; 
+font-weight:bold;
+font-size: 0.9em;
+color: #333333;
+background-color: #E4E2DF;
+border-bottom: 2px solid #848284;
+border-right: 2px solid #848284;
+display: block;
+height: 15px;
+margin-right: 2px;
+opacity: 0.85;
+text-align: center;
+width: 10px;
+float: left;
+line-height: 1.3em;
+}
+
+#paginate-slider1 a.selected{
+background-color: #CBC2B1;
+color: #333333;
+cursor: default;
+font-size: 0.9em;
+opacity: 0.9;
+}
+
+#paginate-slider1 a:hover {
+background-color: #F3F1EC;
+color: #333333;
+opacity: 0.85;
+}
+
+#paginate-slider1 a.selected:hover {
+background-color: #D9CDB5;
+cursor: default;
+opacity: 0.9;
+}
+
+
+
+.thm_wp_black p, .thm_wp_black h1, .thm_wp_black h2, .thm_wp_black h3,
+.thm_wp_black h4, .thm_wp_black h5, .thm_wp_black h6, .thm_wp_black a:link, .thm_wp_black a:visited,
+.thm_wp_black a:active, .thm_wp_black a:hover
+{
+	color:#000000;
+}
+
+.thm_wp_white p, .thm_wp_white h1, .thm_wp_white h2, .thm_wp_white h3,
+.thm_wp_white h4, .thm_wp_white h5, .thm_wp_white h6, .thm_wp_white a:link, 
+.thm_wp_white a:visited, .thm_wp_white a:active, .thm_wp_white a:hover
+{
+	color:#ffffff;
+}
+.thm_wp_gray, .thm_wp_gray p, .thm_wp_gray h1, .thm_wp_gray h2, .thm_wp_gray h3, .thm_wp_gray h4, .thm_wp_gray h5, .thm_wp_gray h6, .thm_wp_gray a:link, .thm_wp_gray a:visited, .thm_wp_gray a:active,.thm_wp_gray a:hover
+{
+	color:#999999;
+}
+
+.thm_wp_red, .thm_wp_red p, .thm_wp_red h1, .thm_wp_red h2, .thm_wp_red h3, .thm_wp_red h4, .thm_wp_red h5, .thm_wp_red h6, .thm_wp_red a:link, .thm_wp_red a:visited, .thm_wp_red a:active,.thm_wp_red a:hover
+{
+	color:#cc0000;
+}
+
+.thm_wp_blue, .thm_wp_blue p, .thm_wp_gray h1, .thm_wp_blue h2, .thm_wp_blue h3, .thm_wp_blue h4, .thm_wp_blue h5, .thm_wp_blue h6, .thm_wp_blue a:link, .thm_wp_blue a:visited, .thm_wp_blue a:active,.thm_wp_blue a:hover
+{
+	color:#3300ff;
+}
+
+.thm_wp_green, .thm_wp_green p, .thm_wp_green h1, .thm_wp_green h2, .thm_wp_green h3, .thm_wp_green h4, .thm_wp_green h5, .thm_wp_green h6, .thm_wp_green a:link, .thm_wp_green a:visited, .thm_wp_green a:active,.thm_wp_green a:hover
+{
+	color:#008542;
+}
+
+.thm_wp_purple, .thm_wp_purple p, .thm_wp_purple h1, .thm_wp_purple h2, .thm_wp_purple h3, .thm_wp_purple h4, .thm_wp_purple h5, .thm_wp_purple h6, .thm_wp_purple a:link, .thm_wp_purple a:visited, .thm_wp_purple a:active,.thm_wp_purple a:hover
+{
+	color:#614D7D;
+}
+
+.thm_wp_lt_blue, .thm_wp_lt_blue p, .thm_wp_lt_blue h1, .thm_wp_lt_blue h2, .thm_wp_lt_blue h3, .thm_wp_lt_blue h4, .thm_wp_lt_blue h5, .thm_wp_lt_blue h6, .thm_wp_lt_blue a:link, .thm_wp_lt_blue a:visited, .thm_wp_lt_blue a:active,.thm_wp_lt_blue a:hover
+{
+	color:#739ABC;
+}
+
+.thm_wp_orange, .thm_wp_orange p, .thm_wp_orange h1, .thm_wp_orange h2, .thm_wp_orange h3, .thm_wp_orange h4, .thm_wp_orange h5, .thm_wp_orange h6, .thm_wp_orange a:link, .thm_wp_orange a:visited, .thm_wp_orange a:active,.thm_wp_orange a:hover
+{
+	color:#CC6600;
+}
+
+.thm_wp_lt_yellow, .thm_wp_lt_yellow p, .thm_wp_gray h1, .thm_wp_lt_yellow h2, .thm_wp_lt_yellow h3, .thm_wp_lt_yellow h4, .thm_wp_lt_yellow h5, .thm_wp_lt_yellow h6, .thm_wp_lt_yellow a:link, .thm_wp_lt_yellow a:visited, .thm_wp_lt_yellow a:active,.thm_wp_lt_yellow a:hover
+{
+	color:#FFFF64;
+}

@@ -1,0 +1,252 @@
+/* ==================================
+|	NOTI IE.CSS    V.1
+|	Cargill.com
+|	July 18, 2008
+===================================== */
+
+/*	---	Not IE Fixes 	-------	*/
+/*
+h6.titlebar_blue_bkgr, h6.titlebar_purple_bkgr, h6.titlebar_light-blue_bkgr, h6.titlebar_green_bkgr, h6.titlebar_dark-green_bkgr {width: 182px; height:17px;}
+.r_col_photo_heading h6.titlebar_blue_bkgr, .r_col_photo_heading h6.titlebar_purple_bkgr, .r_col_photo_heading h6.titlebar_light-blue_bkgr, .r_col_photo_heading h6.titlebar_green_bkgr, .r_col_photo_heading h6.titlebar_dark-green_bkgr {width: 188px; height:17px;}
+h6.heading_grey_bkgr, h6.heading_blue_bkgr, h6.heading_purple_bkgr, h6.heading_light-blue_bkgr, h6.heading_green_bkgr, h6.heading_dark-green_bkgr {margin:7px 0 5px 0; padding:4px 4px 4px 4px; display:block;}
+*/
+
+/*.moduleTitle {margin: 3px 0 5px 0; padding: 1px 0 8px 2px;}
+.module_img_thumbnail img {margin: 0px 5px 5px 10px;}
+*/
+
+.heading_grey_bkgr, .heading_blue_bkgr, .heading_light-blue_bkgr, .heading_dark-green_bkgr, .heading_green_bkgr, .heading_purple_bkgr {height:19px;padding:6px 4px 0 4px;}
+
+#l_col_wideContainer {width:595px;margin:0 25px 0 0;}
+div.coloredbox_yellow img, .coloredbox_green img, .coloredbox_blue img  {margin: 2px 5px 0 5px;}
+
+.module_landing3 {width: 214px;}
+/*.module_landing1, .module_landing2, .module_landing3 {height: 185px;}*/
+.module_landing_title {padding: 5px 5px 0px 13px; margin:0px;}
+
+.heading_nav {width: 146px; height:17px;}
+.nav_promo {width: 151px;}
+.nav_promo p.divider {width: 89%;margin:10px 6px 10px 10px;}
+.nav_promo hr {width: 89%;margin:10px 6px 10px 10px;}
+.nav_promo table {padding: 0px 5px 0px 0px; margin: 10px 5px 10px 10px;}
+.r_col_infobox p.divider {width: 94%;margin: 12px 0 0 7px;}
+.r_col_infobox hr {width: 93%;margin: 10px 10px 0 7px;}
+.disclaimer hr {margin: 8px 0 0 10px; width: 94%;}
+#coloredbox_style_container hr {margin: 6px 6px 0 8px; width: 92%;}
+#coloredbox_style_container p.divider {margin: 6px 10px 0 8px; width: 90%;}
+.r_col_photo_caption hr {width: 96%;margin: 10px 2px 0 4px;}
+
+.r_col_infobox {width: 192px;}
+
+#r_col_imagebox {
+margin:0px 0px 20px 0px;
+}
+
+.r_col_photo_caption {
+	font-family: Helvetica, Verdana, sans-serif;
+	width: 198px; 
+	font-size: .85em;
+	text-align: left;
+	background: #F5F5F5;
+	margin:3px 0px 0px 0px;
+	line-height:1.2em;
+	padding:2px 0px 2px 0px;
+	}
+
+#c_col_container p.divider {width: 100%;margin: 12px 0 12px 0px;padding:0;}
+#c_col_container hr {width: 100%;margin: 12px 0 12px 0px;padding:0;}
+
+.disclaimer {width: 94%;font-size: 1.0em;line-height: 1.4em;text-align: left;background: #E9E9E9;margin:0px 0px 30px 0px;padding:5px 5px 5px 5px;display:block;}
+
+.r_col_infobox p.disclaimer {width: 84%;margin:5px 10px 5px 10px;padding:5px 5px 5px 5px;display:block;}
+
+/* callout table */
+ul#callout li{margin:0 0 0 21px;}
+table#callout2 img {margin:0px 15px 0 10px;}
+
+table#callout h4 {margin:0 0 -10px 0;}
+
+#r_col_container {
+	width:180px;
+	float: right;
+	background: #FFFFFF;
+	margin:0 18px 0 0;
+	padding: 0 18px 10px 0;
+	}
+
+#r_col_container ul, #l_col_wideContainer ul, #c_col_Container ul {
+margin: 8px 0 10px 24px;
+padding: 0;
+}
+#r_col_container ul li, #l_col_wideContainer ul li, #c_col_Container ul li {
+margin: 0;
+padding: 0 0 3px 0;
+}
+#r_col_container ul li ul, #l_col_wideContainer ul li ul, #c_col_Container ul li ul {
+padding: 0;
+}
+#r_col_container ul li ul li, #l_col_wideContainer ul li ul li, #c_col_Container ul li ul li {
+margin: 0;
+padding: 0 0 3px 0;
+}
+
+#c_col_Container p.photo_caption_grey, #c_col_Container p.photo_caption_green, #c_col_Container p.photo_caption_blue  { font-size: .85em;text-align: left;background: #F5F5F5;line-height:1.2em;margin:0;padding:2px 2px 2px 5px;}
+#c_col_Container p.photo_caption_blue {background: #A1B5CE; color: #FFFFFF;}
+#c_col_Container p.photo_caption_green {background: #ABC071; color: #FFFFFF;}
+#c_col_Container p.photo_caption_grey {background: #F5F5F5; color: #888888;}
+
+.inbody_photo_container_left { margin: 12px 10px 0 0;padding: 0;}
+.inbody_photo_container_right { margin: 12px 0 0 10px;padding: 0;}
+.inbody_photo_caption { margin: 3px 2px 3px 2px;padding:2px 2px;}
+
+#flash_homepage {height: 389px;}
+
+.module_worldwide ul{margin-top: 15px;}
+	
+#three_module_container {
+width: 650px;
+/*height: 167px;*/
+float: left;
+background: transparent;
+margin: 10px 0;
+padding: 15px 0px 0px 0px;
+}
+	#three_module_container p{
+		font: 0.85em Arial, Verdana, sans-serif;
+		color: #666666;
+		text-align: left;
+		line-height: 1.2em;
+		margin: 0;
+		padding: 10px 15px 0 15px;
+		}
+
+/*ul.dropDownList li ul li {
+	background: none;
+	color: #6a8bac;  
+	margin:2px 0 0 0; 
+	padding:2px 0 0 0;
+	font-size: 11px;
+}
+
+ul.dropDownList li ul li ul li {
+	background: none; 
+	color: #6a8bac; 
+	margin:2px 0 0 0; 
+	padding:2px 0 0 0;
+	font-size: 10px;
+}*/
+
+/* ul, ol Styles */
+#l_col_wideContainer ul, #c_col_Container ul {
+margin: 10px 7px 0 25px;
+padding: 0 7px 0 5px;
+}
+#l_col_wideContainer ul li, #c_col_Container ul li {
+margin: 5px 7px 0 0px;
+padding: 0 0 0px 0px; 
+}
+#l_col_wideContainer ul li ul, #c_col_Container ul li ul {
+list-style-image: url("../../../../../../../wcm/groups/public/@ss-assets/@can/documents/image/can_nu_img_bullet_grey.gif");
+margin: 5px 0 0 15px;
+padding: 0;
+}
+#l_col_wideContainer ul li ul li, #c_col_Container ul li ul li {
+margin: 0;
+padding: 0 0 5px 0px;
+}
+
+
+#l_col_wideContainer ol, #c_col_Container ol {
+margin: 10px 7px 0 25px;
+padding: 0 7px 0 7px;
+}
+#l_col_wideContainer ol li, #c_col_Container ol li {
+margin: 0;
+padding: 2px 0 2px 0; 
+
+}
+
+#l_col_wideContainer ol li ol, #c_col_Container ol li ol {
+margin: 5px 0 0 23px; 
+padding: 0;
+}
+#l_col_wideContainer ol li ol li, #c_col_Container ol li ol li {
+margin: 0;
+padding: 0 0 5px 0px; 
+}
+
+.nav_promo ul, .disclaimer ul, #r_col_imagebox ul, .r_col_photo_caption ul, .r_col_infobox ul, #coloredbox_style_container ul {
+margin: 10px 7px 0 20px;
+padding: 0 7px 0 0;
+}
+
+.nav_promo ul li, .disclaimer ul li, #r_col_imagebox ul li, .r_col_photo_caption ul li, .r_col_infobox ul li, #coloredbox_style_container ul li {
+margin: 5px 7px 0 5px;
+padding: 0 0 0 0px; 
+}
+
+.nav_promo ul li ul, .disclaimer ul li ul, #r_col_imagebox ul li ul, .r_col_photo_caption ul li ul, .r_col_infobox ul li ul, #coloredbox_style_container ul li ul  {
+list-style-image: url("../../../../../../../wcm/groups/public/@ss-assets/@can/documents/image/can_nu_img_bullet_grey.gif");
+margin: 5px 0 0 15px;
+padding: 0;
+}
+
+.nav_promo ul li ul li, .disclaimer ul li ul li, #r_col_imagebox ul li ul li, .r_col_photo_caption ul li ul li, .r_col_infobox ul li ul li, #coloredbox_style_container ul li ul li {
+margin: 0;
+padding: 0 0 5px 0px;
+}
+
+
+.nav_promo ol, .disclaimer ol, #r_col_imagebox ol, .r_col_photo_caption ol, .r_col_infobox ol, #coloredbox_style_container ol {
+margin: 10px 7px 0 25px;
+padding: 0 7px 0 7px;
+}
+
+.nav_promo ol li, .disclaimer ol li, #r_col_imagebox ol li, .r_col_photo_caption ol li, .r_col_infobox ol li, #coloredbox_style_container ol li {
+margin: 0;
+padding: 2px 0 2px 0;  
+}
+
+.nav_promo ol li ol, .disclaimer ol li ol, #r_col_imagebox ol li ol, .r_col_photo_caption ol li ol, .r_col_infobox ol li ol, #coloredbox_style_container ol li ol  {
+margin: 5px 0 0 23px; 
+padding: 0;
+}
+
+.nav_promo ol li ol li, .disclaimer ol li ol li, #r_col_imagebox ol li ol li, .r_col_photo_caption ol li ol li, .r_col_infobox ol li ol li, #coloredbox_style_container ol li ol li {
+margin: 0;
+padding: 0 0 5px 0px; 
+}
+
+
+#about_home {
+ 	padding:0 0 20px 0;
+ 	margin:0 0 20px 0;
+ 	}
+#about_home .boxText {
+	padding: 0px 5px 5px 3px;
+}
+.home_textarea1 {
+padding: 30px 0 3px 0;
+}
+.home_textarea2 {
+padding: 15px 0 10px 0;
+}
+
+.module_landing_1_container p.divider, .module_landing_2_container p.divider, .module_landing_3_container p.divider { 
+width: 96%;
+height: 1px;
+background: url("../../../../../../../wcm/groups/public/@ss-assets/@can/documents/image/can_nutrena_img_bkgr_divider.gif") repeat-x;
+margin: 8px 0 0 15px;
+padding:0;
+}
+
+.module_landing_1_container hr, .module_landing_2_container hr, .module_landing_3_container hr { 
+margin: 8px 10px 0 15px; 
+width: 90%;
+}
+
+.divider { 
+margin:0px 0px 30px 0px;
+padding:0px 0px 30px 0px;
+}
+.list_style_container_boxed_right ul li {width:100%;}
