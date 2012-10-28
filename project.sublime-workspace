@@ -7,46 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "testdata/index_clear.php",
-			"settings":
-			{
-				"buffer_size": 8708,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "testdata/temp/css/yatax.css",
-			"settings":
-			{
-				"buffer_size": 123582,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "testdata/temp/css/ent_cn_common.css",
-			"settings":
-			{
-				"buffer_size": 183622,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "testdata/temp/train_ok_clear.htm",
-			"settings":
-			{
-				"buffer_size": 34436,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Windows/System32/drivers/etc/lmhosts.sam",
-			"settings":
-			{
-				"buffer_size": 3604,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -92,6 +52,11 @@
 	},
 	"file_history":
 	[
+		"/D/Dev/coreamp/htdocs/empire/testdata/index_clear.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/yatax.css",
+		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/ent_cn_common.css",
+		"/D/Dev/coreamp/htdocs/empire/testdata/temp/train_ok_clear.htm",
+		"/C/Windows/System32/drivers/etc/lmhosts.sam",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/ya_train.css",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/train_clear.htm",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/ent_cn_base.css",
@@ -198,154 +163,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "testdata/index_clear.php",
-					"settings":
-					{
-						"buffer_size": 8708,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								244,
-								244
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/EJS/EJS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "testdata/temp/css/yatax.css",
-					"settings":
-					{
-						"buffer_size": 123582,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 5197.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "testdata/temp/css/ent_cn_common.css",
-					"settings":
-					{
-						"buffer_size": 183622,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17851,
-								17851
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3433.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"file": "testdata/temp/train_ok_clear.htm",
-					"settings":
-					{
-						"buffer_size": 34436,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17472,
-								17472
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2584.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Windows/System32/drivers/etc/lmhosts.sam",
-					"settings":
-					{
-						"buffer_size": 3604,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -366,12 +185,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -382,7 +195,6 @@
 		"rows":
 		[
 			0.0,
-			0.589020771513,
 			1.0
 		]
 	},
