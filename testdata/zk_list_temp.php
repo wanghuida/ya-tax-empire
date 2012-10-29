@@ -1,3 +1,11 @@
+/*
+列表内容模板(list.var) (*) <strong><a href="[!--titleurl--]">[!--title--]</a></strong>
+        <p>
+            [!--smalltext--]
+        </p>
+        <div class="hr"></div>
+
+*/
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
@@ -13,12 +21,9 @@
         <link rel="stylesheet" href="[!--news.url--]skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
     </head>
     <body>
-        //列表内容模板(list.var) (*) <strong><a href="[!--titleurl--]">[!--title--]</a></strong>
-        <p>
-            [!--smalltext--]
-        </p>
-        <div class="hr"></div>//页面模板内容(*) <script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js">
-</script>[!--temp.header--]
+        <script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js">
+</script>
+[!--temp.header--]
         <div id="container">
             <div class="bound body">
                 <div>
