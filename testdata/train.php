@@ -28,7 +28,7 @@
              background-image: url([!--news.url--]skin/default/images/ent_cn_img_train_banner.jpg);
              background-attachment: scroll; background-color: rgb(221, 229, 222); width: 1294px;
               background-position: 50% 0%; background-repeat: no-repeat no-repeat;">
-            <a href="/"> </a>
+<!--            <a href="/"> </a>-->
         </li>
     </ul>
     <div class="mainview_controler">
