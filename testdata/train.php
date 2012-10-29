@@ -20,8 +20,6 @@
 
 <div id="mainview" class="banner" animate="hide" autohidecontroller="true">
     <ul class="mainviewul" index="0" style="width: 1294px; position: relative;">
-
-
         <a href="[!--news.url--]skin/default/images/ent_cn_img_train_banner.jpg"
            name="forsspu" style="display:none;"></a>
         <li src="./images/ent_cn_img_train_banner.jpg"
@@ -30,10 +28,8 @@
              background-image: url([!--news.url--]skin/default/images/ent_cn_img_train_banner.jpg);
              background-attachment: scroll; background-color: rgb(221, 229, 222); width: 1294px;
               background-position: 50% 0%; background-repeat: no-repeat no-repeat;">
-<!--            <a href="/"> </a>-->
+            <a href="/"> </a>
         </li>
-
-
     </ul>
     <div class="mainview_controler">
         <table align="center">

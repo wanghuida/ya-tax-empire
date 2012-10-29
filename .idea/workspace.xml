@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78fd0bf-af33-4b17-94ca-6ea51c3e9f73" name="Default" comment="l123">
-      <change type="DELETED" beforePath="D:\Dev\coreamp\htdocs\empire\testdata\1027更新.rar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdata/train.php" afterPath="$PROJECT_DIR$/testdata/train.php" />
     </list>
     <ignored path="empire.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,19 +28,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="train.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="train.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testdata/train.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="216" column="32" selection-start="8080" selection-end="8080" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="57" selection-end="57" vertical-scroll-proportion="0.08528428">
+            <state line="31" column="13" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.46495727">
               <folding />
             </state>
           </provider>
@@ -82,8 +74,8 @@
         <option value="$PROJECT_DIR$/testdata/自定义列表模板.php" />
         <option value="$PROJECT_DIR$/testdata/temp/css/yatax.css" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/testdata/train.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/testdata/train.php" />
       </list>
     </option>
   </component>
@@ -421,16 +413,16 @@
         <state line="1" column="4" selection-start="15" selection-end="15" vertical-scroll-proportion="0.04336735" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/train.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="32" selection-start="8080" selection-end="8080" vertical-scroll-proportion="0.0">
+        <state line="3" column="18" selection-start="57" selection-end="57" vertical-scroll-proportion="0.08528428">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/testdata/train.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="57" selection-end="57" vertical-scroll-proportion="0.08528428">
+        <state line="31" column="13" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.46495727">
           <folding />
         </state>
       </provider>
