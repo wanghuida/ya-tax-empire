@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e78fd0bf-af33-4b17-94ca-6ea51c3e9f73" name="Default" comment="l123" />
+    <list default="true" id="e78fd0bf-af33-4b17-94ca-6ea51c3e9f73" name="Default" comment="l123">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="empire.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,10 +28,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="train.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="train.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testdata/train.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="13" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.46495727">
+            <state line="14" column="7" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="18" selection-start="63" selection-end="63" vertical-scroll-proportion="0.11371238">
               <folding />
             </state>
           </provider>
@@ -71,8 +83,8 @@
         <option value="$PROJECT_DIR$/testdata/自定义列表模板.php" />
         <option value="$PROJECT_DIR$/testdata/temp/css/yatax.css" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/testdata/train.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -375,19 +387,9 @@
         <state line="110" column="61" selection-start="6284" selection-end="6284" vertical-scroll-proportion="0.74358976" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/自定义内容模板.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="14" selection-start="2046" selection-end="2046" vertical-scroll-proportion="0.14214046" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testdata/temp/css/yatax.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="286" column="0" selection-start="20049" selection-end="20049" vertical-scroll-proportion="-41.378136" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/自定义列表模板.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.14214046" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/temp/华为 - 新闻.htm">
@@ -410,16 +412,16 @@
         <state line="1" column="4" selection-start="15" selection-end="15" vertical-scroll-proportion="0.04336735" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/testdata/train.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="57" selection-end="57" vertical-scroll-proportion="0.08528428">
+        <state line="14" column="7" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/train.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.46495727">
+        <state line="4" column="18" selection-start="63" selection-end="63" vertical-scroll-proportion="0.11371238">
           <folding />
         </state>
       </provider>
