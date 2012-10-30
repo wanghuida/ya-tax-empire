@@ -289,7 +289,7 @@
     </div>
 </li>
 <li is="menuindex">
-    <a iblk="关于永安" href="javascript:void(0);" class="about_yatax"><span>关于永安</span></a>
+    <a iblk="关于永安" href="[!--news.url--]a/guanyuwomen/" class="about_yatax"><span>关于永安</span></a>
 
     <div class="menuitempanel">
         <div class="menucontentdiv">

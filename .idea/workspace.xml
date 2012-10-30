@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78fd0bf-af33-4b17-94ca-6ea51c3e9f73" name="Default" comment="l123">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdata/zk_aboutus_temp.php" afterPath="$PROJECT_DIR$/testdata/zk_aboutus_temp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/guanyuwomen/index.html" afterPath="$PROJECT_DIR$/a/guanyuwomen/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/hangyedongcha/gongsixinwen/index.html" afterPath="$PROJECT_DIR$/a/hangyedongcha/gongsixinwen/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/hangyedongcha/index.html" afterPath="$PROJECT_DIR$/a/hangyedongcha/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/hangyedongcha/shuiwuwenhua/index.html" afterPath="$PROJECT_DIR$/a/hangyedongcha/shuiwuwenhua/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/hangyedongcha/yejiedongtai/index.html" afterPath="$PROJECT_DIR$/a/hangyedongcha/yejiedongtai/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/hangyedongcha/zuixinfagui/index.html" afterPath="$PROJECT_DIR$/a/hangyedongcha/zuixinfagui/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/peixunzhuanti/index.html" afterPath="$PROJECT_DIR$/a/peixunzhuanti/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/peixunzhuanti/peixungonggao/index.html" afterPath="$PROJECT_DIR$/a/peixunzhuanti/peixungonggao/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/peixunzhuanti/qiyechongzu/index.html" afterPath="$PROJECT_DIR$/a/peixunzhuanti/qiyechongzu/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/peixunzhuanti/yinggaizeng/index.html" afterPath="$PROJECT_DIR$/a/peixunzhuanti/yinggaizeng/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/peixunzhuanti/zhushui/index.html" afterPath="$PROJECT_DIR$/a/peixunzhuanti/zhushui/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/yewujieshao/index.html" afterPath="$PROJECT_DIR$/a/yewujieshao/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/fc/cmsclass.js" afterPath="$PROJECT_DIR$/e/data/fc/cmsclass.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/fc/searchclass.js" afterPath="$PROJECT_DIR$/e/data/fc/searchclass.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/tmp/class62.php" afterPath="$PROJECT_DIR$/e/data/tmp/class62.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/tmp/class63.php" afterPath="$PROJECT_DIR$/e/data/tmp/class63.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/tmp/class64.php" afterPath="$PROJECT_DIR$/e/data/tmp/class64.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/tmp/class71.php" afterPath="$PROJECT_DIR$/e/data/tmp/class71.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/tmp/index.php" afterPath="$PROJECT_DIR$/e/data/tmp/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/tmp/templist9.php" afterPath="$PROJECT_DIR$/e/data/tmp/templist9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdata/temp.header.php" afterPath="$PROJECT_DIR$/testdata/temp.header.php" />
     </list>
     <ignored path="empire.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zk_aboutus_temp.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="zk_aboutus_temp.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testdata/zk_aboutus_temp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="10" selection-start="960" selection-end="960" vertical-scroll-proportion="0.43589744">
+            <state line="15" column="10" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -49,6 +71,15 @@
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp.header.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testdata/temp.header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="287" column="14" selection-start="13951" selection-end="13951" vertical-scroll-proportion="0.2823219">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,7 +113,6 @@
         <option value="$PROJECT_DIR$/testdata/temp/index_i_ok_clean_nologin.html" />
         <option value="$PROJECT_DIR$/testdata/temp/css/globle_cn.css" />
         <option value="$PROJECT_DIR$/testdata/index_clear.php" />
-        <option value="$PROJECT_DIR$/testdata/temp.header.php" />
         <option value="$PROJECT_DIR$/skin/default/css/yatax.css" />
         <option value="$PROJECT_DIR$/testdata/自定义内容模板.php" />
         <option value="$PROJECT_DIR$/testdata/temp/华为 - 新闻.htm" />
@@ -92,6 +122,7 @@
         <option value="$PROJECT_DIR$/testdata/train.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/testdata/zk_aboutus_temp.php" />
+        <option value="$PROJECT_DIR$/testdata/temp.header.php" />
       </list>
     </option>
   </component>
@@ -294,18 +325,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="-4" width="1318" height="776" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.48722044" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18462758" sideWeight="0.50159746" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15610142" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20602219" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -388,11 +419,6 @@
         <state line="6" column="55" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/temp.footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skin/default/css/style - 我的备份.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="20" selection-start="1195" selection-end="1198" vertical-scroll-proportion="0.2034188" />
@@ -411,11 +437,6 @@
     <entry file="file://$PROJECT_DIR$/testdata/temp/华为 - 新闻.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state line="762" column="19" selection-start="36533" selection-end="36534" vertical-scroll-proportion="0.02905983" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/temp.header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="353" column="0" selection-start="16941" selection-end="16941" vertical-scroll-proportion="0.02905983" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/index_clear.php">
@@ -456,9 +477,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/temp.footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testdata/zk_aboutus_temp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="960" selection-end="960" vertical-scroll-proportion="0.43589744">
+        <state line="15" column="10" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -468,6 +496,13 @@
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/temp.header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="287" column="14" selection-start="13951" selection-end="13951" vertical-scroll-proportion="0.2823219">
+          <folding />
         </state>
       </provider>
     </entry>
