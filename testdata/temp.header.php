@@ -1,4 +1,3 @@
-
 <div id="header">
     <div class="bound">
         <a href="/" id="logo">
@@ -40,15 +39,15 @@
                     <li><a href="/cn/industry/customer-voices/index.htm" class="topfrx">业界动态</a>
                     </li>
                     <li><a href="/cn/industry/consumer-lab/index.htm" class="topfrx">税文化研究</a></li>
-                    
+
                 </ul>
 
                 <div class="verticalLine"></div>
 
                 <ul class="m_box">
                     <li><a href="/cn/industry/moving-forward/index.htm"><img height="140"
-                                                                                                  width="259"
-                                                                                                  src="[!--news.url--]skin/default/images/hw_s_223305.gif"></a>
+                                                                             width="259"
+                                                                             src="[!--news.url--]skin/default/images/hw_s_223305.gif"></a>
                     </li>
                     <li class="title"><a
                             href="/cn/industry/moving-forward/index.htm">这里是信息</a></li>
@@ -186,8 +185,9 @@
                 <ul class="m_box">
                     <h2><a href="/cn/" target="_blank">个人消费者</a></h2>
                     <li>
-                        <a href="/"                           target="_blank"><img height="144" width="217"
-                                                src="[!--news.url--]skin/default/images/hw_s_223306.gif"></a></li>
+                        <a href="/" target="_blank"><img height="144" width="217"
+                                                         src="[!--news.url--]skin/default/images/hw_s_223306.gif"></a>
+                    </li>
                     <li class="summary">
                         <ul>
                             <li class="left">
@@ -356,7 +356,7 @@
 
                 <ul class="m_box">
                     <li><a href="/campus/" target="_blank"><img height="140" width="259"
-                     src="[!--news.url--]skin/default/images/hw_192713.jpg"></a>
+                                                                src="[!--news.url--]skin/default/images/hw_192713.jpg"></a>
                     </li>
                     <li class="title"><a href="/campus/" target="_blank">走近永安</a></li>
                     <li class="summary">
