@@ -322,7 +322,7 @@ $emod_r[1]=Array('mid'=>1,
 'qeditdofunf'=>'||',
 'definfovoteid'=>0,
 'orderf'=>'',
-'sonclass'=>'|70|65|67|68|69|',
+'sonclass'=>'|67|68|69|72|73|74|75|',
 'tid'=>1,
 'tbname'=>'news');
 $emod_r[2]=Array('mid'=>2,

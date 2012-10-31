@@ -234,7 +234,7 @@
     </div>
 </li>
 <li is="menuindex">
-    <a iblk="培训教育" href="[!--news.url--]a/peixunzhuanti" class="support"><span>税收大课堂</span></a>
+    <a iblk="税收大课堂" href="[!--news.url--]a/peixunzhuanti" class="support"><span>税收大课堂</span></a>
 
     <div class="menuitempanel">
         <div class="menucontentdiv">
@@ -296,39 +296,19 @@
             <div class="menufillet_e"></div>
             <div class="trad clearfix">
                 <ul class="list">
-                    <h2><a href="aboutus.html/corporate-info/index.htm">公司介绍</a></h2>
-                    <li><a href="aboutus.html/corporate-info/vision-mission/index.htm">愿景使命</a>
-                    </li>
-                    <li><a href="aboutus.html/corporate-info/strategy/index.htm">公司战略</a></li>
-                    <li><a href="aboutus.html/corporate-info/coporate-governance/index.htm">公司治理</a>
-                    </li>
-                    <li><a href="aboutus.html/corporate-info/milestone/index.htm">发展历程</a></li>
-                </ul>
-                <ul class="list">
-                    <h2><a href="aboutus.html/corporate-citizenship/index.htm">社会责任</a></h2>
-                    <li>
-                        <a href="aboutus.html/corporate-citizenship/employee/index.htm">关爱员工</a>
-                    </li>
-
-                </ul>
-                <ul class="list">
-                    <h2><a href="aboutus.html/newsroom/index.htm">新闻媒体</a></h2>
-                    <li><a href="aboutus.html/newsroom/press-release/index.htm">新闻</a></li>
-                    <li><a href="aboutus.html/newsroom/media-coverage/index.htm">媒体热点</a></li>
+                    <h2><a href="[!--news.url--]a/guanyuwomen/gongsijieshao/">公司介绍</a></h2>
+                    <li><a href="[!--news.url--]a/guanyuwomen/gongsilinian/">公司理念</a></li>
+                    <li><a href="[!--news.url--]a/guanyuwomen/zhuanjiatuandui/">专家团队</a></li>
                 </ul>
                 <ul class="list last">
-                    <h2><a href="aboutus.html/publications/index.htm">公司刊物</a></h2>
-                    <li><a href="aboutus.html/corporate-citizenship/csr-report/index.htm">《社会责任报告》</a>
-                    </li>
-                    <li><a href="http://app.huawei.com/paper/index.do">《永安人》</a></li>
+                    <h2><a href="[!--news.url--]a/guanyuwomen/lianxiwomen/">联系我们</a></h2>
+                    <li><a href="[!--news.url--]a/guanyuwomen/lianxiwomen/">联系方式</a></li>
                 </ul>
-
                 <div class="verticalLine"></div>
-
                 <ul class="m_box">
-                    <li><a href="aboutus.html/publications/winwin-magazine/index.htm">
+                    <li><a href="[!--news.url--]a/guanyuwomen/gongsijieshao/">
                         <img height="189" width="142" src="[!--news.url--]skin/default/images/hw_u_173050.jpg"></a></li>
-                    <li><a href="aboutus.html//winwin-magazine/index.htm"
+                    <li><a href="[!--news.url--]a/guanyuwomen/gongsijieshao/"
                            style="color:#333;"><strong>《文化研究》第 期（201 年 月）</strong></a></li>
                 </ul>
 

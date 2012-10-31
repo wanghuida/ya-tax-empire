@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78fd0bf-af33-4b17-94ca-6ea51c3e9f73" name="Default" comment="改部分格式，测试storm提交。">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="D:\Dev\coreamp\htdocs\empire\e\data\fc\ListClass0.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev\coreamp\htdocs\empire\e\data\fc\ListEnews.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev\coreamp\htdocs\empire\e\data\tmp\class62.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev\coreamp\htdocs\empire\e\data\tmp\class63.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev\coreamp\htdocs\empire\e\data\tmp\class64.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev\coreamp\htdocs\empire\e\data\tmp\class71.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev\coreamp\htdocs\empire\e\data\tmp\index.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev\coreamp\htdocs\empire\e\data\tmp\templist1.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev\coreamp\htdocs\empire\e\data\tmp\templist9.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dev\coreamp\htdocs\empire\e\data\tmp\tempnews10.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/guanyuwomen/index.html" afterPath="$PROJECT_DIR$/a/guanyuwomen/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/hangyedongcha/gongsixinwen/index.html" afterPath="$PROJECT_DIR$/a/hangyedongcha/gongsixinwen/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/hangyedongcha/index.html" afterPath="$PROJECT_DIR$/a/hangyedongcha/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/hangyedongcha/shuiwuwenhua/index.html" afterPath="$PROJECT_DIR$/a/hangyedongcha/shuiwuwenhua/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/hangyedongcha/yejiedongtai/index.html" afterPath="$PROJECT_DIR$/a/hangyedongcha/yejiedongtai/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/hangyedongcha/zuixinfagui/index.html" afterPath="$PROJECT_DIR$/a/hangyedongcha/zuixinfagui/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/peixunzhuanti/index.html" afterPath="$PROJECT_DIR$/a/peixunzhuanti/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/peixunzhuanti/peixungonggao/index.html" afterPath="$PROJECT_DIR$/a/peixunzhuanti/peixungonggao/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/peixunzhuanti/qiyechongzu/index.html" afterPath="$PROJECT_DIR$/a/peixunzhuanti/qiyechongzu/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/peixunzhuanti/yinggaizeng/index.html" afterPath="$PROJECT_DIR$/a/peixunzhuanti/yinggaizeng/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/peixunzhuanti/zhushui/index.html" afterPath="$PROJECT_DIR$/a/peixunzhuanti/zhushui/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/yewujieshao/index.html" afterPath="$PROJECT_DIR$/a/yewujieshao/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdata/temp.header.php" afterPath="$PROJECT_DIR$/testdata/temp.header.php" />
     </list>
     <ignored path="empire.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -167,8 +190,8 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/testdata" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" persistUploadOnCheckin="false" />
   <component name="RecentsManager">
@@ -188,14 +211,14 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -263,12 +286,11 @@
     <frame x="52" y="-4" width="1318" height="776" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.48722044" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18462758" sideWeight="0.50159746" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20602219" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20919175" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -278,6 +300,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36842105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960381" sideWeight="0.48076922" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -369,91 +392,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/train.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="887" selection-end="887" vertical-scroll-proportion="0.05811966">
-          <folding />
-        </state>
+        <state line="14" column="7" selection-start="887" selection-end="887" vertical-scroll-proportion="0.05811966" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="63" selection-end="63" vertical-scroll-proportion="0.11371238">
-          <folding />
-        </state>
+        <state line="4" column="18" selection-start="63" selection-end="63" vertical-scroll-proportion="0.11371238" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.19899665">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.19899665" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/temp.footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/zk_aboutus_temp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="264" selection-end="264" vertical-scroll-proportion="0.14529915">
-          <folding />
-        </state>
+        <state line="5" column="11" selection-start="264" selection-end="264" vertical-scroll-proportion="0.14529915" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/temp.header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="76" selection-start="347" selection-end="347" vertical-scroll-proportion="0.18632479">
-          <folding />
-        </state>
+        <state line="9" column="76" selection-start="347" selection-end="347" vertical-scroll-proportion="0.18632479" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/zk_list_temp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="142" selection-end="142" vertical-scroll-proportion="0.17056856">
-          <folding />
-        </state>
+        <state line="6" column="3" selection-start="142" selection-end="142" vertical-scroll-proportion="0.17056856" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/zk_label.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="129" selection-end="129" vertical-scroll-proportion="0.11371238">
-          <folding />
-        </state>
+        <state line="4" column="24" selection-start="129" selection-end="129" vertical-scroll-proportion="0.11371238" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/zk_hangyedongcha_temp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="289" selection-end="289" vertical-scroll-proportion="0.17056856">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="6" column="24" selection-start="289" selection-end="289" vertical-scroll-proportion="0.17056856" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/zk_content_temp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="7" selection-start="940" selection-end="940" vertical-scroll-proportion="0.5117057">
-          <folding />
-        </state>
+        <state line="18" column="7" selection-start="940" selection-end="940" vertical-scroll-proportion="0.5117057" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/index1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
   </component>
