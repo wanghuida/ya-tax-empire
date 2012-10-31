@@ -1,73 +1,38 @@
-<?php
-if(!defined('InEmpireCMS'))
-{
-	exit();
-}
-?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- saved from url=(0025)http://www.huawei.com/cn/ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>haha--[!--pagetitle--]</title>
-    <meta name="keywords" content="[!--pagekey--]"/>
-    <meta name="description" content="[!--pagedes--]"/>
-
-    <script type="text/javascript" async="" src="[!--news.url--]skin/default/js/ga.js"></script>
-    <script type="text/javascript" src="[!--news.url--]skin/default/js/sitenavigationfunctions.js"
-            id="SSNavigationFunctionsScript"></script>
-    <script type="text/javascript" src="[!--news.url--]skin/default/js/sitenavigation.js"
-            id="SSNavigationScript"></script>
-    <script type="text/javascript" src="[!--news.url--]skin/default/js/wcm.toggle.js"></script>
-    <script type="text/javascript" src="[!--news.url--]skin/default/js/ssajax.js"></script>
-    <script type="text/javascript" src="[!--news.url--]skin/default/js/leftnav.js"></script>
-    <script type="text/javascript" src="[!--news.url--]skin/default/js/jquery.js"></script>
-    <script type="text/javascript" src="[!--news.url--]skin/default/js/jquery_oracle_ucm.js"></script>
-    <script type="text/javascript" src="[!--news.url--]skin/default/js/ui.js"></script>
-    <script type="text/javascript" src="[!--news.url--]skin/default/js/suggestword.js"></script>
-    <script type="text/javascript" src="[!--news.url--]skin/default/js//cn.suggest_query_words.js"></script>
-    <script type="text/javascript" src="[!--news.url--]skin/default/js/wcm.toggle.js"></script>
-    <script type="text/javascript" src="[!--news.url--]skin/default/js/ssajax.js"></script>
-
-    <link rel="stylesheet" href="[!--news.url--]skin/default/css/globle_cn.css" type="text/css"
-          media="screen, project, print">
-    <link rel="stylesheet" href="[!--news.url--]skin/default/css/globle_cn_ie6.css" type="text/css"
-          media="screen, project, print">
-    <link rel="stylesheet" href="[!--news.url--]skin/default/css/jquery.ui.theme.css" type="text/css"
-          media="screen, project, print">
-    <link rel="stylesheet" href="[!--news.url--]skin/default/css/jquery.ui.autocomplete.css" type="text/css"
-          media="screen, project, print">
-
-
-
-    <style type="text/css">@media print {
-        #feedlyMiniIcon {
-            display: none;
-        }
-    }
-    </style>
-</head>
-<body>
-
-
-<div id="header">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>
+            
+        </title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="/skin/default/css/yatax.css" type="text/css" media="screen, project, print">
+        <link rel="stylesheet" href="/skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
+        <link rel="stylesheet" href="/skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
+        <script type="text/javascript" src="/skin/default/js/jquery-1.8.2.js">
+</script>
+    </head>
+    <body>
+        <div id="header">
     <div class="bound">
         <a href="/" id="logo">
-            <img title="首页" src="[!--news.url--]skin/default/images/logo_cn.gif"></a>
+            <img title="首页" src="/skin/default/images/logo_cn.gif"></a>
 
         <div class="topnav">
             <div class="log">
                 <!--change iframe to ajax start-->
 
-                <img src="[!--news.url--]skin/default/images/hw_000470.gif">
+                <img src="/skin/default/images/hw_000470.gif">
                 <span id="sslogoff" style="display: none;">
 
                     <a id="aLogout">退出</a>
-                    <img src="[!--news.url--]skin/default/images/hw_000470.gif">
+                    <img src="/skin/default/images/hw_000470.gif">
                 </span>
                 <span id="sslogon" style="">
                     <a id="aLogin">登录</a>
-                    <img src="[!--news.url--]skin/default/images/hw_000470.gif">
+                    <img src="/skin/default/images/hw_000470.gif">
                 </span>
 
             </div>
@@ -91,15 +56,15 @@ if(!defined('InEmpireCMS'))
                     <li><a href="/cn/industry/customer-voices/index.htm" class="topfrx">业界动态</a>
                     </li>
                     <li><a href="/cn/industry/consumer-lab/index.htm" class="topfrx">税文化研究</a></li>
-                    
+
                 </ul>
 
                 <div class="verticalLine"></div>
 
                 <ul class="m_box">
                     <li><a href="/cn/industry/moving-forward/index.htm"><img height="140"
-                                                                                                  width="259"
-                                                                                                  src="[!--news.url--]skin/default/images/hw_s_223305.gif"></a>
+                                                                             width="259"
+                                                                             src="/skin/default/images/hw_s_223305.gif"></a>
                     </li>
                     <li class="title"><a
                             href="/cn/industry/moving-forward/index.htm">这里是信息</a></li>
@@ -237,8 +202,9 @@ if(!defined('InEmpireCMS'))
                 <ul class="m_box">
                     <h2><a href="/cn/" target="_blank">个人消费者</a></h2>
                     <li>
-                        <a href="/"                           target="_blank"><img height="144" width="217"
-                                                src="[!--news.url--]skin/default/images/hw_s_223306.gif"></a></li>
+                        <a href="/" target="_blank"><img height="144" width="217"
+                                                         src="/skin/default/images/hw_s_223306.gif"></a>
+                    </li>
                     <li class="summary">
                         <ul>
                             <li class="left">
@@ -285,7 +251,7 @@ if(!defined('InEmpireCMS'))
     </div>
 </li>
 <li is="menuindex">
-    <a iblk="培训教育" href="[!--news.url--]a/peixunzhuanti" class="support"><span>税收大课堂</span></a>
+    <a iblk="税收大课堂" href="/a/peixunzhuanti" class="support"><span>税收大课堂</span></a>
 
     <div class="menuitempanel">
         <div class="menucontentdiv">
@@ -324,7 +290,7 @@ if(!defined('InEmpireCMS'))
                 <div class="verticalLine"></div>
 
                 <ul class="m_box">
-                    <li><img height="144" width="217" src="[!--news.url--]skin/default/images/hw_s_223303.gif"></li>
+                    <li><img height="144" width="217" src="/skin/default/images/hw_s_223303.gif"></li>
                     <li class="summary">
                         <ul>
                             <li>资料下载、文档共享，无论您遇到任何问题，我们都将随时为您提供服务。</li>
@@ -340,46 +306,26 @@ if(!defined('InEmpireCMS'))
     </div>
 </li>
 <li is="menuindex">
-    <a iblk="关于永安" href="javascript:void(0);" class="about_yatax"><span>关于永安</span></a>
+    <a iblk="关于永安" href="/a/guanyuwomen/" class="about_yatax"><span>关于永安</span></a>
 
     <div class="menuitempanel">
         <div class="menucontentdiv">
             <div class="menufillet_e"></div>
             <div class="trad clearfix">
                 <ul class="list">
-                    <h2><a href="aboutus.html/corporate-info/index.htm">公司介绍</a></h2>
-                    <li><a href="aboutus.html/corporate-info/vision-mission/index.htm">愿景使命</a>
-                    </li>
-                    <li><a href="aboutus.html/corporate-info/strategy/index.htm">公司战略</a></li>
-                    <li><a href="aboutus.html/corporate-info/coporate-governance/index.htm">公司治理</a>
-                    </li>
-                    <li><a href="aboutus.html/corporate-info/milestone/index.htm">发展历程</a></li>
-                </ul>
-                <ul class="list">
-                    <h2><a href="aboutus.html/corporate-citizenship/index.htm">社会责任</a></h2>
-                    <li>
-                        <a href="aboutus.html/corporate-citizenship/employee/index.htm">关爱员工</a>
-                    </li>
-
-                </ul>
-                <ul class="list">
-                    <h2><a href="aboutus.html/newsroom/index.htm">新闻媒体</a></h2>
-                    <li><a href="aboutus.html/newsroom/press-release/index.htm">新闻</a></li>
-                    <li><a href="aboutus.html/newsroom/media-coverage/index.htm">媒体热点</a></li>
+                    <h2><a href="/a/guanyuwomen/gongsijieshao/">公司介绍</a></h2>
+                    <li><a href="/a/guanyuwomen/gongsilinian/">公司理念</a></li>
+                    <li><a href="/a/guanyuwomen/zhuanjiatuandui/">专家团队</a></li>
                 </ul>
                 <ul class="list last">
-                    <h2><a href="aboutus.html/publications/index.htm">公司刊物</a></h2>
-                    <li><a href="aboutus.html/corporate-citizenship/csr-report/index.htm">《社会责任报告》</a>
-                    </li>
-                    <li><a href="http://app.huawei.com/paper/index.do">《永安人》</a></li>
+                    <h2><a href="/a/guanyuwomen/lianxiwomen/">联系我们</a></h2>
+                    <li><a href="/a/guanyuwomen/lianxiwomen/">联系方式</a></li>
                 </ul>
-
                 <div class="verticalLine"></div>
-
                 <ul class="m_box">
-                    <li><a href="aboutus.html/publications/winwin-magazine/index.htm">
-                        <img height="189" width="142" src="[!--news.url--]skin/default/images/hw_u_173050.jpg"></a></li>
-                    <li><a href="aboutus.html//winwin-magazine/index.htm"
+                    <li><a href="/a/guanyuwomen/gongsijieshao/">
+                        <img height="189" width="142" src="/skin/default/images/hw_u_173050.jpg"></a></li>
+                    <li><a href="/a/guanyuwomen/gongsijieshao/"
                            style="color:#333;"><strong>《文化研究》第 期（201 年 月）</strong></a></li>
                 </ul>
 
@@ -407,7 +353,7 @@ if(!defined('InEmpireCMS'))
 
                 <ul class="m_box">
                     <li><a href="/campus/" target="_blank"><img height="140" width="259"
-                                                                                     src="[!--news.url--]skin/default/images/hw_192713.jpg"></a>
+                                                                src="/skin/default/images/hw_192713.jpg"></a>
                     </li>
                     <li class="title"><a href="/campus/" target="_blank">走近永安</a></li>
                     <li class="summary">
@@ -422,7 +368,7 @@ if(!defined('InEmpireCMS'))
                 <ul class="m_box">
                     <li><a href="/campus/dt/details/105006002001/100000014891175.html"
                            target="_blank">
-                        <img height="140" width="259" src="[!--news.url--]skin/default/images/hw_192716.jpg"></a></li>
+                        <img height="140" width="259" src="/skin/default/images/hw_192716.jpg"></a></li>
                     <li class="title">
                         <a href="/campus/dt/details/105006002001/100000014891175.html"
                            target="_blank">永安2013年应届毕业生招聘正式启动</a></li>
@@ -443,82 +389,45 @@ if(!defined('InEmpireCMS'))
 </div>
 </div>
 
-<div class="bound body clearfix">
-    <table width="100%" border="0" cellspacing="10" cellpadding="0">
-        <tr valign="top">
-            <td class="news_list">
-                <!--
-                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
-                    <tr>
-                        <td>您当前的位置：[!--newsnav--]</td>
-                    </tr>
-                </table>-->
-                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
-                    <tr>
-                        <td>[!--empirenews.listtemp--]
-                            <ul>
-                                <!--list.var1-->
-                                <!--list.var2-->
-                                <!--list.var3-->
-                                <!--list.var4-->
-                                <!--list.var5--></ul>
-                            [!--empirenews.listtemp--]
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                <tr>
-                                    <td height="38">
-                                        <div class="epages">[!--show.listpage--]</div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-            <td class="sider">
-                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="title">
-                    <tr>
-                        <td><strong>推荐资讯</strong></td>
-                    </tr>
-                </table>
-                <table width="100%" border="0" cellspacing="8" cellpadding="0" class="box">
-                    <tr>
-                        <td><? @sys_GetClassNewsPic('selfinfo',2,4,128,90,1,20,2);?>
-                        </td>
-                    </tr>
-                </table>
-                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="title margin_top">
-                    <tr>
-                        <td><strong>最后更新</strong></td>
-                    </tr>
-                </table>
-                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
-                    <tr>
-                        <td>
-                            <ul>
-                                <? @sys_GetEcmsInfo('selfinfo',10,44,0,0,2,0);?>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="title margin_top">
-                    <tr>
-                        <td><strong>热门点击</strong></td>
-                    </tr>
-                </table>
-                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
-                    <tr>
-                        <td>
-                            <ol class="rank">
-                                <? @sys_GetEcmsInfo('selfinfo',10,40,0,1,10,0);?>
-                            </ol>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-</div>
-<script type="text/javascript" src="[!--news.url--]skin/default/js/global_cn.index.js"></script>
+        <div id="container">
+            <div class="bound body">
+                <div>
+                    您当前的位置：<a href="/">首页</a>&nbsp;>&nbsp;<a href="//"></a>
+                </div>
+                <div class="grid215 left">
+                    <div class='leftNav' id='1001'>
+                        <div class='top' id='1002'></div>
+                        <div class='content' id='1003'>
+                            <a href="//">公司介绍</a><a href="//">公司理念</a><a href="//">专家团队</a><a href="//">联系我们</a>                        </div>
+                        <div class='bottom' id='1004'></div>
+                    </div>
+                </div>
+                <div class="grid765_r left">
+                    <!--HWDocContent-->
+                    <div class="core-network">
+                        <div class="content">
+                            <div class="title">
+                                联系我们
+                            </div>
+                            <p>
+                                <img src="/skin/default/images/about1.jpg">
+                            </p>
+                            <div class="detail">
+                                <p>
+                                    电话：027-88937081&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传真：027-88731365
+                                </p>
+                                <p>
+                                    网址：http://www.ya-tax.com
+                                </p>
+                                <p>
+                                    地址：武汉市东湖开发区庙山小区津发小区
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><script type="text/javascript" src="/skin/default/js/global_cn.index.js"></script>
 
 
 <div id="seo-footer" style="height:310px;">
@@ -602,5 +511,5 @@ if(!defined('InEmpireCMS'))
         </div>
 
 </div>
-</body>
+    </body>
 </html>
