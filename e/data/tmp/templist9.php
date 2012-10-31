@@ -311,7 +311,7 @@ if(!defined('InEmpireCMS'))
     </div>
 </li>
 <li is="menuindex">
-    <a iblk="关于永安" href="[!--news.url--]a/guanyuwomen/" class="about_yatax"><span>关于永安</span></a>
+    <a iblk="关于永安" href="javascript:void(0);" class="about_yatax"><span>关于永安</span></a>
 
     <div class="menuitempanel">
         <div class="menucontentdiv">
@@ -378,7 +378,7 @@ if(!defined('InEmpireCMS'))
 
                 <ul class="m_box">
                     <li><a href="/campus/" target="_blank"><img height="140" width="259"
-                     src="[!--news.url--]skin/default/images/hw_192713.jpg"></a>
+                                                                                     src="[!--news.url--]skin/default/images/hw_192713.jpg"></a>
                     </li>
                     <li class="title"><a href="/campus/" target="_blank">走近永安</a></li>
                     <li class="summary">
