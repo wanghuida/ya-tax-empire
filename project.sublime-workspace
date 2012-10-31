@@ -7,13 +7,73 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "testdata/zk_aboutus_temp.php",
+			"settings":
+			{
+				"buffer_size": 8011,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testdata/zk_content_temp.php",
+			"settings":
+			{
+				"buffer_size": 4015,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testdata/zk_hangyedongcha_temp.php",
+			"settings":
+			{
+				"buffer_size": 8343,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testdata/zk_label.php",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testdata/zk_list_temp.php",
+			"settings":
+			{
+				"buffer_size": 4885,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testdata/temp.header.php",
+			"settings":
+			{
+				"buffer_size": 18452,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "testdata/train.php",
+			"settings":
+			{
+				"buffer_size": 8963,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 335.0,
+		"height": 160.0,
 		"selected_items":
 		[
+			[
+				"git:pu",
+				"Git: Pull"
+			],
 			[
 				"html",
 				"Tidy HTML"
@@ -35,7 +95,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 498.0
+		"width": 386.0
 	},
 	"console":
 	{
@@ -163,8 +223,210 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "testdata/zk_aboutus_temp.php",
+					"settings":
+					{
+						"buffer_size": 8011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1021,
+								1021
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "testdata/zk_content_temp.php",
+					"settings":
+					{
+						"buffer_size": 4015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								947,
+								947
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1242.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "testdata/zk_hangyedongcha_temp.php",
+					"settings":
+					{
+						"buffer_size": 8343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "testdata/zk_label.php",
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "testdata/zk_list_temp.php",
+					"settings":
+					{
+						"buffer_size": 4885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "testdata/temp.header.php",
+					"settings":
+					{
+						"buffer_size": 18452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "testdata/train.php",
+					"settings":
+					{
+						"buffer_size": 8963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								992,
+								992
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -199,6 +461,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.git":
+	{
+		"height": 120.0
+	},
 	"replace":
 	{
 		"height": 64.0
