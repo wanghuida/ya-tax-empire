@@ -1,4 +1,3 @@
-//不需要list.var*，随便填
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
@@ -26,7 +25,7 @@
                     <div class='leftNav' id='1001'>
                         <div class='top' id='1002'></div>
                         <div class='content' id='1003'>
-                            [e:loop={"select * from phome_ecms_news where classid=$GLOBALS[classid] order by id desc",10,24,0}]
+                            [e:loop={"select * from phome_ecms_news where classid=$GLOBALS[navclassid] order by id desc",10,24,0}]
                             <a href="#<?=$bqr['id']?>"><?=$bqr['title']?></a>
                             [/e:loop]
                         </div>
@@ -42,7 +41,7 @@
                                     [!--class.name--]
                                 </div>
                                 <hr>
-[e:loop={"select * from phome_ecms_news_data_1 where classid=$GLOBALS[classid] order by id desc",10,24,0}]
+[e:loop={"select * from phome_ecms_news_data_1 where classid=$GLOBALS[navclassid] order by id desc",10,24,0}]
 <div id=<?=$bqr['id']?>><?=$bqr['newstext']?></div> 
 <div class="hr"></div>
 [/e:loop]
