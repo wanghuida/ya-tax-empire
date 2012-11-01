@@ -24,6 +24,7 @@
                 <div class="grid215 left">
                     <div class='leftNav' id='1001'>
                         <div class='top' id='1002'></div>
+<div style="height:25px;">导航</div>
                         <div class='content' id='1003'>
                             [e:loop={"select * from phome_ecms_news where classid=$GLOBALS[navclassid] order by id desc",10,24,0}]
                             <a href="#<?=$bqr['id']?>"><?=$bqr['title']?></a>
@@ -37,12 +38,14 @@
                         <div class="core-network">
                             <div class="content">
                                 <!--列表模板主页面开始-->
+                                <a name="atop"></a>
                                 <div class="title">
                                     [!--class.name--]
                                 </div>
                                 <hr>
 [e:loop={"select * from phome_ecms_news_data_1 where classid=$GLOBALS[navclassid] order by id desc",10,24,0}]
 <div id=<?=$bqr['id']?>><?=$bqr['newstext']?></div> 
+<a style="padding-left: 90%;" href="#atop"><img src="[!--news.url--]skin/default/images/totop.jpg"></img></a>
 <div class="hr"></div>
 [/e:loop]
                                <!--列表模板主页面结束-->
