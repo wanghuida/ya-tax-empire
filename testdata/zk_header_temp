@@ -36,15 +36,10 @@
             <div class="menufillet_e"></div>
             <div class="trad clearfix">
                 <ul class="taxonomy">
-                    <li><a href="[!--news.url--]a/hangyedongcha/yejiedongtai/" class="topfrx">业界动态</a>
-                    </li>
-                    <li><a href="[!--news.url--]a/hangyedongcha/zuixinfagui/" class="topfrx">最新法规</a>
-                    </li>
-                    <li><a href="[!--news.url--]a/hangyedongcha/gongsixinwen/" class="topfrx">公司新闻</a>
-                    </li>
-                    <li><a href="[!--news.url--]a/hangyedongcha/shuiwuwenhua/" class="topfrx">税文化研究</a>
-                    </li>
-
+                    <a href="[!--news.url--]a/hangyedongcha/yejiedongtai/" class="topfrx">业界动态</a><br/>
+                    <a href="[!--news.url--]a/hangyedongcha/zuixinfagui/" class="topfrx">最新法规</a><br/>
+                    <a href="[!--news.url--]a/hangyedongcha/gongsixinwen/" class="topfrx">公司新闻</a><br/>
+                    <a href="[!--news.url--]a/hangyedongcha/shuiwuwenhua/" class="topfrx">税文化研究</a><br/>
                 </ul>
 
                 <div class="verticalLine"></div>
@@ -70,118 +65,17 @@
     </div>
 </li>
 <li is="menuindex">
-    <a iblk="业务介绍" href="javascript:void(0);" class="solutions_products"><span>业务介绍</span></a>
+    <a iblk="服务与方案" href="javascript:void(0);" class="solutions_products"><span>服务与方案</span></a>
 
     <div class="menuitempanel">
         <div class="menucontentdiv">
             <div class="menufillet_e"></div>
             <div class="solutions_products clearfix">
                 <ul class="list last">
-                    <li class="left">
-                        <ul>
-                            [ecmsinfo]62,10,32,0,0,2,0[/ecmsinfo]
-                            <li><a href="[!--news.url--]a/yewujieshao" target="_blank">这里是信息</a>
-                            </li>
-                            <li><a href="/cn/solutions/index-tab2.htm" target="_blank">这里是信息</a>
-                            </li>
-                            <li><a href="/cn/solutions/index-tab3.htm" target="_blank">提升运营效率</a>
-                            </li>
-                            <li><a href="/cn/solutions/index-tab4.htm" target="_blank">这里是信息</a>
-                            </li>
-                            <h3><a href="/cn/services/index.htm" target="_blank">服务</a></h3>
-                            <li><a href="/cn/services/hw-u_179435.htm" target="_blank">商业咨询</a>
-                            </li>
-                            <li><a href="/cn/services/index-tab2.htm" target="_blank">这里是信息</a></li>
-                            <li><a href="/cn/services/index-tab3.htm" target="_blank">保障与管理服务</a>
-                            </li>
-                            <li><a href="/cn/services/index-tab4.htm" target="_blank">学习与能力发展</a>
-                            </li>
-                            <li><a href="/cn/services/index-tab5.htm" target="_blank">这里是信息</a></li>
-
-                        </ul>
-                    </li>
-                    <li class="left last">
-                        <ul class="last">
-                            <h3><a href="/cn/products/index.htm" target="_blank">产品</a></h3>
-                            <li><a href="/cn/products/fixed-access/index.htm"
-                                   target="_blank">这里是信息</a></li>
-                            <li><a href="/cn/products/radio-access/index.htm"
-                                   target="_blank">这里是信息</a></li>
-                            <li><a href="/cn/products/core-network/index.htm"
-                                   target="_blank">这里是信息</a></li>
-                            <li><a href="/cn/products/transport-network/index.htm" target="_blank">这里是信息</a>
-                            </li>
-                            <li><a href="/cn/products/data-communication/index.htm"
-                                   target="_blank">这里是信息</a></li>
-                            <li><a href="/cn/products/software/index.htm" target="_blank">这里是信息</a>
-                            </li>
-                            <li><a href="/cn/products/security-storage/index.htm" target="_blank">这里是信息</a>
-                            </li>
-                            <li><a href="/cn/products/oss/index.htm" target="_blank">OSS</a></li>
-                            <li><a href="/cn/products/energy-infrastructure/index.htm"
-                                   target="_blank">这里是信息</a></li>
-
-                        </ul>
-                    </li>
-                </ul>
-
-                <div class="verticalLine"></div>
-
-                <ul class="list last">
-                    <h2><a href="/cn/" target="_blank">企业</a></h2>
-                    <li class="left">
-                        <ul>
-                            <h3><a href="/cn/products/index.htm?navi=0"
-                                   target="_blank">这里是信息</a></h3>
-                            <li><a href="/cn/products/network/router/index.htm"
-                                   target="_blank">这里是信息</a></li>
-                            <li>
-                                <a href="/cn/products/coll-communication/union-comuni/index.htm"
-                                   target="_blank">这里是信息</a></li>
-                            <li><a href="/cn/products/itapp/server/index.htm"
-                                   target="_blank">这里是信息</a></li>
-                            <li><a href="/cn/products/security/network-security/index.htm"
-                                   target="_blank">这里是信息</a></li>
-                            <h3><a href="/cn/solutions/index.htm?navi=1"
-                                   target="_blank">方案</a></h3>
-                            <li><a href="/cn/solutions/basenet/intranet/index.htm"
-                                   target="_blank">这里是信息</a></li>
-                            <li>
-                                <a href="/cn/solutions/multimediasolu/uc/index.htm?node=4&child=0"
-                                   target="_blank">这里是信息</a></li>
-                            <li><a href="/cn/solutions/datacenter/desktop-cloud/index.htm"
-                                   target="_blank">数据中心网络</a></li>
-                            <li>
-                                <a href="/cn/solutions/cloudcomputing/desktop-cloud/index.htm"
-                                   target="_blank">IT解决方案</a></li>
-                            <li>
-                                <a href="/cn/solutions/Security/professional-security-services/index.htm"
-                                   target="_blank">安全</a></li>
-                        </ul>
-                    </li>
-                    <li class="left">
-                        <ul class="last">
-
-                            <h3><a href="/cn/solutions/trade/governmen/index.htm"
-                                   target="_blank">行业解决方案</a></h3>
-                            <li><a href="/cn/solutions/trade/governmen/index.htm"
-                                   target="_blank">政府</a></li>
-                            <li><a href="/cn/solutions/trade/finance/index.htm"
-                                   target="_blank">金融</a></li>
-                            <li><a href="/cn/solutions/trade/electricity/index.htm"
-                                   target="_blank">电力</a></li>
-                            <li><a href="/cn/solutions/trade/transportation/index.htm"
-                                   target="_blank">交通</a></li>
-                            <li><a href="/cn/solutions/trade/energy/index.htm"
-                                   target="_blank">能源</a></li>
-                            <li>
-                                <a href="/cn/solutions/trade/manufacturing-industry/index.htm"
-                                   target="_blank">制造</a></li>
-                            <li><a href="/cn/solutions/trade/hospitality/index.htm"
-                                   target="_blank">酒店</a></li>
-
-                        </ul>
-                    </li>
+                    <h2><a href="[!--news.url--]a/yewujieshao/">业务介绍</a></h2>
+                        [e:loop={'select * from phome_ecms_news where classid=62 order by id desc',10,24,0}]
+                        <a href="[!--news.url--]a/yewujieshao#%3C?=$bqr['id']?%3E"><?=$bqr['title']?></a><br />
+                        [/e:loop]
                 </ul>
 
                 <div class="verticalLine"></div>
@@ -191,42 +85,6 @@
                     <li>
                         <a href="/" target="_blank"><img height="144" width="217"
                                                          src="[!--news.url--]skin/default/images/hw_s_223306.gif"></a>
-                    </li>
-                    <li class="summary">
-                        <ul>
-                            <li class="left">
-                                <ul>
-                                    <li>
-                                        <a href="/cn/productMobile.do?method=index&directoryId=5005&treeId=3677"
-                                           target="_blank">这里是信息</a></li>
-                                    <li>
-                                        <a href="/cn/productFamily.do?method=index&directoryId=5011&treeId=3470"
-                                           target="_blank">这里是信息</a></li>
-                                    <li>
-                                        <a href="/cn/productFamily.do?method=index&directoryId=5009&treeId=3745"
-                                           target="_blank">这里是信息</a></li>
-                                    <li>
-                                        <a href="/cn/productFamily.do?method=index&directoryId=5008&treeId=541"
-                                           target="_blank">这里是信息</a></li>
-                                </ul>
-                            </li>
-                            <li class="left last">
-                                <ul>
-                                    <li>
-                                        <a href="/cn/productFamily.do?method=index&directoryId=5013&treeId=183"
-                                           target="_blank">家庭</a></li>
-                                    <li>
-                                        <a href="/cn/productFamily.do?method=index&directoryId=5014&treeId=562"
-                                           target="_blank">这里是信息</a></li>
-                                    <li>
-                                        <a href="/cn/productFamily.do?method=index&directoryId=5012&treeId=3466"
-                                           target="_blank">这里是信息</a></li>
-                                    <li>
-                                        <a href="/cn/productFamily.do?method=index&directoryId=5016&treeId=3153"
-                                           target="_blank">这里是信息</a></li>
-                                </ul>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
 
@@ -300,13 +158,11 @@
             <div class="menufillet_e"></div>
             <div class="trad clearfix">
                 <ul class="list">
-                    <h2><a href="[!--news.url--]a/guanyuwomen/gongsijieshao/">公司介绍</a></h2>
-                    <li><a href="[!--news.url--]a/guanyuwomen/gongsilinian/">公司理念</a></li>
-                    <li><a href="[!--news.url--]a/guanyuwomen/zhuanjiatuandui/">专家团队</a></li>
-                </ul>
-                <ul class="list last">
-                    <h2><a href="[!--news.url--]a/guanyuwomen/lianxiwomen/">联系我们</a></h2>
-                    <li><a href="[!--news.url--]a/guanyuwomen/lianxiwomen/">联系方式</a></li>
+                    <h2><a href="[!--news.url--]a/guanyuwomen">关于我们</a></h2>
+                    <li><a href="[!--news.url--]a/guanyuwomen/#131">公司简介</a></li>
+                    <li><a href="[!--news.url--]a/guanyuwomen/#130">公司理念</a></li>
+                    <li><a href="[!--news.url--]a/guanyuwomen/#129">专家团队</a></li>
+                    <li><a href="[!--news.url--]a/guanyuwomen/#128">联系方式</a></li>
                 </ul>
                 <div class="verticalLine"></div>
                 <ul class="m_box">
@@ -331,37 +187,23 @@
             <div class="menufillet_e"></div>
             <div class="trad clearfix">
                 <ul class="taxonomy">
-                    <li><a href="/campus/default.html" class="topfrx" target="_blank">校园招聘</a></li>
-                    <li><a href="/social/default.html" class="topfrx" target="_blank">社会招聘</a></li>
+                    <h2><a href="[!--news.url--]a/jiaruyongan">近期招聘</a></h2>
+                    [e:loop={'select * from phome_ecms_news where classid=82 order by id desc',10,24,0}]
+                    <a href="[!--news.url--]a/jiaruyongan#%3C?=$bqr['id']?%3E"><?=$bqr['title']?></a><br />
+                    [/e:loop]
 
                 </ul>
 
-                <div class="verticalLine"></div>
+               <div class="verticalLine"></div>
 
                 <ul class="m_box">
                     <li><a href="/campus/" target="_blank"><img height="140" width="259"
                                                                 src="[!--news.url--]skin/default/images/hw_192713.jpg"></a>
                     </li>
-                    <li class="title"><a href="/campus/" target="_blank">走近永安</a></li>
+                    <li class="title"><a href="/" target="_blank">走近永安</a></li>
                     <li class="summary">
                         <ul>
                             <li>永安是全球领先的这里是信息这里是信息……</li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <div class="verticalLine"></div>
-
-                <ul class="m_box">
-                    <li><a href="/campus/dt/details/105006002001/100000014891175.html"
-                           target="_blank">
-                        <img height="140" width="259" src="[!--news.url--]skin/default/images/hw_192716.jpg"></a></li>
-                    <li class="title">
-                        <a href="/campus/dt/details/105006002001/100000014891175.html"
-                           target="_blank">永安2013年应届毕业生招聘正式启动</a></li>
-                    <li class="summary">
-                        <ul>
-                            <li>加入永安，大有可为！我们诚邀拥有梦想并锐意进取的您，加入永安大家庭，在全球舞台上激扬无悔的青春，激发潜能，成就团队，成就自我！</li>
                         </ul>
                     </li>
                 </ul>
