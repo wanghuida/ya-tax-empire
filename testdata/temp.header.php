@@ -311,7 +311,6 @@
                     <li><a href="[!--news.url--]a/guanyuwomen/gongsijieshao/"
                            style="color:#333;"><strong>《文化研究》第 期（201 年 月）</strong></a></li>
                 </ul>
-
             </div>
             <div class="shadow_b_layout">
                 <div></div>

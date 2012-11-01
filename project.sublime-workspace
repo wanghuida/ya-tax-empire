@@ -8,50 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "testdata/zk_aboutus_temp.php",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 8011,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "testdata/zk_content_temp.php",
-			"settings":
-			{
-				"buffer_size": 4015,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "testdata/zk_hangyedongcha_temp.php",
-			"settings":
-			{
-				"buffer_size": 8343,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "testdata/zk_label.php",
-			"settings":
-			{
-				"buffer_size": 151,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "testdata/zk_list_temp.php",
-			"settings":
-			{
-				"buffer_size": 4885,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "testdata/temp.header.php",
-			"settings":
-			{
-				"buffer_size": 18452,
+				"buffer_size": 66,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,9 +27,25 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 160.0,
+		"height": 185.0,
 		"selected_items":
 		[
+			[
+				"git commit ",
+				"Git: Commit"
+			],
+			[
+				"git add .",
+				"Git: Add..."
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
 			[
 				"git:pu",
 				"Git: Pull"
@@ -112,6 +88,17 @@
 	},
 	"file_history":
 	[
+		"/D/Dev/coreamp/htdocs/empire/description",
+		"/D/Dev/coreamp/htdocs/empire/config",
+		"/D/Dev/coreamp/htdocs/empire/.gitignore",
+		"/D/Dev/coreamp/htdocs/empire/testdata/temp.header.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/zk_content_temp.php",
+		"/C/Users/alang/AppData/Local/Google/Chrome/User Data/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.1_0/main.html",
+		"/D/Dev/coreamp/htdocs/empire/testdata/zk_aboutus_temp.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/zk_hangyedongcha_temp.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/zk_label.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/zk_list_temp.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/train.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/index_clear.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/yatax.css",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/ent_cn_common.css",
@@ -121,7 +108,6 @@
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/train_clear.htm",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/ent_cn_base.css",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/index_i_ok_clean_nologin.html",
-		"/D/Dev/coreamp/htdocs/empire/testdata/temp.header.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp.footer.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/index_hw_ok.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/index1.php",
@@ -228,26 +214,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "testdata/zk_aboutus_temp.php",
+					"file": ".gitignore",
 					"settings":
 					{
-						"buffer_size": 8011,
+						"buffer_size": 66,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1021,
-								1021
+								66,
+								66
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -257,149 +241,6 @@
 				},
 				{
 					"buffer": 1,
-					"file": "testdata/zk_content_temp.php",
-					"settings":
-					{
-						"buffer_size": 4015,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								947,
-								947
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1242.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "testdata/zk_hangyedongcha_temp.php",
-					"settings":
-					{
-						"buffer_size": 8343,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "testdata/zk_label.php",
-					"settings":
-					{
-						"buffer_size": 151,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "testdata/zk_list_temp.php",
-					"settings":
-					{
-						"buffer_size": 4885,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "testdata/temp.header.php",
-					"settings":
-					{
-						"buffer_size": 18452,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "testdata/train.php",
 					"settings":
 					{
@@ -410,8 +251,8 @@
 						"selection":
 						[
 							[
-								992,
-								992
+								879,
+								879
 							]
 						],
 						"settings":
