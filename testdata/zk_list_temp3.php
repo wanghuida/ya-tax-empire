@@ -40,9 +40,10 @@
                             </div>
                             <hr>
                             [e:loop={"select * from phome_ecms_news_data_1 where classid=$GLOBALS[navclassid] order by id desc",10,24,0}]
-                            <div id="&lt;?=$bqr['id']?&gt;">
-                                <?=$bqr['newstext']?>
-                                </div><a style="padding-left: 90%;" href="#atop"><img src="/skin/default/images/totop.jpg"></a>
+                            <div id="&lt;?=$bqr['id']?&gt;"><?=$bqr['newstext']?></div>
+                                <a style="padding-left: 90%;" href="#atop">
+                                    <img src="[!--news.url--]/skin/default/images/totop.jpg">
+                                </a>
                             <div class="hr"></div>[/e:loop] <!--列表模板主页面结束-->
                         </div>
                     </div>
