@@ -51,7 +51,7 @@ if(!defined('InEmpireCMS'))
 <div class="nav">
 <ul>
 <li is="menuindex">
-    <a iblk="行业洞察" href="javascript:void(0);" class="trad"><span>行业洞察</span></a>
+    <a iblk="行业洞察" href="[!--news.url--]a/hangyedongcha" class="trad"><span>行业洞察</span></a>
 
     <div class="menuitempanel">
         <div class="menucontentdiv">
@@ -87,7 +87,7 @@ if(!defined('InEmpireCMS'))
     </div>
 </li>
 <li is="menuindex">
-    <a iblk="服务与方案" href="javascript:void(0);" class="solutions_products"><span>服务与方案</span></a>
+    <a iblk="服务与方案" href="[!--news.url--]a/yewujieshao" class="solutions_products"><span>服务与方案</span></a>
 
     <div class="menuitempanel">
         <div class="menucontentdiv">
@@ -333,7 +333,6 @@ if(!defined('InEmpireCMS'))
                     <li><a href="[!--news.url--]a/guanyuwomen/gongsijieshao/"
                            style="color:#333;"><strong>《文化研究》第 期（201 年 月）</strong></a></li>
                 </ul>
-
             </div>
             <div class="shadow_b_layout">
                 <div></div>
@@ -342,7 +341,7 @@ if(!defined('InEmpireCMS'))
     </div>
 </li>
 <li is="menuindex">
-    <a iblk="加入永安" href="javascript:void(0);" class="join_yatax"><span>加入永安</span></a>
+    <a iblk="加入永安" href="[!--news.url--]a/jiaruyongan" class="join_yatax"><span>加入永安</span></a>
 
     <div class="menuitempanel">
         <div class="menucontentdiv">

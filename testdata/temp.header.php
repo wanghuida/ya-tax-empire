@@ -29,7 +29,7 @@
 <div class="nav">
 <ul>
 <li is="menuindex">
-    <a iblk="行业洞察" href="javascript:void(0);" class="trad"><span>行业洞察</span></a>
+    <a iblk="行业洞察" href="[!--news.url--]a/hangyedongcha" class="trad"><span>行业洞察</span></a>
 
     <div class="menuitempanel">
         <div class="menucontentdiv">
@@ -65,7 +65,7 @@
     </div>
 </li>
 <li is="menuindex">
-    <a iblk="服务与方案" href="javascript:void(0);" class="solutions_products"><span>服务与方案</span></a>
+    <a iblk="服务与方案" href="[!--news.url--]a/yewujieshao" class="solutions_products"><span>服务与方案</span></a>
 
     <div class="menuitempanel">
         <div class="menucontentdiv">
@@ -319,7 +319,7 @@
     </div>
 </li>
 <li is="menuindex">
-    <a iblk="加入永安" href="javascript:void(0);" class="join_yatax"><span>加入永安</span></a>
+    <a iblk="加入永安" href="[!--news.url--]a/jiaruyongan" class="join_yatax"><span>加入永安</span></a>
 
     <div class="menuitempanel">
         <div class="menucontentdiv">
