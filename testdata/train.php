@@ -2,22 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
     <title>[!--pagetitle--]</title>
     <meta name="keywords" content="[!--pagekey--]"/>
     <meta name="description" content="[!--pagedes--]"/>
-
     <link rel="stylesheet" href="[!--news.url--]skin/default/css/yatax.css" type="text/css" media="screen, project, print">
     <link rel="stylesheet" href="[!--news.url--]skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
     <link rel="stylesheet" href="[!--news.url--]skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
     <script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js"></script>
-
 </head>
-
 <body>
-
 [!--temp.header--]
-
 <div id="mainview" class="banner" animate="hide" autohidecontroller="true">
     <ul class="mainviewul" index="0" style="width: 1294px; position: relative;">
         <a href="[!--news.url--]skin/default/images/ent_cn_img_train_banner.jpg"

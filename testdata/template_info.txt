@@ -1,12 +1,12 @@
-index_clear.php£ºÍøÕ¾Ê×Ò³Ò³ÃæÄ£°å
-temp.footer.php£º¹«¹²Ä£°åtemp.footer
-temp.header.php£º¹«¹²Ä£°åtemp.header
-train.php£º²ÆË°´ó¿ÎÌÃÊ×Ò³
-zk_aboutus_temp.php£º¹ØÓÚÎÒÃÇ
-zk_contact_temp.php£ºÁªÏµÎÒÃÇ
+ï»¿index_clear.phpï¼šç½‘ç«™é¦–é¡µé¡µé¢æ¨¡æ¿
+temp.footer.phpï¼šå…¬å…±æ¨¡æ¿temp.footer
+temp.header.phpï¼šå…¬å…±æ¨¡æ¿temp.header
+train.phpï¼šè´¢ç¨å¤§è¯¾å ‚é¦–é¡µ
+zk_aboutus_temp.phpï¼šå…³äºæˆ‘ä»¬
+zk_contact_temp.phpï¼šè”ç³»æˆ‘ä»¬
 zk_content_temp.php
-zk_culture_temp.php£º¹«Ë¾ÎÄ»¯
-zk_hangyedongcha_temp.php£º
+zk_culture_temp.phpï¼šå…¬å¸æ–‡åŒ–
+zk_hangyedongcha_temp.phpï¼š
 zk_intro_temp.php
 zk_label.php                
 zk_list_temp.php
