@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78fd0bf-af33-4b17-94ca-6ea51c3e9f73" name="Default" comment="改部分格式，测试storm提交。">
-      <change type="DELETED" beforePath="E:\gitdev\anuxs.github.com\e\data\fc\ListClass0.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\gitdev\anuxs.github.com\e\data\fc\ListEnews.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class62_hotnews.js" afterPath="$PROJECT_DIR$/d/js/class/class62_hotnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class62_hotplnews.js" afterPath="$PROJECT_DIR$/d/js/class/class62_hotplnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class62_newnews.js" afterPath="$PROJECT_DIR$/d/js/class/class62_newnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class63_hotnews.js" afterPath="$PROJECT_DIR$/d/js/class/class63_hotnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class63_hotplnews.js" afterPath="$PROJECT_DIR$/d/js/class/class63_hotplnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class63_newnews.js" afterPath="$PROJECT_DIR$/d/js/class/class63_newnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class64_hotnews.js" afterPath="$PROJECT_DIR$/d/js/class/class64_hotnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class64_hotplnews.js" afterPath="$PROJECT_DIR$/d/js/class/class64_hotplnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class64_newnews.js" afterPath="$PROJECT_DIR$/d/js/class/class64_newnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class65_hotnews.js" afterPath="$PROJECT_DIR$/d/js/class/class65_hotnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class65_hotplnews.js" afterPath="$PROJECT_DIR$/d/js/class/class65_hotplnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class65_newnews.js" afterPath="$PROJECT_DIR$/d/js/class/class65_newnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class68_hotnews.js" afterPath="$PROJECT_DIR$/d/js/class/class68_hotnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class68_hotplnews.js" afterPath="$PROJECT_DIR$/d/js/class/class68_hotplnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class68_newnews.js" afterPath="$PROJECT_DIR$/d/js/class/class68_newnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class69_hotnews.js" afterPath="$PROJECT_DIR$/d/js/class/class69_hotnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class69_hotplnews.js" afterPath="$PROJECT_DIR$/d/js/class/class69_hotplnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/class/class69_newnews.js" afterPath="$PROJECT_DIR$/d/js/class/class69_newnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/js/hotnews.js" afterPath="$PROJECT_DIR$/d/js/js/hotnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/js/hotplnews.js" afterPath="$PROJECT_DIR$/d/js/js/hotplnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/js/newnews.js" afterPath="$PROJECT_DIR$/d/js/js/newnews.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/class/config.php" afterPath="$PROJECT_DIR$/e/class/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/dbcache/class1.php" afterPath="$PROJECT_DIR$/e/data/dbcache/class1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/filecache/template/pl1.php" afterPath="$PROJECT_DIR$/e/data/filecache/template/pl1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/template/cp_1.php" afterPath="$PROJECT_DIR$/e/data/template/cp_1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/template/cp_2.php" afterPath="$PROJECT_DIR$/e/data/template/cp_2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/sch/index.php" afterPath="$PROJECT_DIR$/e/sch/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/tool/gbook/index.php" afterPath="$PROJECT_DIR$/e/tool/gbook/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdata/zk_list_temp2.php" afterPath="$PROJECT_DIR$/testdata/zk_list_temp2.php" />
+      <change type="DELETED" beforePath="E:\gitdev\anuxs.github.com\ya-tax-project\ya-tax-database\localhost.sql" afterPath="" />
+      <change type="DELETED" beforePath="E:\gitdev\anuxs.github.com\ya-tax-project\ya-tax-database\localhost1101(2).sql" afterPath="" />
+      <change type="DELETED" beforePath="E:\gitdev\anuxs.github.com\ya-tax-project\ya-tax-database\localhost1101.sql" afterPath="" />
     </list>
     <ignored path="empire.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +32,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="10.178572">
+            <state line="1" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="10.178572">
               <folding />
             </state>
           </provider>
@@ -71,7 +41,7 @@
       <file leaf-file-name="index_clear.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testdata/index_clear.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="68" selection-start="5372" selection-end="5372" vertical-scroll-proportion="0.6152381">
+            <state line="101" column="0" selection-start="4968" selection-end="4968" vertical-scroll-proportion="-0.35315984">
               <folding />
             </state>
           </provider>
@@ -104,7 +74,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/testdata/temp/css/globle_cn.css" />
-        <option value="$PROJECT_DIR$/testdata/index_clear.php" />
         <option value="$PROJECT_DIR$/skin/default/css/yatax.css" />
         <option value="$PROJECT_DIR$/testdata/自定义内容模板.php" />
         <option value="$PROJECT_DIR$/testdata/temp/华为 - 新闻.htm" />
@@ -119,6 +88,7 @@
         <option value="$PROJECT_DIR$/testdata/zk_hangyedongcha_temp.php" />
         <option value="$PROJECT_DIR$/testdata/zk_list_temp.php" />
         <option value="$PROJECT_DIR$/testdata/zk_list_temp2.php" />
+        <option value="$PROJECT_DIR$/testdata/index_clear.php" />
       </list>
     </option>
   </component>
@@ -331,8 +301,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -453,11 +423,6 @@
         <state line="18" column="7" selection-start="940" selection-end="940" vertical-scroll-proportion="0.5117057" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/index1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/e/class/t_functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="129" column="9" selection-start="3078" selection-end="3078" vertical-scroll-proportion="0.598">
@@ -497,14 +462,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="10.178572">
+        <state line="1" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="10.178572">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/index_clear.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="68" selection-start="5372" selection-end="5372" vertical-scroll-proportion="0.6152381">
+        <state line="101" column="0" selection-start="4968" selection-end="4968" vertical-scroll-proportion="-0.35315984">
           <folding />
         </state>
       </provider>
