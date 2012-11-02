@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2012 年 11 月 02 日 17:27
+-- 生成日期: 2012 年 11 月 02 日 17:35
 -- 服务器版本: 5.1.56-community-log
 -- PHP 版本: 5.3.5
 
