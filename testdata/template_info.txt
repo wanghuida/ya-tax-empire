@@ -1,0 +1,15 @@
+index_clear.php：网站首页页面模板
+temp.footer.php：公共模板temp.footer
+temp.header.php：公共模板temp.header
+train.php：财税大课堂首页
+zk_aboutus_temp.php：关于我们
+zk_contact_temp.php：联系我们
+zk_content_temp.php
+zk_culture_temp.php：公司文化
+zk_hangyedongcha_temp.php：
+zk_intro_temp.php
+zk_label.php                
+zk_list_temp.php
+zk_list_temp2.php           
+zk_list_temp3.php
+zk_team_temp.php
