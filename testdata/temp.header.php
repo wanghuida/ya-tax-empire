@@ -140,10 +140,12 @@
         <div class="menucontentdiv">
             <div class="menufillet_e"></div>
             <div class="trad clearfix">
-                <ul class="list last">
+                <ul class="list">
                     <li><a href="[!--news.url--]a/guanyuwomen/#131" class="topfrx">公司简介</a></li>
                     <li><a href="[!--news.url--]a/guanyuwomen/#130" class="topfrx">公司理念</a></li>
                     <li><a href="[!--news.url--]a/guanyuwomen/#129" class="topfrx">专家团队</a></li>
+                </ul>
+                <ul class="list last">
                     <li><a href="[!--news.url--]a/guanyuwomen/#128" class="topfrx">联系方式</a></li>
                 </ul>
                 <div class="verticalLine"></div>
