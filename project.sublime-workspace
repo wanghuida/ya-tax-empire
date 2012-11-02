@@ -8,19 +8,27 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "testdata/zk_hangyedongcha_temp.php",
 			"settings":
 			{
-				"buffer_size": 66,
+				"buffer_size": 8613,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testdata/temp.header.php",
+			"settings":
+			{
+				"buffer_size": 17486,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "testdata/train.php",
+			"file": "testdata/zk_header_temp.php",
 			"settings":
 			{
-				"buffer_size": 8963,
-				"line_ending": "Unix"
+				"buffer_size": 8479,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -88,9 +96,14 @@
 	},
 	"file_history":
 	[
+		"/D/Dev/coreamp/htdocs/empire/testdata/zk_header_temp.php",
+		"/D/Dev/coreamp/htdocs/empire/.gitignore",
+		"/D/Dev/coreamp/htdocs/empire/testdata/train.php",
+		"/D/Dev/coreamp/server/php-5.4.3/php.ini",
+		"/D/Dev/php/tools/cache/XCache-3.0.0-php-5.4.8-Win32-VC9-x86/Release_TS/xcache-zh-gb2312.ini",
+		"/D/Dev/php/tools/cache/XCache-3.0.0-php-5.4.8-nts-Win32-VC9-x86/Release/xcache-zh-gb2312.ini",
 		"/D/Dev/coreamp/htdocs/empire/description",
 		"/D/Dev/coreamp/htdocs/empire/config",
-		"/D/Dev/coreamp/htdocs/empire/.gitignore",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp.header.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/zk_content_temp.php",
 		"/C/Users/alang/AppData/Local/Google/Chrome/User Data/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.1_0/main.html",
@@ -98,7 +111,6 @@
 		"/D/Dev/coreamp/htdocs/empire/testdata/zk_hangyedongcha_temp.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/zk_label.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/zk_list_temp.php",
-		"/D/Dev/coreamp/htdocs/empire/testdata/train.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/index_clear.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/yatax.css",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/ent_cn_common.css",
@@ -157,6 +169,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mmap",
+			"xcache",
+			"extension",
 			"about_huawei",
 			"leftarrow",
 			"block",
@@ -209,50 +224,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
+					"file": "testdata/zk_hangyedongcha_temp.php",
 					"settings":
 					{
-						"buffer_size": 66,
+						"buffer_size": 8613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								66,
-								66
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "testdata/train.php",
-					"settings":
-					{
-						"buffer_size": 8963,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								879,
-								879
+								1007,
+								1007
 							]
 						],
 						"settings":
@@ -264,6 +252,64 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "testdata/temp.header.php",
+					"settings":
+					{
+						"buffer_size": 17486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15542,
+								15542
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5703.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "testdata/zk_header_temp.php",
+					"settings":
+					{
+						"buffer_size": 8479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6403,
+								6403
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 946.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
