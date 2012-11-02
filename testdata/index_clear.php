@@ -129,70 +129,63 @@
 <div id="features-index">
     <div class="bound">
 
-        <a href="/"
-           target="_blank" id="feature-trigger">
-                        <span>
-                        <h4 class="c_blue">公司新闻</h4>
-                        <p>这里是公司新闻...</p>
-                         <p>这里是公司新闻...</p>
-                         <p>这里是公司新闻...</p>
-                         <p>这里是公司新闻...</p>
-                        </span>
+        <a href="[!--news.url--]a/hangyedongcha/gongsixinwen" id="feature-trigger"  target="_blank">
+            <span>
+            <h4 class="c_blue">公司新闻</h4>
+            [e:loop={74,5,0,0}]
+            <p><?=$bqr['title']?></p>
+            [/e:loop]
             <img src="[!--news.url--]skin/default/images/hw_149255.jpg">
+            </span>
         </a>
-        <a href="/">
+        <a href="[!--news.url--]a/hangyedongcha/yejiedongtai">
                         <span>
-                        <h4 class="c_orange">
-                            业界动态</h4>
-                        <p>这里是业界动态</p>
-                        <p>这里是业界动态</p>
-                        <p>这里是业界动态</p>
-                        <p>这里是业界动态</p>
+                        <h4 class="c_orange">业界动态</h4>
+                            [e:loop={72,5,0,0}]
+                            <p><?=$bqr['title']?></p>
+                            [/e:loop]
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_195116.jpg">
         </a>
 
-        <a href="aboutus.html/publications/winwin-magazine/index.htm" class="last"
-           target="_blank">
+        <a href="[!--news.url--]a/hangyedongcha/shuiwuwenhua" class="last"  target="_blank">
                         <span>
-                        <h4 class="c_green">
-                            税文化研究<br></h4>
-                        <p>本期《永安》封面文章。啊；可能打发；宽带计费；阿卡街道口女流啊哈你看见了成看金立数据库完成的车龙宽九段。阿里斯顿会计法理论考试点击率李会计树倒鸟飞龙口夺粮付款交单浪费。大力开发及董力敌</p>
+                        <h4 class="c_green">税文化研究</h4>
+                        [e:loop={75,5,0,0}]
+                        <p><?=$bqr['title']?></p>
+                        [/e:loop]
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_146899.jpg">
         </a>
 
-        <a href="/" target="_blank">
+        <a href="[!--news.url--]a/peixunzhuanti"  target="_blank">
                         <span>
                         <h4 class="c_green">税收大课堂课程</h4>
-                        <p>税收课程。。。</p>
-                        <p>税收课程。。。</p>
-                        <p>税收课程。。。</p>
-                         <p>税收课程。。。</p>
+                        [e:loop={63,5,0,0}]
+                        <p><?=$bqr['title']?></p>
+                        [/e:loop]
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_194666.jpg">
         </a>
-        <a href="/cn/services/index.htm" target="_blank">
+        <a href="[!--news.url--]a/hangyedongcha/zuixinfagui" target="_blank">
                         <span>
-                        <h4 class="c_blue">
-                            最新法规</h4>
-                        <p>法规11111。</p>
-                        <p>法规11111。</p>
-                        <p>法规11111。</p>
-                        <p>法规11111。</p>
+                        <h4 class="c_blue">最新法规</h4>
+                            [e:loop={73,5,0,0}]
+                            <p><?=$bqr['title']?></p>
+                            [/e:loop]
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_u_165756.jpg">
         </a>
 
-        <a href="/social/default.html" class="last" target="_blank">
+        <a href="[!--news.url--]a/jiaruyongan" class="last"  target="_blank">
                         <span>
-                        <h4 class="c_orange">
-                            招聘</h4>
-                        <p>加入我们，一起为丰富人们的沟通与生活而努力。点击查看永安最新的招聘信息。</p>
+                        <h4 class="c_orange"> 招聘</h4>
+                        [e:loop={82,5,0,0}]
+                        <p><?=$bqr['title']?></p>
+                        [/e:loop]
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_u_165757.jpg">
         </a>
-
     </div>
 </div>
 [!--temp.footer--]

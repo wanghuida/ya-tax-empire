@@ -1,1 +1,1 @@
-document.write("<li><a href=\"/a/peixunzhuanti/yinggaizeng/2012-10-11/98.html\" title=\"“营改增”税收政策及实务研讨班邀请函\">“营改增”税收政策及实务研讨班邀</a></li>");
+document.write("<li><a href=\"/a/peixunzhuanti/yinggaizeng/2012-10-11/98.html\" title=\"“营改增”税收政策及实务研讨班邀请函\">“营改增”税收政策及实务研讨班邀</a></li><li><a href=\"/a/peixunzhuanti/yinggaizeng/2012-10-26/108.html\" title=\"税总解读8省市营改增试点征管问题文件\">税总解读8省市营改增试点征管问题</a></li>");
