@@ -95,29 +95,28 @@
 <div class="bound">
     <div class="latest-news">
         <div class="title" style="margin-top:7px; width:40px;font-weight:bold; color:#BB0000;"><a
-                href="aboutus.html/newsroom/index.htm"
-                style="font-weight:bold; color:#BB0000;">新闻</a>：
+                href="[!--news.url--]a/hangyehongcha/gongsixinwen"
+                style="font-weight:bold; color:#BB0000;">新闻：</a>
         </div>
         <div class="content" style="float: none; margin-left: 45px; margin-top: -385px;">
-
-            <div><a href="aboutus.html/newsroom/press-release/hw-195135-gitex---.htm"
-                    target="_blank">永安参加省国税局注册税务师管理中心A级所评定</a></div>
-            <div>
-                <a href="aboutus.html/newsroom/press-release/hw-195133-singlesonecoordinator.htm"
-                   target="_blank">永安举办多起企业培训得到社会热烈响应</a></div>
-            <div><a href="aboutus.html/newsroom/press-release/hw-194982-100g.htm"
-                    target="_blank">永安助力某地产公司税务筹划</a></div>
+        [e:loop={74,10,0,0}]
+        <div><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </div>
+        [/e:loop]
         </div>
 
-        <div class="social-network">
-            <div class="title" style="margin-top:7px; font-weight:bold;color:#333;width:75px;margin-left: 30px;">关注我们
-            </div>
-            <div class="content">
-                <a href="http://www.weibo.com/" class="icons_weibo" target="_blank" title="永安新浪微博"></a>
-                <a href="http://t.qq.com/" class="icons_qq_weibo" target="_blank" title="永安腾讯微博"></a>
-                <a href="aboutus.html/rss-feeds/" class="rss" title="永安Rss"></a>
+        <div class="clear"></div>
 
-            </div>
+    </div>
+
+        <div class="latest-news">
+        <div class="title" style="margin-top:7px; width:40px;font-weight:bold; color:#BB0000;"><a
+                href="[!--news.url--]a/hangyehongcha/gongsixinwen"
+                style="font-weight:bold; color:#BB0000;"></a>
+        </div>
+        <div class="content" style="float: none; margin-left: 45px; margin-top: -385px;">
+        [e:loop={72,10,0,0}]
+        <div><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </div>
+        [/e:loop]
         </div>
 
         <div class="clear"></div>
@@ -132,17 +131,17 @@
         <a href="[!--news.url--]a/hangyedongcha/gongsixinwen" id="feature-trigger"  target="_blank">
             <span>
             <h4 class="c_blue">公司新闻</h4>
-            [e:loop={74,5,0,0}]
-            <p><?=$bqr['title']?></p>
+            [e:loop={74,3,0,0}]
+            · <?=$bqr['title']?><br/>
             [/e:loop]
-            <img src="[!--news.url--]skin/default/images/hw_149255.jpg">
             </span>
+            <img src="[!--news.url--]skin/default/images/hw_149255.jpg">
         </a>
-        <a href="[!--news.url--]a/hangyedongcha/yejiedongtai">
+        <a href="[!--news.url--]a/hangyedongcha/yejiedongtai" target="_blank">
                         <span>
                         <h4 class="c_orange">业界动态</h4>
-                            [e:loop={72,5,0,0}]
-                            <p><?=$bqr['title']?></p>
+                            [e:loop={72,3,0,0}]
+                            · <?=$bqr['title']?><br/>
                             [/e:loop]
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_195116.jpg">
@@ -151,8 +150,8 @@
         <a href="[!--news.url--]a/hangyedongcha/shuiwuwenhua" class="last"  target="_blank">
                         <span>
                         <h4 class="c_green">税文化研究</h4>
-                        [e:loop={75,5,0,0}]
-                        <p><?=$bqr['title']?></p>
+                        [e:loop={75,3,0,0}]
+                        · <?=$bqr['title']?><br/>
                         [/e:loop]
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_146899.jpg">
@@ -162,7 +161,7 @@
                         <span>
                         <h4 class="c_green">税收大课堂课程</h4>
                         [e:loop={63,5,0,0}]
-                        <p><?=$bqr['title']?></p>
+                        · <?=$bqsr[classname]?><br/>
                         [/e:loop]
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_194666.jpg">
@@ -170,8 +169,8 @@
         <a href="[!--news.url--]a/hangyedongcha/zuixinfagui" target="_blank">
                         <span>
                         <h4 class="c_blue">最新法规</h4>
-                            [e:loop={73,5,0,0}]
-                            <p><?=$bqr['title']?></p>
+                            [e:loop={73,3,0,0}]
+                            · <?=$bqr['title']?><br/>
                             [/e:loop]
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_u_165756.jpg">
@@ -180,8 +179,8 @@
         <a href="[!--news.url--]a/jiaruyongan" class="last"  target="_blank">
                         <span>
                         <h4 class="c_orange"> 招聘</h4>
-                        [e:loop={82,5,0,0}]
-                        <p><?=$bqr['title']?></p>
+                        [e:loop={82,3,0,0}]
+                        · <?=$bqr['title']?><br/>
                         [/e:loop]
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_u_165757.jpg">

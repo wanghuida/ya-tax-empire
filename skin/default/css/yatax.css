@@ -442,7 +442,7 @@ background-attachment:scroll; background-color:transparent; z-index: 999; width:
 
 #latest-news-index{ height:35px; background:url(../images/hw_000487.jpg) repeat-x; min-width:1000px; width:auto !important; margin:0px auto; }
 
-#latest-news-index .latest-news{ width:770px; height:35px; float:left; overflow:hidden; }
+#latest-news-index .latest-news{ width:400px; height:35px; float:left; overflow:hidden; }
 #latest-news-index .latest-news a{ color:#666;}
 #latest-news-index .latest-news .title{ width:55px; height:9px; margin:11px 5px 0px 0px; float:left; }
 #latest-news-index .latest-news .content{ float:left; height:35px; width:700px;}
