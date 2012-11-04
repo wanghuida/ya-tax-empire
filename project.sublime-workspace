@@ -8,26 +8,26 @@
 	"buffers":
 	[
 		{
-			"file": "testdata/zk_hangyedongcha_temp.php",
-			"settings":
-			{
-				"buffer_size": 8613,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "testdata/temp.header.php",
 			"settings":
 			{
-				"buffer_size": 17486,
+				"buffer_size": 8286,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "testdata/zk_header_temp.php",
+			"file": "testdata/train.php",
 			"settings":
 			{
-				"buffer_size": 8479,
+				"buffer_size": 8957,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testdata/template_info.txt",
+			"settings":
+			{
+				"buffer_size": 284,
 				"line_ending": "Windows"
 			}
 		}
@@ -35,9 +35,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 185.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"diff",
+				"Git: Diff All"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
 			[
 				"git commit ",
 				"Git: Commit"
@@ -63,10 +71,6 @@
 				"Tidy HTML"
 			],
 			[
-				"Package Control: ",
-				"Package Control: Install Package"
-			],
-			[
 				"for",
 				"Format: Javascript"
 			],
@@ -79,7 +83,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 386.0
+		"width": 498.0
 	},
 	"console":
 	{
@@ -96,19 +100,30 @@
 	},
 	"file_history":
 	[
-		"/D/Dev/coreamp/htdocs/empire/testdata/zk_header_temp.php",
+		"/D/Program Files (x86)/Git/bin/vim",
 		"/D/Dev/coreamp/htdocs/empire/.gitignore",
+		"/D/Dev/coreamp/htdocs/empire/testdata/template_info.txt",
+		"/D/Dev/coreamp/htdocs/empire/d/js/class/class12_hotnews.js",
+		"/D/Dev/coreamp/htdocs/empire/d/js/class/class31_hotnews.js",
+		"/D/Dev/coreamp/htdocs/empire/d/js/class/class31_hotplnews.js",
+		"/D/Dev/coreamp/htdocs/empire/d/js/class/class31_newnews.js",
+		"/D/Dev/coreamp/htdocs/empire/d/js/class/class34_firstnews.js",
+		"/D/Dev/coreamp/htdocs/empire/d/js/class/class34_goodnews.js",
+		"/D/Dev/coreamp/htdocs/empire/testdata/temp/train_clear.htm",
+		"/D/Dev/coreamp/htdocs/empire/info.php",
+		"/D/Dev/coreamp/htdocs/empire/index",
+		"/D/Dev/coreamp/htdocs/empire/testdata/temp.header.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/zk_header_temp.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/zk_hangyedongcha_temp.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/train.php",
 		"/D/Dev/coreamp/server/php-5.4.3/php.ini",
 		"/D/Dev/php/tools/cache/XCache-3.0.0-php-5.4.8-Win32-VC9-x86/Release_TS/xcache-zh-gb2312.ini",
 		"/D/Dev/php/tools/cache/XCache-3.0.0-php-5.4.8-nts-Win32-VC9-x86/Release/xcache-zh-gb2312.ini",
 		"/D/Dev/coreamp/htdocs/empire/description",
 		"/D/Dev/coreamp/htdocs/empire/config",
-		"/D/Dev/coreamp/htdocs/empire/testdata/temp.header.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/zk_content_temp.php",
 		"/C/Users/alang/AppData/Local/Google/Chrome/User Data/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.1_0/main.html",
 		"/D/Dev/coreamp/htdocs/empire/testdata/zk_aboutus_temp.php",
-		"/D/Dev/coreamp/htdocs/empire/testdata/zk_hangyedongcha_temp.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/zk_label.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/zk_list_temp.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/index_clear.php",
@@ -117,7 +132,6 @@
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/train_ok_clear.htm",
 		"/C/Windows/System32/drivers/etc/lmhosts.sam",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/ya_train.css",
-		"/D/Dev/coreamp/htdocs/empire/testdata/temp/train_clear.htm",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/ent_cn_base.css",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/index_i_ok_clean_nologin.html",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp.footer.php",
@@ -224,23 +238,23 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "testdata/zk_hangyedongcha_temp.php",
+					"file": "testdata/temp.header.php",
 					"settings":
 					{
-						"buffer_size": 8613,
+						"buffer_size": 8286,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1007,
-								1007
+								5505,
+								5505
 							]
 						],
 						"settings":
@@ -258,18 +272,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "testdata/temp.header.php",
+					"file": "testdata/train.php",
 					"settings":
 					{
-						"buffer_size": 17486,
+						"buffer_size": 8957,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15542,
-								15542
+								332,
+								332
 							]
 						],
 						"settings":
@@ -280,36 +294,34 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5703.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "testdata/zk_header_temp.php",
+					"file": "testdata/template_info.txt",
 					"settings":
 					{
-						"buffer_size": 8479,
+						"buffer_size": 284,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6403,
-								6403
+								284,
+								284
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"origin_encoding": "UTF-8 with BOM",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 946.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
