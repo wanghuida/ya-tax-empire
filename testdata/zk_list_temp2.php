@@ -17,10 +17,8 @@
 </script>[!--temp.header--]
         <div id="container">
             <div class="bound body">
-                <div>
-                    您当前的位置：[!--newsnav--]
-                </div>
                 <div class="grid215 left">
+                    <div>导航：[!--newsnav--]</div>
                     <div class='leftNav' id='1001'>
                         <div class='top' id='1002'></div>
                         <div class='content' id='1003'>
@@ -49,42 +47,47 @@
                             </div>
                         </div>
                     </div>
-                    <div class="grid215 right">
-                        <div class="search-year">
-                            <div class="body">
-                                <div class="header">
-                                    <div class="icon"></div>按年份查询
-                                </div>
-                                <div class="content">
-                                    <ul>
-                                        <li>
-                                            <a href="/a/hangyedongcha">2012</a>
-                                        </li>
-                                        <li>
-                                            <a href="/a/hangyedongcha">2011</a>
-                                        </li>
-                                        <li>
-                                            <a href="/a/hangyedongcha">2010</a>
-                                        </li>
-                                        <li>
-                                            <a href="/a/hangyedongcha">全部新闻</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
+            <div class="grid215 right">
+                <div class="search-year">
+                    <div class="body">
+                        <div class="header">
+                            <div class="icon"></div>
+                            培训公告
+                        </div>
+                        <div class="content">
+                            <ul>
+                            [e:loop={71,5,0,0}]
+                            <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </li>
+                            [/e:loop]
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="tags">
+                    <div class="body">
+                        <div class="header">
+                            <div class="icon"></div>
+                            热门标签
                         </div>
                         <div class="tags">
-                            <div class="body">
-                                <div class="header">
-                                    <div class="icon"></div>热门标签
-                                </div>
-                                <div class="tags">
-                                    <span class="highlights3"><a href="/">培训业务</a></span> <span class="highlights2"><a href="/">税务咨询</a></span>
-                                </div>
-                            </div>
-                        </div><!--wcmPlaceholder("contact_us", "placeholderDefinitionDocName=PH_CN_MAIN_CONTENT")-->
+                            <span class="highlights3">
+                                <a href="[!--news.url--]a/peixunzhuanti/">培训业务</a>
+                            </span> 
+                            <span class="highlights3">
+                                <a href="[!--news.url--]a/yewujieshao/#117">税务筹划</a>
+                            </span>
+                            <span class="highlights3">
+                                <a href="[!--news.url--]a/yewujieshao/#122">税务代理</a>
+                            </span>
+                            <span class="highlights3">
+                                <a href="[!--news.url--]a/peixunzhuanti/qiyechongzu">企业重组</a>
+                            </span>
+                        </div>
                     </div>
+                </div>
+                <!--wcmPlaceholder("contact_us", "placeholderDefinitionDocName=PH_CN_MAIN_CONTENT")-->
+            </div>
                 </div>
             </div>
         </div>[!--temp.footer--]

@@ -17,10 +17,8 @@
 </script>[!--temp.header--]
         <div id="container">
             <div class="bound body">
-                <div>
-                    您当前的位置：[!--newsnav--]
-                </div>
                 <div class="grid215 left">
+                    <div>导航：[!--newsnav--]</div>
                     <div class='leftNav' id='1001'>
                         <div class='top' id='1002'></div>
                         <div class='content' id='1003'>
