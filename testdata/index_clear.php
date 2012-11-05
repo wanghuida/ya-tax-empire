@@ -114,9 +114,9 @@
                 style="font-weight:bold; color:#BB0000;"></a>
         </div>
         <div class="content" style="float: none; margin-left: 45px; margin-top: -385px;">
-        [e:loop={72,10,0,0}]
-        <div><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </div>
-        [/e:loop]
+            [e:loop={72,10,0,0}]
+            <div><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </div>
+            [/e:loop]
         </div>
 
         <div class="clear"></div>
@@ -131,9 +131,9 @@
         <a href="[!--news.url--]a/hangyedongcha/gongsixinwen" id="feature-trigger"  target="_blank">
             <span>
             <h4 class="c_blue">公司新闻</h4>
-            [e:loop={74,3,0,0}]
-            · <?=$bqr['title']?><br/>
-            [/e:loop]
+                [e:loop={74,1,0,0}]
+                <p><?=$bqr['smalltext']?></p>
+                [/e:loop]
             </span>
             <img src="[!--news.url--]skin/default/images/hw_149255.jpg">
         </a>
@@ -141,36 +141,38 @@
                         <span>
                         <h4 class="c_orange">业界动态</h4>
                             [e:loop={72,3,0,0}]
-                            · <?=$bqr['title']?><br/>
+                            <p><?=$bqr['smalltext']?></p>
                             [/e:loop]
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_195116.jpg">
         </a>
 
-        <a href="[!--news.url--]a/hangyedongcha/shuiwuwenhua" class="last"  target="_blank">
-                        <span>
-                        <h4 class="c_green">税文化研究</h4>
-                        [e:loop={75,3,0,0}]
-                        · <?=$bqr['title']?><br/>
-                        [/e:loop]
-                        </span>
+        <a href="[!--news.url--]a/peixunzhuanti" class="last"  target="_blank">
+            <span>
+                <h4 class="c_green">税收大课堂课程</h4>
+                <p>
+                    [e:loop={63,5,0,0}]
+                    · <?=$bqsr[classname]?><br/>
+                    [/e:loop]
+                </p>
+             </span>                        
             <img src="[!--news.url--]skin/default/images/hw_146899.jpg">
         </a>
 
-        <a href="[!--news.url--]a/peixunzhuanti"  target="_blank">
-                        <span>
-                        <h4 class="c_green">税收大课堂课程</h4>
-                        [e:loop={63,5,0,0}]
-                        · <?=$bqsr[classname]?><br/>
-                        [/e:loop]
-                        </span>
+        <a href="[!--news.url--]a/hangyedongcha/shuiwuwenhua"  target="_blank">
+            <span>
+                <h4 class="c_green">税文化研究</h4>
+                [e:loop={75,3,0,0}]
+                <p><?=$bqr['smalltext']?></p>
+                [/e:loop]
+            </span>
             <img src="[!--news.url--]skin/default/images/hw_194666.jpg">
         </a>
         <a href="[!--news.url--]a/hangyedongcha/zuixinfagui" target="_blank">
                         <span>
                         <h4 class="c_blue">最新法规</h4>
                             [e:loop={73,3,0,0}]
-                            · <?=$bqr['title']?><br/>
+                            <p><?=$bqr['smalltext']?></p>
                             [/e:loop]
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_u_165756.jpg">
@@ -178,10 +180,12 @@
 
         <a href="[!--news.url--]a/jiaruyongan" class="last"  target="_blank">
                         <span>
-                        <h4 class="c_orange"> 招聘</h4>
-                        [e:loop={82,3,0,0}]
-                        · <?=$bqr['title']?><br/>
-                        [/e:loop]
+                        <h4 class="c_orange">招聘</h4>
+                        <p>
+                            [e:loop={82,3,0,0}]
+                            · <?=$bqr['title']?><br/>
+                            [/e:loop]
+                        </p>
                         </span>
             <img src="[!--news.url--]skin/default/images/hw_u_165757.jpg">
         </a>
