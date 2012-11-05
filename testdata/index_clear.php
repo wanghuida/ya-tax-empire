@@ -132,18 +132,20 @@
             <span>
             <h4 class="c_blue">公司新闻</h4>
                 [e:loop={74,1,0,0}]
-                <p><?=$bqr['smalltext']?></p>
+                <h6><?=esub($bqr['title'],30)?></h6>
+                <p><?=esub($bqr['smalltext'],80)?>…</p>
                 [/e:loop]
             </span>
             <img src="[!--news.url--]skin/default/images/hw_149255.jpg">
         </a>
         <a href="[!--news.url--]a/hangyedongcha/yejiedongtai" target="_blank">
-                        <span>
-                        <h4 class="c_orange">业界动态</h4>
-                            [e:loop={72,3,0,0}]
-                            <p><?=$bqr['smalltext']?></p>
-                            [/e:loop]
-                        </span>
+            <span>
+                <h4 class="c_orange">业界动态</h4>
+                [e:loop={72,1,0,0}]
+                <h6><?=esub($bqr['title'],30)?></h6>
+                <p><?=esub($bqr['smalltext'],80)?>…</p>
+                [/e:loop]
+            </span>
             <img src="[!--news.url--]skin/default/images/hw_195116.jpg">
         </a>
 
@@ -162,31 +164,33 @@
         <a href="[!--news.url--]a/hangyedongcha/shuiwuwenhua"  target="_blank">
             <span>
                 <h4 class="c_green">税文化研究</h4>
-                [e:loop={75,3,0,0}]
-                <p><?=$bqr['smalltext']?></p>
+                [e:loop={75,1,0,0}]
+                <h6><?=esub($bqr['title'],30)?></h6>
+                <p><?=esub($bqr['smalltext'],80)?>…</p>
                 [/e:loop]
             </span>
             <img src="[!--news.url--]skin/default/images/hw_194666.jpg">
         </a>
         <a href="[!--news.url--]a/hangyedongcha/zuixinfagui" target="_blank">
-                        <span>
-                        <h4 class="c_blue">最新法规</h4>
-                            [e:loop={73,3,0,0}]
-                            <p><?=$bqr['smalltext']?></p>
-                            [/e:loop]
-                        </span>
+            <span>
+                <h4 class="c_blue">最新法规</h4>
+                [e:loop={73,1,0,0}]
+                <h6><?=esub($bqr['title'],30)?></h6>
+                <p><?=esub($bqr['smalltext'],80)?>…</p>
+                [/e:loop]
+            </span>
             <img src="[!--news.url--]skin/default/images/hw_u_165756.jpg">
         </a>
 
         <a href="[!--news.url--]a/jiaruyongan" class="last"  target="_blank">
-                        <span>
-                        <h4 class="c_orange">招聘</h4>
-                        <p>
-                            [e:loop={82,3,0,0}]
-                            · <?=$bqr['title']?><br/>
-                            [/e:loop]
-                        </p>
-                        </span>
+            <span>
+                <h4 class="c_orange">招聘</h4>
+                <p>
+                [e:loop={82,3,0,0}]
+                · <?=$bqr['title']?><br/>
+                [/e:loop]
+                </p>
+            </span>
             <img src="[!--news.url--]skin/default/images/hw_u_165757.jpg">
         </a>
     </div>
