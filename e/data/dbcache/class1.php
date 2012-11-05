@@ -59,7 +59,7 @@ $class_r[64]=Array('classid'=>64,
 'modid'=>1,
 'lencord'=>25,'link_num'=>10,
 'newstempid'=>10,
-'listtempid'=>11,
+'listtempid'=>10,
 'newspath'=>'Y-m-d',
 'filetype'=>'.html',
 
