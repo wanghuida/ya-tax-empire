@@ -59,7 +59,7 @@ if($public_r[addnews_ok])
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>帝国网站管理系统</title>
+<title>网站管理系统</title>
 <link href="adminstyle/<?=$loginadminstyleid?>/adminstyle.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -67,7 +67,7 @@ if($public_r[addnews_ok])
 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr> 
     <td><div align="center"><strong> 
-        <h3>欢迎使用帝国网站管理系统 (EmpireCMS)</h3>
+        <h3>欢迎使用网站管理系统</h3>
         </strong></div></td>
   </tr>
   <tr> 
@@ -139,22 +139,12 @@ if($public_r[addnews_ok])
       </table></td>
   </tr>
   <tr> 
-    <td><table width="98%" border="0" align="center" cellpadding="3" cellspacing="1">
-        <tr> 
-          <td height="42"> <div align="center"><strong><font color="#0000FF" size="3">帝国网站管理系统全面开源 
-              － 最安全、最稳定的开源CMS系统</font></strong></div></td>
-        </tr>
-      </table></td>
+    <td></td>
   </tr>
   <tr> 
     <td><table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" class="tableborder">
         <tr class="header"> 
-          <td height="25" colspan="2"> <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td width="50%"><a href="#"><strong>系统信息</strong></a></td>
-                <td><div align="right"><a href="http://www.phome.net/ebak2010/" target="_blank"><strong>帝国MYSQL备份王下载</strong></a></div></td>
-              </tr>
-            </table></td>
+          <td height="25" colspan="2"></td>
         </tr>
         <tr> 
           <td width="43%"><strong>网站信息</strong></td>
@@ -196,12 +186,10 @@ if($public_r[addnews_ok])
               </tr>
               <tr> 
                 <td height="23">程序版本:</td>
-                <td> <a href="http://www.phome.net" target="_blank"><strong>EmpireCMS 
-                  v<?=EmpireCMS_VERSION?></strong></a> <font color="#666666">(<?=EmpireCMS_LASTTIME?>)</font></td>
-              </tr>
+                </tr>
               <tr>
                 <td height="23">程序编码:</td>
-                <td><?=EmpireCMS_CHARVER?></td>
+
               </tr>
             </table></td>
           <td valign="top" bgcolor="#FFFFFF"> <table width="100%" border="0" cellspacing="1" cellpadding="3">
@@ -259,66 +247,12 @@ if($public_r[addnews_ok])
     <td>&nbsp;</td>
   </tr>
   <tr> 
-    <td><table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" class="tableborder">
-        <tr class="header"> 
-          <td height="25" colspan="2">官方信息</td>
-        </tr>
-        <tr> 
-          <td width="43%" bgcolor="#FFFFFF"> 
-            <table width="100%" border="0" cellpadding="3" cellspacing="1">
-              <tr bgcolor="#FFFFFF"> 
-                <td width="28%" height="25">帝国官方主页</td>
-                <td width="72%" height="25"><a href="http://www.phome.net" target="_blank">http://www.phome.net</a></td>
-              </tr>
-              <tr bgcolor="#FFFFFF"> 
-                <td height="25">帝国官方论坛</td>
-                <td height="25"><a href="http://bbs.phome.net" target="_blank">http://bbs.phome.net</a></td>
-              </tr>
-              <tr bgcolor="#FFFFFF"> 
-                <td height="25">帝国产品中心</td>
-                <td height="25"><a href="http://www.phome.net/product/" target="_blank">http://www.phome.net/product/</a></td>
-              </tr>
-              <tr bgcolor="#FFFFFF"> 
-                <td height="25">公司网站</td>
-                <td height="25"><a href="http://www.digod.com" target="_blank">http://www.digod.com</a></td>
-              </tr>
-            </table>
-          </td>
-          <td width="57%" height="125" valign="top" bgcolor="#FFFFFF"> 
-            <IFRAME frameBorder="0" name="getinfo" scrolling="no" src="ginfo.php" style="HEIGHT:100%;VISIBILITY:inherit;WIDTH:100%;Z-INDEX:2"></IFRAME></td>
-        </tr>
-      </table></td>
+    <td></td>
   </tr>
   <tr> 
     <td>&nbsp;</td>
   </tr>
-  <tr> 
-    <td><table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" class="tableborder">
-        <tr class="header"> 
-          <td height="25">EmpireCMS 开发团队</td>
-        </tr>
-        <tr> 
-          <td bgcolor="#FFFFFF"><table width="43%" border="0" cellpadding="3" cellspacing="1">
-              <tr bgcolor="#FFFFFF"> 
-                <td width="28%" height="25">版权所有</td>
-                <td width="72%"><a href="http://www.digod.com" target="_blank">帝兴软件开发有限公司</a></td>
-              </tr>
-              <tr bgcolor="#FFFFFF"> 
-                <td height="25">开发与支持团队</td>
-                <td>wm_chief、amt、帝兴、小游、zeedy</td>
-              </tr>
-              <tr bgcolor="#FFFFFF"> 
-                <td height="25">论坛管理</td>
-                <td>禾火木风、yingnt、hicode、sooden</td>
-              </tr>
-              <tr bgcolor="#FFFFFF"> 
-                <td height="25">特别感谢</td>
-                <td>老鬼、小林、天浪歌、TryLife、5starsgeneral</td>
-              </tr>
-            </table></td>
-        </tr>
-      </table></td>
-  </tr>
+
   <tr>
     <td>&nbsp;</td>
   </tr>
