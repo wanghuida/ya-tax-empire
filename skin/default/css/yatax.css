@@ -1784,16 +1784,8 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
     border-top: solid 1px #F1F1F1;
     margin-top: 10px;
 }
-.grid550_l #thetitle{
-    font-weight: bold;
-    font-size: large;
-    text-align: center;
-}
-.teamintro{
-	height: 170px;
-}
-.teamintro .teampic{
-	float:left;
-	margin-right:40px;
+.thetitle {
+	color: #000000;
+	font-family: Verdana;
 }
 /*zhangkun css end*/
