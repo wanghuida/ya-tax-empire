@@ -6,7 +6,5 @@ zk_content_temp.php：自定义内容页面模板，所有栏目内容页面都�
 zk_hangyedongcha_temp.php：行业洞察自定义页面模板
 zk_label.php：自定义标签，用于抓去子栏目标题
 zk_list_temp.php：列表模板，用于新闻列表等页面
-
 zk_list_temp2.php：列表模板，用于单页面终级栏目，如：加入永安
-
 zk_list_temp3.php：列表模板，与上面一个的区别是两栏式，无右侧栏
