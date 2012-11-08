@@ -30,19 +30,16 @@
                 </div>
                 <div class="grid765_r left">
                     <div class="grid550_l left">
+                        <img src="[!--news.url--]skin/default/images/mybanner.jpg" />
                         <div class="core-network">
                             <div class="content">
                                 <!--列表模板主页面开始-->
-                                <a name="atop"></a>
-                                <div class="title">
-                                    [!--class.name--]
-                                </div>
-                                <hr>
+                                <div class="hr"></div>
                                 [e:loop={"select * from phome_ecms_news_data_1 where classid=$GLOBALS[navclassid] order by id desc",10,24,0}]
                                 <div id="<?=$bqr['id']?>">
                                     <?=$bqr['newstext']?>
                                     </div>
-                                    <a style="padding-left: 90%;" href="#atop">回顶部</a>
+                                    <a style="padding-left: 90%;" href="#header">回顶部</a>
                                 <div class="hr"></div>[/e:loop] <!--列表模板主页面结束-->
                             </div>
                         </div>

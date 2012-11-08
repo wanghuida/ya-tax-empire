@@ -18,35 +18,7 @@
 
 [!--temp.header--]
 
-<div id="mainview" class="banner" animate="hide" autohidecontroller="true">
-    <ul class="mainviewul" index="0" style="width: 1349px; position: relative;">
 
-        <!--根据content id查询图片路径-->
-
-
-        <a href="[!--news.url--]skin/default/images/ent_cn_img_train_banner.jpg"
-           name="forsspu" style="display:none;"></a>
-        <li src="./images/ent_cn_img_train_banner.jpg"
-            backgroundcolor="#dde5de"
-            style="position: absolute; left: 0px; top: 0px; z-index: 1;
-             background-image: url([!--news.url--]skin/default/images/ent_cn_img_train_banner.jpg);
-             background-attachment: scroll; background-color: rgb(221, 229, 222); width: 1349px;
-              background-position: 50% 0%; background-repeat: no-repeat no-repeat;">
-            <a href="/"> </a></li>
-
-
-    </ul>
-    <div class="mainview_controler">
-        <table align="center">
-            <tbody>
-            <tr>
-                <td align="center">
-                </td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
 
 <div id="content" class="nobg">
     <h2 class="productitle wryh"></h2>
@@ -68,7 +40,7 @@
                 <li>
                     <img alt="产品培训" src="[!--news.url--]skin/default/images/hw_s_195891.jpg">
                     <p>
-                        <a href="/" class="title wryh">企业重组培训</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/qiyechongzu" class="title wryh">企业重组培训</a>
                     </p>
                     <p class="col4">
                         [e:loop={68,3,0,0}]
@@ -80,23 +52,23 @@
                     <img alt="培训合作伙伴" src="[!--news.url--]skin/default/images/hw_s_195892.jpg">
 
                     <p>
-                        <a href="/"
-                           class="title wryh">税收大课堂</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/"
+                           class="title wryh">网校课堂</a>
                     </p>
 
                     <p class="col1">
-                        <a href="/" class="leftarrow">注册税务师培训税</a>
-                        <a href="/" class="leftarrow">初级会计实务培训</a>
-                        <a href="/" class="leftarrow">中级会计培训</a>
-                        <a href="/" class="leftarrow">财务经理高级培训</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/" class="leftarrow">注册税务师课程</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/" class="leftarrow">初级会计课程</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/" class="leftarrow">中级会计课程</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/" class="leftarrow">财务经理高级课程</a>
                     </p>
                 </li>
             </ul>
 
             <div class="block mb10 mt10">
                 <h2 class="redtitle wryh">
-                    <a href="/" class="link_title">培训课程公告</a>
-                    <a href="/" class="more">更多</a>
+                    <a href="[!--news.url--]a/peixunzhuanti/peixungonggao" class="link_title">培训课程公告</a>
+                    <a href="[!--news.url--]a/peixunzhuanti/peixungonggao" class="more">更多</a>
                 </h2>
                 <ul class="subject">
                     [e:loop={71,5,0,0}]
@@ -105,6 +77,17 @@
                     <a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a>
                     </li>
                     [/e:loop]
+                </ul>
+            </div>
+            <div class="block mb10 mt10">
+                <h2 class="redtitle wryh">
+                    <a href="[!--news.url--]a/peixunzhuanti" class="link_title">资料下载区</a>
+                    <a href="[!--news.url--]a/peixunzhuanti" class="more">更多</a>
+                </h2>
+                <ul class="subject">
+                    <li class="leftarrow">
+                        暂无
+                    </li>
                 </ul>
             </div>
         </div>

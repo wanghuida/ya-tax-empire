@@ -41,13 +41,14 @@
         </div>
         <div class="grid765_r left">
             <div class="grid550_l left">
+                <script type="text/javascript">
+                    var sHTML="<img src='[!--news.url--]skin/default/images/mybanner{N}.jpg'>"
+                    document.write(sHTML.replace("{N}",Math.random()*3|0)) 
+                </script>
                 <div class="core-network">
                     <div class="content">
                         <!--列表模板主页面开始-->
-                        <div class="title">
-                            [!--class.name--]
-                        </div>
-                        <hr>
+                        <div class="hr"></div>
                         <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
                             <tr>
                                 <td>

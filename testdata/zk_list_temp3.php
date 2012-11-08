@@ -29,17 +29,17 @@
                     </div>
                 </div>
                 <div class="grid765_r left">
+                    <script type="text/javascript">
+                        var sHTML="<img src='[!--news.url--]skin/default/images/mybanner{N}.jpg'>"
+                        document.write(sHTML.replace("{N}",Math.random()*3|0)) 
+                    </script>
                     <div class="core-network">
                         <div class="content">
                             <!--列表模板主页面开始-->
-                            <a name="atop"></a>
-                            <div class="title">
-                                [!--class.name--]
-                            </div>
-                            <hr>
+                            <div class="hr"></div>
                             [e:loop={"select * from phome_ecms_news_data_1 where classid=$GLOBALS[navclassid] order by id desc",10,24,0}]
                             <div id="&lt;?=$bqr['id']?&gt;"><?=$bqr['newstext']?></div>
-                                <a style="padding-left: 90%;" href="#atop">
+                                <a style="padding-left: 90%;" href="#header">
                                     <img src="[!--news.url--]/skin/default/images/totop.jpg">
                                 </a>
                             <div class="hr"></div>[/e:loop] <!--列表模板主页面结束-->
