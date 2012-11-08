@@ -1,1 +1,1 @@
-document.write("");
+document.write("<li><a href=\"/a/hangyedongcha/shuiwuwenhua/2012-11-05/152.html\" title=\"“营改增”试点热中的冷思考\">“营改增”试点热中的冷思考</a></li>");

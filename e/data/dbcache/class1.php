@@ -112,7 +112,7 @@ $class_r[67]=Array('classid'=>67,
 'bname'=>'企业重组培训',
 
 'reorder'=>'newstime DESC',
-'dtlisttempid'=>1);
+'dtlisttempid'=>9);
 $class_r[68]=Array('classid'=>68,
 'bclassid'=>63,
 'classname'=>'营改增专题',

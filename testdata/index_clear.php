@@ -151,11 +151,11 @@
 
         <a href="[!--news.url--]a/peixunzhuanti" class="last"  target="_blank">
             <span>
-                <h4 class="c_green">税收大课堂课程</h4>
+                <h4 class="c_green">税收课堂</h4>
                 <p>
-                    [e:loop={63,5,0,0}]
-                    · <?=$bqsr[classname]?><br/>
-                    [/e:loop]
+                    · 营改增培训<br/>
+                    · 企业重组培训<br/>
+                    · 注册税务师培训<br/>
                 </p>
              </span>                        
             <img src="[!--news.url--]skin/default/images/hw_146899.jpg">

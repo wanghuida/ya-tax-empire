@@ -1,1 +1,1 @@
-document.write("");
+document.write("<li><a href=\"/a/hangyedongcha/gongsixinwen/2012-11-05/148.html\" title=\"明年交通行业营改增最可能全国推行\">明年交通行业营改增最可能全国推行</a></li>");
