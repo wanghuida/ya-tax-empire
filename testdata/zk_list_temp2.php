@@ -30,7 +30,10 @@
                 </div>
                 <div class="grid765_r left">
                     <div class="grid550_l left">
-                        <img src="[!--news.url--]skin/default/images/mybanner.jpg" />
+                    <script type="text/javascript">
+                        var sHTML="<img src='[!--news.url--]skin/default/images/mybanner{N}.jpg'>"
+                        document.write(sHTML.replace("{N}",Math.random()*3|0)) 
+                    </script>
                         <div class="core-network">
                             <div class="content">
                                 <!--列表模板主页面开始-->
