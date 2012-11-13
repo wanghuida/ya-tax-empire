@@ -7,6 +7,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 185,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "testdata/zk_label.php",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -76,15 +92,52 @@
 	},
 	"file_history":
 	[
+		"/D/Dev/coreamp/htdocs/empire/testdata/template_info.txt",
+		"/D/Dev/js/proxy/popup.html",
+		"/D/Backup/i9023/root/G14/PG58IMG/android-info.txt",
+		"/D/Backup/i9023/root/Rom/Sensation_new_tools/PG58IMG_g14/android-info.txt",
+		"/C/Users/alang/Downloads/145014 (2).user.js",
+		"/C/Users/alang/AppData/Local/Google/Chrome/User Data/Default/Local Storage/chrome-extension_febhedbcmjfndciicgfnmaohcaopileb_0.localstorage",
+		"/D/git/yatax-cms/.git/config",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmseditor/fckeditor/editor/dialog/fck_about.html",
+		"/D/Downloads/s/goagent-goagent-v2.1.9-7-g86b225a/goagent-goagent-86b225a/local/proxy.ini",
+		"/D/Downloads/s/goagent-goagent-v2.1.9-7-g86b225a/goagent-goagent-86b225a/server/python/app.yaml",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/adminstyle/1/menu/usercp.php",
+		"/D/Dev/coreamp/htdocs/empire/e/install/data/empirecms.com.sql",
+		"/D/Dev/coreamp/htdocs/empire/project.sublime-workspace",
+		"/D/Dev/coreamp/htdocs/empire/e/data/dbcache/notcj.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/index.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/blank.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/admin.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/index_clear.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/main.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/map.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsadmin.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmschtml.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmscj.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsclass.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmscom.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsfile.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsinfo.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsmember.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmstemp.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/enews.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/adminstyle/1/AdminMain.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/adminstyle/1/index.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/adminstyle/1/left.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/adminstyle/2/AdminMain.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/adminstyle/2/index.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/zk_content_temp.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/temp.header.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/temp.footer.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/train.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/zk_label.php",
+		"/D/Dev/coreamp/htdocs/empire/.gitignore",
 		"/D/Dev/coreamp/htdocs/empire/.git/config",
 		"/D/Dev/java/mylhide/.git/config",
 		"/C/Users/alang/.bashrc",
 		"/D/Dev/java/mylhide/README.md",
 		"/C/Users/alang/.ssh/id_rsa.pub",
-		"/D/Dev/coreamp/htdocs/empire/testdata/temp.header.php",
-		"/D/Dev/coreamp/htdocs/empire/.gitignore",
-		"/D/Dev/coreamp/htdocs/empire/testdata/template_info.txt",
-		"/D/Dev/coreamp/htdocs/empire/testdata/train.php",
 		"/D/Program Files (x86)/Git/bin/vim",
 		"/D/Dev/coreamp/htdocs/empire/d/js/class/class12_hotnews.js",
 		"/D/Dev/coreamp/htdocs/empire/d/js/class/class31_hotnews.js",
@@ -102,12 +155,9 @@
 		"/D/Dev/php/tools/cache/XCache-3.0.0-php-5.4.8-nts-Win32-VC9-x86/Release/xcache-zh-gb2312.ini",
 		"/D/Dev/coreamp/htdocs/empire/description",
 		"/D/Dev/coreamp/htdocs/empire/config",
-		"/D/Dev/coreamp/htdocs/empire/testdata/zk_content_temp.php",
 		"/C/Users/alang/AppData/Local/Google/Chrome/User Data/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.1_0/main.html",
 		"/D/Dev/coreamp/htdocs/empire/testdata/zk_aboutus_temp.php",
-		"/D/Dev/coreamp/htdocs/empire/testdata/zk_label.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/zk_list_temp.php",
-		"/D/Dev/coreamp/htdocs/empire/testdata/index_clear.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/yatax.css",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/ent_cn_common.css",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/train_ok_clear.htm",
@@ -115,7 +165,6 @@
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/ya_train.css",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/css/ent_cn_base.css",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/index_i_ok_clean_nologin.html",
-		"/D/Dev/coreamp/htdocs/empire/testdata/temp.footer.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/index_hw_ok.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/index1.php",
 		"/C/Users/alang/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -149,13 +198,15 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
 		"height": 0.0,
 		"where_history":
 		[
+			"D:\\Dev\\coreamp\\htdocs\\empire\\",
+			"D:\\Dev\\coreamp\\htdocs\\empire\\e\\admin",
 			""
 		]
 	},
@@ -164,6 +215,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"email",
+			"欢迎使用帝国网站管理系统",
+			"欢迎使用帝国网站管理系统 (EmpireCMS)",
 			"mmap",
 			"xcache",
 			"extension",
@@ -219,8 +273,63 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "testdata/zk_label.php",
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

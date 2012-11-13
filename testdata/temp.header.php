@@ -170,13 +170,19 @@
         <div class="menucontentdiv">
             <div class="menufillet_e"></div>
             <div class="trad clearfix">
-                <ul class="taxonomy">
-                    <h2><a href="[!--news.url--]a/jiaruyongan">近期招聘</a></h2>
-                    [e:loop={'select * from phome_ecms_news where classid=82 order by id desc',5,24,0}]
-                    <a href="[!--news.url--]a/jiaruyongan#%3C?=$bqr['id']?%3E" class="topfrx"><?=$bqr['title']?></a><br />
-                    [/e:loop]
-
+                <ul class="list">
+                    <li><a href="[!--news.url--]a/jiaruyongan/" class="topfrx">总经理助理</a></li>
+                    <li><a href="[!--news.url--]a/jiaruyongan/" class="topfrx">高级项目经理</a></li>
+                    <li><a href="[!--news.url--]a/jiaruyongan/" class="topfrx">项目助理</a></li>
                 </ul>
+                <ul class="list">
+                    <li><a href="[!--news.url--]a/jiaruyongan/" class="topfrx">教育项目经理</a></li>
+                </ul>
+                <ul class="list last">
+                    <li><a href="[!--news.url--]a/jiaruyongan/" class="topfrx">网站产品经理</a></li>
+                <li><a href="[!--news.url--]a/jiaruyongan/" class="topfrx">技术与开发人员</a></li>
+                </ul>
+
 
                <div class="verticalLine"></div>
 
