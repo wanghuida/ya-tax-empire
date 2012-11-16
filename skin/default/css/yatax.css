@@ -288,7 +288,7 @@ font-variant: ;
 /*alang add end*/
 
 #header{ background-color:#f8f8f8; background-image:url(../images/hw_000469.jpg); background-repeat:repeat-x; height:60px; border-bottom: 1px solid #FFFFFF; min-width:1000px; width:auto !important; margin:0px auto; }
-#logo{ float:left; margin-top:9px; }
+#logo{ float:left; /*margin-top:9px;*/ }
 #header .topnav{ float:right; margin-top:25px; }
 #header .topnav div{ float:left;padding-left:1px; }
 #header .topnav div a{ color:#666; }

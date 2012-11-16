@@ -40,8 +40,8 @@
                 <div class="core-network">
                     <div class="content">
                     <div class="hr"></div>
-                        <div id="thetitle">
-                            [!--title--]
+                        <div align="center">
+                            <strong>[!--title--]</strong>
                         </div>
                         <br>
 

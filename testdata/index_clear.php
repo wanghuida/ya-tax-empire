@@ -132,7 +132,7 @@
             <span>
             <h4 class="c_blue">公司新闻</h4>
                 [e:loop={74,1,0,0}]
-                <h6 class="thetitle"><?=esub($bqr['title'],30)?></h6>
+                <h6 class="thetitle"><?=esub($bqr['title'],28)?></h6>
                 <p><?=esub($bqr['smalltext'],80)?>…</p>
                 [/e:loop]
             </span>
@@ -142,7 +142,7 @@
             <span>
                 <h4 class="c_orange">业界动态</h4>
                 [e:loop={72,1,0,0}]
-                <h6 class="thetitle"><?=esub($bqr['title'],30)?></h6>
+                <h6 class="thetitle"><?=esub($bqr['title'],28)?></h6>
                 <p><?=esub($bqr['smalltext'],80)?>…</p>
                 [/e:loop]
             </span>
@@ -165,7 +165,7 @@
             <span>
                 <h4 class="c_green">税文化研究</h4>
                 [e:loop={75,1,0,0}]
-                <h6 class="thetitle"><?=esub($bqr['title'],30)?></h6>
+                <h6 class="thetitle"><?=esub($bqr['title'],28)?></h6>
                 <p><?=esub($bqr['smalltext'],80)?>…</p>
                 [/e:loop]
             </span>
@@ -175,7 +175,7 @@
             <span>
                 <h4 class="c_blue">最新法规</h4>
                 [e:loop={73,1,0,0}]
-                <h6 class="thetitle"><?=esub($bqr['title'],30)?></h6>
+                <h6 class="thetitle"><?=esub($bqr['title'],28)?></h6>
                 <p><?=esub($bqr['smalltext'],80)?>…</p>
                 [/e:loop]
             </span>
