@@ -510,7 +510,7 @@ padding:25px 0 0 0;overflow:hidden;}
 /* grid */
 
  
-.body{ margin-bottom:10px; clear:both; padding:22px 0 0;}
+.body{ margin-bottom:10px; clear:both; padding:10px 0 0;}
 .grid215{ width: 210px;display:inline; margin-top: 2px;}
 .grid215 .block {margin-bottom:15px; }
 .grid215 .leftNav{ min-height:0px; }

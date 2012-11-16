@@ -29,8 +29,8 @@
 [!--temp.header--]
 <div id="container">
     <div class="bound body">
-        <div class="grid215 left">
-            <div>导航：[!--newsnav--]</div>
+        <div> 您的位置：[!--newsnav--]</div>
+        <div class="grid215 left">            
             <div class='leftNav' id='1001'>
                 <div class='top' id='1002'></div>
                 <div class='content' id='1003'>
@@ -41,10 +41,36 @@
         </div>
         <div class="grid765_r left">
             <div class="grid550_l left">
-                <script type="text/javascript">
-                    var sHTML="<img src='[!--news.url--]skin/default/images/mybanner{N}.jpg'>"
-                    document.write(sHTML.replace("{N}",Math.random()*3|0)) 
-                </script>
+                    <script type="text/javascript">
+                        var theClass = [!--self.classid--]
+                        switch(theClass){
+                            case 62:
+                            var sHTML="<img src='[!--news.url--]skin/default/images/mybanner0.jpg'>"
+                            break
+                            case 64:
+                            sHTML="<img src='[!--news.url--]skin/default/images/mybanner1.jpg'>"
+                            break
+                            case 82:
+                            sHTML="<img src='[!--news.url--]skin/default/images/mybanner2.jpg'>"
+                            break
+                            case 72:
+                            sHTML="<img src='[!--news.url--]skin/default/images/mybanner3.jpg'>"
+                            break
+                            case 73:
+                            sHTML="<img src='[!--news.url--]skin/default/images/mybanner4.jpg'>"
+                            break
+                            case 74:
+                            sHTML="<img src='[!--news.url--]skin/default/images/mybanner5.jpg'>"
+                            break
+                            case 75:
+                            sHTML="<img src='[!--news.url--]skin/default/images/mybanner6.jpg'>"
+                            break
+                            default:
+                            sHTML="<img src='[!--news.url--]skin/default/images/mybanner7.jpg'>"
+                        }
+                        
+                        document.write(sHTML) 
+                    </script>
                 <div class="core-network">
                     <div class="content">
                         <!--列表模板主页面开始-->
