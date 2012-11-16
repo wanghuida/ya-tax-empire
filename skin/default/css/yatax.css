@@ -109,7 +109,7 @@ h2.productitle a.bshareDiv{float:right; display:block; margin-left:4px!important
 h2.productitle span.redtext{color:#990000; float:left;}
 h2.productitle p{display:block; width:68%; overflow:hidden; line-height:24px; font-family:Arial,'&#23435;&#20307;'; padding-bottom:5px;}
 ul.productblock{width:750px; display:block; overflow:hidden;}
-ul.productblock li{float:left; display:block; width:242px; height:269px; overflow:hidden; background:url(../images/ent_cn_img_product_topbg.png) left top no-repeat scroll transparent; margin-right:9px; padding:0px 1px;}
+ul.productblock li{float:left; display:block; width:242px; height:350px; overflow:hidden; background:url(../images/ent_cn_img_product_topbg.png) left top no-repeat scroll transparent; margin-right:9px; padding:0px 1px;}
 ul.productblock li.nomr{margin-right:0px;}
 ul.productblock li img{margin:0px; padding:0px; display:block;}
 ul.productblock li p{display:block; margin:20px auto 0px auto; width:195px; overflow:hidden; line-height:24px; zoom:1}

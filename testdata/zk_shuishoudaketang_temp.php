@@ -28,11 +28,12 @@
                 <li>
                     <img alt="参加培训" src="[!--news.url--]skin/default/images/hw_s_195890.jpg">
                     <p>
-                        <a href="[!--news.url--]a/peixunzhuanti/yinggaizeng" class="title wryh">营改增专题</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/yinggaizeng" style="float:left" class="title wryh">营改增专题</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/yinggaizeng" style="float:right;color:#900" class="more">更多</a>
                     </p>
 
                     <p class="col4">
-                        [e:loop={68,3,0,0}]
+                        [e:loop={68,4,0,0}]
                         <a href="<?=$bqsr[titleurl]?>" class="leftarrow"  target="_blank"><?=esub($bqr[title],36)?></a>
                         [/e:loop]
                     </p>
@@ -40,10 +41,11 @@
                 <li>
                     <img alt="产品培训" src="[!--news.url--]skin/default/images/hw_s_195891.jpg">
                     <p>
-                        <a href="[!--news.url--]a/peixunzhuanti/qiyechongzu" class="title wryh">企业重组培训</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/qiyechongzu" style="float:left" class="title wryh">企业重组培训</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/qiyechongzu" style="float:right;color:#900" class="more">更多</a>
                     </p>
                     <p class="col4">
-                        [e:loop={68,3,0,0}]
+                        [e:loop={67,4,0,0}]
                         <a href="<?=$bqsr[titleurl]?>" class="leftarrow"  target="_blank"><?=esub($bqr[title],36)?></a>
                         [/e:loop]
                     </p>
@@ -52,15 +54,14 @@
                     <img alt="培训合作伙伴" src="[!--news.url--]skin/default/images/hw_s_195892.jpg">
 
                     <p>
-                        <a href="[!--news.url--]a/peixunzhuanti/"
-                           class="title wryh">网校课堂</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/zhushui" style="float:left" class="title wryh">网校课堂</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/zhushui" style="float:right;color:#900" class="more">更多</a>
                     </p>
 
-                    <p class="col1">
-                        <a href="[!--news.url--]a/peixunzhuanti/" class="leftarrow">注册税务师课程</a>
-                        <a href="[!--news.url--]a/peixunzhuanti/" class="leftarrow">初级会计课程</a>
-                        <a href="[!--news.url--]a/peixunzhuanti/" class="leftarrow">中级会计课程</a>
-                        <a href="[!--news.url--]a/peixunzhuanti/" class="leftarrow">财务经理高级课程</a>
+                     <p class="col4">
+                        [e:loop={69,4,0,0}]
+                        <a href="<?=$bqsr[titleurl]?>" class="leftarrow"  target="_blank"><?=esub($bqr[title],36)?></a>
+                        [/e:loop]
                     </p>
                 </li>
             </ul>
