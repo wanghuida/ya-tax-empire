@@ -1211,7 +1211,7 @@ input.Cancle{width:90px; height:30px; background:url(../images/hw_000980.gif) -9
 .subscription .header .icon { background-position: 0 -375px; }
 .subscription .content {background:#F2F2F2 none repeat scroll 0 0;padding:10px 5px 10px 15px;}
 .subscription ul{ margin:0px; }
-.grid215 .content li{ background:url(../images/hw_072210.gif) no-repeat 3px 8px; padding-left:12px; line-height:18px; zoom:1; }
+.grid215 .content li{ background:url(../images/hw_072210.gif) no-repeat 3px 8px; padding-left:12px; padding-bottom:8px;line-height:18px; zoom:1; }
 
 /* successStroy detail page  successStroy/suc */
 .suc-article .content{ padding:15px 15px;}

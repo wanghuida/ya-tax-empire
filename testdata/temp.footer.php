@@ -27,9 +27,9 @@
             <div class="section information">
                 <span class="title">财税大课堂</span>
                 <ul>
-                    <li><a href="[!--news.url--]a/peixunzhuanti/yinggaizeng/">营改增</a></li>
-                    <li><a href="[!--news.url--]a/peixunzhuanti/qiyechongzu/">企业重组</a></li>
-                    <li><a href="[!--news.url--]a/peixunzhuanti/zhushui/">网校课堂</a></li>
+                    <li><a href="[!--news.url--]a/peixunzhuanti/yinggaizeng/">营改增培训</a></li>
+                    <li><a href="[!--news.url--]a/peixunzhuanti/qiyechongzu/">企业重组培训</a></li>
+                    <li><a href="[!--news.url--]a/peixunzhuanti/zhushui/">注册税务师培训</a></li>
                     <li><a href="[!--news.url--]a/peixunzhuanti/peixungonggao/">培训公告</a></li>
                 </ul>
             </div>
