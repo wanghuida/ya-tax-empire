@@ -30,7 +30,7 @@
                 </div>
                 <div class="grid765_r left">
                     <div class="grid550_l left">
-                    <script type="text/javascript">
+                        <script type="text/javascript">
                         var theClass = [!--self.classid--]
                         switch(theClass){
                             case 62:
@@ -59,7 +59,7 @@
                         }
                         
                         document.write(sHTML) 
-                    </script>
+                        </script>
                         <div class="core-network">
                             <div class="content">
                                 <!--列表模板主页面开始-->
@@ -84,6 +84,22 @@
                             <ul>
                             [e:loop={71,5,0,0}]
                             <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </li>
+                            [/e:loop]
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="search-year">
+                    <div class="body">
+                        <div class="header">
+                            <div class="icon"></div>
+                            最新动态
+                        </div>
+                        <div class="content">
+                            <ul>
+                            [e:loop={'select * from phome_ecms_news where classid REGEXP "6[789]" order by id desc',5,24,0}]
+                                <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a></li>
                             [/e:loop]
                             </ul>
                         </div>
