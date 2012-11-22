@@ -152,8 +152,7 @@
                 <ul class="m_box">
                     <li><a href="[!--news.url--]a/guanyuwomen/gongsijieshao/">
                         <img height="189" width="142" src="[!--news.url--]skin/default/images/hw_u_173050.jpg"></a></li>
-                    <li><a href="[!--news.url--]a/guanyuwomen/gongsijieshao/"
-                           style="color:#333;"><strong>《文化研究》第 期（201 年 月）</strong></a></li>
+                    <li>善道·永安税务师事务有限公司</li>
                 </ul>
 
             </div>
@@ -187,7 +186,7 @@
                <div class="verticalLine"></div>
 
                 <ul class="m_box">
-                    <li><a href="/" target="_blank"><img height="140" width="259"
+                    <li><a href="/" target="_blank"><img height="140" width="118"
                                                                 src="[!--news.url--]skin/default/images/hw_192713.jpg"></a>
                     </li>
                     <li class="title"><a href="/" target="_blank">走近永安</a></li>

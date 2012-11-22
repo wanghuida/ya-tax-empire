@@ -54,7 +54,7 @@
                     <img alt="培训合作伙伴" src="[!--news.url--]skin/default/images/hw_s_195892.jpg">
 
                     <p>
-                        <a href="[!--news.url--]a/peixunzhuanti/zhushui" style="float:left" class="title wryh">网校课堂</a>
+                        <a href="[!--news.url--]a/peixunzhuanti/zhushui" style="float:left" class="title wryh">注册税务师培训</a>
                         <a href="[!--news.url--]a/peixunzhuanti/zhushui" style="float:right;color:#900" class="more">更多</a>
                     </p>
 

@@ -25,22 +25,22 @@
             </div>
 
             <div class="section information">
-                <span class="title">财税大课堂</span>
-                <ul>
-                    <li><a href="[!--news.url--]a/peixunzhuanti/yinggaizeng/">营改增培训</a></li>
-                    <li><a href="[!--news.url--]a/peixunzhuanti/qiyechongzu/">企业重组培训</a></li>
-                    <li><a href="[!--news.url--]a/peixunzhuanti/zhushui/">注册税务师培训</a></li>
-                    <li><a href="[!--news.url--]a/peixunzhuanti/peixungonggao/">培训公告</a></li>
-                </ul>
-            </div>
-
-            <div class="section information">
                 <span class="title">服务与方案</span>
                 <ul>
                     <li><a href="[!--news.url--]a/yewujieshao/">税务业务</a></li>
                     <li><a href="[!--news.url--]a/yewujieshao/">培训业务</a></li>
                     <li><a href="[!--news.url--]a/yewujieshao/">成功案例</a></li>
                     <li><a href="[!--news.url--]a/yewujieshao/">合作伙伴</a></li>
+                </ul>
+            </div>
+
+            <div class="section information">
+                <span class="title">财税大课堂</span>
+                <ul>
+                    <li><a href="[!--news.url--]a/peixunzhuanti/yinggaizeng/">营改增培训</a></li>
+                    <li><a href="[!--news.url--]a/peixunzhuanti/qiyechongzu/">企业重组培训</a></li>
+                    <li><a href="[!--news.url--]a/peixunzhuanti/zhushui/">注册税务师培训</a></li>
+                    <li><a href="[!--news.url--]a/peixunzhuanti/peixungonggao/">培训公告</a></li>
                 </ul>
             </div>
 
@@ -56,9 +56,10 @@
             </div>
         </div>
 
-        <div style=" width:980px;margin:auto;color:#FFF;padding-top:20px;">
-            <ul style="height:30px;text-align:center">
+        <div style=" width:980px;margin:auto;color:#FFF;padding-top:10px;">
+            <ul style="height:20px;text-align:center">
                 <li>版权所有 © 善道·永安税务师事务有限公司</li>
+                <li><pre>电话：027-88937081       网址：http://www.ya-tax.com</pre></li>
             </ul>
         </div>
 

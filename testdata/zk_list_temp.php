@@ -1,7 +1,7 @@
 <!--
 列表内容模板(list.var) (*) <strong><a href="[!--titleurl--]">[!--title--]</a></strong>
 <p>
-    [!--smalltext--]
+    [!--smalltext--]……<strong><a href="[!--titleurl--]">查看全文</a></strong>
 </p>
 <div class="hr"></div>
 -->

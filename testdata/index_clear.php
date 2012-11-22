@@ -95,7 +95,7 @@
 <div class="bound">
     <div class="latest-news">
         <div class="title" style="margin-top:7px; width:40px;font-weight:bold; color:#BB0000;"><a
-                href="[!--news.url--]a/hangyehongcha/gongsixinwen"
+                href="[!--news.url--]a/hangyedongcha/gongsixinwen"
                 style="font-weight:bold; color:#BB0000;">新闻：</a>
         </div>
         <div class="content" style="float: none; margin-left: 45px; margin-top: -385px;">
