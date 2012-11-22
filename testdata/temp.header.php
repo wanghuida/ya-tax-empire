@@ -29,6 +29,9 @@
 <div class="nav">
 <ul>
 <li is="menuindex">
+    <a href="[!--news.url--]" class="trad"><span>首页</span></a>
+</li>
+<li is="menuindex">
     <a iblk="行业洞察" href="[!--news.url--]a/hangyedongcha" class="trad"><span>行业洞察</span></a>
 
     <div class="menuitempanel">
@@ -150,8 +153,8 @@
                 </ul>
                 <div class="verticalLine"></div>
                 <ul class="m_box">
-                    <li><a href="[!--news.url--]a/guanyuwomen/gongsijieshao/">
-                        <img height="189" width="142" src="[!--news.url--]skin/default/images/hw_u_173050.jpg"></a></li>
+                    <li><a href="[!--news.url--]a/guanyuwomen/">
+                        <img height="189" width="273" src="[!--news.url--]skin/default/images/hw_u_173050.jpg"></a></li>
                     <li>善道·永安税务师事务有限公司</li>
                 </ul>
 

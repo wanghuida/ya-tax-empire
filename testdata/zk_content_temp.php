@@ -28,6 +28,9 @@
                 <div class='content' id='1003'>
                     [showclasstemp]'selfinfo',13,0,0[/showclasstemp]
                 </div>
+                <script type="text/javascript">
+                    document.getElementById([!--self.classid--]).className="on"
+                </script> 
                 <div class='bottom' id='1004'></div>
             </div>
         </div>
