@@ -189,7 +189,7 @@
                <div class="verticalLine"></div>
 
                 <ul class="m_box">
-                    <li><a href="/" target="_blank"><img height="140" width="118"
+                    <li><a href="/" target="_blank"><img height="140" width="204"
                                                                 src="[!--news.url--]skin/default/images/hw_192713.jpg"></a>
                     </li>
                     <li class="title"><a href="/" target="_blank">走近永安</a></li>
