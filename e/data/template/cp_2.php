@@ -3,54 +3,84 @@ if(!defined('InEmpireCMS'))
 {
 	exit();
 }
-?></td>
-        </tr>
-      </table></td>
-</tr>
-</table>
-<script type="text/javascript" src="/skin/default/js/global_cn.index.js"></script>
+?>
+<script type="text/javascript" src="[!--news.url--]skin/default/js/global_cn.index.js"></script>
 
+</div>
+</div>
+</div>
+</div>
+</div>
 
 <div id="seo-footer" style="height:230px;">
         <div class="bound">
             <div class="section information">
                 <span class="title">关于永安</span>
                 <ul>
+<<<<<<< HEAD
                     <li><a href="/a/guanyuwomen/#131">公司简介</a></li>
                     <li><a href="/a/guanyuwomen/#130">公司理念</a></li>
                     <li><a href="/a/guanyuwomen/#129">专家团队</a></li>
                     <li><a href="/a/guanyuwomen/#128">联系我们</a></li>
                     <li><a href="/a/jiaruyongan/">加入永安</a></li>
+=======
+                    <li><a href="[!--news.url--]a/guanyuwomen/#131">公司简介</a></li>
+                    <li><a href="[!--news.url--]a/guanyuwomen/#130">公司理念</a></li>
+                    <li><a href="[!--news.url--]a/guanyuwomen/#129">专家团队</a></li>
+                    <li><a href="[!--news.url--]a/guanyuwomen/#128">联系我们</a></li>
+                    <li><a href="[!--news.url--]a/jiaruyongan/">加入永安</a></li>
+>>>>>>> ede5e5fd36575e808332012373a6a5a6634d725c
                 </ul>
             </div>
 
             <div class="section information">
                 <span class="title">行业洞察</span>
                 <ul>
+<<<<<<< HEAD
                     <li><a href="/a/hangyedongcha/yejiedongtai/">业界动态</a></li>
                     <li><a href="/a/hangyedongcha/zuixinfagui/">最新法规</a></li>
                     <li><a href="/a/hangyedongcha/gongsixinwen/">公司新闻</a></li>
                     <li><a href="/a/hangyedongcha/shuiwuwenhua/">税务文化研究</a></li>
+=======
+                    <li><a href="[!--news.url--]a/hangyedongcha/yejiedongtai/">业界动态</a></li>
+                    <li><a href="[!--news.url--]a/hangyedongcha/zuixinfagui/">最新法规</a></li>
+                    <li><a href="[!--news.url--]a/hangyedongcha/gongsixinwen/">公司新闻</a></li>
+                    <li><a href="[!--news.url--]a/hangyedongcha/shuiwuwenhua/">税务文化研究</a></li>
+>>>>>>> ede5e5fd36575e808332012373a6a5a6634d725c
                 </ul>
             </div>
 
             <div class="section information">
                 <span class="title">服务与方案</span>
                 <ul>
+<<<<<<< HEAD
                     <li><a href="/a/yewujieshao/">税务业务</a></li>
                     <li><a href="/a/yewujieshao/">培训业务</a></li>
                     <li><a href="/a/yewujieshao/">成功案例</a></li>
                     <li><a href="/a/yewujieshao/">合作伙伴</a></li>
+=======
+                    <li><a href="[!--news.url--]a/yewujieshao/">税务业务</a></li>
+                    <li><a href="[!--news.url--]a/yewujieshao/">培训业务</a></li>
+                    <li><a href="[!--news.url--]a/yewujieshao/">成功案例</a></li>
+                    <li><a href="[!--news.url--]a/yewujieshao/">合作伙伴</a></li>
+>>>>>>> ede5e5fd36575e808332012373a6a5a6634d725c
                 </ul>
             </div>
 
             <div class="section information">
                 <span class="title">财税大课堂</span>
                 <ul>
+<<<<<<< HEAD
                     <li><a href="/a/peixunzhuanti/yinggaizeng/">营改增培训</a></li>
                     <li><a href="/a/peixunzhuanti/qiyechongzu/">企业重组培训</a></li>
                     <li><a href="/a/peixunzhuanti/zhushui/">注册税务师培训</a></li>
                     <li><a href="/a/peixunzhuanti/peixungonggao/">培训公告</a></li>
+=======
+                    <li><a href="[!--news.url--]a/peixunzhuanti/yinggaizeng/">营改增培训</a></li>
+                    <li><a href="[!--news.url--]a/peixunzhuanti/qiyechongzu/">企业重组培训</a></li>
+                    <li><a href="[!--news.url--]a/peixunzhuanti/zhushui/">注册税务师培训</a></li>
+                    <li><a href="[!--news.url--]a/peixunzhuanti/peixungonggao/">培训公告</a></li>
+>>>>>>> ede5e5fd36575e808332012373a6a5a6634d725c
                 </ul>
             </div>
 
@@ -72,7 +102,7 @@ if(!defined('InEmpireCMS'))
                 <li><pre>电话：027-88937081       网址：http://www.ya-tax.com</pre></li>
             </ul>
         </div>
-
 </div>
+
 </body>
 </html>
