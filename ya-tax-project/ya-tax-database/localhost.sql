@@ -3147,7 +3147,7 @@ CREATE TABLE `phome_enewsmember` (
 
 /*Data for the table `phome_enewsmember` */
 
-insert  into `phome_enewsmember`(`userid`,`username`,`password`,`rnd`,`email`,`registertime`,`groupid`,`userfen`,`userdate`,`money`,`zgroupid`,`havemsg`,`checked`,`salt`) values (1,'test','dd4b21e9ef71e1291183a46b913ae6f2','p9fRgGJDfkXF','izhangkun@qq.com','2012-11-23 10:27:48',1,0,0,0.00,0,0,1,'');
+insert  into `phome_enewsmember`(`userid`,`username`,`password`,`rnd`,`email`,`registertime`,`groupid`,`userfen`,`userdate`,`money`,`zgroupid`,`havemsg`,`checked`,`salt`) values (1,'test','dd4b21e9ef71e1291183a46b913ae6f2','Bgn7ZKHKA4py','izhangkun@qq.com','2012-11-23 10:27:48',1,0,0,0.00,0,0,1,'');
 
 /*Table structure for table `phome_enewsmemberadd` */
 
@@ -3182,7 +3182,7 @@ CREATE TABLE `phome_enewsmemberadd` (
 
 /*Data for the table `phome_enewsmemberadd` */
 
-insert  into `phome_enewsmemberadd`(`userid`,`truename`,`oicq`,`msn`,`call`,`phone`,`address`,`zip`,`spacestyleid`,`homepage`,`saytext`,`company`,`fax`,`userpic`,`spacename`,`spacegg`,`viewstats`,`todayinfodate`,`todayaddinfo`,`todaydate`,`todaydown`,`regip`,`authstr`) values (1,'','','','','','','',1,'','','','','','','',1,'',0,'',0,'::1','');
+insert  into `phome_enewsmemberadd`(`userid`,`truename`,`oicq`,`msn`,`call`,`phone`,`address`,`zip`,`spacestyleid`,`homepage`,`saytext`,`company`,`fax`,`userpic`,`spacename`,`spacegg`,`viewstats`,`todayinfodate`,`todayaddinfo`,`todaydate`,`todaydown`,`regip`,`authstr`) values (1,'','','','','','','',1,'','','','','','','',2,'',0,'',0,'::1','');
 
 /*Table structure for table `phome_enewsmemberf` */
 
