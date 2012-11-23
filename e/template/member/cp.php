@@ -8,7 +8,7 @@ if(!defined('InEmpireCMS'))
 $url="<a href=../../../>首页</a>&nbsp;>&nbsp;<a href=../cp/>控制面板</a>";
 require(ECMS_PATH.'e/data/template/cp_1.php');
 ?>
-  <div style="height:350px">
+  <div style="height:320px">
       <div><strong>会员中心</strong></div>
       <div class="hr"></div>
       <div style="float:left;text-align:center;padding-left:50px;padding-top:30px">

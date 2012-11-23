@@ -6,7 +6,21 @@
         <div class="topnav">
             <div class="log">
                 <!--change iframe to ajax start-->
-                <form name="form1" method="post" action="[!--news.url--]e/enews/index.php">
+            <?php
+                $lggroupid=intval(getcvar('mlgroupid'));//会员组ID
+                if($lggroupid)  //登陆会员显示菜单
+                {
+                ?>
+                    <script>
+                        document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
+                    </script>
+                
+            <?php
+                }
+                else  //游客显示菜单
+                {
+            ?> 
+            <form name="form1" method="post" action="[!--news.url--]e/enews/index.php">
                     <input type=hidden name=ecmsfrom value="">
                     <input type=hidden name=enews value=login>
                     用户名
@@ -24,6 +38,9 @@
                     <input type="submit" name="Submit" value="登陆">&nbsp;&nbsp;&nbsp; 
                     <input type="button" name="button" value="注册" onclick="parent.location.href='[!--news.url--]e/member/register/';">
                 </form>
+            <?php
+                }
+            ?>
             </div>
             <!--change iframe to ajax end-->
 

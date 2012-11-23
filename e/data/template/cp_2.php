@@ -4,13 +4,13 @@ if(!defined('InEmpireCMS'))
 	exit();
 }
 ?>
-<script type="text/javascript" src="[!--news.url--]skin/default/js/global_cn.index.js"></script>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-</div>
-</div>
-</div>
-</div>
-</div>
+<script type="text/javascript" src="../../../skin/default/js/global_cn.index.js"></script>
 
 <div id="seo-footer" style="height:230px;">
         <div class="bound">
