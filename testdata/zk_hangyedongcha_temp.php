@@ -126,8 +126,8 @@
                             </div>
                         </div>
                     </div>
-            <div class="grid215 right">
-                <div class="search-year">
+                    <div class="grid215 right">
+                <div class="white-paper">
                     <div class="body">
                         <div class="header">
                             <div class="icon"></div>
@@ -137,6 +137,22 @@
                             <ul>
                             [e:loop={71,5,0,0}]
                             <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </li>
+                            [/e:loop]
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="related-news">
+                    <div class="body">
+                        <div class="header">
+                            <div class="icon"></div>
+                            最新动态
+                        </div>
+                        <div class="content">
+                            <ul>
+                            [e:loop={'select * from phome_ecms_news where classid REGEXP "6[789]" order by id desc',5,24,0}]
+                                <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a></li>
                             [/e:loop]
                             </ul>
                         </div>
@@ -166,7 +182,7 @@
                     </div>
                 </div>
                 <!--wcmPlaceholder("contact_us", "placeholderDefinitionDocName=PH_CN_MAIN_CONTENT")-->
-            </div>
+                    </div>
                 </div>
             </div>
         </div>[!--temp.footer--]

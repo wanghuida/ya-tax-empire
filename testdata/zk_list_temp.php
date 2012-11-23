@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div class="grid215 right">
-                <div class="search-year">
+                <div class="white-paper">
                     <div class="body">
                         <div class="header">
                             <div class="icon"></div>
@@ -119,7 +119,7 @@
                         <div class="clear"></div>
                     </div>
                 </div>
-                <div class="search-year">
+                <div class="related-news">
                     <div class="body">
                         <div class="header">
                             <div class="icon"></div>
