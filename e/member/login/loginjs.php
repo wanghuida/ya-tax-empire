@@ -56,7 +56,7 @@ if($myuserid)
 if($mhavelogin==1)
 {
 ?>
-document.write("&raquo;&nbsp;<font color=red><b><?=$myusername?></b></font>&nbsp;&nbsp;<a href=\"/e/member/my/\" target=\"_parent\"><?=$groupname?></a>&nbsp;<?=$havemsg?>&nbsp;&nbsp;<a href=\"/e/member/msg/\" target=_blank>短信息</a>&nbsp;&nbsp;<a href=\"/e/member/cp/\" target=\"_parent\">控制面板</a>&nbsp;&nbsp;<a href=\"/e/enews/?enews=exit&ecmsfrom=9\" onclick=\"return confirm(\'确认要退出?\');\">退出</a>");
+document.write("&raquo;&nbsp;<font color=red><b><?=$myusername?></b></font>&nbsp;&nbsp;<?=$havemsg?>&nbsp;&nbsp;<a href=\"/e/member/cp/\" target=\"_parent\">会员中心</a>&nbsp;&nbsp;<a href=\"/e/enews/?enews=exit&ecmsfrom=9\" onclick=\"return confirm(\'确认要退出?\');\">退出</a>");
 <?
 }
 else
