@@ -8,19 +8,11 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "e/admin/admin.php",
 			"settings":
 			{
-				"buffer_size": 185,
+				"buffer_size": 452,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "testdata/zk_label.php",
-			"settings":
-			{
-				"buffer_size": 151,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -92,7 +84,22 @@
 	},
 	"file_history":
 	[
+		"/D/Dev/coreamp/htdocs/empire/testdata/temp.header.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsmember.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsinfo.php",
+		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsadmin.php",
+		"/E/oracle/xx_contra_log.txt",
+		"/H/电算化软件/取消SQL安装挂起.bat",
+		"/D/Dev/coreamp/htdocs/empire/testdata/index_clear.php",
+		"/D/Dev/coreamp/htdocs/empire/testdata/train.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/template_info.txt",
+		"/D/Dev/php/SAE/SAE_SDK_Windows_1.0.5/apps/twitask/1/code/config.php",
+		"/D/Dev/php/SAE/SAE_SDK_Windows_1.0.5/apps/twitask/1/code/index.php",
+		"/D/Dev/php/SAE/SAE_SDK_Windows_1.0.5/apps/twitask/2/code/index.php",
+		"/D/Dev/coreamp/htdocs/empire/.gitignore",
+		"/D/Dev/coreamp/htdocs/empire/project.sublime-project",
+		"/D/Dev/coreamp/htdocs/empire/project.sublime-workspace",
+		"/D/Dev/coreamp/htdocs/empire/testdata/zk_label.php",
 		"/D/Dev/js/proxy/popup.html",
 		"/D/Backup/i9023/root/G14/PG58IMG/android-info.txt",
 		"/D/Backup/i9023/root/Rom/Sensation_new_tools/PG58IMG_g14/android-info.txt",
@@ -104,22 +111,17 @@
 		"/D/Downloads/s/goagent-goagent-v2.1.9-7-g86b225a/goagent-goagent-86b225a/server/python/app.yaml",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/adminstyle/1/menu/usercp.php",
 		"/D/Dev/coreamp/htdocs/empire/e/install/data/empirecms.com.sql",
-		"/D/Dev/coreamp/htdocs/empire/project.sublime-workspace",
 		"/D/Dev/coreamp/htdocs/empire/e/data/dbcache/notcj.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/index.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/blank.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/admin.php",
-		"/D/Dev/coreamp/htdocs/empire/testdata/index_clear.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/main.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/map.php",
-		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsadmin.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmschtml.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmscj.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsclass.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmscom.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsfile.php",
-		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsinfo.php",
-		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmsmember.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/ecmstemp.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/enews.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/adminstyle/1/AdminMain.php",
@@ -128,11 +130,7 @@
 		"/D/Dev/coreamp/htdocs/empire/e/admin/adminstyle/2/AdminMain.php",
 		"/D/Dev/coreamp/htdocs/empire/e/admin/adminstyle/2/index.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/zk_content_temp.php",
-		"/D/Dev/coreamp/htdocs/empire/testdata/temp.header.php",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp.footer.php",
-		"/D/Dev/coreamp/htdocs/empire/testdata/train.php",
-		"/D/Dev/coreamp/htdocs/empire/testdata/zk_label.php",
-		"/D/Dev/coreamp/htdocs/empire/.gitignore",
 		"/D/Dev/coreamp/htdocs/empire/.git/config",
 		"/D/Dev/java/mylhide/.git/config",
 		"/C/Users/alang/.bashrc",
@@ -186,7 +184,6 @@
 		"/D/Dev/coreamp/htdocs/empire/testdata/footer.php",
 		"/C/Users/alang/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/D/Dev/coreamp/htdocs/empire/a/shuiwuwenhuayanjiu/index.html",
-		"/D/Dev/coreamp/htdocs/empire/project.sublime-project",
 		"/C/Users/alang/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/D/Dev/coreamp/htdocs/empire/testdata/temp/index_hw_ok.html",
 		"/D/node/csdn/read.js",
@@ -215,6 +212,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1001N1100000000021CN",
+			"insert",
 			"email",
 			"欢迎使用帝国网站管理系统",
 			"欢迎使用帝国网站管理系统 (EmpireCMS)",
@@ -273,50 +272,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
+					"file": "e/admin/admin.php",
 					"settings":
 					{
-						"buffer_size": 185,
+						"buffer_size": 452,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								155,
-								155
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "testdata/zk_label.php",
-					"settings":
-					{
-						"buffer_size": 151,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								151,
-								151
+								435,
+								435
 							]
 						],
 						"settings":
@@ -409,6 +381,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 243.0,
+	"side_bar_width": 203.0,
 	"status_bar_visible": true
 }

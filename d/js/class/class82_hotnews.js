@@ -1,1 +1,1 @@
-document.write("<li><a href=\"/a/jiaruyongan/2012-11-01/113.html\" title=\"美工\">美工</a></li><li><a href=\"/a/jiaruyongan/2012-10-31/112.html\" title=\"Javascript工程师\">Javascript工程师</a></li><li><a href=\"/a/jiaruyongan/2012-10-31/111.html\" title=\"PHP工程师\">PHP工程师</a></li>");
+document.write("<li><a href=\"/a/jiaruyongan/2012-11-16/166.html\" title=\"总经理助理\">总经理助理</a></li><li><a href=\"/a/jiaruyongan/2012-11-16/165.html\" title=\"项目经理\">项目经理</a></li><li><a href=\"/a/jiaruyongan/2012-11-16/164.html\" title=\"PHP程序员\">PHP程序员</a></li>");
