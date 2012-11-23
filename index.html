@@ -24,18 +24,24 @@
         <div class="topnav">
             <div class="log">
                 <!--change iframe to ajax start-->
-
-                <img src="/skin/default/images/hw_000470.gif">
-                <span id="sslogoff" style="display: none;">
-
-                    <a id="aLogout">退出</a>
-                    <img src="/skin/default/images/hw_000470.gif">
-                </span>
-                <span id="sslogon" style="">
-                    <a id="aLogin">登录</a>
-                    <img src="/skin/default/images/hw_000470.gif">
-                </span>
-
+                <form name="form1" method="post" action="/e/enews/index.php">
+                    <input type=hidden name=ecmsfrom value="">
+                    <input type=hidden name=enews value=login>
+                    用户名
+                    <input name="username" type="text" id="username" size="15">&nbsp;&nbsp;
+                    密码
+                    <input name="password" type="password" id="password" size="15">
+                    <!--
+                    <a href="../GetPassword/" target="_blank">忘记密码？</a></td>
+                    <select name=lifetime>
+                        <option value="0" selected="selected">不保存</option>
+                        <option value="3600">一小时</option>
+                        <option value="2592000">一个月</option>
+                    </select>
+                    -->
+                    <input type="submit" name="Submit" value="登陆">&nbsp;&nbsp;&nbsp; 
+                    <input type="button" name="button" value="注册" onclick="parent.location.href='/e/member/register/';">
+                </form>
             </div>
             <!--change iframe to ajax end-->
 
@@ -172,7 +178,7 @@
                 <div class="verticalLine"></div>
                 <ul class="m_box">
                     <li><a href="/a/guanyuwomen/">
-                        <img height="189" width="273" src="/skin/default/images/hw_u_173050.jpg"></a></li>
+                        <img height="155" width="273" src="/skin/default/images/hw_u_173050.jpg"></a></li>
                     <li>善道·永安税务师事务有限公司</li>
                 </ul>
 

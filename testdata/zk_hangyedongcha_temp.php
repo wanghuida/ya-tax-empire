@@ -127,7 +127,7 @@
                         </div>
                     </div>
                     <div class="grid215 right">
-                <div class="white-paper">
+                        <div class="white-paper">
                     <div class="body">
                         <div class="header">
                             <div class="icon"></div>
@@ -142,8 +142,8 @@
                         </div>
                         <div class="clear"></div>
                     </div>
-                </div>
-                <div class="related-news">
+                        </div>
+                        <div class="related-news">
                     <div class="body">
                         <div class="header">
                             <div class="icon"></div>
@@ -158,8 +158,8 @@
                         </div>
                         <div class="clear"></div>
                     </div>
-                </div>
-                <div class="tags">
+                        </div>
+                        <div class="tags">
                     <div class="body">
                         <div class="header">
                             <div class="icon"></div>
@@ -180,7 +180,7 @@
                             </span>
                         </div>
                     </div>
-                </div>
+                        </div>
                 <!--wcmPlaceholder("contact_us", "placeholderDefinitionDocName=PH_CN_MAIN_CONTENT")-->
                     </div>
                 </div>
