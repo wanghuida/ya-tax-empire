@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78fd0bf-af33-4b17-94ca-6ea51c3e9f73" name="Default" comment="改部分格式，测试storm提交。">
-      <change type="DELETED" beforePath="E:\dev\htdocs\anuxs.github.com\e\data\fc\ListClass0.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\dev\htdocs\anuxs.github.com\e\data\fc\ListEnews.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/js/addinfo1.js" afterPath="$PROJECT_DIR$/d/js/js/addinfo1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/js/search_news1.js" afterPath="$PROJECT_DIR$/d/js/js/search_news1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d/js/js/search_news2.js" afterPath="$PROJECT_DIR$/d/js/js/search_news2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/class/config.php" afterPath="$PROJECT_DIR$/e/class/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/template/cp_1.php" afterPath="$PROJECT_DIR$/e/data/template/cp_1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/template/cp_2.php" afterPath="$PROJECT_DIR$/e/data/template/cp_2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/member/login/loginjs.php" afterPath="$PROJECT_DIR$/e/member/login/loginjs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/template/member/cp.php" afterPath="$PROJECT_DIR$/e/template/member/cp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/data/dbcache/class1.php" afterPath="$PROJECT_DIR$/e/data/dbcache/class1.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e/tool/gbook/index.php" afterPath="$PROJECT_DIR$/e/tool/gbook/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/default/css/yatax.css" afterPath="$PROJECT_DIR$/skin/default/css/yatax.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/index.html" afterPath="$PROJECT_DIR$/search/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdata/temp.footer.php" afterPath="$PROJECT_DIR$/testdata/temp.footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdata/temp.header.php" afterPath="$PROJECT_DIR$/testdata/temp.header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdata/template_info.txt" afterPath="$PROJECT_DIR$/testdata/template_info.txt" />
     </list>
     <ignored path="empire.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -147,7 +149,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,48 +181,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="empire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anuxs.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="empire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anuxs.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,8 +192,8 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/testdata" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" persistUploadOnCheckin="false">
     <servers>
@@ -322,14 +284,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.48722044" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18462758" sideWeight="0.50159746" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2439394" sideWeight="0.6722973" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24772727" sideWeight="0.6722973" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3260135" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -464,42 +426,25 @@
         <state line="30" column="19" selection-start="907" selection-end="907" vertical-scroll-proportion="0.6356877" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/zk_list_temp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="47" selection-start="1386" selection-end="1386" vertical-scroll-proportion="-9.464286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skin/default/css/yatax.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1793" column="18" selection-start="124264" selection-end="124264" vertical-scroll-proportion="0.20976491">
-          <folding />
-        </state>
+        <state line="1793" column="18" selection-start="124264" selection-end="124264" vertical-scroll-proportion="0.20976491" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata/zk_list_temp2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="57" selection-start="3808" selection-end="3808" vertical-scroll-proportion="0.3847619">
-          <folding />
-        </state>
+        <state line="68" column="57" selection-start="3808" selection-end="3808" vertical-scroll-proportion="0.3847619" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/e/tool/gbook/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="12" selection-start="12166" selection-end="12166" vertical-scroll-proportion="0.16380952">
-          <folding>
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="e#13277#13322#0" expanded="true" />
-            <element signature="e#13734#13769#0" expanded="true" />
-            <element signature="e#13855#13875#0" expanded="true" />
-            <element signature="e#13945#13965#0" expanded="true" />
-            <element signature="e#14251#14272#0" expanded="true" />
-            <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="e#16046#16071#0" expanded="true" />
-            <element signature="e#16578#16639#0" expanded="true" />
-            <element signature="e#16653#16690#0" expanded="true" />
-          </folding>
+        <state line="261" column="12" selection-start="12166" selection-end="12166" vertical-scroll-proportion="0.16380952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/zk_list_temp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="47" selection-start="1386" selection-end="1386" vertical-scroll-proportion="-1.6598513">
+          <folding />
         </state>
       </provider>
     </entry>

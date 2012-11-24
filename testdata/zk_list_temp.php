@@ -116,6 +116,9 @@
                             <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </li>
                             [/e:loop]
                             </ul>
+                            <div style="padding-left:80%;">
+                                <a href="/a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
+                            </div>
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -128,10 +131,13 @@
                         </div>
                         <div class="content">
                             <ul>
-                            [e:loop={'select * from phome_ecms_news where classid REGEXP "6[789]" order by id desc',5,24,0}]
-                                <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a></li>
+                            [e:loop={'news',5,18,0,'classid="72" OR classid="73" OR classid="74" OR classid="67" OR classid="68" OR classid="69"','newstime DESC'}]
+                            <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a></li>
                             [/e:loop]
                             </ul>
+                            <div style="padding-left:80%;height:20px">
+                                <a href="/a/hangyedongcha/" class="expand">更多</a>
+                            </div>
                         </div>
                         <div class="clear"></div>
                     </div>

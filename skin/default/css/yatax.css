@@ -669,7 +669,7 @@ padding:25px 0 0 0;overflow:hidden;}
 .related-video .content a.expand { float:none; margin:0px; font-size:12px; color:#006699; }
  
 .related-news .header .icon {background-position: -6px -126px; width:20px;}
-.related-news .content,.quick-links .content,.media-contact .content{ padding:13px 10px 20px; background:#f2f2f2;}
+.related-news .content,.quick-links .content,.media-contact .content{ padding:7px; background:#f2f2f2;}
 .related-news li,.quick-links li,.related-articles li,.publication li,.white-paper li,.archive li, .media-contact li{ background:transparent url(../images/hw_072210.gif) no-repeat 2px 8px; padding-left:10px; border-bottom:dashed 1px #ddd; margin:0px auto 5px auto; line-height:16px; padding-top:2px; padding-bottom:8px;}
 li.last{ border-bottom:none;}
 .related-news a,.quick-links a,.related-articles a,.publication a,.white-paper a,.archive a, .media-contact a{ color:#069; padding-bottom:5px; }

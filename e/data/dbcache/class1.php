@@ -290,6 +290,32 @@ $class_r[75]=Array('classid'=>75,
 'bname'=>'税务文化研究',
 
 'reorder'=>'newstime DESC');
+$class_r[83]=Array('classid'=>83,
+'bclassid'=>0,
+'classname'=>'成功案例',
+'sonclass'=>'',
+'featherclass'=>'',
+'islast'=>1,
+'classpath'=>'a/chenggonganli',
+'classtype'=>'.html',
+
+'down_num'=>2,
+'online_num'=>2,
+'islist'=>0,
+'tbname'=>'news',
+'modid'=>1,
+'lencord'=>25,'link_num'=>10,
+'newstempid'=>10,
+'listtempid'=>10,
+'newspath'=>'Y-m-d',
+'filetype'=>'.html',
+
+
+'checked'=>1,
+'bname'=>'成功案例',
+
+'reorder'=>'newstime DESC',
+'dtlisttempid'=>10);
 $class_r[82]=Array('classid'=>82,
 'bclassid'=>0,
 'classname'=>'加入永安',
