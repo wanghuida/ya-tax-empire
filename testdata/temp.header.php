@@ -102,13 +102,18 @@
                     <li><a href="[!--news.url--]a/yewujieshao/#120" class="topfrx">汇算清缴代理</a></li>
                     <li><a href="[!--news.url--]a/yewujieshao/#119" class="topfrx">税政协助</a></li>
                 </ul>
-                <ul class="list last">
+                <ul class="list">
                     <li><a href="[!--news.url--]a/yewujieshao/#118" class="topfrx">转让定价</a></li>
                     <li><a href="[!--news.url--]a/yewujieshao/#117" class="topfrx">税务筹划</a></li>
                     <li><a href="[!--news.url--]a/yewujieshao/#116" class="topfrx">税务审计</a></li>
                     <li><a href="[!--news.url--]a/yewujieshao/#115" class="topfrx">税务顾问</a></li>
                     <li><a href="[!--news.url--]a/yewujieshao" class="topfrx">其他业务</a></li>
                 </ul>
+                <ul class="list last">
+                    <li><a href="[!--news.url--]a/chenggonganli" class="topfrx">成功案例</a></li>
+                    <li><a href="[!--news.url--]a/chenggonganli/#180" class="topfrx">合作企业</a></li>
+                </ul>
+
                 <div class="verticalLine"></div>
                 <ul class="m_box">
                     <li>
@@ -139,7 +144,8 @@
                 <ul class="list last">
                     <li><a href="[!--news.url--]a/peixunzhuanti/yinggaizeng" class="topfrx">营改增专题</a></li>
                     <li><a href="[!--news.url--]a/peixunzhuanti/qiyechongzu" class="topfrx">企业重组培训</a></li>
-                    <li><a href="[!--news.url--]a/peixunzhuanti/" class="topfrx">税收课堂</a></li>
+                    <li><a href="[!--news.url--]a/peixunzhuanti/" class="topfrx">注册税务师培训</a></li>
+                    <li><a href="[!--news.url--]a/peixunzhuanti/peixungonggao" class="topfrx">培训公告</a></li>
                 </ul>
                 <div class="verticalLine"></div>
 

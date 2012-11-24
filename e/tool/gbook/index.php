@@ -51,7 +51,7 @@ $url = "<a href=../../../>" . $fun_r['index'] . "</a>&nbsp;>&nbsp;" . $fun_r['sa
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title><?=defined('empirecms') ? $r[title] : '会员中心'?></title>
+    <title><?=defined('empirecms') ? $r[title] : '留言板'?></title>
     <link rel="stylesheet" href="/skin/default/css/yatax.css" type="text/css" media="screen, project, print">
     <link rel="stylesheet" href="/skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
     <link rel="stylesheet" href="/skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
@@ -288,8 +288,8 @@ $url = "<a href=../../../>" . $fun_r['index'] . "</a>&nbsp;>&nbsp;" . $fun_r['sa
             分页： <?=$listpage?>
         </div>
         <div class="liuyan-right">
-            <fieldset style="border: 1px ridge;padding: 10px 20px;">
-                <legend>发表留言</legend>
+            <fieldset style="width:280px;height:480px;border: 1px ridge;padding: 10px 20px;">
+                <legend>发布留言</legend>
                 <form action="../../enews/index.php" method="post" name="form1" id="form1">
                     姓　　名：<input name="name" type="text" id="name"/> *<br/>
                     邮　　箱：<input name="email" type="text" id="email"/> *<br/>
