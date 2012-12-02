@@ -1,5 +1,5 @@
-project.sublime-workspace
-project.sublime-project
+*.sublime-workspace
+*.sublime-project
 .idea/workspace.xml
 .idea/*
 .idea/
