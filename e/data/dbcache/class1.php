@@ -28,7 +28,7 @@ $class_r[62]=Array('classid'=>62,
 $class_r[63]=Array('classid'=>63,
 'bclassid'=>0,
 'classname'=>'税收大课堂',
-'sonclass'=>'|67|68|69|71|',
+'sonclass'=>'|67|68|69|71|84|',
 'featherclass'=>'',
 'islast'=>0,
 'classpath'=>'a/peixunzhuanti',
@@ -341,4 +341,44 @@ $class_r[82]=Array('classid'=>82,
 'bname'=>'加入永安',
 
 'reorder'=>'newstime DESC');
+$class_r[84]=Array('classid'=>84,
+'bclassid'=>63,
+'classname'=>'留言板',
+'sonclass'=>'',
+'featherclass'=>'|63|',
+'islast'=>1,
+'classpath'=>'a/peixunzhuanti/liuyanban','searchtempid'=>1,
+'classtype'=>'.php',
+
+'down_num'=>2,
+'online_num'=>2,
+'islist'=>2,
+'tbname'=>'news',
+'modid'=>1,
+'lencord'=>25,'link_num'=>10,
+'newstempid'=>10,
+'listtempid'=>9,
+'newspath'=>'Y-m-d',
+'filetype'=>'.html',
+
+
+'checked'=>1,
+'bname'=>'留言板',
+
+'reorder'=>'newstime DESC',
+'dtlisttempid'=>9);
+$class_r[85]=Array('classid'=>85,
+'bclassid'=>0,
+'classname'=>'留言板',
+'sonclass'=>'',
+'featherclass'=>'',
+'islast'=>0,
+'classpath'=>'liuyanban',
+'classtype'=>'.html',
+
+'down_num'=>2,
+'online_num'=>2,
+'islist'=>2,
+'tbname'=>'news',
+'modid'=>1);
 ?>

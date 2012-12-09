@@ -240,8 +240,8 @@ $empire=null;
                 <ul>
                     <li><a href="/a/yewujieshao/">税务业务</a></li>
                     <li><a href="/a/yewujieshao/">培训业务</a></li>
-                    <li><a href="/a/yewujieshao/">成功案例</a></li>
-                    <li><a href="/a/yewujieshao/">合作伙伴</a></li>
+                    <li><a href="/a/chenggonganli/">成功案例</a></li>
+                    <li><a href="/a/chenggonganli/#180">合作企业</a></li>
                 </ul>
             </div>
 
