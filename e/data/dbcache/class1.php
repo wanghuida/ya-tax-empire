@@ -347,23 +347,23 @@ $class_r[86]=Array('classid'=>86,
 'sonclass'=>'',
 'featherclass'=>'',
 'islast'=>1,
-'classpath'=>'liuyanban',
+'classpath'=>'a/liuyanban',
 'classtype'=>'.html',
 
 'down_num'=>2,
 'online_num'=>2,
-'islist'=>0,'listdt'=>1,
+'islist'=>0,
 'tbname'=>'news',
 'modid'=>1,
 'lencord'=>25,'link_num'=>10,
 'newstempid'=>10,
-'listtempid'=>12,
+'listtempid'=>10,
 'newspath'=>'Y-m-d',
 'filetype'=>'.html',
 
 
 'checked'=>1,
 'bname'=>'留言板',
-'showdt'=>2,
+
 'reorder'=>'newstime DESC');
 ?>

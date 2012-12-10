@@ -179,6 +179,7 @@
                 </ul>
                 <ul class="list last">
                     <li><a href="[!--news.url--]a/guanyuwomen/#128" class="topfrx">联系方式</a></li>
+					<li><a href="[!--news.url--]a/liuyanban/" class="topfrx">留言板</a></li>
                 </ul>
                 <div class="verticalLine"></div>
                 <ul class="m_box">
