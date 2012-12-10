@@ -1,0 +1,17 @@
+[gbookinfo]20,标签模板ID,留言分类ID[/gbookinfo]
+[gbookinfo]20,14,1[/gbookinfo]
+
+显示信息数
+	显示记录数
+标签模板ID
+	
+查看标签模板ID点这里
+ 
+	模板标签变量说明：
+留言ID：[!--lyid--]，留言内容：[!--lytext--]
+回复内容：[!--retext--]，留言时间：[!--lytime--]
+留言者：[!--name--]，留言者邮箱：[!--email--]
+序号：[!--no--]
+留言分类ID
+	
+点击这里查看分类ID，0为不限制

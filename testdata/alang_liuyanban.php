@@ -18,47 +18,26 @@
 <body>
 
 [!--temp.header--]
-
+<div id="container">
+<div>
+	您的位置：[!--newsnav--]
+</div>
 <table width="100%" border="0" cellspacing="10" cellpadding="0">
 <tr valign="top">
-<td class="list_content"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
-<tr>
-<td>现在的位置：<a href=../../../>首页</a>&nbsp;>&nbsp;[!--bname--]
-</td>
-</tr>
+<td class="list_content">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
 </table><table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
 	<tr>
 		<td><table width="100%" border="0" cellpadding="3" cellspacing="2">
 			<tr>
-				<td align="center" bgcolor="#E1EFFB"><strong>[!--bname--]</strong></td>
+				<td align="center" bgcolor="#E1EFFB"><strong>[!--pagetitle--]</strong></td>
 			</tr>
 			<tr>
 				<td align="left" valign="top"><table width="100%" border="0" cellpadding="4" cellspacing="0" bgcolor="#FFFFFF">
 						<tr>
 							<td height="100%" valign="top" bgcolor="#FFFFFF"> 
-								[!--empirenews.listtemp--]
-								<table width="92%" border="0" align="center" cellpadding="4" cellspacing="1" bgcolor="#F4F9FD" class="tableborder">
-										<tr class="header">
-											<td width="55%" height="23">发布者: [!--name--] </td>
-											<td width="45%">发布时间: [!--lytime--] </td>
-										</tr>
-										<tr bgcolor="#FFFFFF">
-											<td height="23" colspan="2"><table border="0" width="100%" cellspacing="1" cellpadding="8" bgcolor='#cccccc'>
-													<tr>
-														<td width='100%' bgcolor='#FFFFFF' style='word-break:break-all'> [!--lytext--] </td>
-													</tr>
-												</table>
-												[!--start.regbook--]
-												<table width="100%" border="0" align="center" cellpadding="3" cellspacing="1">
-													<tr>
-														<td><img src="../../data/images/regb.gif" width="18" height="18" /><strong><font color="#FF0000">回复:</font></strong> [!--retext--] </td>
-													</tr>
-												</table>
-												[!--end.regbook--] </td>
-										</tr>
-									</table>
-								<br />
-								[!--empirenews.listtemp--]
+								<div>[gbookinfo]20,14,1[/gbookinfo]</div>
+
 								<table width="92%" border="0" align="center" cellpadding="4" cellspacing="1">
 									<tr>
 										<td>分页: [!--listpage--]</td>
@@ -103,6 +82,7 @@
 </table></td>
 </tr>
 </table>
+</div>
 [!--temp.footer--]
 </body>
 </html>

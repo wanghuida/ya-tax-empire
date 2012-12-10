@@ -104,6 +104,9 @@ else
 			<td id="pr83" class="file" onclick=""><a onclick=tourl(0,83) onmouseout=chft(this,0,83) onmouseover=chft(this,1,83) oncontextmenu=ShRM(this,0,83,'',1)>成功案例</a></td>
 		  </tr>
 				<tr>
+			<td id="pr86" class="file" onclick=""><a onclick=tourl(0,86) onmouseout=chft(this,0,86) onmouseover=chft(this,1,86) oncontextmenu=ShRM(this,0,86,'',1)>留言板</a></td>
+		  </tr>
+				<tr>
 			<td id="pr64" class="file" onclick=""><a onclick=tourl(0,64) onmouseout=chft(this,0,64) onmouseover=chft(this,1,64) oncontextmenu=ShRM(this,0,64,'',1)>关于我们</a></td>
 		  </tr>
 				<tr>
