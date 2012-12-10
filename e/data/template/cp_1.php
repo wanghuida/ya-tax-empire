@@ -1,151 +1,262 @@
 <?php
 if(!defined('InEmpireCMS'))
 {
-	exit();
+  exit();
 }
-?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><?=defined('empirecms')?$r[title]:'用户控制面板'?> - Powered by EmpireCMS</title>
-<meta name="keywords" content="<?=defined('empirecms')?$r[title]:'用户控制面板'?>" />
-<meta name="description" content="<?=defined('empirecms')?$r[title]:'用户控制面板'?>" />
-<link href="/skin/default/css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/skin/default/js/tabs.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title><?=defined('empirecms')?$r[title]:'会员中心'?></title>
+  <link rel="stylesheet" href="/skin/default/css/yatax.css" type="text/css" media="screen, project, print">
+  <link rel="stylesheet" href="/skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
+  <link rel="stylesheet" href="/skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
+  <script type="text/javascript" src="/skin/default/js/jquery-1.8.2.js"></script>
 </head>
-<body class="listpage">
+<body>
 <!-- 页头 -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" class="top">
-    <tr>
-        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-            <tr>
-                <td width="63%">
-                    <!-- 登录 -->
+<div id="header">
+    <div class="bound">
+        <a href="/" id="logo">
+            <img title="首页" src="/skin/default/images/logo_cn.gif"></a>
+
+        <div class="topnav">
+            <div class="log">
+                <!--change iframe to ajax start-->
                     <script>
                         document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
                     </script>
-                </td>
-                <td align="right">
-                    <a onclick="window.external.addFavorite(location.href,document.title)" href="#ecms">加入收藏</a> | <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('/')" href="#ecms">设为首页</a> | <a href="/e/member/cp/">会员中心</a> | <a href="/e/DoInfo/">我要投稿</a> | <a href="/e/web/?type=rss2" target="_blank">RSS<img src="/skin/default/images/rss.gif" border="0" hspace="2" /></a>
-                </td>
-            </tr>
-        </table></td>
-    </tr>
-</table>
-<table width="100%" border="0" cellpadding="0" cellspacing="10">
-    <tr valign="middle">
-        <td width="240" align="center"><a href="/"><img src="/skin/default/images/logo.gif" width="200" height="65" border="0" /></a></td>
-        <td align="center"><a href="http://www.phome.net/OpenSource/" target="_blank"><img src="/skin/default/images/opensource.gif" width="100%" height="70" border="0" /></a></td>
-    </tr>
-</table>
-<!-- 导航tab选项卡 -->
-<table width="920" border="0" align="center" cellpadding="0" cellspacing="0" class="nav">
-    <tr>
-        <td class="nav_global"><ul>
-            <li class="curr" id="tabnav_btn_0" onmouseover="tabit(this)"><a href="/">首页</a></li>
-            <li id="tabnav_btn_1" onmouseover="tabit(this)"><a href="/news/">新闻中心</a></li>
-            <li id="tabnav_btn_2" onmouseover="tabit(this)"><a href="/download/">下载中心</a></li>
-            <li id="tabnav_btn_3" onmouseover="tabit(this)"><a href="/movie/">影视频道</a></li>
-            <li id="tabnav_btn_4" onmouseover="tabit(this)"><a href="/shop/">网上商城</a></li>
-            <li id="tabnav_btn_5" onmouseover="tabit(this)"><a href="/flash/">FLASH频道</a></li>
-            <li id="tabnav_btn_6" onmouseover="tabit(this)"><a href="/photo/">图片频道</a></li>
-            <li id="tabnav_btn_7" onmouseover="tabit(this)"><a href="/article/">文章中心</a></li>
-            <li id="tabnav_btn_8" onmouseover="tabit(this)"><a href="/info/">分类信息</a></li>
-        </ul></td>
-    </tr>
-</table> 
-<table width="100%" border="0" cellspacing="10" cellpadding="0">
-<tr valign="top">
-<td class="list_content"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
-<tr>
-<td>现在的位置：<?=$url?>
-</td>
-</tr>
-</table>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
-        <tr> 
-          <td width="300" valign="top"> 
-		  <?php
-		  $lguserid=intval(getcvar('mluserid'));//登陆用户ID
-		  $lgusername=RepPostVar(getcvar('mlusername'));//登陆用户
-		  $lggroupid=intval(getcvar('mlgroupid'));//会员组ID
-		  if($lggroupid)	//登陆会员显示菜单
-		  {
-		  ?>
-            <table width="100%" border="0" cellpadding="3" cellspacing="1" class="tableborder">
-              <tr class="header"> 
-                <td height="20" bgcolor="#FFFFFF"> <div align="center"><strong><a href="/e/member/cp/">功能菜单</a></strong></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/member/EditInfo/">修改资料</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/member/my/">帐号状态</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/member/msg/">站内信息</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/member/mspace/SetSpace.php">空间设置</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/DoInfo/">管理信息</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/member/fava/">收藏夹</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/payapi/">在线支付</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/member/friend/">我的好友</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/member/buybak/">消费记录</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/member/buygroup/">在线充值</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/member/card/">点卡充值</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="#ecms" onclick="window.open('/e/ShopSys/buycar/','','width=680,height=500,scrollbars=yes,resizable=yes');">我的购物车</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/ShopSys/ListDd/">我的订单</a></div></td>
-              </tr>
-			  <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/member/login/">重新登陆</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/enews/?enews=exit" onclick="return confirm('确认要退出?');">退出登陆</a></div></td>
-              </tr>
-            </table>
-			<?php
-			}
-			else	//游客显示菜单
-			{
-			?>  
-            <table width="100%" border="0" cellpadding="3" cellspacing="1" class="tableborder">
-              <tr class="header"> 
-                <td height="20" bgcolor="#FFFFFF"> <div align="center"><strong><a href="/e/member/cp/">功能菜单</a></strong></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/member/login/">会员登陆</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/member/register/">注册帐号</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="/e/DoInfo/">发布投稿</a></div></td>
-              </tr>
-              <tr> 
-                <td height="25" bgcolor="#FFFFFF" onmouseout="this.style.backgroundColor='#ffffff'" onmouseover="this.style.backgroundColor='#EBF3FC'"><div align="center"><a href="#ecms" onclick="window.open('/e/ShopSys/buycar/','','width=680,height=500,scrollbars=yes,resizable=yes');">我的购物车</a></div></td>
-              </tr>
-            </table>
-			<?php
-			}
-			?>
-			</td>
-          <td width="85%" valign="top">
+            </div>
+            <!--change iframe to ajax end-->
+
+        </div>
+    </div>
+</div>
+
+<div id="menu">
+  <div class="nav">
+    <ul>
+      <li is="menuindex">
+        <a href="/" class="trad"><span>首页</span></a>
+      </li>
+      <li is="menuindex">
+    <a iblk="行业洞察" href="/a/hangyedongcha" class="trad"><span>行业洞察</span></a>
+
+    <div class="menuitempanel">
+        <div class="menucontentdiv">
+            <div class="menufillet_e"></div>
+            <div class="trad clearfix">
+                <ul class="taxonomy">
+                    <a href="/a/hangyedongcha/yejiedongtai/" class="topfrx">业界动态</a><br/>
+                    <a href="/a/hangyedongcha/zuixinfagui/" class="topfrx">最新法规</a><br/>
+                    <a href="/a/hangyedongcha/gongsixinwen/" class="topfrx">公司新闻</a><br/>
+                    <a href="/a/hangyedongcha/shuiwuwenhua/" class="topfrx">税文化研究</a><br/>
+                </ul>
+
+                <div class="verticalLine"></div>
+
+                <ul class="m_box">
+                    <li><a href="/cn/industry/moving-forward/index.htm"><img height="140"
+                                                                             width="259"
+                                                                             src="/skin/default/images/hw_s_223305.gif"></a>
+                    </li>
+                    <li class="summary">
+                        <ul>
+                            <li>善道·永安税务师事务有限公司</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="shadow_b_layout">
+                <div></div>
+            </div>
+        </div>
+    </div>
+      </li>
+      <li is="menuindex">
+    <a iblk="服务与方案" href="/a/yewujieshao" class="solutions_products"><span>服务与方案</span></a>
+
+    <div class="menuitempanel">
+        <div class="menucontentdiv">
+            <div class="menufillet_e"></div>
+            <div class="solutions_products clearfix">
+                <ul class="list">
+                    <li><a href="/a/yewujieshao/#123" class="topfrx">税务培训</a></li>
+                    <li><a href="/a/yewujieshao/#122" class="topfrx">税务申报代理</a></li>
+                    <li><a href="/a/yewujieshao/#121" class="topfrx">个人所得税代理</a></li>
+                    <li><a href="/a/yewujieshao/#120" class="topfrx">汇算清缴代理</a></li>
+                    <li><a href="/a/yewujieshao/#119" class="topfrx">税政协助</a></li>
+                </ul>
+                <ul class="list last">
+                    <li><a href="/a/yewujieshao/#118" class="topfrx">转让定价</a></li>
+                    <li><a href="/a/yewujieshao/#117" class="topfrx">税务筹划</a></li>
+                    <li><a href="/a/yewujieshao/#116" class="topfrx">税务审计</a></li>
+                    <li><a href="/a/yewujieshao/#115" class="topfrx">税务顾问</a></li>
+                    <li><a href="/a/yewujieshao" class="topfrx">其他业务</a></li>
+                </ul>
+                <div class="verticalLine"></div>
+                <ul class="m_box">
+                    <li>
+                        <a href="/" target="_blank"><img height="144" width="217"
+                                                         src="/skin/default/images/hw_s_223306.gif"></a>
+                    </li>
+                    <li class="summary">
+                        <ul>
+                            <li>善道·永安税务师事务有限公司</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="shadow_b_layout">
+                <div></div>
+            </div>
+        </div>
+    </div>
+      </li>
+      <li is="menuindex">
+    <a iblk="财税大课堂" href="/a/peixunzhuanti" class="support"><span>财税大课堂</span></a>
+
+    <div class="menuitempanel">
+        <div class="menucontentdiv">
+            <div class="menufillet_e"></div>
+            <div class="support clearfix">
+                <ul class="list last">
+                    <li><a href="/a/peixunzhuanti/yinggaizeng" class="topfrx">营改增专题</a></li>
+                    <li><a href="/a/peixunzhuanti/qiyechongzu" class="topfrx">企业重组培训</a></li>
+                    <li><a href="/a/peixunzhuanti/" class="topfrx">税收课堂</a></li>
+                </ul>
+                <div class="verticalLine"></div>
+
+                <ul class="m_box">
+                    <li><img height="144" width="217" src="/skin/default/images/hw_s_223303.gif"></li>
+                    <li class="summary">
+                        <ul>
+                            <li>欢迎来到财税大课堂</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="shadow_b_layout">
+                <div></div>
+            </div>
+        </div>
+    </div>
+      </li>
+      <li is="menuindex">
+    <a iblk="关于永安" href="/a/guanyuwomen/" class="about_yatax"><span>关于永安</span></a>
+
+    <div class="menuitempanel">
+        <div class="menucontentdiv">
+            <div class="menufillet_e"></div>
+            <div class="trad clearfix">
+                <ul class="list">
+                    <li><a href="/a/guanyuwomen/#131" class="topfrx">公司简介</a></li>
+                    <li><a href="/a/guanyuwomen/#130" class="topfrx">公司理念</a></li>
+                    <li><a href="/a/guanyuwomen/#129" class="topfrx">专家团队</a></li>
+                </ul>
+                <ul class="list last">
+                    <li><a href="/a/guanyuwomen/#128" class="topfrx">联系方式</a></li>
+                </ul>
+                <div class="verticalLine"></div>
+                <ul class="m_box">
+                    <li><a href="/a/guanyuwomen/">
+                        <img height="155" width="273" src="/skin/default/images/hw_u_173050.jpg"></a></li>
+                    <li>善道·永安税务师事务有限公司</li>
+                </ul>
+
+            </div>
+            <div class="shadow_b_layout">
+                <div></div>
+            </div>
+        </div>
+    </div>
+      </li>
+      <li is="menuindex">
+    <a iblk="加入永安" href="/a/jiaruyongan" class="join_yatax"><span>加入永安</span></a>
+
+    <div class="menuitempanel">
+        <div class="menucontentdiv">
+            <div class="menufillet_e"></div>
+            <div class="trad clearfix">
+                <ul class="list">
+                    <li><a href="/a/jiaruyongan/" class="topfrx">总经理助理</a></li>
+                    <li><a href="/a/jiaruyongan/" class="topfrx">高级项目经理</a></li>
+                    <li><a href="/a/jiaruyongan/" class="topfrx">项目助理</a></li>
+                </ul>
+                <ul class="list">
+                    <li><a href="/a/jiaruyongan/" class="topfrx">教育项目经理</a></li>
+                </ul>
+                <ul class="list last">
+                    <li><a href="/a/jiaruyongan/" class="topfrx">网站产品经理</a></li>
+                <li><a href="/a/jiaruyongan/" class="topfrx">技术与开发人员</a></li>
+                </ul>
+
+
+               <div class="verticalLine"></div>
+
+                <ul class="m_box">
+                    <li><a href="/" target="_blank"><img height="140" width="204"
+                                                                src="/skin/default/images/hw_192713.jpg"></a>
+                    </li>
+                    <li class="title"><a href="/" target="_blank">走近永安</a></li>
+                </ul>
+            </div>
+            <div class="shadow_b_layout">
+                <div></div>
+            </div>
+        </div>
+    </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div id="container">
+  <div class="bound body">
+    <div> 您的位置：<?=$url?></div>
+    <div class="grid215 left">
+      <div class='leftNav' id='1001'>
+        <div class='top' id='1002'></div>
+        <div class='content' id='1003'>
+        <?php
+        $lguserid=intval(getcvar('mluserid'));//登陆用户ID
+        $lgusername=RepPostVar(getcvar('mlusername'));//登陆用户
+        $lggroupid=intval(getcvar('mlgroupid'));//会员组ID
+        if($lggroupid)  //登陆会员显示菜单
+        {
+        ?>
+        <a href="/e/member/EditInfo/">修改资料</a>
+        <a href="/e/member/my/">帐号状态</a>
+        <a href="/e/member/msg/">站内信息</a>
+        <a href="/e/member/mspace/SetSpace.php">空间设置</a>
+        <a href="/e/DoInfo/">管理信息</a>
+        <a href="/e/member/fava/">收藏夹</a>
+        <a href="/e/payapi/">在线支付</a>
+        <a href="/e/member/friend/">我的好友</a>
+        <a href="/e/member/buybak/">消费记录</a>
+        <a href="/e/member/buygroup/">在线充值</a>
+        <a href="/e/member/card/">点卡充值</a>
+        <a href="#ecms" onclick="window.open('/e/ShopSys/buycar/','','width=680,height=500,scrollbars=yes,resizable=yes');">我的购物车</a>
+        <a href="/e/ShopSys/ListDd/">我的订单</a>
+        <a href="/e/enews/?enews=exit" onclick="return confirm('确认要退出?');">退出登陆</a>
+        <?php
+        }
+        else  //游客显示菜单
+        {
+        ?>  
+        <a href="/e/member/login/">会员登陆</a>
+        <a href="/e/member/register/">注册帐号</a>
+        <a href="/e/DoInfo/">发布投稿</a>
+        <a href="#ecms" onclick="window.open('/e/ShopSys/buycar/','','width=680,height=500,scrollbars=yes,resizable=yes');">我的购物车</a>
+        <?php
+        }
+        ?>
+        </div>
+        <div class='bottom' id='1004'></div>
+      </div>
+    </div>
+    <div class="grid765_r left">
+      <div class="core-network">
+          <div class="content">

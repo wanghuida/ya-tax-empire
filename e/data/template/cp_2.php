@@ -1,15 +1,16 @@
 <?php
 if(!defined('InEmpireCMS'))
 {
-	exit();
+    exit();
 }
-?></td>
-        </tr>
-      </table></td>
-</tr>
-</table>
-<script type="text/javascript" src="/skin/default/js/global_cn.index.js"></script>
+?>
+</div>
+</div>
+</div>
+</div>
+</div>
 
+<script type="text/javascript" src="/skin/default/js/global_cn.index.js"></script>
 
 <div id="seo-footer" style="height:230px;">
         <div class="bound">
@@ -39,8 +40,8 @@ if(!defined('InEmpireCMS'))
                 <ul>
                     <li><a href="/a/yewujieshao/">税务业务</a></li>
                     <li><a href="/a/yewujieshao/">培训业务</a></li>
-                    <li><a href="/a/chenggonganli/">成功案例</a></li>
-                    <li><a href="/a/chenggonganli/#180">合作企业</a></li>
+                    <li><a href="/a/yewujieshao/">成功案例</a></li>
+                    <li><a href="/a/yewujieshao/">合作伙伴</a></li>
                 </ul>
             </div>
 
@@ -72,7 +73,7 @@ if(!defined('InEmpireCMS'))
                 <li><pre>电话：027-88937081       网址：http://www.ya-tax.com</pre></li>
             </ul>
         </div>
-
 </div>
+
 </body>
 </html>
