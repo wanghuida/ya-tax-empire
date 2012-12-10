@@ -496,3 +496,4 @@
 [Mon Dec 10 16:37:30 2012] [error] [client ::1] File does not exist: /Users/anuxs/dev/empire/skin/default/images/hw_s_232057.png, referer: http://localhost:84/skin/default/css/yatax.css
 [Mon Dec 10 16:37:33 2012] [error] [client ::1] File does not exist: /Users/anuxs/dev/empire/skin/default/images/hw_000505.gif, referer: http://localhost:84/skin/default/css/yatax.css
 [Mon Dec 10 16:37:33 2012] [error] [client ::1] File does not exist: /Users/anuxs/dev/empire/skin/default/images/hw_s_232057.png, referer: http://localhost:84/skin/default/css/yatax.css
+[Mon Dec 10 16:41:27 2012] [error] [client ::1] File does not exist: /Users/anuxs/dev/empire/skin/default/images/hw_s_232057.png, referer: http://localhost:84/skin/default/css/yatax.css
