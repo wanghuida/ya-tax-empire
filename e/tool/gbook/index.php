@@ -52,23 +52,23 @@ $url = "<a href=../../../>" . $fun_r['index'] . "</a>&nbsp;>&nbsp;" . $fun_r['sa
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title><?=defined('empirecms') ? $r[title] : '留言板'?></title>
-    <link rel="stylesheet" href="[!--news.url--]skin/default/css/yatax.css" type="text/css" media="screen, project, print">
-    <link rel="stylesheet" href="[!--news.url--]skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
-    <link rel="stylesheet" href="[!--news.url--]skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
-    <script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js"></script>
+    <link rel="stylesheet" href="/skin/default/css/yatax.css" type="text/css" media="screen, project, print">
+    <link rel="stylesheet" href="/skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
+    <link rel="stylesheet" href="/skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
+    <script type="text/javascript" src="/skin/default/js/jquery-1.8.2.js"></script>
 </head>
 <body>
 <!-- 页头 -->
 <div id="header">
     <div class="bound">
-        <a href="[!--news.url--]" id="logo">
-            <img title="首页" src="[!--news.url--]skin/default/images/logo_cn.gif"></a>
+        <a href="/" id="logo">
+            <img title="首页" src="/skin/default/images/logo_cn.gif"></a>
 
         <div class="topnav">
             <div class="log">
                 <!--change iframe to ajax start-->
                 <script>
-                    document.write('<script src="[!--news.url--]/e/member/login/loginjs.php?t=' + Math.random() + '"><' + '/script>');
+                    document.write('<script src="/e/member/login/loginjs.php?t=' + Math.random() + '"><' + '/script>');
                 </script>
             </div>
             <!--change iframe to ajax end-->
@@ -81,20 +81,20 @@ $url = "<a href=../../../>" . $fun_r['index'] . "</a>&nbsp;>&nbsp;" . $fun_r['sa
     <div class="nav">
         <ul>
             <li is="menuindex">
-                <a href="[!--news.url--]" class="trad"><span>首页</span></a>
+                <a href="/" class="trad"><span>首页</span></a>
             </li>
             <li is="menuindex">
-                <a iblk="行业洞察" href="[!--news.url--]a/hangyedongcha" class="trad"><span>行业洞察</span></a>
+                <a iblk="行业洞察" href="/a/hangyedongcha" class="trad"><span>行业洞察</span></a>
 
                 <div class="menuitempanel">
                     <div class="menucontentdiv">
                         <div class="menufillet_e"></div>
                         <div class="trad clearfix">
                             <ul class="taxonomy">
-                                <a href="[!--news.url--]a/hangyedongcha/yejiedongtai/" class="topfrx">业界动态</a><br/>
-                                <a href="[!--news.url--]a/hangyedongcha/zuixinfagui/" class="topfrx">最新法规</a><br/>
-                                <a href="[!--news.url--]a/hangyedongcha/gongsixinwen/" class="topfrx">公司新闻</a><br/>
-                                <a href="[!--news.url--]a/hangyedongcha/shuiwuwenhua/" class="topfrx">税文化研究</a><br/>
+                                <a href="/a/hangyedongcha/yejiedongtai/" class="topfrx">业界动态</a><br/>
+                                <a href="/a/hangyedongcha/zuixinfagui/" class="topfrx">最新法规</a><br/>
+                                <a href="/a/hangyedongcha/gongsixinwen/" class="topfrx">公司新闻</a><br/>
+                                <a href="/a/hangyedongcha/shuiwuwenhua/" class="topfrx">税文化研究</a><br/>
                             </ul>
 
                             <div class="verticalLine"></div>
@@ -118,31 +118,31 @@ $url = "<a href=../../../>" . $fun_r['index'] . "</a>&nbsp;>&nbsp;" . $fun_r['sa
                 </div>
             </li>
             <li is="menuindex">
-                <a iblk="服务与方案" href="[!--news.url--]a/yewujieshao" class="solutions_products"><span>服务与方案</span></a>
+                <a iblk="服务与方案" href="/a/yewujieshao" class="solutions_products"><span>服务与方案</span></a>
 
                 <div class="menuitempanel">
                     <div class="menucontentdiv">
                         <div class="menufillet_e"></div>
                         <div class="solutions_products clearfix">
                             <ul class="list">
-                                <li><a href="[!--news.url--]a/yewujieshao/#123" class="topfrx">税务培训</a></li>
-                                <li><a href="[!--news.url--]a/yewujieshao/#122" class="topfrx">税务申报代理</a></li>
-                                <li><a href="[!--news.url--]a/yewujieshao/#121" class="topfrx">个人所得税代理</a></li>
-                                <li><a href="[!--news.url--]a/yewujieshao/#120" class="topfrx">汇算清缴代理</a></li>
-                                <li><a href="[!--news.url--]a/yewujieshao/#119" class="topfrx">税政协助</a></li>
+                                <li><a href="/a/yewujieshao/#123" class="topfrx">税务培训</a></li>
+                                <li><a href="/a/yewujieshao/#122" class="topfrx">税务申报代理</a></li>
+                                <li><a href="/a/yewujieshao/#121" class="topfrx">个人所得税代理</a></li>
+                                <li><a href="/a/yewujieshao/#120" class="topfrx">汇算清缴代理</a></li>
+                                <li><a href="/a/yewujieshao/#119" class="topfrx">税政协助</a></li>
                             </ul>
                             <ul class="list last">
-                                <li><a href="[!--news.url--]a/yewujieshao/#118" class="topfrx">转让定价</a></li>
-                                <li><a href="[!--news.url--]a/yewujieshao/#117" class="topfrx">税务筹划</a></li>
-                                <li><a href="[!--news.url--]a/yewujieshao/#116" class="topfrx">税务审计</a></li>
-                                <li><a href="[!--news.url--]a/yewujieshao/#115" class="topfrx">税务顾问</a></li>
-                                <li><a href="[!--news.url--]a/yewujieshao" class="topfrx">其他业务</a></li>
+                                <li><a href="/a/yewujieshao/#118" class="topfrx">转让定价</a></li>
+                                <li><a href="/a/yewujieshao/#117" class="topfrx">税务筹划</a></li>
+                                <li><a href="/a/yewujieshao/#116" class="topfrx">税务审计</a></li>
+                                <li><a href="/a/yewujieshao/#115" class="topfrx">税务顾问</a></li>
+                                <li><a href="/a/yewujieshao" class="topfrx">其他业务</a></li>
                             </ul>
                             <div class="verticalLine"></div>
                             <ul class="m_box">
                                 <li>
-                                    <a href="[!--news.url--]" target="_blank"><img height="144" width="217"
-                                                                     src="[!--news.url--]skin/default/images/hw_s_223306.gif"></a>
+                                    <a href="/" target="_blank"><img height="144" width="217"
+                                                                     src="/skin/default/images/hw_s_223306.gif"></a>
                                 </li>
                                 <li class="summary">
                                     <ul>
@@ -159,21 +159,21 @@ $url = "<a href=../../../>" . $fun_r['index'] . "</a>&nbsp;>&nbsp;" . $fun_r['sa
                 </div>
             </li>
             <li is="menuindex">
-                <a iblk="财税大课堂" href="[!--news.url--]a/peixunzhuanti" class="support"><span>财税大课堂</span></a>
+                <a iblk="财税大课堂" href="/a/peixunzhuanti" class="support"><span>财税大课堂</span></a>
 
                 <div class="menuitempanel">
                     <div class="menucontentdiv">
                         <div class="menufillet_e"></div>
                         <div class="support clearfix">
                             <ul class="list last">
-                                <li><a href="[!--news.url--]a/peixunzhuanti/yinggaizeng" class="topfrx">营改增专题</a></li>
-                                <li><a href="[!--news.url--]a/peixunzhuanti/qiyechongzu" class="topfrx">企业重组培训</a></li>
-                                <li><a href="[!--news.url--]a/peixunzhuanti/" class="topfrx">税收课堂</a></li>
+                                <li><a href="/a/peixunzhuanti/yinggaizeng" class="topfrx">营改增专题</a></li>
+                                <li><a href="/a/peixunzhuanti/qiyechongzu" class="topfrx">企业重组培训</a></li>
+                                <li><a href="/a/peixunzhuanti/" class="topfrx">税收课堂</a></li>
                             </ul>
                             <div class="verticalLine"></div>
 
                             <ul class="m_box">
-                                <li><img height="144" width="217" src="[!--news.url--]skin/default/images/hw_s_223303.gif"></li>
+                                <li><img height="144" width="217" src="/skin/default/images/hw_s_223303.gif"></li>
                                 <li class="summary">
                                     <ul>
                                         <li>欢迎来到财税大课堂</li>
@@ -189,24 +189,24 @@ $url = "<a href=../../../>" . $fun_r['index'] . "</a>&nbsp;>&nbsp;" . $fun_r['sa
                 </div>
             </li>
             <li is="menuindex">
-                <a iblk="关于永安" href="[!--news.url--]a/guanyuwomen/" class="about_yatax"><span>关于永安</span></a>
+                <a iblk="关于永安" href="/a/guanyuwomen/" class="about_yatax"><span>关于永安</span></a>
 
                 <div class="menuitempanel">
                     <div class="menucontentdiv">
                         <div class="menufillet_e"></div>
                         <div class="trad clearfix">
                             <ul class="list">
-                                <li><a href="[!--news.url--]a/guanyuwomen/#131" class="topfrx">公司简介</a></li>
-                                <li><a href="[!--news.url--]a/guanyuwomen/#130" class="topfrx">公司理念</a></li>
-                                <li><a href="[!--news.url--]a/guanyuwomen/#129" class="topfrx">专家团队</a></li>
+                                <li><a href="/a/guanyuwomen/#131" class="topfrx">公司简介</a></li>
+                                <li><a href="/a/guanyuwomen/#130" class="topfrx">公司理念</a></li>
+                                <li><a href="/a/guanyuwomen/#129" class="topfrx">专家团队</a></li>
                             </ul>
                             <ul class="list last">
-                                <li><a href="[!--news.url--]a/guanyuwomen/#128" class="topfrx">联系方式</a></li>
+                                <li><a href="/a/guanyuwomen/#128" class="topfrx">联系方式</a></li>
                             </ul>
                             <div class="verticalLine"></div>
                             <ul class="m_box">
-                                <li><a href="[!--news.url--]a/guanyuwomen/">
-                                    <img height="155" width="273" src="[!--news.url--]skin/default/images/hw_u_173050.jpg"></a></li>
+                                <li><a href="/a/guanyuwomen/">
+                                    <img height="155" width="273" src="/skin/default/images/hw_u_173050.jpg"></a></li>
                                 <li>善道·永安税务师事务有限公司</li>
                             </ul>
 
@@ -218,33 +218,33 @@ $url = "<a href=../../../>" . $fun_r['index'] . "</a>&nbsp;>&nbsp;" . $fun_r['sa
                 </div>
             </li>
             <li is="menuindex">
-                <a iblk="加入永安" href="[!--news.url--]a/jiaruyongan" class="join_yatax"><span>加入永安</span></a>
+                <a iblk="加入永安" href="/a/jiaruyongan" class="join_yatax"><span>加入永安</span></a>
 
                 <div class="menuitempanel">
                     <div class="menucontentdiv">
                         <div class="menufillet_e"></div>
                         <div class="trad clearfix">
                             <ul class="list">
-                                <li><a href="[!--news.url--]a/jiaruyongan/" class="topfrx">总经理助理</a></li>
-                                <li><a href="[!--news.url--]a/jiaruyongan/" class="topfrx">高级项目经理</a></li>
-                                <li><a href="[!--news.url--]a/jiaruyongan/" class="topfrx">项目助理</a></li>
+                                <li><a href="/a/jiaruyongan/" class="topfrx">总经理助理</a></li>
+                                <li><a href="/a/jiaruyongan/" class="topfrx">高级项目经理</a></li>
+                                <li><a href="/a/jiaruyongan/" class="topfrx">项目助理</a></li>
                             </ul>
                             <ul class="list">
-                                <li><a href="[!--news.url--]a/jiaruyongan/" class="topfrx">教育项目经理</a></li>
+                                <li><a href="/a/jiaruyongan/" class="topfrx">教育项目经理</a></li>
                             </ul>
                             <ul class="list last">
-                                <li><a href="[!--news.url--]a/jiaruyongan/" class="topfrx">网站产品经理</a></li>
-                                <li><a href="[!--news.url--]a/jiaruyongan/" class="topfrx">技术与开发人员</a></li>
+                                <li><a href="/a/jiaruyongan/" class="topfrx">网站产品经理</a></li>
+                                <li><a href="/a/jiaruyongan/" class="topfrx">技术与开发人员</a></li>
                             </ul>
 
 
                             <div class="verticalLine"></div>
 
                             <ul class="m_box">
-                                <li><a href="[!--news.url--]" target="_blank"><img height="140" width="204"
-                                                                     src="[!--news.url--]skin/default/images/hw_192713.jpg"></a>
+                                <li><a href="/" target="_blank"><img height="140" width="204"
+                                                                     src="/skin/default/images/hw_192713.jpg"></a>
                                 </li>
-                                <li class="title"><a href="[!--news.url--]" target="_blank">走近永安</a></li>
+                                <li class="title"><a href="/" target="_blank">走近永安</a></li>
                             </ul>
                         </div>
                         <div class="shadow_b_layout">
@@ -259,7 +259,7 @@ $url = "<a href=../../../>" . $fun_r['index'] . "</a>&nbsp;>&nbsp;" . $fun_r['sa
 
 <div id="container">
     <div class="bound body">
-        <div>您的位置：<a href="[!--news.url--]">首页</a>&nbsp;>&nbsp;<?=$bname?></div>
+        <div>您的位置：<a href="/">首页</a>&nbsp;>&nbsp;<?=$bname?></div>
         <div class="liuyan-left">
             <?
             while ($r = $empire->fetch($sql)) {
@@ -305,48 +305,48 @@ $url = "<a href=../../../>" . $fun_r['index'] . "</a>&nbsp;>&nbsp;" . $fun_r['sa
 </div>
 
 
-<script type="text/javascript" src="[!--news.url--]skin/default/js/global_cn.index.js"></script>
+<script type="text/javascript" src="/skin/default/js/global_cn.index.js"></script>
 
 <div id="seo-footer" style="height:230px;">
     <div class="bound">
         <div class="section information">
             <span class="title">关于永安</span>
             <ul>
-                <li><a href="[!--news.url--]a/guanyuwomen/#131">公司简介</a></li>
-                <li><a href="[!--news.url--]a/guanyuwomen/#130">公司理念</a></li>
-                <li><a href="[!--news.url--]a/guanyuwomen/#129">专家团队</a></li>
-                <li><a href="[!--news.url--]a/guanyuwomen/#128">联系我们</a></li>
-                <li><a href="[!--news.url--]a/jiaruyongan/">加入永安</a></li>
+                <li><a href="/a/guanyuwomen/#131">公司简介</a></li>
+                <li><a href="/a/guanyuwomen/#130">公司理念</a></li>
+                <li><a href="/a/guanyuwomen/#129">专家团队</a></li>
+                <li><a href="/a/guanyuwomen/#128">联系我们</a></li>
+                <li><a href="/a/jiaruyongan/">加入永安</a></li>
             </ul>
         </div>
 
         <div class="section information">
             <span class="title">行业洞察</span>
             <ul>
-                <li><a href="[!--news.url--]a/hangyedongcha/yejiedongtai/">业界动态</a></li>
-                <li><a href="[!--news.url--]a/hangyedongcha/zuixinfagui/">最新法规</a></li>
-                <li><a href="[!--news.url--]a/hangyedongcha/gongsixinwen/">公司新闻</a></li>
-                <li><a href="[!--news.url--]a/hangyedongcha/shuiwuwenhua/">税务文化研究</a></li>
+                <li><a href="/a/hangyedongcha/yejiedongtai/">业界动态</a></li>
+                <li><a href="/a/hangyedongcha/zuixinfagui/">最新法规</a></li>
+                <li><a href="/a/hangyedongcha/gongsixinwen/">公司新闻</a></li>
+                <li><a href="/a/hangyedongcha/shuiwuwenhua/">税务文化研究</a></li>
             </ul>
         </div>
 
         <div class="section information">
             <span class="title">服务与方案</span>
             <ul>
-                <li><a href="[!--news.url--]a/yewujieshao/">税务业务</a></li>
-                <li><a href="[!--news.url--]a/yewujieshao/">培训业务</a></li>
-                <li><a href="[!--news.url--]a/yewujieshao/">成功案例</a></li>
-                <li><a href="[!--news.url--]a/yewujieshao/">合作伙伴</a></li>
+                <li><a href="/a/yewujieshao/">税务业务</a></li>
+                <li><a href="/a/yewujieshao/">培训业务</a></li>
+                <li><a href="/a/yewujieshao/">成功案例</a></li>
+                <li><a href="/a/yewujieshao/">合作伙伴</a></li>
             </ul>
         </div>
 
         <div class="section information">
             <span class="title">财税大课堂</span>
             <ul>
-                <li><a href="[!--news.url--]a/peixunzhuanti/yinggaizeng/">营改增培训</a></li>
-                <li><a href="[!--news.url--]a/peixunzhuanti/qiyechongzu/">企业重组培训</a></li>
-                <li><a href="[!--news.url--]a/peixunzhuanti/zhushui/">注册税务师培训</a></li>
-                <li><a href="[!--news.url--]a/peixunzhuanti/peixungonggao/">培训公告</a></li>
+                <li><a href="/a/peixunzhuanti/yinggaizeng/">营改增培训</a></li>
+                <li><a href="/a/peixunzhuanti/qiyechongzu/">企业重组培训</a></li>
+                <li><a href="/a/peixunzhuanti/zhushui/">注册税务师培训</a></li>
+                <li><a href="/a/peixunzhuanti/peixungonggao/">培训公告</a></li>
             </ul>
         </div>
 
