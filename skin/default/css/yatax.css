@@ -1788,33 +1788,4 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 	color: #000000;
 	font-family: Verdana;
 }
-.liuyan-left{
-    width: 650px;
-    float: left;
-    margin-top: 10px;
-}
-.liuyan-right{
-    float: right;
-}
-.liuyan-left .liuyan{
-    border:solid 1px;
-    margin-bottom: 5px;
-    line-height: 22px;
-}
-.liuyan-left .liuyan .liuyan-top{
-    background-color: #d3d3d3;
-    color: #ffffff;
-}
- .liuyan-left .liuyan .liuyan-title{
-     padding:0 20px 0 10px;
-     background: url(/skin/default/images/ent_cn_img_more.gif) no-repeat 2% 50%
- }
- .liuyan-left .liuyan .liuyan-content{
-     padding:5px 10px;
-     min-height:50px;
- }
- .liuyan-left .liuyan .liuyan-reply{
-     padding:5px 10px;
-     border-top:1px dashed;
- }
 /*zhangkun css end*/
