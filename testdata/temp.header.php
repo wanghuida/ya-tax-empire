@@ -21,7 +21,7 @@
                 {
             ?> 
             <form name="form1" method="post" action="[!--news.url--]e/enews/index.php">
-                    <input type=hidden name=ecmsfrom value="">
+                    <input type=hidden name=ecmsfrom value="9">
                     <input type=hidden name=enews value=login>
                     用户名
                     <input name="username" type="text" id="username" size="15">&nbsp;&nbsp;
