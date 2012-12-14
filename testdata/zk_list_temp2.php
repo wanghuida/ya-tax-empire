@@ -87,7 +87,7 @@
                             [/e:loop]
                             </ul>
                             <div style="padding-left:80%;height:20px">
-                                <a href="/a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
+                                <a href="[!--news.url--]/a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -106,7 +106,7 @@
                             [/e:loop]
                             </ul>
                             <div style="padding-left:80%">
-                                <a href="/a/hangyedongcha/" class="expand">更多</a>
+                                <a href="[!--news.url--]/a/hangyedongcha/" class="expand">更多</a>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -134,7 +134,6 @@
                         </div>
                     </div>
                 </div>
-                <!--wcmPlaceholder("contact_us", "placeholderDefinitionDocName=PH_CN_MAIN_CONTENT")-->
             </div>
                 </div>
             </div>

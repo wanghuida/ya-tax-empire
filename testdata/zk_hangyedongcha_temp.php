@@ -53,7 +53,7 @@
 								</div>
 							</div>
 							<div class="content">
-								<a href="/a/hangyedongcha/yejiedongtai" class="expand" id="morenews" name="morenews">更多</a>
+								<a href="[!--news.url--]/a/hangyedongcha/yejiedongtai" class="expand" id="morenews" name="morenews">更多</a>
 							</div>
 						</div>
 						<div id="tabContent2">
@@ -76,7 +76,7 @@
 								</div>
 								<div class="clear"></div><!--content list end-->
 								<div class="content">
-									<a href="/a/hangyedongcha/zuixinfagui" class="expand">更多</a>
+									<a href="[!--news.url--]/a/hangyedongcha/zuixinfagui" class="expand">更多</a>
 								</div>
 							</div>
 						</div>
@@ -100,7 +100,7 @@
 								</div>
 								<div class="clear"></div><!--content list end-->
 								<div class="content">
-									<a href="/a/hangyedongcha/gongsixinwen" class="expand">更多</a>
+									<a href="[!--news.url--]/a/hangyedongcha/gongsixinwen" class="expand">更多</a>
 								</div>
 							</div>
 						</div>
@@ -124,7 +124,7 @@
 								</div>
 								<div class="clear"></div><!--content list end-->
 								<div class="content">
-									<a href="/a/hangyedongcha/shuiwuwenhua" class="expand">更多</a>
+									<a href="[!--news.url--]/a/hangyedongcha/shuiwuwenhua" class="expand">更多</a>
 								</div>
 							</div>
 						</div>
@@ -147,7 +147,7 @@
 										</li>
 									</ul>
 									<div style="padding-left:80%;height:20px">
-										<a href="/a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
+										<a href="[!--news.url--]/a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
 									</div>
 								</div>
 								<div class="clear"></div>
@@ -170,7 +170,7 @@
 										</li>
 									</ul>
 									<div style="padding-left:80%">
-										<a href="/a/hangyedongcha/" class="expand">更多</a>
+										<a href="[!--news.url--]/a/hangyedongcha/" class="expand">更多</a>
 									</div>
 								</div>
 								<div class="clear"></div>
@@ -182,10 +182,13 @@
 									<div class="icon"></div>热门标签
 								</div>
 								<div class="tags">
-									<span class="highlights3"><a href="[!--news.url--]a/peixunzhuanti/">培训业务</a></span> <span class="highlights3"><a href="[!--news.url--]a/yewujieshao/#117">税务筹划</a></span> <span class="highlights3"><a href="[!--news.url--]a/yewujieshao/#122">税务代理</a></span> <span class="highlights3"><a href="[!--news.url--]a/peixunzhuanti/qiyechongzu">企业重组</a></span>
+									<span class="highlights3"><a href="[!--news.url--]a/peixunzhuanti/">培训业务</a></span> 
+									<span class="highlights3"><a href="[!--news.url--]a/yewujieshao/#117">税务筹划</a></span> 
+									<span class="highlights3"><a href="[!--news.url--]a/yewujieshao/#122">税务代理</a></span> 
+									<span class="highlights3"><a href="[!--news.url--]a/peixunzhuanti/qiyechongzu">企业重组</a></span>
 								</div>
 							</div>
-						</div><!--wcmPlaceholder("contact_us", "placeholderDefinitionDocName=PH_CN_MAIN_CONTENT")-->
+						</div>
 					</div>
 				</div>
 			</div>

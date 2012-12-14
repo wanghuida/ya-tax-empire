@@ -34,7 +34,7 @@
                  links="[{left:&#39;30px&#39;,top:&#39;81px&#39;},{left:&#39;30px&#39;,top:&#39;244px&#39;},{direction:&#39;tb&#39;}]"
                  style="width: 1294px;">
                 <div class="image" id="bi_1"><a
-                        href="/"
+                        href="[!--news.url--]"
                         target="_blank"><img name="永安MediaPad 10 FHD" src="[!--news.url--]skin/default/images/hw_149403.jpg"
                                              style="left: -313px; position: relative;"></a></div>
                 <div class="text" id="bt_1" style="left: 3000px; top: 81px;"></div>

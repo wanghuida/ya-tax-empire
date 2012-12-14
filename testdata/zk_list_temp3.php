@@ -68,7 +68,8 @@
                                 <a style="padding-left: 90%;" href="#header">
                                     <img src="[!--news.url--]/skin/default/images/totop.jpg">
                                 </a>
-                            <div class="hr"></div>[/e:loop] <!--列表模板主页面结束-->
+                            <div class="hr"></div>[/e:loop] 
+                            <!--列表模板主页面结束-->
                         </div>
                     </div>
                 </div>
