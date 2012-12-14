@@ -1788,4 +1788,24 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 	color: #000000;
 	font-family: Verdana;
 }
+/*浮动窗口-在线咨询*/
+#message_box {
+  position: absolute;
+  z-index: 10;
+  background:#ffc;
+  padding:10px;
+  text-align: center;
+  vertical-align: middle;
+  width:80px;
+  height: 25px;
+  border: 0px solid #D2D2D2;
+  -webkit-box-shadow: 0 0 30px #CCC;
+  box-shadow: 0 0 30px #CCC;
+  background: #FFF;
+  background: -webkit-gradient(linear, left top, left 15, from(#FFFFFF), color-stop(10%, #EEEEEE), to(#DADDDF));
+}
+#message_box a{
+	font-size: 20px;
+	color: #B60005;
+}
 /*zhangkun css end*/

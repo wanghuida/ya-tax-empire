@@ -9438,3 +9438,16 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 }
 
 })( window );
+
+//zhangkun js start 浮动窗口
+$(window).scroll(function() {  
+ $('#message_box').css("top",$(window).height()+$(window).scrollTop()-70 +"px");
+ $('#message_box').css("left",$(window).width()+$(window).scrollLeft() -145 +"px");});
+
+$(window).resize(function() {  
+  $('#message_box').css("top",$(window).height()-70 +"px");
+  $('#message_box').css("left",$(window).width()-145 +"px");});
+
+$('#close_message').click(function(){   
+  $('#message_box').animate({ top:"+=15px",opacity:0 }, "slow");});   
+//zhangkun js end

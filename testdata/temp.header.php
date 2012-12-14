@@ -179,7 +179,7 @@
                 </ul>
                 <ul class="list last">
                     <li><a href="[!--news.url--]a/guanyuwomen/#128" class="topfrx">联系方式</a></li>
-					<li><a href="[!--news.url--]a/liuyanban/" class="topfrx">留言板</a></li>
+                    <li><a href="[!--news.url--]a/liuyanban/" class="topfrx">留言板</a></li>
                 </ul>
                 <div class="verticalLine"></div>
                 <ul class="m_box">
@@ -234,3 +234,11 @@
 </ul>
 </div>
 </div>
+<div id="message_box">
+  <a href="[!--news.url--]e/tool/gbook/?bid=1" target=_blank>在线咨询</a>
+</div> 
+<script type="text/javascript">
+  $('#message_box').css("top",$(window).height()-70 +"px");
+  $('#message_box').css("left",$(window).width()-145 +"px"); 
+  $('#message_box').css("display","block");
+</script>

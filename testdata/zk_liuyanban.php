@@ -3,10 +3,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title><?=defined('empirecms') ? $r[title] : '在线咨询'?></title>
-    <link rel="stylesheet" href="../../../skin/default/css/yatax.css" type="text/css" media="screen, project, print">
-    <link rel="stylesheet" href="../../../skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
-    <link rel="stylesheet" href="../../../skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
-    <script type="text/javascript" src="../../../skin/default/js/jquery-1.8.2.js"></script>
+    <link rel="stylesheet" href="[!--news.url--]skin/default/css/yatax.css" type="text/css" media="screen, project, print">
+    <link rel="stylesheet" href="[!--news.url--]skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
+    <link rel="stylesheet" href="[!--news.url--]skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
+    <script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js"></script>
 </head>
 <body>
 
@@ -14,7 +14,7 @@
 
 <div id="container">
     <div class="bound body">
-        <div>您的位置：<a href="../../../">首页</a>&nbsp;>&nbsp;<?=$bname?></div>
+        <div>您的位置：<a href="[!--news.url--]">首页</a>&nbsp;>&nbsp;<?=$bname?></div>
         <div class="grid215 left">            
             <div class='leftNav' id='1001'>
                 <div class='top' id='1002'></div>
@@ -22,7 +22,7 @@
                     <?php
                         $navname = $empire->query("select bid,bname from {$dbtbpre}enewsgbookclass");
                         while ($r=$empire->fetch($navname)) {
-                           echo "<a href='../../../e/tool/gbook/?bid=".$r['bid']."' id=".$r['bid'].">".$r['bname']."</a>";
+                           echo "<a href='[!--news.url--]e/tool/gbook/?bid=".$r['bid']."' id=".$r['bid'].">".$r['bname']."</a>";
                         }
                     ?>
                 </div>
@@ -35,7 +35,7 @@
         <div class="grid765_r left">
             <div class="grid550_l left">
                 <div>
-                    <a href="#publish" style="font-size: 22px">在线咨询>>></a>
+                    <a href="#publish" style="font-size: 22px">发布留言>>></a>
                 </div>
                 <div style="margin-top: 10px;">
                     <?
@@ -45,7 +45,7 @@
                         ?>
                         <div style="border:solid 1px;margin-bottom: 5px;line-height: 22px;">
                             <div style="background-color: #d3d3d3; color: #ffffff;">
-                                <span style="padding:0 20px 0 10px;background: url(../../../skin/default/images/ent_cn_img_more.gif) no-repeat 2% 50%">发布者: <?=$r[name]?></span>
+                                <span style="padding:0 20px 0 10px;background: url([!--news.url--]skin/default/images/ent_cn_img_more.gif) no-repeat 2% 50%">发布者: <?=$r[name]?></span>
                                 <span>发布时间: <?=$r[lytime]?></span>
                             </div>
                             <div style="padding:5px 10px; min-height:50px;"><?=$r[lytext]?></div>
@@ -97,7 +97,7 @@
                                 ?>
                             </ul>
                             <div style="padding-left:80%;height:20px">
-                                <a href="../../../a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
+                                <a href="[!--news.url--]a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -119,7 +119,7 @@
                                 ?>
                             </ul>
                             <div style="padding-left:80%">
-                                <a href="../../../a/hangyedongcha/" class="expand">更多</a>
+                                <a href="[!--news.url--]a/hangyedongcha/" class="expand">更多</a>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -133,21 +133,20 @@
                         </div>
                         <div class="tags">
                             <span class="highlights3">
-                                <a href="../../../a/peixunzhuanti/">培训业务</a>
+                                <a href="[!--news.url--]a/peixunzhuanti/">培训业务</a>
                             </span> 
                             <span class="highlights3">
-                                <a href="../../../a/yewujieshao/#117">税务筹划</a>
+                                <a href="[!--news.url--]a/yewujieshao/#117">税务筹划</a>
                             </span>
                             <span class="highlights3">
-                                <a href="../../../a/yewujieshao/#122">税务代理</a>
+                                <a href="[!--news.url--]a/yewujieshao/#122">税务代理</a>
                             </span>
                             <span class="highlights3">
-                                <a href="../../../a/peixunzhuanti/qiyechongzu">企业重组</a>
+                                <a href="[!--news.url--]a/peixunzhuanti/qiyechongzu">企业重组</a>
                             </span>
                         </div>
                     </div>
                 </div>
-                <!--wcmPlaceholder("contact_us", "placeholderDefinitionDocName=PH_CN_MAIN_CONTENT")-->
             </div>
         </div>
     </div>
