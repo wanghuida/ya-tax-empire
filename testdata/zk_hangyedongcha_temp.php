@@ -137,14 +137,9 @@
 								</div>
 								<div class="content">
 									<ul>
-										<li style="list-style: none">[e:loop={71,5,0,0}]
-										</li>
-										<li>
-											<a href="%3C?=$bqsr['titleurl']?%3E" target="_blank"><?=$bqr['title']?>
-											</a>
-										</li>
-										<li style="list-style: none">[/e:loop]
-										</li>
+									[e:loop={71,5,0,0}]
+                            		<li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </li>
+                            		[/e:loop]
 									</ul>
 									<div style="padding-left:80%;height:20px">
 										<a href="[!--news.url--]/a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
@@ -160,14 +155,9 @@
 								</div>
 								<div class="content">
 									<ul>
-										<li style="list-style: none">[e:loop={'news',5,18,0,'classid="72" OR classid="73" OR classid="74" OR classid="67" OR classid="68" OR classid="69"','newstime DESC'}]
-										</li>
-										<li>
-											<a href="%3C?=$bqsr['titleurl']?%3E" target="_blank"><?=$bqr['title']?>
-											</a>
-										</li>
-										<li style="list-style: none">[/e:loop]
-										</li>
+									[e:loop={'news',5,18,0,'classid in ("72","73","74","67" ,"68","69")','newstime DESC'}]
+                            		<li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a></li>
+                            		[/e:loop]
 									</ul>
 									<div style="padding-left:80%">
 										<a href="[!--news.url--]/a/hangyedongcha/" class="expand">更多</a>

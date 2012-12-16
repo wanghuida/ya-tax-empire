@@ -112,7 +112,7 @@
                         <div class="content">
                             <ul>
                                 <?php
-                                $zuixindt = $empire->query("select * from phome_ecms_news where classid='72' OR classid='73' OR classid='74' OR classid='67' OR classid='68' OR classid='69' order by id desc limit 5");
+                                $zuixindt = $empire->query("select * from phome_ecms_news where classid in ("72","73","74","67" ,"68","69") order by id desc limit 5");
                                 while ($r=$empire->fetch($zuixindt)) {
                                     echo "<li><a href=".$r['titleurl']."target=_blank>".$r['title']."</a></li>";
                                 }

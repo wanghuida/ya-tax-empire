@@ -1,6 +1,6 @@
 <div id="header">
     <div class="bound">
-        <a href="/" id="logo">
+        <a href="[!--news.url--]" id="logo">
             <img title="首页" src="[!--news.url--]skin/default/images/logo_cn.gif"></a>
 
         <div class="topnav">
@@ -12,7 +12,7 @@
                 {
                 ?>
                     <script>
-                        document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
+                        document.write('<script src="[!--news.url--]e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
                     </script>
                 
             <?php

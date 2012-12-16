@@ -112,7 +112,7 @@
                         </div>
                         <div class="content">
                             <ul>
-                            [e:loop={'news',5,18,0,'classid="72" OR classid="73" OR classid="74" OR classid="67" OR classid="68" OR classid="69"','newstime DESC'}]
+                            [e:loop={'news',5,18,0,'classid in ("72","73","74","67" ,"68","69")','newstime DESC'}]
                             <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a></li>
                             [/e:loop]
                             </ul>

@@ -4,14 +4,9 @@
 .idea/*
 .idea/
 .idea
-e/data/tmp/*
-e/data/tmp/
-e/data/tmp
-e/data/adminlogin/*
-e/data/adminlogin/
-e/data/adminlogin
+e/data/*
+e/data/
+e/data
 a/*
 a/
 a
-e/data/fc/ListClass*.php
-e/data/fc/ListEnews.php
