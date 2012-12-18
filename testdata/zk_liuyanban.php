@@ -64,20 +64,44 @@
                             ?>
                     分页： <?=$listpage?>
                 </div>
+                <?php
+                $lguserid=intval(getcvar('mluserid'));//登陆用户ID
+                $lgusername=RepPostVar(getcvar('mlusername'));//登陆用户
+                $lggroupid=intval(getcvar('mlgroupid'));//会员组ID
+                if($lggroupid)  //登陆会员显示菜单
+                {
+                    $huiyuan=$empire->fetch1("select * from phome_enewsmember where userid=".$lguserid);
+                    $iemail=$huiyuan['email'];
+                ?>
+                <div class="hr"></div>
                 <div id="publish">
-                    <fieldset style="width:468px;height:350px;border: 1px ridge;padding: 10px 20px;">
+                    <fieldset style="width:510px">
                         <legend>发布留言</legend>
                         <form action="../../enews/index.php" method="post" name="form1" id="form1">
-                            姓　　名：<input name="name" type="text" id="name"/> *&nbsp;&nbsp;&nbsp;&nbsp;
-                            邮　　箱：<input name="email" type="text" id="email"/> *<br/>
-                            联系电话：<input name="call" type="text" id="call"/><br/>
-                            留言内容* <br/><textarea name="lytext" style="width: 450px;height: 220px;" id="lytext"></textarea><br/>
+                            <input type=hidden name="name" value="<?=$lgusername?>"/> 
+                            <input type=hidden name="email" value="<?=$iemail?>"/>
+                            <textarea name="lytext" style="width: 508px;height: 220px;" id="lytext"></textarea><br/>
                             <input type="submit" name="Submit3" style="width: 50px;" value="提交"/>
                             <input type="reset" name="Submit22" style="width: 50px;" value="重置"/>
                             <input name="enews" type="hidden" id="enews" value="AddGbook"/>
                         </form>
                     </fieldset>
                 </div>
+                <div class="hr"></div>
+                <?php
+                }
+                else  //游客显示菜单
+                {
+                ?>  
+                <div class="hr"></div>
+                <div id="publish">
+                    <div><b>您还没有登陆，请在<a href="[!--news.url--]e/member/login/">登陆</a>后发布留言。</b></div>
+                    <div><b>如果还没有账号，请<a href="[!--news.url--]e/member/register/">注册账号</a>。</b></div>
+                </div>
+                <div class="hr"></div>
+                <?php
+                }
+                ?>
                 <a style="padding-left: 90%;" href="#header">回顶部</a>
             </div>
             <div class="grid215 right">

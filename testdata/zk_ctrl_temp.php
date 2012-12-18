@@ -33,29 +33,29 @@
         if($lggroupid)  //登陆会员显示菜单
         {
         ?>
-        <a href="/e/member/EditInfo/">修改资料</a>
-        <a href="/e/member/my/">帐号状态</a>
-        <a href="/e/member/msg/">站内信息</a>
-        <a href="/e/member/mspace/SetSpace.php">空间设置</a>
-        <a href="/e/DoInfo/">管理信息</a>
-        <a href="/e/member/fava/">收藏夹</a>
-        <a href="/e/payapi/">在线支付</a>
-        <a href="/e/member/friend/">我的好友</a>
-        <a href="/e/member/buybak/">消费记录</a>
-        <a href="/e/member/buygroup/">在线充值</a>
-        <a href="/e/member/card/">点卡充值</a>
+        <a href="[!--news.url--]e/member/EditInfo/">修改资料</a>
+        <a href="[!--news.url--]e/member/my/">帐号状态</a>
+        <a href="[!--news.url--]e/member/msg/">站内信息</a>
+        <a href="[!--news.url--]e/member/mspace/SetSpace.php">空间设置</a>
+        <a href="[!--news.url--]e/DoInfo/">管理信息</a>
+        <a href="[!--news.url--]e/member/fava/">收藏夹</a>
+        <a href="[!--news.url--]e/payapi/">在线支付</a>
+        <a href="[!--news.url--]e/member/friend/">我的好友</a>
+        <a href="[!--news.url--]e/member/buybak/">消费记录</a>
+        <a href="[!--news.url--]e/member/buygroup/">在线充值</a>
+        <a href="[!--news.url--]e/member/card/">点卡充值</a>
         <a href="#ecms" onclick="window.open('/e/ShopSys/buycar/','','width=680,height=500,scrollbars=yes,resizable=yes');">我的购物车</a>
-        <a href="/e/ShopSys/ListDd/">我的订单</a>
-        <a href="/e/enews/?enews=exit" onclick="return confirm('确认要退出?');">退出登陆</a>
+        <a href="[!--news.url--]e/ShopSys/ListDd/">我的订单</a>
+        <a href="[!--news.url--]e/enews/?enews=exit" onclick="return confirm('确认要退出?');">退出登陆</a>
         <?php
         }
         else  //游客显示菜单
         {
         ?>  
-        <a href="/e/member/login/">会员登陆</a>
-        <a href="/e/member/register/">注册帐号</a>
-        <a href="/e/DoInfo/">发布投稿</a>
-        <a href="#ecms" onclick="window.open('/e/ShopSys/buycar/','','width=680,height=500,scrollbars=yes,resizable=yes');">我的购物车</a>
+        <a href="[!--news.url--]e/member/login/">会员登陆</a>
+        <a href="[!--news.url--]e/member/register/">注册帐号</a>
+        <a href="[!--news.url--]e/DoInfo/">发布投稿</a>
+        <a href="#ecms" onclick="window.open('[!--news.url--]e/ShopSys/buycar/','','width=680,height=500,scrollbars=yes,resizable=yes');">我的购物车</a>
         <?php
         }
         ?>
