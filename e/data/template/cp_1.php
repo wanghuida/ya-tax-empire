@@ -1,21 +1,28 @@
 <?php
 if(!defined('InEmpireCMS'))
 {
-  exit();
+	exit();
 }
-?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title><?=defined('empirecms')?$r[title]:'会员中心'?></title>
-  <link rel="stylesheet" href="/skin/default/css/yatax.css" type="text/css" media="screen, project, print">
-  <link rel="stylesheet" href="/skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
-  <link rel="stylesheet" href="/skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
-  <script type="text/javascript" src="/skin/default/js/jquery-1.8.2.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+        <?=defined('empirecms')?$r[title]:'用户控制面板'?>
+    </title>
+    <meta name="keywords" content="<?=defined('empirecms')?$r[title]:'用户控制面板'?>">
+    <meta name="description" content="<?=defined('empirecms')?$r[title]:'用户控制面板'?>">
+    <link rel="stylesheet" href="/skin/default/css/yatax.css" type="text/css"
+          media="screen, project, print">
+    <link rel="stylesheet" href="/skin/default/css/globle_cn_ie6.css" type="text/css"
+          media="screen, project, print">
+    <link rel="stylesheet" href="/skin/default/css/jquery.ui.theme.css" type="text/css"
+          media="screen, project, print">
+    <script type="text/javascript" src="/skin/default/js/jquery-1.8.2.js">
+    </script>
 </head>
 <body>
-<!-- 页头 -->
 <div id="header">
     <div class="bound">
         <a href="/" id="logo">
@@ -24,9 +31,41 @@ if(!defined('InEmpireCMS'))
         <div class="topnav">
             <div class="log">
                 <!--change iframe to ajax start-->
+            <?php
+                $lggroupid=intval(getcvar('mlgroupid'));//会员组ID
+                if($lggroupid)  //登陆会员显示菜单
+                {
+                ?>
                     <script>
                         document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
                     </script>
+                
+            <?php
+                }
+                else  //游客显示菜单
+                {
+            ?> 
+            <form name="form1" method="post" action="/e/enews/index.php">
+                    <input type=hidden name=ecmsfrom value="9">
+                    <input type=hidden name=enews value=login>
+                    用户名
+                    <input name="username" type="text" id="username" size="15">&nbsp;&nbsp;
+                    密码
+                    <input name="password" type="password" id="password" size="15">
+                    <!--
+                    <a href="../GetPassword/" target="_blank">忘记密码？</a></td>
+                    <select name=lifetime>
+                        <option value="0" selected="selected">不保存</option>
+                        <option value="3600">一小时</option>
+                        <option value="2592000">一个月</option>
+                    </select>
+                    -->
+                    <input type="submit" name="Submit" value="登陆">&nbsp;&nbsp;&nbsp; 
+                    <input type="button" name="button" value="注册" onclick="parent.location.href='/e/member/register/';">
+                </form>
+            <?php
+                }
+            ?>
             </div>
             <!--change iframe to ajax end-->
 
@@ -35,12 +74,12 @@ if(!defined('InEmpireCMS'))
 </div>
 
 <div id="menu">
-  <div class="nav">
-    <ul>
-      <li is="menuindex">
-        <a href="/" class="trad"><span>首页</span></a>
-      </li>
-      <li is="menuindex">
+<div class="nav">
+<ul>
+<li is="menuindex">
+    <a href="/" class="trad"><span>首页</span></a>
+</li>
+<li is="menuindex">
     <a iblk="行业洞察" href="/a/hangyedongcha" class="trad"><span>行业洞察</span></a>
 
     <div class="menuitempanel">
@@ -73,8 +112,8 @@ if(!defined('InEmpireCMS'))
             </div>
         </div>
     </div>
-      </li>
-      <li is="menuindex">
+</li>
+<li is="menuindex">
     <a iblk="服务与方案" href="/a/yewujieshao" class="solutions_products"><span>服务与方案</span></a>
 
     <div class="menuitempanel">
@@ -88,13 +127,18 @@ if(!defined('InEmpireCMS'))
                     <li><a href="/a/yewujieshao/#120" class="topfrx">汇算清缴代理</a></li>
                     <li><a href="/a/yewujieshao/#119" class="topfrx">税政协助</a></li>
                 </ul>
-                <ul class="list last">
+                <ul class="list">
                     <li><a href="/a/yewujieshao/#118" class="topfrx">转让定价</a></li>
                     <li><a href="/a/yewujieshao/#117" class="topfrx">税务筹划</a></li>
                     <li><a href="/a/yewujieshao/#116" class="topfrx">税务审计</a></li>
                     <li><a href="/a/yewujieshao/#115" class="topfrx">税务顾问</a></li>
                     <li><a href="/a/yewujieshao" class="topfrx">其他业务</a></li>
                 </ul>
+                <ul class="list last">
+                    <li><a href="/a/chenggonganli" class="topfrx">成功案例</a></li>
+                    <li><a href="/a/chenggonganli/#180" class="topfrx">合作企业</a></li>
+                </ul>
+
                 <div class="verticalLine"></div>
                 <ul class="m_box">
                     <li>
@@ -114,8 +158,8 @@ if(!defined('InEmpireCMS'))
             </div>
         </div>
     </div>
-      </li>
-      <li is="menuindex">
+</li>
+<li is="menuindex">
     <a iblk="财税大课堂" href="/a/peixunzhuanti" class="support"><span>财税大课堂</span></a>
 
     <div class="menuitempanel">
@@ -125,7 +169,8 @@ if(!defined('InEmpireCMS'))
                 <ul class="list last">
                     <li><a href="/a/peixunzhuanti/yinggaizeng" class="topfrx">营改增专题</a></li>
                     <li><a href="/a/peixunzhuanti/qiyechongzu" class="topfrx">企业重组培训</a></li>
-                    <li><a href="/a/peixunzhuanti/" class="topfrx">税收课堂</a></li>
+                    <li><a href="/a/peixunzhuanti/" class="topfrx">注册税务师培训</a></li>
+                    <li><a href="/a/peixunzhuanti/peixungonggao" class="topfrx">培训公告</a></li>
                 </ul>
                 <div class="verticalLine"></div>
 
@@ -144,8 +189,8 @@ if(!defined('InEmpireCMS'))
             </div>
         </div>
     </div>
-      </li>
-      <li is="menuindex">
+</li>
+<li is="menuindex">
     <a iblk="关于永安" href="/a/guanyuwomen/" class="about_yatax"><span>关于永安</span></a>
 
     <div class="menuitempanel">
@@ -159,6 +204,7 @@ if(!defined('InEmpireCMS'))
                 </ul>
                 <ul class="list last">
                     <li><a href="/a/guanyuwomen/#128" class="topfrx">联系方式</a></li>
+                    <li><a href="/a/liuyanban/" class="topfrx">留言板</a></li>
                 </ul>
                 <div class="verticalLine"></div>
                 <ul class="m_box">
@@ -173,8 +219,8 @@ if(!defined('InEmpireCMS'))
             </div>
         </div>
     </div>
-      </li>
-      <li is="menuindex">
+</li>
+<li is="menuindex">
     <a iblk="加入永安" href="/a/jiaruyongan" class="join_yatax"><span>加入永安</span></a>
 
     <div class="menuitempanel">
@@ -209,10 +255,18 @@ if(!defined('InEmpireCMS'))
             </div>
         </div>
     </div>
-      </li>
-    </ul>
-  </div>
+</li>
+</ul>
 </div>
+</div>
+<div id="message_box">
+  <a href="/e/tool/gbook/?bid=1" target=_blank>在线咨询</a>
+</div> 
+<script type="text/javascript">
+  $('#message_box').css("top",$(window).height()-70 +"px");
+  $('#message_box').css("left",$(window).width()-145 +"px"); 
+  $('#message_box').css("display","block");
+</script>
 <div id="container">
   <div class="bound body">
     <div> 您的位置：<?=$url?></div>
@@ -259,4 +313,5 @@ if(!defined('InEmpireCMS'))
     </div>
     <div class="grid765_r left">
       <div class="core-network">
-          <div class="content">
+        <div class="content">
+         

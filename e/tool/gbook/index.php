@@ -89,7 +89,7 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
                 {
             ?> 
             <form name="form1" method="post" action="/e/enews/index.php">
-                    <input type=hidden name=ecmsfrom value="">
+                    <input type=hidden name=ecmsfrom value="9">
                     <input type=hidden name=enews value=login>
                     用户名
                     <input name="username" type="text" id="username" size="15">&nbsp;&nbsp;
@@ -390,10 +390,13 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
                             <ul>
                                 <?php
                                 $peixungg = $empire->query("select * from phome_ecms_news where classid='71' order by id desc limit 5");
-                                while ($r=$empire->fetch($peixungg)) {
-                                    echo "<li><a href=".$r['titleurl']."target=_blank>".$r['title']."</a></li>";
+                                while ($p=$empire->fetch($peixungg)) {
+                                    echo "<li><a href=".$p['titleurl']."target=_blank>".$p['title']."</a></li>";
                                 }
                                 ?>
+                                [e:loop={71,5,0,0}]
+                                    <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </li>
+                                [/e:loop]
                             </ul>
                             <div style="padding-left:80%;height:20px">
                                 <a href="/a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
@@ -411,7 +414,7 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
                         <div class="content">
                             <ul>
                                 <?php
-                                $zuixindt = $empire->query("select * from phome_ecms_news where classid='72' OR classid='73' OR classid='74' OR classid='67' OR classid='68' OR classid='69' order by id desc limit 5");
+                                $zuixindt = $empire->query("select * from phome_ecms_news where classid in ('72','73','74','67' ,'68','69') order by id desc limit 5");
                                 while ($r=$empire->fetch($zuixindt)) {
                                     echo "<li><a href=".$r['titleurl']."target=_blank>".$r['title']."</a></li>";
                                 }
