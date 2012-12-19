@@ -1809,15 +1809,12 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 	color: #B60005;
 }
 .zixun{
+	width: 210px;
 	line-height: 50px;
 	text-align:center; 
 	vertical-align: text-bottom;
-	background: url(../images/wenhao.jpg) no-repeat 15% 50%;
-	border: outset 5px rgb(237, 242, 243);
-}
-.zixun a{
-	color: #D65555;	
 	font-size: 20px; 
+	color: #D65555;	
 }
 .fabu{
 	width: 150px;
