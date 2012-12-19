@@ -115,6 +115,7 @@
                         <div class="content">
                             <ul>
                                 <?php
+                                require_once ECMS_PATH.'e/data/dbcache/class1.php';
                                 $peixungg = $empire->query("select * from phome_ecms_news where classid='71' order by id desc limit 5");
                                 while ($r=$empire->fetch($peixungg)) {
                                     $titleurl=sys_ReturnBqTitleLink($r);
@@ -140,7 +141,8 @@
                                 <?php
                                 $zuixindt = $empire->query("select * from phome_ecms_news where classid in ('72','73','74','67' ,'68','69') order by id desc limit 5");
                                 while ($r=$empire->fetch($zuixindt)) {
-                                    echo "<li><a href=".$r['titleurl']."target=_blank>".$r['title']."</a></li>";
+                                    $titleurl=sys_ReturnBqTitleLink($r);
+                                    echo "<li><a href=".$titleurl." target=_blank>".$r['title']."</a></li>";
                                 }
                                 ?>
                             </ul>

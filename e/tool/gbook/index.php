@@ -91,7 +91,7 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
             <form name="form1" method="post" action="/e/enews/index.php">
                     <input type=hidden name=ecmsfrom value="9">
                     <input type=hidden name=enews value=login>
-                    用户名test
+                    用户名
                     <input name="username" type="text" id="username" size="15">&nbsp;&nbsp;
                     密码
                     <input name="password" type="password" id="password" size="15">
@@ -416,6 +416,7 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
                         <div class="content">
                             <ul>
                                 <?php
+                                require_once ECMS_PATH.'e/data/dbcache/class1.php';
                                 $peixungg = $empire->query("select * from phome_ecms_news where classid='71' order by id desc limit 5");
                                 while ($r=$empire->fetch($peixungg)) {
                                     $titleurl=sys_ReturnBqTitleLink($r);
@@ -441,7 +442,8 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
                                 <?php
                                 $zuixindt = $empire->query("select * from phome_ecms_news where classid in ('72','73','74','67' ,'68','69') order by id desc limit 5");
                                 while ($r=$empire->fetch($zuixindt)) {
-                                    echo "<li><a href=".$r['titleurl']."target=_blank>".$r['title']."</a></li>";
+                                    $titleurl=sys_ReturnBqTitleLink($r);
+                                    echo "<li><a href=".$titleurl." target=_blank>".$r['title']."</a></li>";
                                 }
                                 ?>
                             </ul>
