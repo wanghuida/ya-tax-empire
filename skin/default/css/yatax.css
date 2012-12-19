@@ -1812,11 +1812,24 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 	line-height: 50px;
 	text-align:center; 
 	vertical-align: text-bottom;
-	background: url(../images/wenhao.jpg) no-repeat 18% 50%;
+	background: url(../images/wenhao.jpg) no-repeat 15% 50%;
 	border: outset;
 }
 .zixun a{
 	color: #D65555;	
 	font-size: 20px; 
+}
+.fabu{
+	width: 150px;
+	line-height: 40px; 
+	vertical-align: text-bottom;
+	background: url(../images/fabu.jpg) no-repeat 5% 50%;
+	margin-bottom: -15px;
+}
+.fabu a{
+	padding-left: 45px;
+	color: #D65555;	
+	font-size: 20px; 
+	font-weight: bold;
 }
 /*zhangkun css end*/

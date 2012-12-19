@@ -34,9 +34,10 @@
         </div>
         <div class="grid765_r left">
             <div class="grid550_l left">
-                <div>
-                    <a href="#publish" style="font-size: 22px">发布留言>>></a>
+                <div class="fabu">
+                    <a href="#publish">发布留言</a>
                 </div>
+                <div class="hr"></div>
                 <div style="margin-top: 10px;">
                     <?
                     while ($r = $empire->fetch($sql)) {
