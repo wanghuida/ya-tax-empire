@@ -48,7 +48,7 @@ if(!defined('InEmpireCMS'))
             <form name="form1" method="post" action="/e/enews/index.php">
                     <input type=hidden name=ecmsfrom value="9">
                     <input type=hidden name=enews value=login>
-                    用户名
+                    用户名test
                     <input name="username" type="text" id="username" size="15">&nbsp;&nbsp;
                     密码
                     <input name="password" type="password" id="password" size="15">
@@ -259,6 +259,7 @@ if(!defined('InEmpireCMS'))
 </ul>
 </div>
 </div>
+<!--
 <div id="message_box">
   <a href="/e/tool/gbook/?bid=1" target=_blank>在线咨询</a>
 </div> 
@@ -267,6 +268,7 @@ if(!defined('InEmpireCMS'))
   $('#message_box').css("left",$(window).width()-145 +"px"); 
   $('#message_box').css("display","block");
 </script>
+-->
 <div id="container">
   <div class="bound body">
     <div> 您的位置：<?=$url?></div>

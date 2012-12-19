@@ -1763,7 +1763,7 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 }
 .grid215 .on{
     color: #B60005;
-    background: url(/skin/default/images/hw_000571.gif) right 50% no-repeat;
+    background: url(../images/hw_000571.gif) right 50% no-repeat;
     font-weight: bold;
     padding-right: 20px;
     border-bottom: none;
@@ -1807,5 +1807,16 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 #message_box a{
 	font-size: 20px;
 	color: #B60005;
+}
+.zixun{
+	line-height: 50px;
+	text-align:center; 
+	vertical-align: text-bottom;
+	background: url(../images/wenhao.jpg) no-repeat 18% 50%;
+	border: outset;
+}
+.zixun a{
+	color: #D65555;	
+	font-size: 20px; 
 }
 /*zhangkun css end*/

@@ -234,6 +234,7 @@
 </ul>
 </div>
 </div>
+<!--
 <div id="message_box">
   <a href="[!--news.url--]e/tool/gbook/?bid=1" target=_blank>在线咨询</a>
 </div> 
@@ -242,3 +243,4 @@
   $('#message_box').css("left",$(window).width()-145 +"px"); 
   $('#message_box').css("display","block");
 </script>
+-->

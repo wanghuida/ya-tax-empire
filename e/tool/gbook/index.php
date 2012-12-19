@@ -302,6 +302,7 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
 </ul>
 </div>
 </div>
+<!--
 <div id="message_box">
   <a href="/e/tool/gbook/?bid=1" target=_blank>在线咨询</a>
 </div> 
@@ -310,6 +311,7 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
   $('#message_box').css("left",$(window).width()-145 +"px"); 
   $('#message_box').css("display","block");
 </script>
+-->
 
 <div id="container">
     <div class="bound body">
@@ -415,7 +417,8 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
                                 <?php
                                 $peixungg = $empire->query("select * from phome_ecms_news where classid='71' order by id desc limit 5");
                                 while ($r=$empire->fetch($peixungg)) {
-                                    echo "<li><a href=".$r['titleurl']."target=_blank>".$r['title']."</a></li>";
+                                    $titleurl=sys_ReturnBqTitleLink($r);
+                                    echo "<li><a href=".$titleurl." target=_blank>".$r['title']."</a></li>";
                                 }
                                 ?>
                             </ul>

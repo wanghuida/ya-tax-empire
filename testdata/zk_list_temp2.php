@@ -74,9 +74,10 @@
                         </div>
                     </div>
             <div class="grid215 right">
-                <div>
-                    <a href="[!--news.url--]e/tool/gbook/?bid=1"><img src="[!--news.url--]skin/default/images/zaixianzixun.jpg"></a>
+                 <div class="zixun">
+                    <a href="[!--news.url--]e/tool/gbook/?bid=1" target=_blank>在线咨询</a>
                 </div>
+                <div class="hr"></div>
                 <div class="white-paper">
                     <div class="body">
                         <div class="header">
