@@ -1,1 +1,1 @@
-document.write("<li><a href=\"/a/liuyanban/2012-12-10/183.html\" title=\"dfasfasdfasdfas\">dfasfasdfasdfas</a></li><li><a href=\"/a/liuyanban/2012-12-10/182.html\" title=\"Compass用法指南 - 阮一峰的网络日志\">Compass用法指南 - 阮一峰的网络日</a></li>");
+document.write("");

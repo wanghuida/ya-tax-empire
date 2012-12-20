@@ -69,8 +69,11 @@
                 <div class="core-network">
                     <div class="content">
                     <div class="hr"></div>
-                        <div align="center">
+                        <div style="text-align: center;font-size: 18px;">
                             <strong>[!--title--]</strong>
+                        </div>
+                        <div style="text-align: center">
+                            发布时间：[!--newstime--]&nbsp;&nbsp; 信息来源：[!--befrom--]
                         </div>
                         <br>
 
