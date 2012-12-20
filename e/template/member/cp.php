@@ -79,12 +79,8 @@ require(ECMS_PATH.'e/data/template/cp_1.php');
       站内信息</a></td>
         <td><a href="../mspace/SetSpace.php"><img src="../../data/images/membercp/space.gif" width="16" height="16" border="0" align="absmiddle"> 
       空间设置</a></td>
-        <td><a href="../../DoInfo/"><img src="../../data/images/membercp/info.gif" width="16" height="16" border="0" align="absmiddle"> 
-      管理信息</a></td>
-        <td><a href="../fava/"><img src="../../data/images/membercp/favitorie.gif" width="16" height="16" border="0" align="absmiddle"> 
-      管理收藏夹</a></td>
-        <td><a href="../friend/"><img src="../../data/images/membercp/friend.gif" width="16" height="16" border="0" align="absmiddle"> 
-      我的好友</a></td>
+        <td><a href="../../tool/gbook/?bid=1" target='_blank'><img src="../../data/images/membercp/info.gif" width="16" height="16" border="0" align="absmiddle"> 
+      在线咨询</a></td>
       </tr>
     </table>
   </div>
