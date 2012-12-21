@@ -1,7 +1,7 @@
 <!--
-列表内容模板(list.var) (*) <strong><a href="[!--titleurl--]">[!--title--]</a></strong>
+<strong><a href="[!--titleurl--]" target=_blank>[!--title--]</a></strong>
 <p>
-    [!--smalltext--]……<strong><a href="[!--titleurl--]">查看全文</a></strong>
+    [!--smalltext--]……<strong><a href="[!--titleurl--] target=_blank">查看全文</a></strong>
 </p>
 <div class="hr"></div>
 -->
@@ -121,7 +121,7 @@
                             [/e:loop]
                             </ul>
                             <div style="padding-left:80%;">
-                                <a href="[!--news.url--]/a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
+                                <a href="[!--news.url--]a/peixunzhuanti/peixungonggao/" target="_blank" class="expand">更多</a>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -140,7 +140,7 @@
                             [/e:loop]
                             </ul>
                             <div style="padding-left:80%;height:20px">
-                                <a href="[!--news.url--]/a/hangyedongcha/" class="expand">更多</a>
+                                <a href="[!--news.url--]a/hangyedongcha/" target="_blank" class="expand">更多</a>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -154,16 +154,16 @@
                         </div>
                         <div class="tags">
                             <span class="highlights3">
-                                <a href="[!--news.url--]a/peixunzhuanti/">培训业务</a>
+                                <a href="[!--news.url--]a/peixunzhuanti/" target="_blank">培训业务</a>
                             </span> 
                             <span class="highlights3">
-                                <a href="[!--news.url--]a/yewujieshao/#117">税务筹划</a>
+                                <a href="[!--news.url--]a/yewujieshao/#117" target="_blank">税务筹划</a>
                             </span>
                             <span class="highlights3">
-                                <a href="[!--news.url--]a/yewujieshao/#122">税务代理</a>
+                                <a href="[!--news.url--]a/yewujieshao/#122" target="_blank">税务代理</a>
                             </span>
                             <span class="highlights3">
-                                <a href="[!--news.url--]a/peixunzhuanti/qiyechongzu">企业重组</a>
+                                <a href="[!--news.url--]a/peixunzhuanti/qiyechongzu" target="_blank">企业重组</a>
                             </span>
                         </div>
                     </div>
