@@ -103,12 +103,10 @@
         <div><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </div>
         [/e:loop]
         </div>
-
         <div class="clear"></div>
-
     </div>
 
-        <div class="latest-news">
+    <div class="latest-news">
         <div class="title" style="margin-top:7px; width:40px;font-weight:bold; color:#BB0000;"><a
                 href="[!--news.url--]a/hangyehongcha/gongsixinwen"
                 style="font-weight:bold; color:#BB0000;"></a>
@@ -118,10 +116,11 @@
             <div><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </div>
             [/e:loop]
         </div>
-
         <div class="clear"></div>
-
     </div>
+    <button type="button" class="index-zixun" onclick="window.open('[!--news.url--]e/tool/gbook/?bid=1')">
+        在线咨询
+    </button>
 </div>
 </div>
 

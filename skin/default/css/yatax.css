@@ -1829,4 +1829,12 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 	font-size: 20px; 
 	font-weight: bold;
 }
+.index-zixun{
+	float:left;
+	height:30px;
+	margin-left: 100px;
+	margin-top: 2px;
+	color: #B00;
+}
+
 /*zhangkun css end*/

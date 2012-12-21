@@ -171,6 +171,7 @@ if(!defined('InEmpireCMS'))
                     <li><a href="/a/peixunzhuanti/qiyechongzu" class="topfrx">企业重组培训</a></li>
                     <li><a href="/a/peixunzhuanti/" class="topfrx">注册税务师培训</a></li>
                     <li><a href="/a/peixunzhuanti/peixungonggao" class="topfrx">培训公告</a></li>
+                    <li><a href="/e/tool/gbook/?bid=2" class="topfrx">在线咨询</a></li>
                 </ul>
                 <div class="verticalLine"></div>
 
@@ -204,7 +205,7 @@ if(!defined('InEmpireCMS'))
                 </ul>
                 <ul class="list last">
                     <li><a href="/a/guanyuwomen/#128" class="topfrx">联系方式</a></li>
-                    <li><a href="/a/liuyanban/" class="topfrx">留言板</a></li>
+                    <li><a href="/e/tool/gbook/?bid=3" class="topfrx">留言板</a></li>
                 </ul>
                 <div class="verticalLine"></div>
                 <ul class="m_box">

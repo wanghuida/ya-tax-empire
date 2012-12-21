@@ -49,7 +49,7 @@
                                 <span style="padding:0 20px 0 10px;background: url([!--news.url--]skin/default/images/ent_cn_img_more.gif) no-repeat 2% 50%">发布者: <?=$r[name]?></span>
                                 <span>发布时间: <?=$r[lytime]?></span>
                             </div>
-                            <div style="padding:5px 10px; min-height:50px;"><?=$r[lytext]?></div>
+                            <div style="padding:5px 10px; min-height:30px;"><?=$r[lytext]?></div>
                             <?
                                 if ($r[retext]) {
                             ?>
