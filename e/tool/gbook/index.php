@@ -69,49 +69,12 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
 <div id="header">
     <div class="bound">
         <a href="/" id="logo">
-            <img title="首页" src="/skin/default/images/logo_cn.gif"></a>
-
+            <img title="首页" src="/skin/default/images/logo_cn.gif">
+        </a>
         <div class="topnav">
-            <div class="log">
-                <!--change iframe to ajax start-->
-            <?php
-                $lggroupid=intval(getcvar('mlgroupid'));//会员组ID
-                if($lggroupid)  //登陆会员显示菜单
-                {
-                ?>
-                    <script>
-                        document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
-                    </script>
-                
-            <?php
-                }
-                else  //游客显示菜单
-                {
-            ?> 
-            <form name="form1" method="post" action="/e/enews/index.php">
-                    <input type=hidden name=ecmsfrom value="9">
-                    <input type=hidden name=enews value=login>
-                    用户名
-                    <input name="username" type="text" id="username" size="15">&nbsp;&nbsp;
-                    密码
-                    <input name="password" type="password" id="password" size="15">
-                    <!--
-                    <a href="../GetPassword/" target="_blank">忘记密码？</a></td>
-                    <select name=lifetime>
-                        <option value="0" selected="selected">不保存</option>
-                        <option value="3600">一小时</option>
-                        <option value="2592000">一个月</option>
-                    </select>
-                    -->
-                    <input type="submit" name="Submit" value="登陆">&nbsp;&nbsp;&nbsp; 
-                    <input type="button" name="button" value="注册" onclick="parent.location.href='/e/member/register/';">
-                </form>
-            <?php
-                }
-            ?>
-            </div>
-            <!--change iframe to ajax end-->
-
+            <script>
+                document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
+            </script>
         </div>
     </div>
 </div>
@@ -303,16 +266,6 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
 </ul>
 </div>
 </div>
-<!--
-<div id="message_box">
-  <a href="/e/tool/gbook/?bid=1" target=_blank>在线咨询</a>
-</div> 
-<script type="text/javascript">
-  $('#message_box').css("top",$(window).height()-70 +"px");
-  $('#message_box').css("left",$(window).width()-145 +"px"); 
-  $('#message_box').css("display","block");
-</script>
--->
 
 <div id="container">
     <div class="bound body">
