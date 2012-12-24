@@ -1,7 +1,7 @@
 <!--
-<strong><a href="[!--titleurl--]" target=_blank>[!--title--]</a></strong>
+<strong><a class="content_more" href="[!--titleurl--]" target=_blank>[!--title--]</a></strong>
 <p>
-    [!--smalltext--]……<strong><a href="[!--titleurl--] target=_blank">查看全文</a></strong>
+    [!--smalltext--]……<strong><a href="[!--titleurl--]" target=_blank">查看全文</a></strong>
 </p>
 <div class="hr"></div>
 -->

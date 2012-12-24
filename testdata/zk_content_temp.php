@@ -69,7 +69,7 @@
                 <div class="core-network">
                     <div class="content">
                     <div class="hr"></div>
-                        <div style="text-align: center;font-size: 18px;">
+                        <div class="article_content">
                             <strong>[!--title--]</strong>
                         </div>
                         <div style="text-align: center">

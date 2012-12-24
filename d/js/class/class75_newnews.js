@@ -1,1 +1,1 @@
-document.write("<li><a href=\"/a/hangyedongcha/shuiwuwenhua/2012-11-05/152.html\" title=\"“营改增”试点热中的冷思考\">“营改增”试点热中的冷思考</a></li>");
+document.write("<li><a href=\"/a/hangyedongcha/shuiwuwenhua/2012-12-24/189.html\" title=\"我国财务会计和税务会计关系及选择\">我国财务会计和税务会计关系及选择</a></li><li><a href=\"/a/hangyedongcha/shuiwuwenhua/2012-11-05/152.html\" title=\"“营改增”试点热中的冷思考\">“营改增”试点热中的冷思考</a></li>");
