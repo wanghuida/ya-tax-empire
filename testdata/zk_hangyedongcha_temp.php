@@ -47,7 +47,7 @@
 								<!--content list start-->
 								<div class="case">
 									<ul>
-										<li style="list-style: none">[ecmsinfo]72,3,32,0,0,8,0[/ecmsinfo]
+										<li style="list-style: none">[ecmsinfo]72,3,60,0,0,8,0[/ecmsinfo]
 										</li>
 									</ul>
 								</div>
@@ -70,7 +70,7 @@
 								<!--content list start-->
 								<div class="case">
 									<ul>
-										<li style="list-style: none">[ecmsinfo]73,3,32,0,0,8,0[/ecmsinfo]
+										<li style="list-style: none">[ecmsinfo]73,3,60,0,0,8,0[/ecmsinfo]
 										</li>
 									</ul>
 								</div>
@@ -94,7 +94,7 @@
 								<!--content list start-->
 								<div class="case">
 									<ul>
-										<li style="list-style: none">[ecmsinfo]74,3,32,0,0,8,0[/ecmsinfo]
+										<li style="list-style: none">[ecmsinfo]74,3,60,0,0,8,0[/ecmsinfo]
 										</li>
 									</ul>
 								</div>
@@ -118,7 +118,7 @@
 								<!--content list start-->
 								<div class="case">
 									<ul>
-										<li style="list-style: none">[ecmsinfo]75,3,32,0,0,8,0[/ecmsinfo]
+										<li style="list-style: none">[ecmsinfo]75,3,60,0,0,8,0[/ecmsinfo]
 										</li>
 									</ul>
 								</div>
