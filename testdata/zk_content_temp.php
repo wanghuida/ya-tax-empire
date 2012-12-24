@@ -84,13 +84,25 @@
                             </p>
                         </div>
                     </div>
+                    <!-- JiaThis Button BEGIN -->
+                    <div class="jiathis_style_24x24">
+                        <a class="jiathis_button_qzone"></a>
+                        <a class="jiathis_button_tsina"></a>
+                        <a class="jiathis_button_tqq"></a>
+                        <a class="jiathis_button_renren"></a>
+                        <a class="jiathis_button_kaixin001"></a>
+                        <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+                        <a class="jiathis_counter_style"></a>
+                    </div>
+                    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1355811325011855" charset="utf-8"></script>
+                    <!-- JiaThis Button END -->
                     <a style="padding-left: 90%;" href="#header">回顶部</a>
                 </div>
             </div>
             <div class="grid215 right">
-                <button type="button" class="zixun" onclick="window.open('[!--news.url--]e/tool/gbook/?bid=1')">
-                    在线咨询
-                </button>
+                <a href="[!--news.url--]e/tool/gbook/?bid=1" target=_blank>
+                    <img src="[!--news.url--]skin/default/images/zixun.gif" alt="在线咨询" />
+                </a>
                 <div class="hr"></div>
                 <div class="white-paper">
                     <div class="body">
