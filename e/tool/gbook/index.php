@@ -78,7 +78,6 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
         </div>
     </div>
 </div>
-
 <div id="menu">
     <div class="nav">
         <ul>
@@ -264,17 +263,6 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
                 </div>
             </li>
         </ul>
-        <div class="index_search">
-            <form action='/e/sch/index.php' method="GET" name="search_news" id="search_news">
-                <input name="keyboard" type="text" id="keyboard" size="20" />
-                <select name="field" id="field">
-                  <option value="1">全文</option>
-                  <option value="2">标题</option>
-                  <option value="3">内容</option>
-                </select> 
-                <input type="submit" name="Submit22" value="搜索" />
-            </form>
-        </div>
     </div>
 </div>
 
