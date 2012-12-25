@@ -64,98 +64,250 @@ $sql=$empire->query($query);
 $listpage=page1($num,$line,$page_line,$start,$page,$search);
 $url="<a href='".$public_r['newsurl']."'>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['SearchAllNav'];
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>搜索 - Powered by EmpireCMS</title>
-<link href="/skin/default/css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/skin/default/js/tabs.js"></script>
-<style type="text/css">
-<!--
-.r {
-display:inline;
-font-weight:normal;
-margin:0;
-font-size:16px;
-margin-top:10px;
-}
-.a{color:green}
-.fl{color:#77c}
--->
-</style>
-</head>
-<body class="listpage">
-<!-- 页头 -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" class="top">
-    <tr>
-        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-            <tr>
-                <td width="63%">
-                    <!-- 登录 -->
-                    <script>
-                        document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
-                    </script>
-                </td>
-                <td align="right">
-                    <a onclick="window.external.addFavorite(location.href,document.title)" href="#ecms">加入收藏</a> | <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('/')" href="#ecms">设为首页</a> | <a href="/e/member/cp/">会员中心</a> | <a href="/e/DoInfo/">我要投稿</a> | <a href="/e/web/?type=rss2" target="_blank">RSS<img src="/skin/default/images/rss.gif" border="0" hspace="2" /></a>
-                </td>
-            </tr>
-        </table></td>
-    </tr>
-</table>
-<table width="100%" border="0" cellpadding="0" cellspacing="10">
-    <tr valign="middle">
-        <td width="240" align="center"><a href="/"><img src="/skin/default/images/logo.gif" width="200" height="65" border="0" /></a></td>
-        <td align="center"><a href="http://www.phome.net/OpenSource/" target="_blank"><img src="/skin/default/images/opensource.gif" width="100%" height="70" border="0" /></a></td>
-    </tr>
-</table>
-<!-- 导航tab选项卡 -->
-<table width="920" border="0" align="center" cellpadding="0" cellspacing="0" class="nav">
-    <tr>
-        <td class="nav_global"><ul>
-            <li class="curr" id="tabnav_btn_0" onmouseover="tabit(this)"><a href="/">首页</a></li>
-            <li id="tabnav_btn_1" onmouseover="tabit(this)"><a href="/news/">新闻中心</a></li>
-            <li id="tabnav_btn_2" onmouseover="tabit(this)"><a href="/download/">下载中心</a></li>
-            <li id="tabnav_btn_3" onmouseover="tabit(this)"><a href="/movie/">影视频道</a></li>
-            <li id="tabnav_btn_4" onmouseover="tabit(this)"><a href="/shop/">网上商城</a></li>
-            <li id="tabnav_btn_5" onmouseover="tabit(this)"><a href="/flash/">FLASH频道</a></li>
-            <li id="tabnav_btn_6" onmouseover="tabit(this)"><a href="/photo/">图片频道</a></li>
-            <li id="tabnav_btn_7" onmouseover="tabit(this)"><a href="/article/">文章中心</a></li>
-            <li id="tabnav_btn_8" onmouseover="tabit(this)"><a href="/info/">分类信息</a></li>
-        </ul></td>
-    </tr>
-</table>
-<table width="100%" border="0" cellspacing="10" cellpadding="0">
-	<tr valign="top">
-		<td class="list_content"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
-				<tr>
-					<td>现在的位置：<a href="/">首页</a>&nbsp;>&nbsp;搜索</td>
-				</tr>
-			</table>
-			<table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
-				<tr>
-					<td><form action='index.php' method="GET" name="search_news" id="search_news">
-							<table width="100%" border="0" cellspacing="6" cellpadding="0">
-								<tr>
-									<td height="32">关键字：
-										<input name="keyboard" type="text" id="keyboard" value="<?=$keyboard?>" size="42" />
-                    <select name="field" id="field">
-                      <option value="1">全文</option>
-                      <option value="2">标题</option>
-                      <option value="3">内容</option>
-                    </select> 
-                    <input type="submit" name="Submit22" value="搜索" />
-                    <font color="#666666">(多个关键字请用&quot;空格&quot;隔开)</font> </td>
-								</tr>
-							</table>
-						</form>
-						<table width="100%" border="0" cellpadding="0" cellspacing="6">
-							<tr>
-								<td>系统搜索到约有<strong><?=$num?></strong>项符合<strong><?=$keyboard?></strong>的查询结果</td>
-							</tr>
-						</table>
-						
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>
+            全站搜索
+        </title>
+        <meta name="keywords" content="全站搜索">
+        <meta name="description" content="全站搜索">
+        <link rel="stylesheet" href="/skin/default/css/yatax.css" type="text/css" media="screen, project, print">
+        <link rel="stylesheet" href="/skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
+        <link rel="stylesheet" href="/skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
+    </head>
+    <body>
+        <script type="text/javascript" src="/skin/default/js/jquery-1.8.2.js"></script>
+		<div id="header">
+    <div class="bound">
+        <a href="/" id="logo">
+            <img title="首页" src="/skin/default/images/logo_cn.gif">
+        </a>
+        <div class="topnav">
+            <script>
+                document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
+            </script>
+        </div>
+    </div>
+</div>
+
+<div id="menu">
+    <div class="nav">
+        <ul>
+            <li is="menuindex">
+                <a href="/" class="trad"><span>首页</span></a>
+            </li>
+            <li is="menuindex">
+                <a iblk="行业洞察" href="/a/hangyedongcha" class="trad"><span>行业洞察</span></a>
+
+                <div class="menuitempanel">
+                    <div class="menucontentdiv">
+                        <div class="menufillet_e"></div>
+                        <div class="trad clearfix">
+                            <ul class="taxonomy">
+                                <a href="/a/hangyedongcha/yejiedongtai/" class="topfrx">业界动态</a><br/>
+                                <a href="/a/hangyedongcha/zuixinfagui/" class="topfrx">最新法规</a><br/>
+                                <a href="/a/hangyedongcha/gongsixinwen/" class="topfrx">公司新闻</a><br/>
+                                <a href="/a/hangyedongcha/shuiwuwenhua/" class="topfrx">税文化研究</a><br/>
+                            </ul>
+
+                            <div class="verticalLine"></div>
+
+                            <ul class="m_box">
+                                <li><a href="/cn/industry/moving-forward/index.htm"><img height="140"
+                                                                                         width="259"
+                                                                                         src="/skin/default/images/hw_s_223305.gif"></a>
+                                </li>
+                                <li class="summary">
+                                    <ul>
+                                        <li>善道·永安税务师事务有限公司</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="shadow_b_layout">
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li is="menuindex">
+                <a iblk="服务与方案" href="/a/yewujieshao" class="solutions_products"><span>服务与方案</span></a>
+
+                <div class="menuitempanel">
+                    <div class="menucontentdiv">
+                        <div class="menufillet_e"></div>
+                        <div class="solutions_products clearfix">
+                            <ul class="list">
+                                <li><a href="/a/yewujieshao/#123" class="topfrx">税务培训</a></li>
+                                <li><a href="/a/yewujieshao/#122" class="topfrx">税务申报代理</a></li>
+                                <li><a href="/a/yewujieshao/#121" class="topfrx">个人所得税代理</a></li>
+                                <li><a href="/a/yewujieshao/#120" class="topfrx">汇算清缴代理</a></li>
+                                <li><a href="/a/yewujieshao/#119" class="topfrx">税政协助</a></li>
+                            </ul>
+                            <ul class="list">
+                                <li><a href="/a/yewujieshao/#118" class="topfrx">转让定价</a></li>
+                                <li><a href="/a/yewujieshao/#117" class="topfrx">税务筹划</a></li>
+                                <li><a href="/a/yewujieshao/#116" class="topfrx">税务审计</a></li>
+                                <li><a href="/a/yewujieshao/#115" class="topfrx">税务顾问</a></li>
+                                <li><a href="/a/yewujieshao" class="topfrx">其他业务</a></li>
+                            </ul>
+                            <ul class="list last">
+                                <li><a href="/a/chenggonganli" class="topfrx">成功案例</a></li>
+                                <li><a href="/a/chenggonganli/#180" class="topfrx">合作企业</a></li>
+                            </ul>
+
+                            <div class="verticalLine"></div>
+                            <ul class="m_box">
+                                <li>
+                                    <a href="/" target="_blank"><img height="144" width="217"
+                                                                     src="/skin/default/images/hw_s_223306.gif"></a>
+                                </li>
+                                <li class="summary">
+                                    <ul>
+                                        <li>善道·永安税务师事务有限公司</li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="shadow_b_layout">
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li is="menuindex">
+                <a iblk="财税大课堂" href="/a/peixunzhuanti" class="support"><span>财税大课堂</span></a>
+
+                <div class="menuitempanel">
+                    <div class="menucontentdiv">
+                        <div class="menufillet_e"></div>
+                        <div class="support clearfix">
+                            <ul class="list last">
+                                <li><a href="/a/peixunzhuanti/yinggaizeng" class="topfrx">营改增专题</a></li>
+                                <li><a href="/a/peixunzhuanti/qiyechongzu" class="topfrx">企业重组培训</a></li>
+                                <li><a href="/a/peixunzhuanti/" class="topfrx">注册税务师培训</a></li>
+                                <li><a href="/a/peixunzhuanti/peixungonggao" class="topfrx">培训公告</a></li>
+                                <li><a href="/e/tool/gbook/?bid=2" class="topfrx">在线咨询</a></li>
+                            </ul>
+                            <div class="verticalLine"></div>
+
+                            <ul class="m_box">
+                                <li><img height="144" width="217" src="/skin/default/images/hw_s_223303.gif"></li>
+                                <li class="summary">
+                                    <ul>
+                                        <li>欢迎来到财税大课堂</li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="shadow_b_layout">
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li is="menuindex">
+                <a iblk="关于永安" href="/a/guanyuwomen/" class="about_yatax"><span>关于永安</span></a>
+
+                <div class="menuitempanel">
+                    <div class="menucontentdiv">
+                        <div class="menufillet_e"></div>
+                        <div class="trad clearfix">
+                            <ul class="list">
+                                <li><a href="/a/guanyuwomen/#131" class="topfrx">公司简介</a></li>
+                                <li><a href="/a/guanyuwomen/#130" class="topfrx">公司理念</a></li>
+                                <li><a href="/a/guanyuwomen/#129" class="topfrx">专家团队</a></li>
+                            </ul>
+                            <ul class="list last">
+                                <li><a href="/a/guanyuwomen/#128" class="topfrx">联系方式</a></li>
+                                <li><a href="/e/tool/gbook/?bid=3" class="topfrx">留言板</a></li>
+                            </ul>
+                            <div class="verticalLine"></div>
+                            <ul class="m_box">
+                                <li><a href="/a/guanyuwomen/">
+                                    <img height="155" width="273" src="/skin/default/images/hw_u_173050.jpg"></a></li>
+                                <li>善道·永安税务师事务有限公司</li>
+                            </ul>
+
+                        </div>
+                        <div class="shadow_b_layout">
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li is="menuindex">
+                <a iblk="加入永安" href="/a/jiaruyongan" class="join_yatax"><span>加入永安</span></a>
+
+                <div class="menuitempanel">
+                    <div class="menucontentdiv">
+                        <div class="menufillet_e"></div>
+                        <div class="trad clearfix">
+                            <ul class="list">
+                                <li><a href="/a/jiaruyongan/" class="topfrx">总经理助理</a></li>
+                                <li><a href="/a/jiaruyongan/" class="topfrx">高级项目经理</a></li>
+                                <li><a href="/a/jiaruyongan/" class="topfrx">项目助理</a></li>
+                            </ul>
+                            <ul class="list">
+                                <li><a href="/a/jiaruyongan/" class="topfrx">教育项目经理</a></li>
+                            </ul>
+                            <ul class="list last">
+                                <li><a href="/a/jiaruyongan/" class="topfrx">网站产品经理</a></li>
+                            <li><a href="/a/jiaruyongan/" class="topfrx">技术与开发人员</a></li>
+                            </ul>
+
+
+                           <div class="verticalLine"></div>
+
+                            <ul class="m_box">
+                                <li><a href="/" target="_blank"><img height="140" width="204"
+                                                                            src="/skin/default/images/hw_192713.jpg"></a>
+                                </li>
+                                <li class="title"><a href="/" target="_blank">走近永安</a></li>
+                            </ul>
+                        </div>
+                        <div class="shadow_b_layout">
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="index_search">
+            <form action='/e/sch/index.php' method="GET" name="search_news" id="search_news">
+                <input name="keyboard" type="text" id="keyboard" size="20" />
+                <select name="field" id="field">
+                  <option value="1">全文</option>
+                  <option value="2">标题</option>
+                  <option value="3">内容</option>
+                </select> 
+                <input type="submit" name="Submit22" value="搜索" />
+            </form>
+        </div>
+    </div>
+</div>
+	    <div class="bound body">
+	    	<div>现在的位置：<a href="/">首页</a>&nbsp;>&nbsp;搜索</div>
+	    	<div class="grid765_r left">
+				<form action='index.php' method="GET" name="search_news" id="search_news">
+					关键字：
+					<input name="keyboard" type="text" id="keyboard" value="<?=$keyboard?>" size="42" />
+	        		<select name="field" id="field">
+			          <option value="1">全文</option>
+			          <option value="2">标题</option>
+			          <option value="3">内容</option>
+			        </select> 
+			        <input type="submit" name="Submit22" value="搜索" />
+			        <font color="#666666">(多个关键字请用&quot;空格&quot;隔开)</font> 
+				</form>
+				系统搜索到约有<strong><?=$num?></strong>项符合<strong><?=$keyboard?></strong>的查询结果
+				<div class="hr"></div>
+				
 <?php
 $no=$offset;
 $subnum=120;
@@ -179,37 +331,96 @@ while($r=$empire->fetch($sql))
 	$newstime=date($formatdate,$infor['newstime']);
 ?>
 
-						<h2 class="r"><span><?=$no?>.</span> <a class="l" href="<?=$titleurl?>" target="_blank"><?=$title?></a></h2>
-						<table width="80%" border="0" cellpadding="0" cellspacing="0">
-							<tbody>
-							<tr>
-								<td><?=$smalltext?></td>
-							</tr>
-							<tr>
-								<td><span class="a"><?=$titleurl?> - <?=$newstime?></span></td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-							</tr>
-							</tbody>
-						</table>
-						
+				<h2 class="r"><span><?=$no?>.</span> <a class="l" href="<?=$titleurl?>" target="_blank"><?=$title?></a></h2>
+				<div class="s_result">
+					<?=$smalltext?><br/>
+					<span class="a"><?=$titleurl?> - <?=$newstime?></span>
+				</div>
+				<div class="hr"></div>
+				
 <?php
 }
 db_close();
 $empire=null;
 ?>
 
-						<table width="100%" border="0" cellspacing="0" cellpadding="0" class="list_page">
-							<tr>
-								<td><?=$listpage?></td>
-							</tr>
-						</table></td>
-				</tr>
-			</table></td>
-	</tr>
-</table>
-<script type="text/javascript" src="/skin/default/js/global_cn.index.js"></script>
+				<?=$listpage?>
+			</div>
+			<div class="grid215 right">
+			    <div class="white-paper">
+			        <div class="body">
+			            <div class="header">
+			                <div class="icon"></div>
+			                培训公告
+			            </div>
+			            <div class="content">
+			                <ul>
+			                    <?php
+			                    require_once ECMS_PATH.'e/data/dbcache/class1.php';
+			                    $link=db_connect();
+			                    $empire=new mysqlquery();
+			                    $peixungg = $empire->query("select * from phome_ecms_news where classid='71' order by id desc limit 5");
+			                    while ($r=$empire->fetch($peixungg)) {
+			                        $titleurl=sys_ReturnBqTitleLink($r);
+			                        echo "<li><a href=".$titleurl." target=_blank>".$r['title']."</a></li>";
+			                    }
+			                    ?>
+			                </ul>
+			                <div style="padding-left:80%;height:20px">
+			                    <a href="/a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
+			                </div>
+			            </div>
+			            <div class="clear"></div>
+			        </div>
+			    </div>
+			    <div class="related-news">
+			        <div class="body">
+			            <div class="header">
+			                <div class="icon"></div>
+			                最新动态
+			            </div>
+			            <div class="content">
+			                <ul>
+			                    <?php
+			                    $zuixindt = $empire->query("select * from phome_ecms_news where classid in ('72','73','74','67' ,'68','69') order by id desc limit 5");
+			                    while ($r=$empire->fetch($zuixindt)) {
+			                        $titleurl=sys_ReturnBqTitleLink($r);
+			                        echo "<li><a href=".$titleurl." target=_blank>".$r['title']."</a></li>";
+			                    }
+			                    ?>
+			                </ul>
+			                <div style="padding-left:80%">
+			                    <a href="/a/hangyedongcha/" class="expand">更多</a>
+			                </div>
+			            </div>
+			            <div class="clear"></div>
+			        </div>
+			    </div>
+			    <div class="tags">
+			        <div class="body">
+			            <div class="header">
+			                <div class="icon"></div>
+			                热门标签
+			            </div>
+			            <div class="tags">
+			                <span class="highlights3">
+			                    <a href="/a/peixunzhuanti/">培训业务</a>
+			                </span> 
+			                <span class="highlights3">
+			                    <a href="/a/yewujieshao/#117">税务筹划</a>
+			                </span>
+			                <span class="highlights3">
+			                    <a href="/a/yewujieshao/#122">税务代理</a>
+			                </span>
+			                <span class="highlights3">
+			                    <a href="/a/peixunzhuanti/qiyechongzu">企业重组</a>
+			                </span>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<script type="text/javascript" src="/skin/default/js/global_cn.index.js"></script>
 
 
 <div id="seo-footer" style="height:230px;">
@@ -275,5 +486,9 @@ $empire=null;
         </div>
 
 </div>
-</body>
+	</body>
 </html>
+<?php
+db_close();
+$empire=null;
+?>
