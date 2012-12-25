@@ -1770,7 +1770,7 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 }
 
 .grid550_l .case ul a{
-    color: #666;
+    color: #3686AB;
     font-size: 14px;
     line-height: 22px;
     width: 100%;
@@ -1808,14 +1808,6 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 	font-size: 20px;
 	color: #B60005;
 }
-.zixun{
-	width: 210px;
-	line-height: 50px;
-	text-align:center; 
-	vertical-align: text-bottom;
-	font-size: 20px; 
-	color: #D65555;	
-}
 .fabu{
 	width: 150px;
 	line-height: 40px; 
@@ -1836,5 +1828,12 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 	margin-top: 2px;
 	color: #B00;
 }
-
+.article_content{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.content_more{
+	font-size: 14px;
+}
 /*zhangkun css end*/

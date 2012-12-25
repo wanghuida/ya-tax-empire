@@ -1,7 +1,7 @@
 <!--
-<strong><a href="[!--titleurl--]" target=_blank>[!--title--]</a></strong>
+<strong><a class="content_more" href="[!--titleurl--]" target=_blank>[!--title--]</a></strong>
 <p>
-    [!--smalltext--]……<strong><a href="[!--titleurl--] target=_blank">查看全文</a></strong>
+    [!--smalltext--]……<strong><a href="[!--titleurl--]" target=_blank">查看全文</a></strong>
 </p>
 <div class="hr"></div>
 -->
@@ -104,9 +104,9 @@
                 </div>
             </div>
             <div class="grid215 right">
-                 <button type="button" class="zixun" onclick="window.open('[!--news.url--]e/tool/gbook/?bid=1')">
-                    在线咨询
-                </button>
+                <a href="[!--news.url--]e/tool/gbook/?bid=1" target=_blank>
+                    <img src="[!--news.url--]skin/default/images/zixun.jpg" alt="在线咨询" />
+                </a>
                 <div class="hr"></div>
                 <div class="white-paper">
                     <div class="body">

@@ -1,69 +1,19 @@
-<?php
-require("../../class/connect.php");
-if(!defined('InEmpireCMS'))
-{
-	exit();
-}
-require("../../class/db_sql.php");
-require("../../class/q_functions.php");
-require "../".LoadLang("pub/fun.php");
-$link=db_connect();
-$empire=new mysqlquery();
-$editor=1;
-//分类id
-$bid=(int)$_GET['bid'];
-$gbr=$empire->fetch1("select bid,bname,groupid from {$dbtbpre}enewsgbookclass where bid='$bid'");
-if(empty($gbr['bid']))
-{
-	printerror("EmptyGbook","",1);
-}
-//权限
-if($gbr['groupid'])
-{
-	include("../../class/user.php");
-	$user=islogin();
-	include("../../data/dbcache/MemberLevel.php");
-	if($level_r[$gbr[groupid]][level]>$level_r[$user[groupid]][level])
-	{
-		echo"<script>alert('您的会员级别不足(".$level_r[$gbr[groupid]][groupname].")，没有权限提交信息!');history.go(-1);</script>";
-		exit();
-	}
-}
-esetcookie("gbookbid",$bid,0);
-$bname=$gbr['bname'];
-$search="&bid=$bid";
-$page=(int)$_GET['page'];
-$start=0;
-$line=$public_r['gb_num'];//每页显示条数
-$page_line=12;//每页显示链接数
-$offset=$start+$page*$line;//总偏移量
-$totalnum=(int)$_GET['totalnum'];
-if($totalnum>0)
-{
-	$num=$totalnum;
-}
-else
-{
-	$totalquery="select count(*) as total from {$dbtbpre}enewsgbook where bid='$bid' and checked=0";
-	$num=$empire->gettotal($totalquery);//取得总条数
-}
-$search.="&totalnum=$num";
-$query="select lyid,name,email,`call`,lytime,lytext,retext from {$dbtbpre}enewsgbook where bid='$bid' and checked=0";
-$query=$query." order by lyid desc limit $offset,$line";
-$sql=$empire->query($query);
-$listpage=page1($num,$line,$page_line,$start,$page,$search);
-$url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook'];
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title><?=defined('empirecms') ? $r[title] : '在线咨询'?></title>
-    <link rel="stylesheet" href="/skin/default/css/yatax.css" type="text/css" media="screen, project, print">
-    <link rel="stylesheet" href="/skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
-    <link rel="stylesheet" href="/skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
-    <script type="text/javascript" src="/skin/default/js/jquery-1.8.2.js"></script>
+
+    <title>善道永安税务师事务有限公司</title>
+    <meta name="keywords" content="善道永安税务师事务有限公司"/>
+    <meta name="description" content="善道永安税务师事务有限公司"/>
+
+<link rel="stylesheet" href="/skin/default/css/yatax.css" type="text/css" media="screen, project, print">
+<link rel="stylesheet" href="/skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
+<link rel="stylesheet" href="/skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
+<script type="text/javascript" src="/skin/default/js/jquery-1.8.2.js"></script>
+
 </head>
+
 <body>
 
 <div id="header">
@@ -267,174 +217,177 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
 </div>
 </div>
 
-<div id="container">
-    <div class="bound body">
-        <div>您的位置：<a href="/">首页</a>&nbsp;>&nbsp;<?=$bname?></div>
-        <div class="grid215 left">            
-            <div class='leftNav' id='1001'>
-                <div class='top' id='1002'></div>
-                <div class='content' id='1003'>
-                    <?php
-                        $navname = $empire->query("select bid,bname from {$dbtbpre}enewsgbookclass");
-                        while ($r=$empire->fetch($navname)) {
-                           echo "<a href='/e/tool/gbook/?bid=".$r['bid']."' id=".$r['bid'].">".$r['bname']."</a>";
-                        }
-                    ?>
+<div class="videoList-container" id="pcList" style="margin-bottom: 0px;">
+    <div id="slide-index" style="width: 1294px;">
+        <div class="slides" style="width: 5176px; margin-left: -3881.254656px;">
+            <div class="slide autoMaxWidth"
+                 links="[{left:&#39;30px&#39;,top:&#39;81px&#39;},{left:&#39;30px&#39;,top:&#39;244px&#39;},{direction:&#39;tb&#39;}]"
+                 style="width: 1294px;">
+                <div class="image" id="bi_0"><a target="_blank"
+                                                href="/cn/solutions/move/integer/index.htm?node=7"><img
+                        name="BYOD" src="/skin/default/images/hw_194667.jpg" style="left: -313px; position: relative;"></a></div>
+                <div class="text" id="bt_0" style="left: 3000px; top: 81px;"></div>
+                <div class="button" id="bb_0" style="left: 3000px; top: 244px; display: block;"></div>
+            </div>
+            <div class="slide autoMaxWidth"
+                 links="[{left:&#39;30px&#39;,top:&#39;81px&#39;},{left:&#39;30px&#39;,top:&#39;244px&#39;},{direction:&#39;tb&#39;}]"
+                 style="width: 1294px;">
+                <div class="image" id="bi_1"><a
+                        href="/"
+                        target="_blank"><img name="永安MediaPad 10 FHD" src="/skin/default/images/hw_149403.jpg"
+                                             style="left: -313px; position: relative;"></a></div>
+                <div class="text" id="bt_1" style="left: 3000px; top: 81px;"></div>
+                <div class="button" id="bb_1" style="left: 3000px; top: 244px; display: block;"></div>
+            </div>
+            <div class="slide autoMaxWidth"
+                 links="[{left:&#39;30px&#39;,top:&#39;81px&#39;},{left:&#39;30px&#39;,top:&#39;244px&#39;},{direction:&#39;tb&#39;}]"
+                 style="width: 1294px;">
+                <div class="image" id="bi_2"><a target=""
+                                                href="/cn/solutions/arpu-up/hw-079049.htm"><img
+                        name="NGBSS BANNER" src="/skin/default/images/hw_149025.jpg" style="left: -313px; position: relative;"></a>
                 </div>
-                <script type="text/javascript">
-                    document.getElementById(<?=$bid?>).className="on"
-                </script> 
-                <div class='bottom' id='1004'></div>
+                <div class="text" id="bt_2" style="left: 2999.446692px; top: 81px;"></div>
+                <div class="button" id="bb_2" style="left: 2999.446692px; top: 244px; display: block;"></div>
+            </div>
+            <div class="slide autoMaxWidth"
+                 links="[{left:&#39;30px&#39;,top:&#39;81px&#39;},{left:&#39;30px&#39;,top:&#39;244px&#39;},{direction:&#39;tb&#39;}]"
+                 style="width: 1294px;">
+                <div class="image" id="bi_0"><a target="_blank"
+                                                href="/cn/solutions/move/integer/index.htm?node=7"><img
+                        name="BYOD" src="/skin/default/images/hw_194667.jpg" style="left: -313px; position: relative;"></a></div>
+                <div class="text" id="bt_0" style="left: 177px; top: 0px;"></div>
+                <div class="button" id="bb_0" style="left: 177px; top: 396px; display: block;"></div>
             </div>
         </div>
-        <div class="grid765_r left">
-            <div class="grid550_l left">
-                <div class="fabu">
-                    <a href="#publish">发布留言</a>
-                </div>
-                <div class="hr"></div>
-                <div style="margin-top: 10px;">
-                    <?
-                    while ($r = $empire->fetch($sql)) {
-                        $r['retext'] = nl2br($r[retext]);
-                        $r['lytext'] = nl2br($r[lytext]);
-                        ?>
-                        <div style="border:solid 1px;margin-bottom: 5px;line-height: 22px;">
-                            <div style="background-color: #d3d3d3; color: #ffffff;">
-                                <span style="padding:0 20px 0 10px;background: url(/skin/default/images/ent_cn_img_more.gif) no-repeat 2% 50%">发布者: <?=$r[name]?></span>
-                                <span>发布时间: <?=$r[lytime]?></span>
-                            </div>
-                            <div style="padding:5px 10px; min-height:30px;"><?=$r[lytext]?></div>
-                            <?
-                                if ($r[retext]) {
-                            ?>
-                            <div style="padding:5px 10px;border-top:1px dashed;">
-                                <strong><font color="#FF0000">回复:</font></strong> <?= $r[retext] ?>
-                            </div>
-                            <?
-                                }
-                            ?>
-                        </div>
-                            <?
-                                }
-                            ?>
-                    分页： <?=$listpage?>
-                </div>
-                <?php
-                $lguserid=intval(getcvar('mluserid'));//登陆用户ID
-                $lgusername=RepPostVar(getcvar('mlusername'));//登陆用户
-                $lggroupid=intval(getcvar('mlgroupid'));//会员组ID
-                if($lggroupid)  //登陆会员显示菜单
-                {
-                    $huiyuan=$empire->fetch1("select * from phome_enewsmember where userid=".$lguserid);
-                    $iemail=$huiyuan['email'];
-                ?>
-                <div class="hr"></div>
-                <div id="publish">
-                    <fieldset style="width:510px">
-                        <legend>发布留言</legend>
-                        <form action="../../enews/index.php" method="post" name="form1" id="form1">
-                            <input type=hidden name="name" value="<?=$lgusername?>"/> 
-                            <input type=hidden name="email" value="<?=$iemail?>"/>
-                            <textarea name="lytext" style="width: 508px;height: 220px;" id="lytext"></textarea><br/>
-                            <input type="submit" name="Submit3" style="width: 50px;" value="提交"/>
-                            <input type="reset" name="Submit22" style="width: 50px;" value="重置"/>
-                            <input name="enews" type="hidden" id="enews" value="AddGbook"/>
-                        </form>
-                    </fieldset>
-                </div>
-                <div class="hr"></div>
-                <?php
-                }
-                else  //游客显示菜单
-                {
-                ?>  
-                <div class="hr"></div>
-                <div id="publish">
-                    <div><b>您还没有登陆，请在<a href="/e/member/login/">登陆</a>后发布留言。</b></div>
-                    <div><b>如果还没有账号，请<a href="/e/member/register/">注册账号</a>。</b></div>
-                </div>
-                <div class="hr"></div>
-                <?php
-                }
-                ?>
-                <a style="padding-left: 90%;" href="#header">回顶部</a>
-            </div>
-            <div class="grid215 right">
-                <div class="white-paper">
-                    <div class="body">
-                        <div class="header">
-                            <div class="icon"></div>
-                            培训公告
-                        </div>
-                        <div class="content">
-                            <ul>
-                                <?php
-                                require_once ECMS_PATH.'e/data/dbcache/class1.php';
-                                $peixungg = $empire->query("select * from phome_ecms_news where classid='71' order by id desc limit 5");
-                                while ($r=$empire->fetch($peixungg)) {
-                                    $titleurl=sys_ReturnBqTitleLink($r);
-                                    echo "<li><a href=".$titleurl." target=_blank>".$r['title']."</a></li>";
-                                }
-                                ?>
-                            </ul>
-                            <div style="padding-left:80%;height:20px">
-                                <a href="/a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-                <div class="related-news">
-                    <div class="body">
-                        <div class="header">
-                            <div class="icon"></div>
-                            最新动态
-                        </div>
-                        <div class="content">
-                            <ul>
-                                <?php
-                                $zuixindt = $empire->query("select * from phome_ecms_news where classid in ('72','73','74','67' ,'68','69') order by id desc limit 5");
-                                while ($r=$empire->fetch($zuixindt)) {
-                                    $titleurl=sys_ReturnBqTitleLink($r);
-                                    echo "<li><a href=".$titleurl." target=_blank>".$r['title']."</a></li>";
-                                }
-                                ?>
-                            </ul>
-                            <div style="padding-left:80%">
-                                <a href="/a/hangyedongcha/" class="expand">更多</a>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-                <div class="tags">
-                    <div class="body">
-                        <div class="header">
-                            <div class="icon"></div>
-                            热门标签
-                        </div>
-                        <div class="tags">
-                            <span class="highlights3">
-                                <a href="/a/peixunzhuanti/">培训业务</a>
-                            </span> 
-                            <span class="highlights3">
-                                <a href="/a/yewujieshao/#117">税务筹划</a>
-                            </span>
-                            <span class="highlights3">
-                                <a href="/a/yewujieshao/#122">税务代理</a>
-                            </span>
-                            <span class="highlights3">
-                                <a href="/a/peixunzhuanti/qiyechongzu">企业重组</a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="control">
+
+            <a href="" class="active"></a>
+
+
+            <a href="" class=""></a>
+
+
+            <a href="" class=""></a>
+
+
         </div>
     </div>
 </div>
 
+
+<script type="text/javascript">
+    $(function () {
+        addVideo();
+
+        for (var i = 0; i < 3; i++) {
+            $('#bt_' + i).find("img").addClass("IE6png");
+            $('#bb_' + i).find("img").addClass("IE6png");
+        }
+    });
+
+    function addVideo() {
+    }
+</script>
+
+
+<div id="latest-news-index">
+<div class="bound">
+    <div class="latest-news">
+        <div class="title" style="margin-top:7px; width:40px;font-weight:bold; color:#BB0000;"><a
+                href="/a/hangyedongcha/gongsixinwen"
+                style="font-weight:bold; color:#BB0000;">新闻：</a>
+        </div>
+        <div class="content" style="float: none; margin-left: 45px; margin-top: -385px;">
+                <div><a href="/a/hangyedongcha/gongsixinwen/2012-11-19/179.html" target="_blank">东湖高新管委会档案管理办公室一行指导档案管理工作</a> </div>
+                <div><a href="/a/hangyedongcha/gongsixinwen/2012-11-19/178.html" target="_blank">善道·永安公司参加执业技能大赛并获得优异成绩</a> </div>
+                <div><a href="/a/hangyedongcha/gongsixinwen/2012-11-19/177.html" target="_blank">善道·永安税务师实务有限公司通过执业检查</a> </div>
+                <div><a href="/a/hangyedongcha/gongsixinwen/2012-11-19/176.html" target="_blank">我公司成功承办全省地税系统注册税务师考前辅导培训</a> </div>
+                </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="latest-news">
+        <div class="title" style="margin-top:7px; width:40px;font-weight:bold; color:#BB0000;"><a
+                href="/a/hangyehongcha/gongsixinwen"
+                style="font-weight:bold; color:#BB0000;"></a>
+        </div>
+        <div class="content" style="float: none; margin-left: 45px; margin-top: -385px;">
+                        <div><a href="/a/hangyedongcha/yejiedongtai/2012-12-24/187.html" target="_blank">广东、福建、深圳、厦门“营改增”试点顺利启动</a> </div>
+                        <div><a href="/a/hangyedongcha/yejiedongtai/2012-12-24/186.html" target="_blank">江苏、安徽营业税改征增值税试点正式启动</a> </div>
+                        <div><a href="/a/hangyedongcha/yejiedongtai/2012-12-24/185.html" target="_blank">天津、浙江、湖北营业税改征增值税试点正式启动</a> </div>
+                        <div><a href="/a/hangyedongcha/yejiedongtai/2012-11-16/162.html" target="_blank">明年交通行业营改增最可能全国推行</a> </div>
+                        <div><a href="/a/hangyedongcha/yejiedongtai/2012-10-29/110.html" target="_blank">湖北发布“营改增”试点实施方案</a> </div>
+                    </div>
+        <div class="clear"></div>
+    </div>
+    <button type="button" class="index-zixun" onclick="window.open('/e/tool/gbook/?bid=1')">
+        在线咨询
+    </button>
+</div>
+</div>
+
+<div id="features-index">
+    <div class="bound">
+
+        <a href="/a/hangyedongcha/gongsixinwen" id="feature-trigger"  target="_blank">
+            <span>
+            <h4 class="c_blue">公司新闻</h4>
+                                <h6 class="thetitle">东湖高新管委会档案管理办公室</h6>
+                <p>为了提高公司档案管理水平，11月x日，我们特邀东湖高新开发区管委会档案管理办公室x副局长…</p>
+                            </span>
+            <img src="/skin/default/images/hw_149255.jpg">
+        </a>
+        <a href="/a/hangyedongcha/yejiedongtai" target="_blank">
+            <span>
+                <h4 class="c_orange">业界动态</h4>
+                                <h6 class="thetitle">广东、福建、深圳、厦门“营改</h6>
+                <p>近日，广东、福建及深圳、厦门四省市“营改增”各项准备工作已全面就绪，试点工作从11月1…</p>
+                            </span>
+            <img src="/skin/default/images/hw_195116.jpg">
+        </a>
+
+        <a href="/a/peixunzhuanti" class="last"  target="_blank">
+            <span>
+                <h4 class="c_green">税收课堂</h4>
+                <p>
+                    · 营改增培训<br/>
+                    · 企业重组培训<br/>
+                    · 注册税务师培训<br/>
+                </p>
+             </span>                        
+            <img src="/skin/default/images/hw_146899.jpg">
+        </a>
+
+        <a href="/a/hangyedongcha/shuiwuwenhua"  target="_blank">
+            <span>
+                <h4 class="c_green">税文化研究</h4>
+                                <h6 class="thetitle">我国财务会计和税务会计关系及</h6>
+                <p>         长期以来，我国的会计制度设计主要是以满足国家需要、确保国家税收收入的实现…</p>
+                            </span>
+            <img src="/skin/default/images/hw_194666.jpg">
+        </a>
+        <a href="/a/hangyedongcha/zuixinfagui" target="_blank">
+            <span>
+                <h4 class="c_blue">最新法规</h4>
+                                <h6 class="thetitle">国家税务总局    关于营业税改</h6>
+                <p>     根据《财政部 国家税务总局关于营业税改征增值税试点中文化事业建设费征收有关问…</p>
+                            </span>
+            <img src="/skin/default/images/hw_u_165756.jpg">
+        </a>
+
+        <a href="/a/jiaruyongan" class="last"  target="_blank">
+            <span>
+                <h4 class="c_orange">招聘</h4>
+                <p>
+                                · 总经理助理<br/>
+                                · 项目经理<br/>
+                                · PHP程序员<br/>
+                                </p>
+            </span>
+            <img src="/skin/default/images/hw_u_165757.jpg">
+        </a>
+    </div>
+</div>
 <script type="text/javascript" src="/skin/default/js/global_cn.index.js"></script>
 
 
@@ -503,19 +456,5 @@ $url="<a href=../../../>".$fun_r['index']."</a>&nbsp;>&nbsp;".$fun_r['saygbook']
 </div>
 
 </body>
+
 </html>
-<?
-while($r=$empire->fetch($sql))
-{
-	$r['retext']=nl2br($r[retext]);
-	$r['lytext']=nl2br($r[lytext]);
-?>
-
-<?
-}
-?>
-
-<?php
-db_close();
-$empire=null;
-?>

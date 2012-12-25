@@ -47,8 +47,14 @@
 								<!--content list start-->
 								<div class="case">
 									<ul>
-										<li style="list-style: none">[ecmsinfo]72,3,32,0,0,8,0[/ecmsinfo]
+										[e:loop={72,3,0,0}]
+										<li>
+										<strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
+										<p>
+										    <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
+										</p>
 										</li>
+										[/e:loop]
 									</ul>
 								</div>
 							</div>
@@ -70,8 +76,14 @@
 								<!--content list start-->
 								<div class="case">
 									<ul>
-										<li style="list-style: none">[ecmsinfo]73,3,32,0,0,8,0[/ecmsinfo]
+										[e:loop={73,3,0,0}]
+										<li>
+										<strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
+										<p>
+										    <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
+										</p>
 										</li>
+										[/e:loop]
 									</ul>
 								</div>
 								<div class="clear"></div><!--content list end-->
@@ -94,8 +106,14 @@
 								<!--content list start-->
 								<div class="case">
 									<ul>
-										<li style="list-style: none">[ecmsinfo]74,3,32,0,0,8,0[/ecmsinfo]
+										[e:loop={74,3,0,0}]
+										<li>
+										<strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
+										<p>
+										    <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
+										</p>
 										</li>
+										[/e:loop]
 									</ul>
 								</div>
 								<div class="clear"></div><!--content list end-->
@@ -118,8 +136,14 @@
 								<!--content list start-->
 								<div class="case">
 									<ul>
-										<li style="list-style: none">[ecmsinfo]75,3,32,0,0,8,0[/ecmsinfo]
+										[e:loop={75,3,0,0}]
+										<li>
+										<strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
+										<p>
+										    <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
+										</p>
 										</li>
+										[/e:loop]
 									</ul>
 								</div>
 								<div class="clear"></div><!--content list end-->
@@ -130,9 +154,9 @@
 						</div>
 					</div>
 					<div class="grid215 right">
-                 		<button type="button" class="zixun" onclick="window.open('[!--news.url--]e/tool/gbook/?bid=1')">
-                    		在线咨询
-                		</button>
+						<a href="[!--news.url--]e/tool/gbook/?bid=1" target=_blank>
+						    <img src="[!--news.url--]skin/default/images/zixun.jpg" alt="在线咨询" />
+						</a>
                 		<div class="hr"></div>
 						<div class="white-paper">
 							<div class="body">
