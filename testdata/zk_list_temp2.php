@@ -74,9 +74,17 @@
                         </div>
                     </div>
             <div class="grid215 right">
-                <a href="[!--news.url--]e/tool/gbook/?bid=1" target=_blank>
-                    <img src="[!--news.url--]skin/default/images/zixun.jpg" alt="在线咨询" />
-                </a>
+                <div class="index_search">
+                    <form action='[!--news.url--]e/sch/index.php' method="GET" name="search_news" id="search_news">
+                        <input name="keyboard" type="text" id="keyboard" size="20" />
+                        <select name="field" id="field">
+                          <option value="1">全文</option>
+                          <option value="2">标题</option>
+                          <option value="3">内容</option>
+                        </select> 
+                        <input type="submit" name="Submit22" value="搜索" />
+                    </form>
+                </div>
                 <div class="hr"></div>
                 <div class="white-paper">
                     <div class="body">

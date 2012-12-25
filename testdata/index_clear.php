@@ -118,9 +118,6 @@
         </div>
         <div class="clear"></div>
     </div>
-    <button type="button" class="index-zixun" onclick="window.open('[!--news.url--]e/tool/gbook/?bid=1')">
-        在线咨询
-    </button>
 </div>
 </div>
 
