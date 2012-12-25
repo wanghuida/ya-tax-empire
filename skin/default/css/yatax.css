@@ -1836,4 +1836,11 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 .content_more{
 	font-size: 14px;
 }
+.s_result{
+	min-height: 40px;
+}
+.index_search{
+	float: right;
+	line-height: 46px;
+}
 /*zhangkun css end*/
