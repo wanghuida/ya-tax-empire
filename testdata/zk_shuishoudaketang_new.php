@@ -24,6 +24,24 @@
     <div class="container">
         <div class="content_l">
             <div class="kecheng">
+                <h2 class="redtitle wryh">
+                    <a href="[!--news.url--]a/peixunzhuanti/peixungonggao" class="link_title">培训课程公告</a>
+                    <a href="[!--news.url--]a/peixunzhuanti/peixungonggao" class="more">更多</a>
+                </h2>
+                <ul class="subject">
+                    [e:loop={71,5,0,0}]
+                    <li class="leftarrow">
+                    <span class="date"><?=$bqr['newspath']?></span>
+                    <a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a>
+                    </li>
+                    [/e:loop]
+                </ul>
+            </div>
+            <div class="hr"></div>
+            <div class="kecheng">
+                <h2 class="redtitle wryh">
+                    <a href="[!--news.url--]a/peixunzhuanti" class="link_title">资料下载区</a>
+                </h2>
                 <ul class="nav nav-tabs">
                   <li class="active"><a href="#home" data-toggle="tab">营改增专题</a></li>
                   <li><a href="#profile" data-toggle="tab">企业重组培训</a></li>
@@ -35,22 +53,34 @@
                     <ul>
                         <li class="kecheng_index">
                             <div class="kecheng_img"><img class="kecheng_img" alt="参加培训" src="[!--news.url--]skin/default/images/ent_cn_img_train_pic5.jpg"></div>
-                            <div class="kecheng_intro">课程/资料介绍</div>
+                            <div class="kecheng_intro">
+                                <h5>标题</h5>
+                                <div>课程/资料介绍</div>
+                            </div>
                             <div class="kecheng_dn"><button class="btn">下载</button></div>
                         </li>
                         <li class="kecheng_index">
                             <div class="kecheng_img"><img class="kecheng_img" alt="参加培训" src="[!--news.url--]skin/default/images/ent_cn_img_train_pic5.jpg"></div>
-                            <div class="kecheng_intro">课程/资料介绍</div>
+                            <div class="kecheng_intro">
+                                <h5>标题</h5>
+                                <div>课程/资料介绍</div>
+                            </div>
                             <div class="kecheng_dn"><button class="btn">下载</button></div>
                         </li>
                         <li class="kecheng_index">
                             <div class="kecheng_img"><img class="kecheng_img" alt="参加培训" src="[!--news.url--]skin/default/images/ent_cn_img_train_pic5.jpg"></div>
-                            <div class="kecheng_intro">课程/资料介绍</div>
+                            <div class="kecheng_intro">
+                                <h5>标题</h5>
+                                <div>课程/资料介绍</div>
+                            </div>
                             <div class="kecheng_dn"><button class="btn">下载</button></div>
                         </li>
                         <li class="kecheng_index">
                             <div class="kecheng_img"><img class="kecheng_img" alt="参加培训" src="[!--news.url--]skin/default/images/ent_cn_img_train_pic5.jpg"></div>
-                            <div class="kecheng_intro">课程/资料介绍</div>
+                            <div class="kecheng_intro">
+                                <h5>标题</h5>
+                                <div>课程/资料介绍</div>
+                            </div>
                             <div class="kecheng_dn"><button class="btn">下载</button></div>
                         </li>
                     </ul>
@@ -77,36 +107,9 @@
                   })
                 </script>
             </div>
-            <div class="block mb10 mt10">
-                <h2 class="redtitle wryh">
-                    <a href="[!--news.url--]a/peixunzhuanti/peixungonggao" class="link_title">培训课程公告</a>
-                    <a href="[!--news.url--]a/peixunzhuanti/peixungonggao" class="more">更多</a>
-                </h2>
-                <ul class="subject">
-                    [e:loop={71,5,0,0}]
-                    <li class="leftarrow">
-                    <span class="date"><?=$bqr['newspath']?></span>
-                    <a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a>
-                    </li>
-                    [/e:loop]
-                </ul>
-            </div>
-            <div class="block mb10 mt10">
-                <h2 class="redtitle wryh">
-                    <a href="[!--news.url--]a/peixunzhuanti" class="link_title">资料下载区</a>
-                    <a href="[!--news.url--]a/peixunzhuanti" class="more">更多</a>
-                </h2>
-                <ul class="subject">
-                    <li class="leftarrow">
-                        暂无
-                    </li>
-                </ul>
-            </div>
         </div>
-
         <div class="content_r">
             <div class="product_relevant">
-
                 <dd class="border">
                     <h2 class="wryh">合作联系</h2>
                     <ul class="relevant_links mt_5">

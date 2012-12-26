@@ -88,7 +88,7 @@ span.HighlightSearch {font-weight:bold;}
 .container{width:952px; overflow:hidden; margin:0px auto;}
 .container .content_lr{width:790px; float:left; overflow:hidden;}
 .container .content_c{width:950px; overflow:hidden; border:1px solid #dddddd; background-color:#fff; padding:40px 0px;}
-.container .content_l{float:left; width:745px;margin-right:10px;overflow:visible;_overflow:hidden;}
+.container .content_l{float:left; width:720px;margin-right:25px;overflow:visible;_overflow:hidden;}
 .container .content_r{float:left; width:192px; overflow:hidden; display:block; position:relative;}
 .container .mr0{margin-right:0px;}
 .container .mr10{margin-right:10px;}
