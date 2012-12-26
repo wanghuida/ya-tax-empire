@@ -88,7 +88,7 @@ span.HighlightSearch {font-weight:bold;}
 .container{width:952px; overflow:hidden; margin:0px auto;}
 .container .content_lr{width:790px; float:left; overflow:hidden;}
 .container .content_c{width:950px; overflow:hidden; border:1px solid #dddddd; background-color:#fff; padding:40px 0px;}
-.container .content_l{float:left; width:750px;margin-right:10px;overflow:visible;_overflow:hidden;}
+.container .content_l{float:left; width:745px;margin-right:10px;overflow:visible;_overflow:hidden;}
 .container .content_r{float:left; width:192px; overflow:hidden; display:block; position:relative;}
 .container .mr0{margin-right:0px;}
 .container .mr10{margin-right:10px;}
@@ -119,7 +119,7 @@ ul.productblock li p a.title:hover{color:#e50000;}
 ul.productblock li p span.txt{color:#666;}
 ul.productblock li p.col1,ul.productblock li p.col2,ul.productblock li p.col3,ul.productblock li p.col4{width:195px; display:block; overflow:hidden; margin:0px auto;}
 p.col1 a.leftarrow,p.col2 a.leftarrow,p.col3 a.leftarrow{float:left; display:block; width:187px; overflow:hidden; margin:0px; position:relative;}
-p.col4 a.leftarrow{float:left; display:block;overflow:hidden; margin:0px; position:relative;}
+p.col4 a.leftarrow{display:block;overflow:hidden; margin:0px; position:relative;}
 p.col4 span{ display:block; width:97px; overflow:hidden; float:left;}
 p.col4 span.w107{ width:107px;}
 p.col4 span.w87{ width:87px;}
@@ -163,7 +163,7 @@ a.leftarrowbig:hover span.c333{color:#e50000;color:#e50000; text-decoration:unde
 a.rightarrowbig{color:#333; display:inline-block; zoom:1; line-height:24px; background:url(../images/ent_cn_img_arrow_right_big.gif) right top no-repeat scroll transparent; padding-right:9px; font-size:14px;}
 a.rightarrowbig:hover{color:#e50000;}
 
-.block{background-color:#fff; width:668px; border:1px solid #e5e5e5; overflow:hidden; padding:25px 40px;}
+.block{background-color:#fff; border:1px solid #e5e5e5; overflow:hidden; padding:25px 40px;}
 .block ul.items{display:block; overflow:hidden; width:668px; margin:0px; margin-top:20px;}
 .block ul.items li{background:transparent; padding-bottom:15px; margin-bottom:15px; display:block; width:668px; overflow:hidden;}
 .block ul.items li.nobg{background:transparent;}
@@ -1839,5 +1839,23 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 .index_search{
 	float: right;
 	margin-top: 25px;
+}
+.kecheng{
+	/*border: 1px solid #E5E5E5;*/
+}
+.kecheng_index{
+	padding: 8px;
+	border-bottom: 1px solid #F8F8F8;
+	height: 80px;
+}
+.kecheng_img{
+	float: left;
+}
+.kecheng_intro{
+	float: left;
+	margin-left: 50px;
+}
+.kecheng_dn{
+	float: right;
 }
 /*zhangkun css end*/
