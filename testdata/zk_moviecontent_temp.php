@@ -20,11 +20,29 @@
 <div class="container body">
 	<div> 您的位置：[!--newsnav--]</div>
     <div class="content_ll">
+        <?php
+        $id=$navinfor[id];
+        $pathid=0;
+        $classid=$GLOBALS[navclassid] ;
+        $mid=$class_r[$classid][modid];
+        $tbname=$class_r[$classid][tbname];
+        $query="select * from {$dbtbpre}ecms_".$tbname." where id='$id' and classid='$classid'";
+        $r=$empire->fetch1($query); 
+        if($emod_r[$mid]['tbdataf']&&$emod_r[$mid]['tbdataf']<>',')
+        {
+            $selectdataf=substr($emod_r[$mid]['tbdataf'],1,-1);
+            $finfor=$empire->fetch1("select ".$selectdataf." from {$dbtbpre}ecms_".$tbname."_data_".$r[stb]." where id='$r[id]'");
+            $r=array_merge($r,$finfor);
+        }
+        $path_r=explode("\r\n",$r[onlinepath]);
+        $showdown_r=explode("::::::",$path_r[$pathid]);
+        ?>
     	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="610" height="494">
-    	  <param name="movie" value="<?=$trueurl?>">
+    	  <param name="movie" value='<?=$showdown_r[1]?>'>
     	  <param name="quality" value="high">
-    	  <embed src="<?=$trueurl?>" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="610" height="494"></embed></object>
-		<div>
+    	  <embed src="<?=$showdown_r[1]?>" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="610" height="494"></embed>
+        </object>
+        <div>
 			<div>[影片名称]:[!--title--][领衔主演][!--player--][影片长度][!--playtime--][上传时间][!--movietime--]
 			[影片介绍]:[!--moviesay--]</div>
 			<div>[!--temp.pl--]</div>
