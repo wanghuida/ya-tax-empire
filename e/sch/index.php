@@ -179,7 +179,7 @@ $url="<a href='".$public_r['newsurl']."'>".$fun_r['index']."</a>&nbsp;>&nbsp;".$
                 </div>
             </li>
             <li is="menuindex">
-                <a iblk="财税大课堂" href="/a/peixunzhuanti" class="support"><span>财税大课堂</span></a>
+                <a iblk="财税大课堂" href="/a/ketang" class="support"><span>财税大课堂</span></a>
 
                 <div class="menuitempanel">
                     <div class="menucontentdiv">

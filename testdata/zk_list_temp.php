@@ -24,8 +24,7 @@
           media="screen, project, print">
 </head>
 <body>
-<script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js">
-</script>
+<script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js"></script>
 [!--temp.header--]
 <div id="container">
     <div class="bound body">

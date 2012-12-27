@@ -97,7 +97,7 @@
                 </div>
             </li>
             <li is="menuindex">
-                <a iblk="财税大课堂" href="[!--news.url--]a/peixunzhuanti" class="support"><span>财税大课堂</span></a>
+                <a iblk="财税大课堂" href="[!--news.url--]a/ketang" class="support"><span>财税大课堂</span></a>
 
                 <div class="menuitempanel">
                     <div class="menucontentdiv">

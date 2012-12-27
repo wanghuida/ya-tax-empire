@@ -57,7 +57,9 @@
                                 <h5>标题</h5>
                                 <div>课程/资料介绍</div>
                             </div>
-                            <div class="kecheng_dn"><button class="btn">下载</button></div>
+                            <div class="kecheng_dn">
+                                <a class="btn" href="#ecms" onclick="window.open('/e/DownSys/play/?classid=87&amp;id=3&amp;pathid=0','','width=300,height=300,resizable=yes');">观看</a>
+                            </div>
                         </li>
                         <li class="kecheng_index">
                             <div class="kecheng_img"><img class="kecheng_img" alt="参加培训" src="[!--news.url--]skin/default/images/ent_cn_img_train_pic5.jpg"></div>
@@ -65,7 +67,7 @@
                                 <h5>标题</h5>
                                 <div>课程/资料介绍</div>
                             </div>
-                            <div class="kecheng_dn"><button class="btn">下载</button></div>
+                            <div class="kecheng_dn"><button class="btn">下载</button></div>[!--onlinepath--]
                         </li>
                         <li class="kecheng_index">
                             <div class="kecheng_img"><img class="kecheng_img" alt="参加培训" src="[!--news.url--]skin/default/images/ent_cn_img_train_pic5.jpg"></div>
