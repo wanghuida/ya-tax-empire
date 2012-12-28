@@ -179,17 +179,17 @@ $url="<a href='".$public_r['newsurl']."'>".$fun_r['index']."</a>&nbsp;>&nbsp;".$
                 </div>
             </li>
             <li is="menuindex">
-                <a iblk="财税大课堂" href="/a/ketang" class="support"><span>财税大课堂</span></a>
+                <a iblk="财税大课堂" href="/a/ketang" class="support"><span>财税课堂</span></a>
 
                 <div class="menuitempanel">
                     <div class="menucontentdiv">
                         <div class="menufillet_e"></div>
                         <div class="support clearfix">
                             <ul class="list last">
-                                <li><a href="/a/peixunzhuanti/yinggaizeng" class="topfrx">营改增专题</a></li>
-                                <li><a href="/a/peixunzhuanti/qiyechongzu" class="topfrx">企业重组培训</a></li>
-                                <li><a href="/a/peixunzhuanti/" class="topfrx">注册税务师培训</a></li>
-                                <li><a href="/a/peixunzhuanti/peixungonggao" class="topfrx">培训公告</a></li>
+                                <li><a href="/a/ketang/zhushui/" class="topfrx">注册税务师</a></li>
+                                <li><a href="/a/ketang/chongzu" class="topfrx">企业重组培训</a></li>
+                                <li><a href="/a/ketang/yinggaizeng" class="topfrx">营改增专题</a></li>
+                                <li><a href="/a/ketang/gonggao/" class="topfrx">培训公告</a></li>
                                 <li><a href="/e/tool/gbook/?bid=2" class="topfrx">在线咨询</a></li>
                             </ul>
                             <div class="verticalLine"></div>
@@ -347,7 +347,7 @@ $empire=null;
 			                    require_once ECMS_PATH.'e/data/dbcache/class1.php';
 			                    $link=db_connect();
 			                    $empire=new mysqlquery();
-			                    $peixungg = $empire->query("select * from phome_ecms_news where classid='71' order by id desc limit 5");
+			                    $peixungg = $empire->query("select * from phome_ecms_news where classid='91' order by id desc limit 5");
 			                    while ($r=$empire->fetch($peixungg)) {
 			                        $titleurl=sys_ReturnBqTitleLink($r);
 			                        echo "<li><a href=".$titleurl." target=_blank>".$r['title']."</a></li>";
@@ -355,7 +355,7 @@ $empire=null;
 			                    ?>
 			                </ul>
 			                <div style="padding-left:80%;height:20px">
-			                    <a href="/a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
+			                    <a href="/a/ketang/gonggao/" class="expand">更多</a>
 			                </div>
 			            </div>
 			            <div class="clear"></div>
@@ -445,12 +445,13 @@ $empire=null;
             </div>
 
             <div class="section information">
-                <span class="title">财税大课堂</span>
+                <span class="title">财税课堂</span>
                 <ul>
-                    <li><a href="/a/peixunzhuanti/yinggaizeng/">营改增培训</a></li>
-                    <li><a href="/a/peixunzhuanti/qiyechongzu/">企业重组培训</a></li>
-                    <li><a href="/a/peixunzhuanti/zhushui/">注册税务师培训</a></li>
-                    <li><a href="/a/peixunzhuanti/peixungonggao/">培训公告</a></li>
+                    <li><a href="/a/ketang/zhushui/" class="topfrx">注册税务师</a></li>
+                    <li><a href="/a/ketang/chongzu" class="topfrx">企业重组培训</a></li>
+                    <li><a href="/a/ketang/yinggaizeng" class="topfrx">营改增专题</a></li>
+                    <li><a href="/a/ketang/gonggao/" class="topfrx">培训公告</a></li>
+                    <li><a href="/e/tool/gbook/?bid=2" class="topfrx">在线咨询</a></li>
                 </ul>
             </div>
 

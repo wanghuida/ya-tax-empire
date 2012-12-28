@@ -22,7 +22,8 @@
 [!--temp.header--]
     <div class="container body">
     	<div> 您的位置：[!--newsnav--]</div>
-        <div class="content_l">
+    	<div class="body">
+    		<div class="content_l">
             <div class="tabbable tabs-left">
                 <ul class="nav nav-tabs">
                   <li class="active"><a href="#ygz" data-toggle="tab">注册税务师培训</a></li>
@@ -34,40 +35,46 @@
                     <ul>
                     	[e:loop={88,10,0,0}]
                     	<li class="kecheng_index">
-            			<a href="<?=$bqsr['titleurl']?>"><img src="<?=$bqr['titlepic']?>" width="120" height="150" border="0" /></a>
-            		    <div class="kecheng_intro"><?=$bqr['moviesay']?></div>
+                		<div class="kecheng_img">
+	            			<a href="<?=$bqsr['titleurl']?>"><img src="<?=sys_ResizeImg($bqr['titlepic'],100,100,1,'')?>" /></a>
+                		</div>
+            		    <div class="kecheng_title"><a href="<?=$bqsr['titleurl']?>"><?=$bqr['title']?></a></div>
             		    <div class="kecheng_dn">
-            		        <a class="btn" href="<?=$bqsr['titleurl']?>">查看详情</a>
+            		        <a class="btn" href="<?=$bqsr['titleurl']?>">观看</a>
             		    </div>
                     	</li>
                     	[/e:loop]
                     </ul>
                   </div>
                   <div class="tab-pane" id="chongzu">
-	                <ul>
-        	        	[e:loop={89,10,0,0}]
-        	        	<li class="kecheng_index">
-        				<a href="<?=$bqsr['titleurl']?>"><img src="<?=$bqr['titlepic']?>" width="120" height="150" border="0" /></a>
-        			    <div class="kecheng_intro"><?=$bqr['moviesay']?></div>
-        			    <div class="kecheng_dn">
-        			        <a class="btn" href="<?=$bqsr['titleurl']?>">查看详情</a>
-        			    </div>
-        	        	</li>
-        	        	[/e:loop]
-	                </ul>
+                    <ul>
+                    	[e:loop={89,10,0,0}]
+                    	<li class="kecheng_index">
+                		<div class="kecheng_img">
+	            			<a href="<?=$bqsr['titleurl']?>"><img src="<?=sys_ResizeImg($bqr['titlepic'],100,100,1,'')?>" /></a>
+                		</div>
+            		    <div class="kecheng_title"><a href="<?=$bqsr['titleurl']?>"><?=$bqr['title']?></a></div>
+            		    <div class="kecheng_dn">
+            		        <a class="btn" href="<?=$bqsr['titleurl']?>">观看</a>
+            		    </div>
+                    	</li>
+                    	[/e:loop]
+                    </ul>
                   </div>
                   <div class="tab-pane" id="zhushui">
-                  	<ul>
-      		        	[e:loop={90,10,0,0}]
-      		        	<li class="kecheng_index">
-      					<a href="<?=$bqsr['titleurl']?>"><img src="<?=$bqr['titlepic']?>" width="120" height="150" border="0" /></a>
-      				    <div class="kecheng_intro"><?=$bqr['moviesay']?></div>
-      				    <div class="kecheng_dn">
-      				        <a class="btn" href="<?=$bqsr['titleurl']?>">查看详情</a>
-      				    </div>
-      		        	</li>
-      		        	[/e:loop]
-                  	</ul>
+	      	        <ul>
+	      	        	[e:loop={90,10,0,0}]
+                    	<li class="kecheng_index">
+                		<div class="kecheng_img">
+	            			<a href="<?=$bqsr['titleurl']?>"><img src="<?=sys_ResizeImg($bqr['titlepic'],100,100,1,'')?>" /></a>
+                		</div>
+            		    <div class="kecheng_title"><a href="<?=$bqsr['titleurl']?>"><?=$bqr['title']?></a></div>
+            		    <div class="kecheng_dn">
+            		        <a class="btn" href="<?=$bqsr['titleurl']?>">观看</a>
+            		    </div>
+                    	</li>
+	      	        	[/e:loop]
+	      	        </ul>
                   </div>
                 </div>
                 <script>
@@ -90,12 +97,12 @@
 	                </div>
 	                <div class="content">
 	                    <ul>
-	                    [e:loop={71,5,0,0}]
+	                    [e:loop={91,5,0,0}]
 	                    <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </li>
 	                    [/e:loop]
 	                    </ul>
 	                    <div style="padding-left:80%;">
-	                        <a href="[!--news.url--]a/peixunzhuanti/peixungonggao/" target="_blank" class="expand">更多</a>
+	                        <a href="[!--news.url--]a/ketang/gonggao/" target="_blank" class="expand">更多</a>
 	                    </div>
 	                </div>
 	                <div class="clear"></div>
@@ -143,6 +150,8 @@
 	            </div>
 	        </div>
         </div>
+    	</div>
+        
     </div>
 [!--temp.footer--]
 </body>

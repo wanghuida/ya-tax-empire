@@ -1,9 +1,11 @@
 <!-- 
 <li class="kecheng_index">
-	<a href="[!--titleurl--]"><img src="[!--titlepic--]" alt="[!--oldtitle--]" width="120" height="150" border="0" /></a>
+    <div class="kecheng_img">
+    	<a href="[!--titleurl--]"><img src="[!--titlepic--]" alt="[!--oldtitle--]" width="120" height="150" border="0" /></a>
+    </div>
     <div class="kecheng_intro">[!--moviesay--]</div>
     <div class="kecheng_dn">
-        <a class="btn" href="#ecms" onclick="window.open('/e/DownSys/play/?classid=87&amp;id=3&amp;pathid=0','','width=300,height=300,resizable=yes');">观看</a>
+        <a class="btn" href="[!--titleurl--]">观看</a>
     </div>
 </li> 
 -->
@@ -33,111 +35,39 @@
 [!--temp.header--]
     <div class="container body">
     	<div> 您的位置：[!--newsnav--]</div>
-        <div class="content_l">
-            <div class="tabbable tabs-left">
-                <ul class="nav nav-tabs">
-                  <li class="active"><a href="#home" data-toggle="tab">营改增专题</a></li>
-                  <li><a href="#profile" data-toggle="tab">企业重组培训</a></li>
-                  <li><a href="#messages" data-toggle="tab">注册税务师培训</a></li>
-                  <li><a href="#settings" data-toggle="tab">设置</a></li>
-                </ul>
-                <div class="tab-content">
-                  <div class="tab-pane active" id="home">
-                    <ul>
-                    	[!--empirenews.listtemp--]
-                    	<!--list.var1-->
-                    	[!--empirenews.listtemp--]
-                    	[!--show.listpage--]
-                    </ul>
-                  </div>
-                  <div class="tab-pane" id="profile">
-                    <p class="col4">
-                        [e:loop={67,4,0,0}]
-                        <a href="<?=$bqsr[titleurl]?>" class="leftarrow"  target="_blank"><?=esub($bqr[title],36)?></a>
-                        [/e:loop]
-                    </p>
-                  </div>
-                  <div class="tab-pane" id="messages">
-                     <p class="col4">
-                        [e:loop={69,4,0,0}]
-                        <a href="<?=$bqsr[titleurl]?>" class="leftarrow"  target="_blank"><?=esub($bqr[title],36)?></a>
-                        [/e:loop]
-                    </p>
-                  </div>
-                  <div class="tab-pane" id="settings">......</div>
-                </div>
-                <script>
-                  $(function () {
-                    $('.tabs a:last').tab('show')
-                  })
-                </script>
-            </div>
+        <div class="content_ll">
+	        <ul>
+	        	[!--empirenews.listtemp--]
+	        	<!--list.var1-->
+	        	[!--empirenews.listtemp--]
+	        	[!--show.listpage--]
+	        </ul>
         </div>
-        <div class="content_r">
-	        <a href="[!--news.url--]e/tool/gbook/?bid=1" target=_blank>
-	            <img src="[!--news.url--]skin/default/images/zixun.jpg" alt="在线咨询" />
-	        </a>
-	        <div class="hr"></div>
-	        <div class="white-paper">
-	            <div class="body">
-	                <div class="header">
-	                    <div class="icon"></div>
-	                    培训公告
-	                </div>
-	                <div class="content">
-	                    <ul>
-	                    [e:loop={71,5,0,0}]
-	                    <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </li>
-	                    [/e:loop]
-	                    </ul>
-	                    <div style="padding-left:80%;">
-	                        <a href="[!--news.url--]a/peixunzhuanti/peixungonggao/" target="_blank" class="expand">更多</a>
-	                    </div>
-	                </div>
-	                <div class="clear"></div>
-	            </div>
-	        </div>
-	        <div class="related-news">
-	            <div class="body">
-	                <div class="header">
-	                    <div class="icon"></div>
-	                    最新动态
-	                </div>
-	                <div class="content">
-	                    <ul>
-	                    [e:loop={'news',5,18,0,'classid in ("72","73","74","67" ,"68","69")','newstime DESC'}]
-	                    <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a></li>
-	                    [/e:loop]
-	                    </ul>
-	                    <div style="padding-left:80%;height:20px">
-	                        <a href="[!--news.url--]a/hangyedongcha/" target="_blank" class="expand">更多</a>
-	                    </div>
-	                </div>
-	                <div class="clear"></div>
-	            </div>
-	        </div>
-	        <div class="tags">
-	            <div class="body">
-	                <div class="header">
-	                    <div class="icon"></div>
-	                    热门标签
-	                </div>
-	                <div class="tags">
-	                    <span class="highlights3">
-	                        <a href="[!--news.url--]a/peixunzhuanti/" target="_blank">培训业务</a>
-	                    </span> 
-	                    <span class="highlights3">
-	                        <a href="[!--news.url--]a/yewujieshao/#117" target="_blank">税务筹划</a>
-	                    </span>
-	                    <span class="highlights3">
-	                        <a href="[!--news.url--]a/yewujieshao/#122" target="_blank">税务代理</a>
-	                    </span>
-	                    <span class="highlights3">
-	                        <a href="[!--news.url--]a/peixunzhuanti/qiyechongzu" target="_blank">企业重组</a>
-	                    </span>
-	                </div>
-	            </div>
-	        </div>
+        <div class="content_rr">
+            <div class="white-paper">
+                <div class="body">
+                    <div class="header">
+                        <div class="icon"></div>
+                        最后更新
+                    </div>
+                    <div class="content">
+                        <ul><script src='[!--news.url--]d/js/class/class[!--self.classid--]_newnews.js'></script></ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="related-news">
+                <div class="body">
+                    <div class="header">
+                        <div class="icon"></div>
+                        视频推荐
+                    </div>
+                    <div class="content">
+                        [phomenewspic]'selfinfo',2,4,128,90,1,20,2[/phomenewspic]
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
         </div>
     </div>
 [!--temp.footer--]

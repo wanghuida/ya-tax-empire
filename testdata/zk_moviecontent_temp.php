@@ -37,22 +37,40 @@
         $path_r=explode("\r\n",$r[onlinepath]);
         $showdown_r=explode("::::::",$path_r[$pathid]);
         ?>
-    	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="610" height="494">
+    	<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="610" height="494">
     	  <param name="movie" value='<?=$showdown_r[1]?>'>
     	  <param name="quality" value="high">
     	  <embed src="<?=$showdown_r[1]?>" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="610" height="494"></embed>
-        </object>
+        </object> -->
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="610" height="494">
+        <param name=movie value="<?=$showdown_r[1]?>" ref>
+        <param name=quality value=High>
+        <param name="_cx" value="12383">
+        <param name="_cy" value="1588">
+        <param name="FlashVars" value>
+        <param name="Src" ref value="<?=$showdown_r[1]?>">
+        <param name="WMode" value="Window">
+        <param name="Play" value="-1">
+        <param name="Loop" value="-1">
+        <param name="SAlign" value>
+        <param name="Menu" value="-1">
+        <param name="Base" value>
+        <param name="AllowScriptAccess" value="always">
+        <param name="Scale" value="ShowAll">
+        <param name="DeviceFont" value="0">
+        <param name="EmbedMovie" value="0">
+        <param name="BGColor" value>
+        <param name="SWRemote" value>
+        <param name="MovieData" value>
+        <embed src="<?=$showdown_r[1]?>" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="610" height="494">
+        </embed></object>
         <div>
-			<div>[影片名称]:[!--title--][领衔主演][!--player--][影片长度][!--playtime--][上传时间][!--movietime--]
-			[影片介绍]:[!--moviesay--]</div>
+			<div>[视频名称]：&nbsp;&nbsp;[!--title--]</div>
+			<div>[视频介绍]：&nbsp;&nbsp;[!--moviesay--]</div>
 			<div>[!--temp.pl--]</div>
 		</div>
     </div>
     <div class="content_rr">
-        <a href="[!--news.url--]e/tool/gbook/?bid=1" target=_blank>
-            <img src="[!--news.url--]skin/default/images/zixun.jpg" alt="在线咨询" />
-        </a>
-        <div class="hr"></div>
         <div class="white-paper">
             <div class="body">
                 <div class="header">
@@ -61,9 +79,6 @@
                 </div>
                 <div class="content">
                     <ul><script src='[!--news.url--]d/js/class/class[!--self.classid--]_newnews.js'></script></ul>
-                    <div style="padding-left:80%;">
-                        <a href="[!--news.url--]a/ketang" target="_blank" class="expand">更多</a>
-                    </div>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -72,37 +87,12 @@
             <div class="body">
                 <div class="header">
                     <div class="icon"></div>
-                    影视推荐
+                    视频推荐
                 </div>
                 <div class="content">
                     [phomenewspic]'selfinfo',2,4,128,90,1,20,2[/phomenewspic]
-                    <div style="padding-left:80%;height:20px">
-                        <a href="[!--news.url--]a/hangyedongcha/" target="_blank" class="expand">更多</a>
-                    </div>
                 </div>
                 <div class="clear"></div>
-            </div>
-        </div>
-        <div class="tags">
-            <div class="body">
-                <div class="header">
-                    <div class="icon"></div>
-                    热门标签
-                </div>
-                <div class="tags">
-                    <span class="highlights3">
-                        <a href="[!--news.url--]a/peixunzhuanti/" target="_blank">培训业务</a>
-                    </span> 
-                    <span class="highlights3">
-                        <a href="[!--news.url--]a/yewujieshao/#117" target="_blank">税务筹划</a>
-                    </span>
-                    <span class="highlights3">
-                        <a href="[!--news.url--]a/yewujieshao/#122" target="_blank">税务代理</a>
-                    </span>
-                    <span class="highlights3">
-                        <a href="[!--news.url--]a/peixunzhuanti/qiyechongzu" target="_blank">企业重组</a>
-                    </span>
-                </div>
             </div>
         </div>
     </div>

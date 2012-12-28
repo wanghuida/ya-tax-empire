@@ -38,11 +38,7 @@ $class_r[63]=Array('classid'=>63,
 'online_num'=>2,
 'islist'=>2,
 'tbname'=>'movie',
-'modid'=>5,
-'lencord'=>25,
-'reorder'=>'newstime DESC',
-'listtempid'=>14,
-'dtlisttempid'=>14);
+'modid'=>5);
 $class_r[64]=Array('classid'=>64,
 'bclassid'=>0,
 'classname'=>'关于我们',

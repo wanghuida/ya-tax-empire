@@ -116,7 +116,7 @@
                             <ul>
                                 <?php
                                 require_once ECMS_PATH.'e/data/dbcache/class1.php';
-                                $peixungg = $empire->query("select * from phome_ecms_news where classid='71' order by id desc limit 5");
+                                $peixungg = $empire->query("select * from phome_ecms_news where classid='91' order by id desc limit 5");
                                 while ($r=$empire->fetch($peixungg)) {
                                     $titleurl=sys_ReturnBqTitleLink($r);
                                     echo "<li><a href=".$titleurl." target=_blank>".$r['title']."</a></li>";
@@ -124,7 +124,7 @@
                                 ?>
                             </ul>
                             <div style="padding-left:80%;height:20px">
-                                <a href="[!--news.url--]a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
+                                <a href="[!--news.url--]a/ketang/gonggao/" class="expand">更多</a>
                             </div>
                         </div>
                         <div class="clear"></div>
