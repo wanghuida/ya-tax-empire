@@ -13,8 +13,8 @@
         <link rel="stylesheet" href="[!--news.url--]skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
     </head>
     <body>
-        <script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js">
-</script>[!--temp.header--]
+        <script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js"></script>
+        [!--temp.header--]
         <div id="container">
             <div class="bound body">
                 <div> 您的位置：[!--newsnav--]</div>
