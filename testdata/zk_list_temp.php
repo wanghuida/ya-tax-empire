@@ -1,7 +1,7 @@
 <!--
 <strong><a class="content_more" href="[!--titleurl--]" target=_blank>[!--title--]</a></strong>
 <p>
-    [!--smalltext--]……<strong><a href="[!--titleurl--]" target=_blank">查看全文</a></strong>
+    [!--smalltext--]……<a href="[!--titleurl--]" target=_blank">（详情）</a>
 </p>
 <div class="hr"></div>
 -->
@@ -107,7 +107,7 @@
                             <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </li>
                             [/e:loop]
                             </ul>
-                            <div style="padding-left:80%;">
+                            <div style="padding-left:80%;height:20px">
                                 <a href="[!--news.url--]a/ketang/gonggao/" target="_blank" class="expand">更多</a>
                             </div>
                         </div>

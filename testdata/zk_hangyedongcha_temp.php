@@ -47,10 +47,10 @@
 								<ul>
 									[e:loop={72,3,0,0}]
 									<li>
-									<strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
+									<strong><a href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
 									<br>
 									<span>
-									    <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
+									    <?=esub($bqr['smalltext'],200,'……')?><a style="font-weight: normal;font-size: 12px;" href="<?=$bqsr['titleurl']?>" target=_blank>（详情）</a>
 									</span>
 									</li>
 									<div class="hr"></div>
@@ -77,10 +77,10 @@
 								<ul>
 									[e:loop={73,3,0,0}]
 									<li>
-									<strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
+									<strong><a href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
 									<br>
 									<span>
-									    <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
+									    <?=esub($bqr['smalltext'],200,'……')?><a style="font-weight: normal;font-size: 12px;" href="<?=$bqsr['titleurl']?>" target=_blank>（详情）</a>
 									</span>
 									</li>
 									<div class="hr"></div>
@@ -107,10 +107,10 @@
 								<ul>
 									[e:loop={74,3,0,0}]
 									<li>
-									<strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
+									<strong><a href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
 									<br>
 									<span>
-									    <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
+									    <?=esub($bqr['smalltext'],200,'……')?><a style="font-weight: normal;font-size: 12px;" href="<?=$bqsr['titleurl']?>" target=_blank>（详情）</a>
 									</span>
 									</li>
 									<div class="hr"></div>
@@ -137,10 +137,10 @@
 								<ul>
 									[e:loop={75,3,0,0}]
 									<li>
-									<strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
+									<strong><a href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
 									<br>
 									<span>
-									    <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
+									    <?=esub($bqr['smalltext'],200,'……')?><a style="font-weight: normal;font-size: 12px;" href="<?=$bqsr['titleurl']?>" target=_blank>（详情）</a>
 									</span>
 									</li>
 									<div class="hr"></div>

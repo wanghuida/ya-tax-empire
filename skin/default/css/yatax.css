@@ -1845,6 +1845,15 @@ input.Save_myhw{ width:95px; height:29px; background:url(../images/btn_myhw_cn.g
 	border-bottom: 1px solid #F8F8F8;
 	min-height: 110px;
 }
+.zixun_index{
+	float: right;
+	margin-right: 40px;
+	line-height: 35px;
+}
+.zixun_index a{
+	color: #B00;
+	font-weight: bold;
+}
 .kecheng_img{
 	float: left;
 	width: 80px;

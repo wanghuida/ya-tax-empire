@@ -118,6 +118,11 @@
         </div>
         <div class="clear"></div>
     </div>
+
+    <div class="zixun_index">
+        <a href="[!--news.url--]e/tool/gbook/?bid=1" target=_blank>在线咨询</a>
+    </div>
+    <div class="clear"></div>
 </div>
 </div>
 
