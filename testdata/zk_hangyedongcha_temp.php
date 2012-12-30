@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="[!--news.url--]skin/default/css/yatax.css" type="text/css" media="screen, project, print" />
 		<link rel="stylesheet" href="[!--news.url--]skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print" />
 		<link rel="stylesheet" href="[!--news.url--]skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print" />
-	<script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js"></script>
+		<script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js"></script>
 </head>
 <body>
 	[!--temp.header--]
@@ -33,13 +33,14 @@
 				<div class="grid550_l left">
 					<div id="tabContent1">
 						<div class="core-network">
-							<div class="content">
-								<div class="title" style="margin-bottom:0px;">
-									业界动态
-								</div>
-								<hr />
+							<div class="title list_title">
+							    业界动态
 							</div>
+							<span class="kecheng_more">
+							    <a href="[!--news.url--]a/hangyedongcha/yejiedongtai">更多</a>
+							</span>
 						</div>
+						<hr />
 						<div class="content">
 							<!--content list start-->
 							<div class="case">
@@ -47,27 +48,28 @@
 									[e:loop={72,3,0,0}]
 									<li>
 									<strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
-									<p>
+									<br>
+									<span>
 									    <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
-									</p>
+									</span>
 									</li>
+									<div class="hr"></div>
 									[/e:loop]
 								</ul>
 							</div>
-						</div>
-						<div class="content">
-							<a href="[!--news.url--]a/hangyedongcha/yejiedongtai" class="expand" id="morenews" name="morenews">更多</a>
+							<div class="clear"></div>
 						</div>
 					</div>
 					<div id="tabContent2">
 						<div class="core-network">
-							<div class="content">
-								<div class="title" style="margin-bottom:0px;">
-									最新法规
-								</div>
-								<hr />
+							<div class="title list_title">
+							    最新法规
 							</div>
+							<span class="kecheng_more">
+							    <a href="[!--news.url--]a/ketang/zhushui/">更多</a>
+							</span>
 						</div>
+						<hr />
 						<div class="content">
 							<!--SortSpec = sortext-->
 							<!--content list start-->
@@ -76,28 +78,28 @@
 									[e:loop={73,3,0,0}]
 									<li>
 									<strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
-									<p>
+									<br>
+									<span>
 									    <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
-									</p>
+									</span>
 									</li>
+									<div class="hr"></div>
 									[/e:loop]
 								</ul>
 							</div>
 							<div class="clear"></div><!--content list end-->
-							<div class="content">
-								<a href="[!--news.url--]a/hangyedongcha/zuixinfagui" class="expand">更多</a>
-							</div>
 						</div>
 					</div>
 					<div id="tabContent3">
 						<div class="core-network">
-							<div class="content">
-								<div class="title" style="margin-bottom:0px;">
-									公司新闻
-								</div>
-								<hr />
+							<div class="title list_title">
+							    公司新闻
 							</div>
+							<span class="kecheng_more">
+							    <a href="[!--news.url--]a/hangyedongcha/gongsixinwen">更多</a>
+							</span>
 						</div>
+						<hr />
 						<div class="content">
 							<!--SortSpec = sortext-->
 							<!--content list start-->
@@ -106,28 +108,28 @@
 									[e:loop={74,3,0,0}]
 									<li>
 									<strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
-									<p>
+									<br>
+									<span>
 									    <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
-									</p>
+									</span>
 									</li>
+									<div class="hr"></div>
 									[/e:loop]
 								</ul>
 							</div>
 							<div class="clear"></div><!--content list end-->
-							<div class="content">
-								<a href="[!--news.url--]a/hangyedongcha/gongsixinwen" class="expand">更多</a>
-							</div>
 						</div>
 					</div>
 					<div id="tabContent4">
 						<div class="core-network">
-							<div class="content">
-								<div class="title" style="margin-bottom:0px;">
-									税务文化研究
-								</div>
-								<hr />
+							<div class="title list_title">
+							    税务文化研究
 							</div>
+							<span class="kecheng_more">
+							    <a href="[!--news.url--]a/hangyedongcha/shuiwuwenhua">更多</a>
+							</span>
 						</div>
+						<hr />
 						<div class="content">
 							<!--SortSpec = sortext-->
 							<!--content list start-->
@@ -136,17 +138,16 @@
 									[e:loop={75,3,0,0}]
 									<li>
 									<strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
-									<p>
+									<br>
+									<span>
 									    <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
-									</p>
+									</span>
 									</li>
+									<div class="hr"></div>
 									[/e:loop]
 								</ul>
 							</div>
 							<div class="clear"></div><!--content list end-->
-							<div class="content">
-								<a href="[!--news.url--]a/hangyedongcha/shuiwuwenhua" target="_blank" class="expand">更多</a>
-							</div>
 						</div>
 					</div>
 				</div>

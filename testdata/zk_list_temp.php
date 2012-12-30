@@ -77,26 +77,14 @@
                     <div class="content">
                         <!--列表模板主页面开始-->
                         <div class="hr"></div>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
-                            <tr>
-                                <td>
-                                    [!--empirenews.listtemp--]
-                                    <ul>
-                                        <!--list.var1-->
-                                    </ul>
-                                    [!--empirenews.listtemp--]
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                        <tr>
-                                            <td height="38">
-                                                <div class="epages">
-                                                    [!--show.listpage--]
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
+                        <ul>
+                            [!--empirenews.listtemp--]
+                                    <!--list.var1-->
+                            [!--empirenews.listtemp--]
+                        </ul>
+                        <div class="epages">
+                            [!--show.listpage--]
+                        </div>
                         <!--列表模板主页面结束-->
                     </div>
                     <a style="padding-left: 90%;" href="#header">回顶部</a>

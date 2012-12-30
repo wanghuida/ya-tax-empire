@@ -294,11 +294,12 @@ $url="<a href='".$public_r['newsurl']."'>".$fun_r['index']."</a>&nbsp;>&nbsp;".$
 			        <font color="#666666">(多个关键字请用&quot;空格&quot;隔开)</font> 
 				</form>
 				系统搜索到约有<strong><?=$num?></strong>项符合<strong><?=$keyboard?></strong>的查询结果
-				<div class="hr"></div>
-				
+				<div class='sch_left'>
+					<div class="hr"></div>
+					
 <?php
 $no=$offset;
-$subnum=120;
+$subnum=110;
 $formatdate="Y-m-d H:i:s";
 while($r=$empire->fetch($sql))
 {
@@ -319,20 +320,23 @@ while($r=$empire->fetch($sql))
 	$newstime=date($formatdate,$infor['newstime']);
 ?>
 
-				<h2 class="r"><span><?=$no?>.</span> <a class="l" href="<?=$titleurl?>" target="_blank"><?=$title?></a></h2>
-				<div class="s_result">
-					<?=$smalltext?><br/>
-					<span class="a"><?=$titleurl?> - <?=$newstime?></span>
-				</div>
-				<div class="hr"></div>
-				
+					<h2 class="r"><span><?=$no?>.</span> <a class="l schset" href="<?=$titleurl?>" target="_blank"><?=$title?></a></h2>
+					<div class="s_result">
+						<?=$smalltext?><br/>
+						<span class="a"><?=$titleurl?> - <?=$newstime?></span>
+					</div>
+					<div class="hr"></div>
+					
 <?php
 }
 db_close();
 $empire=null;
 ?>
 
-				<?=$listpage?>
+				</div>
+				<div class="epages">
+				    <?=$listpage?>
+				</div>
 			</div>
 			<div class="grid215 right">
 			    <div class="white-paper">

@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="[!--news.url--]skin/default/css/yatax.css" type="text/css" media="screen, project, print" />
         <link rel="stylesheet" href="[!--news.url--]skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print" />
         <link rel="stylesheet" href="[!--news.url--]skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print" />
+        <script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js"></script>
 </head>
 <body>
 [!--temp.header--]
@@ -56,6 +57,7 @@
                                         <span><?=esub($bqr['moviesay'],230,'……')?></span>
                                     </div>
                                 </div>
+                                <div class="clear"></div>
                             </li>
                             [/e:loop]
                             </ul>
@@ -145,15 +147,15 @@
                         <!--SortSpec = sortext-->
                         <!--content list start-->
                         <div class="case">
-                            <ul>
-                            [e:loop={91,3,0,0}]
-                            <li>
-                            <strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong>
-                            <p>
-                                <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
-                            </p>
-                            </li>
-                            [/e:loop]
+                        <ul>
+                        [e:loop={91,3,0,0}]
+                        <li>
+                        <strong><a class="content_more" href="<?=$bqsr['titleurl']?>" target=_blank><?=$bqr['title']?></a></strong><br>
+                        <span>
+                            <?=$bqr['smalltext']?>……<strong><a href="<?=$bqsr['titleurl']?>" target=_blank>查看全文</a></strong>
+                        </span>
+                        </li>
+                        [/e:loop]
                         </ul>
                         </div>
                         <div class="clear"></div><!--content list end-->
@@ -219,6 +221,5 @@
     </div>
 </div>
 [!--temp.footer--]
-<script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js"></script>
 </body>
 </html>
