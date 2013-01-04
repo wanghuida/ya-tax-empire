@@ -11,10 +11,10 @@
         <link rel="stylesheet" href="[!--news.url--]skin/default/css/yatax.css" type="text/css" media="screen, project, print">
         <link rel="stylesheet" href="[!--news.url--]skin/default/css/globle_cn_ie6.css" type="text/css" media="screen, project, print">
         <link rel="stylesheet" href="[!--news.url--]skin/default/css/jquery.ui.theme.css" type="text/css" media="screen, project, print">
+        <script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js"></script>
     </head>
     <body>
-        <script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js">
-</script>[!--temp.header--]
+        [!--temp.header--]
         <div id="container">
             <div class="bound body">
                 <div> 您的位置：[!--newsnav--]</div>
@@ -74,17 +74,9 @@
                         </div>
                     </div>
             <div class="grid215 right">
-                <div class="index_search">
-                    <form action='[!--news.url--]e/sch/index.php' method="GET" name="search_news" id="search_news">
-                        <input name="keyboard" type="text" id="keyboard" size="20" />
-                        <select name="field" id="field">
-                          <option value="1">全文</option>
-                          <option value="2">标题</option>
-                          <option value="3">内容</option>
-                        </select> 
-                        <input type="submit" name="Submit22" value="搜索" />
-                    </form>
-                </div>
+                <a href="[!--news.url--]e/tool/gbook/?bid=1" target=_blank>
+                    <img src="[!--news.url--]skin/default/images/zixun.jpg" alt="在线咨询" />
+                </a>
                 <div class="hr"></div>
                 <div class="white-paper">
                     <div class="body">
@@ -94,12 +86,12 @@
                         </div>
                         <div class="content">
                             <ul>
-                            [e:loop={71,5,0,0}]
+                            [e:loop={91,5,0,0}]
                             <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </li>
                             [/e:loop]
                             </ul>
                             <div style="padding-left:80%;height:20px">
-                                <a href="[!--news.url--]a/peixunzhuanti/peixungonggao/" target="_blank" class="expand">更多</a>
+                                <a href="[!--news.url--]a/ketang/gonggao/" target="_blank" class="expand">更多</a>
                             </div>
                         </div>
                         <div class="clear"></div>

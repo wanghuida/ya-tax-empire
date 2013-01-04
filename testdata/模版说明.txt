@@ -2,19 +2,27 @@
 temp.footer.php：公共模板temp.footer
 temp.header.php：公共模板temp.header
 train.php：财税大课堂首页
+zk_comment_temp.php 模版公共变量中评论模版
+zk_commentlist_temp_temp.php 文章评论列表模版
+zk_content_temp.php：自定义内容页面模板，所有栏目内容页面都采用此模板。
+zk_ctrl_temp：控制面板模版，控制面板模版由“<代码块1>[!--empirenews.template--]<代码块2>”组成，该模版并不直接生成页面代码，而是由代				码块1生成/e/data/template/cp1，代码块2生产/e/data/template/cp2；控制面板里面所有版块的页面都是<cp1>[code]<cp2>						的形式。
 zk_hangyedongcha_temp.php：行业洞察栏目自定义页面模板
+zk_ketang_temp.php 税收课堂栏目专用页面模版
 zk_shuishoudaketang_temp.php：税收大课堂栏目自定义页面模板
 zk_label.php：自定义标签，用于抓去子栏目标题
-zk_content_temp.php：自定义内容页面模板，所有栏目内容页面都采用此模板。
-zk_list_temp.php：自定义列表模板，用于终级栏目，显示所有文章标题超链接和简介。使用此模板的栏目：行业洞察和税收大课堂的所有子栏目，但不包括这两个栏目自身。
-zk_list_temp2.php：
-自定义列表模板，用于终极栏目，直接显示全部文章内容的终级栏目。使用此模板的栏目：关于我们、加入永安、业务介绍、成功案例。
+zk_list_temp.php：自定义列表模板，用于终级栏目，显示所有文章标题超链接和简介。使用此模板的栏目：行业洞察和税收大课堂的所有子栏目，					但不包括这两个栏目自身。
+zk_list_temp2.php：自定义列表模板，用于终极栏目，直接显示全部文章内容的终级栏目。
+					使用此模板的栏目：关于我们、加入永安、业务介绍、成功案例。
 zk_list_temp3.php：自定义列表模板，与zk_list_temp2.php的区别是两栏式，无右侧栏
-zk_ctrl_temp：控制面板模版，控制面板模版由“<代码块1>[!--empirenews.template--]<代码块2>”组成，该模版并不直接生成页面代码，而是由代码块1生成/e/data/template/cp1，代码块2生产/e/data/template/cp2；控制面板里面所有版块的页面都是<cp1>[code]<cp2>的形式。
+zk_liuyanban.php： 留言板模版
 zk_login_js_temp.php：header右上角登陆状态模版
-alang_liuyanban.php:留言板列表模版，独立非最终栏目，采用页面模板，自定义。比单独gbook.php的好处是统一纳入栏目管理，可以设置权限。
+zk_moviecontent_temp.php： 电影系统自定义内容模版，用于注册税务师、营改增和企业重组栏目的最终页面
+zk_movielist_temp.php： 电影系统自定义列表模版，用于注册税务师、营改增和企业重组栏目的信息列表页面
+zk_search_temp.php： 全文搜索模版
+
+alang_liuyanban.php: 留言板列表模版，独立非最终栏目，采用页面模板，自定义。比单独gbook.php的好处是统一纳入栏目管理，可以设置权限。
                     调用方式：/liuyanban。
-alang_liuyanban_lable.php:留言板标签模版。
+alang_liuyanban_lable.php: 留言板标签模版。
 
 
 tips:部分文章作为栏目的组成部分，有固定锚链接，如果删除或重发这些文章则必须修改相关锚链接。

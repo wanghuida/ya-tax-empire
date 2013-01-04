@@ -35,12 +35,13 @@
             </div>
 
             <div class="section information">
-                <span class="title">财税大课堂</span>
+                <span class="title">财税课堂</span>
                 <ul>
-                    <li><a href="[!--news.url--]a/peixunzhuanti/yinggaizeng/">营改增培训</a></li>
-                    <li><a href="[!--news.url--]a/peixunzhuanti/qiyechongzu/">企业重组培训</a></li>
-                    <li><a href="[!--news.url--]a/peixunzhuanti/zhushui/">注册税务师培训</a></li>
-                    <li><a href="[!--news.url--]a/peixunzhuanti/peixungonggao/">培训公告</a></li>
+                    <li><a href="[!--news.url--]a/ketang/zhushui/">注册税务师</a></li>
+                    <li><a href="[!--news.url--]a/ketang/chongzu">企业重组培训</a></li>
+                    <li><a href="[!--news.url--]a/ketang/yinggaizeng">营改增专题</a></li>
+                    <li><a href="[!--news.url--]a/ketang/gonggao/">培训公告</a></li>
+                    <li><a href="[!--news.url--]e/tool/gbook/?bid=2">在线咨询</a></li>
                 </ul>
             </div>
 

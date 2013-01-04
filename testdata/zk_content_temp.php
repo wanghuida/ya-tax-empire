@@ -112,12 +112,12 @@
                         </div>
                         <div class="content">
                             <ul>
-                            [e:loop={71,5,0,0}]
+                            [e:loop={91,5,0,0}]
                             <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </li>
                             [/e:loop]
                             </ul>
                             <div style="padding-left:80%;height:20px">
-                                <a href="[!--news.url--]a/peixunzhuanti/peixungonggao/ target="_blank" class="expand">更多</a>
+                                <a href="[!--news.url--]a/ketang/gonggao/" target="_blank" class="expand">更多</a>
                             </div>
                         </div>
                         <div class="clear"></div>

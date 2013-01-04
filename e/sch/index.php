@@ -179,17 +179,17 @@ $url="<a href='".$public_r['newsurl']."'>".$fun_r['index']."</a>&nbsp;>&nbsp;".$
                 </div>
             </li>
             <li is="menuindex">
-                <a iblk="财税大课堂" href="/a/peixunzhuanti" class="support"><span>财税大课堂</span></a>
+                <a iblk="财税大课堂" href="/a/ketang" class="support"><span>财税课堂</span></a>
 
                 <div class="menuitempanel">
                     <div class="menucontentdiv">
                         <div class="menufillet_e"></div>
                         <div class="support clearfix">
                             <ul class="list last">
-                                <li><a href="/a/peixunzhuanti/yinggaizeng" class="topfrx">营改增专题</a></li>
-                                <li><a href="/a/peixunzhuanti/qiyechongzu" class="topfrx">企业重组培训</a></li>
-                                <li><a href="/a/peixunzhuanti/" class="topfrx">注册税务师培训</a></li>
-                                <li><a href="/a/peixunzhuanti/peixungonggao" class="topfrx">培训公告</a></li>
+                                <li><a href="/a/ketang/zhushui/" class="topfrx">注册税务师</a></li>
+                                <li><a href="/a/ketang/chongzu" class="topfrx">企业重组培训</a></li>
+                                <li><a href="/a/ketang/yinggaizeng" class="topfrx">营改增专题</a></li>
+                                <li><a href="/a/ketang/gonggao/" class="topfrx">培训公告</a></li>
                                 <li><a href="/e/tool/gbook/?bid=2" class="topfrx">在线咨询</a></li>
                             </ul>
                             <div class="verticalLine"></div>
@@ -294,11 +294,12 @@ $url="<a href='".$public_r['newsurl']."'>".$fun_r['index']."</a>&nbsp;>&nbsp;".$
 			        <font color="#666666">(多个关键字请用&quot;空格&quot;隔开)</font> 
 				</form>
 				系统搜索到约有<strong><?=$num?></strong>项符合<strong><?=$keyboard?></strong>的查询结果
-				<div class="hr"></div>
-				
+				<div class='sch_left'>
+					<div class="hr"></div>
+					
 <?php
 $no=$offset;
-$subnum=120;
+$subnum=110;
 $formatdate="Y-m-d H:i:s";
 while($r=$empire->fetch($sql))
 {
@@ -319,20 +320,23 @@ while($r=$empire->fetch($sql))
 	$newstime=date($formatdate,$infor['newstime']);
 ?>
 
-				<h2 class="r"><span><?=$no?>.</span> <a class="l" href="<?=$titleurl?>" target="_blank"><?=$title?></a></h2>
-				<div class="s_result">
-					<?=$smalltext?><br/>
-					<span class="a"><?=$titleurl?> - <?=$newstime?></span>
-				</div>
-				<div class="hr"></div>
-				
+					<h2 class="r"><span><?=$no?>.</span> <a class="l schset" href="<?=$titleurl?>" target="_blank"><?=$title?></a></h2>
+					<div class="s_result">
+						<?=$smalltext?><br/>
+						<span class="a"><?=$titleurl?> - <?=$newstime?></span>
+					</div>
+					<div class="hr"></div>
+					
 <?php
 }
 db_close();
 $empire=null;
 ?>
 
-				<?=$listpage?>
+				</div>
+				<div class="epages">
+				    <?=$listpage?>
+				</div>
 			</div>
 			<div class="grid215 right">
 			    <div class="white-paper">
@@ -347,7 +351,7 @@ $empire=null;
 			                    require_once ECMS_PATH.'e/data/dbcache/class1.php';
 			                    $link=db_connect();
 			                    $empire=new mysqlquery();
-			                    $peixungg = $empire->query("select * from phome_ecms_news where classid='71' order by id desc limit 5");
+			                    $peixungg = $empire->query("select * from phome_ecms_news where classid='91' order by id desc limit 5");
 			                    while ($r=$empire->fetch($peixungg)) {
 			                        $titleurl=sys_ReturnBqTitleLink($r);
 			                        echo "<li><a href=".$titleurl." target=_blank>".$r['title']."</a></li>";
@@ -355,7 +359,7 @@ $empire=null;
 			                    ?>
 			                </ul>
 			                <div style="padding-left:80%;height:20px">
-			                    <a href="/a/peixunzhuanti/peixungonggao/" class="expand">更多</a>
+			                    <a href="/a/ketang/gonggao/" class="expand">更多</a>
 			                </div>
 			            </div>
 			            <div class="clear"></div>
@@ -445,12 +449,13 @@ $empire=null;
             </div>
 
             <div class="section information">
-                <span class="title">财税大课堂</span>
+                <span class="title">财税课堂</span>
                 <ul>
-                    <li><a href="/a/peixunzhuanti/yinggaizeng/">营改增培训</a></li>
-                    <li><a href="/a/peixunzhuanti/qiyechongzu/">企业重组培训</a></li>
-                    <li><a href="/a/peixunzhuanti/zhushui/">注册税务师培训</a></li>
-                    <li><a href="/a/peixunzhuanti/peixungonggao/">培训公告</a></li>
+                    <li><a href="/a/ketang/zhushui/">注册税务师</a></li>
+                    <li><a href="/a/ketang/chongzu">企业重组培训</a></li>
+                    <li><a href="/a/ketang/yinggaizeng">营改增专题</a></li>
+                    <li><a href="/a/ketang/gonggao/">培训公告</a></li>
+                    <li><a href="/e/tool/gbook/?bid=2">在线咨询</a></li>
                 </ul>
             </div>
 

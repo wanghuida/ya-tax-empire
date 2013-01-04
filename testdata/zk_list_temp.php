@@ -1,7 +1,7 @@
 <!--
 <strong><a class="content_more" href="[!--titleurl--]" target=_blank>[!--title--]</a></strong>
 <p>
-    [!--smalltext--]……<strong><a href="[!--titleurl--]" target=_blank">查看全文</a></strong>
+    [!--smalltext--]……<a href="[!--titleurl--]" target=_blank">（详情）</a>
 </p>
 <div class="hr"></div>
 -->
@@ -24,8 +24,7 @@
           media="screen, project, print">
 </head>
 <body>
-<script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js">
-</script>
+<script type="text/javascript" src="[!--news.url--]skin/default/js/jquery-1.8.2.js"></script>
 [!--temp.header--]
 <div id="container">
     <div class="bound body">
@@ -78,26 +77,14 @@
                     <div class="content">
                         <!--列表模板主页面开始-->
                         <div class="hr"></div>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
-                            <tr>
-                                <td>
-                                    [!--empirenews.listtemp--]
-                                    <ul>
-                                        <!--list.var1-->
-                                    </ul>
-                                    [!--empirenews.listtemp--]
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                        <tr>
-                                            <td height="38">
-                                                <div class="epages">
-                                                    [!--show.listpage--]
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
+                        <ul>
+                            [!--empirenews.listtemp--]
+                                    <!--list.var1-->
+                            [!--empirenews.listtemp--]
+                        </ul>
+                        <div class="epages">
+                            [!--show.listpage--]
+                        </div>
                         <!--列表模板主页面结束-->
                     </div>
                     <a style="padding-left: 90%;" href="#header">回顶部</a>
@@ -116,12 +103,12 @@
                         </div>
                         <div class="content">
                             <ul>
-                            [e:loop={71,5,0,0}]
+                            [e:loop={91,5,0,0}]
                             <li><a href="<?=$bqsr['titleurl']?>" target="_blank"><?=$bqr['title']?></a> </li>
                             [/e:loop]
                             </ul>
-                            <div style="padding-left:80%;">
-                                <a href="[!--news.url--]a/peixunzhuanti/peixungonggao/" target="_blank" class="expand">更多</a>
+                            <div style="padding-left:80%;height:20px">
+                                <a href="[!--news.url--]a/ketang/gonggao/" target="_blank" class="expand">更多</a>
                             </div>
                         </div>
                         <div class="clear"></div>

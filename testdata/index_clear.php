@@ -118,6 +118,11 @@
         </div>
         <div class="clear"></div>
     </div>
+
+    <div class="zixun_index">
+        <a href="[!--news.url--]e/tool/gbook/?bid=1" target=_blank>在线咨询</a>
+    </div>
+    <div class="clear"></div>
 </div>
 </div>
 
@@ -129,7 +134,7 @@
             <h4 class="c_blue">公司新闻</h4>
                 [e:loop={74,1,0,0}]
                 <h6 class="thetitle"><?=esub($bqr['title'],28)?></h6>
-                <p><?=esub($bqr['smalltext'],80)?>…</p>
+                <p><?=esub($bqr['smalltext'],80,'…')?></p>
                 [/e:loop]
             </span>
             <img src="[!--news.url--]skin/default/images/hw_149255.jpg">
@@ -139,19 +144,19 @@
                 <h4 class="c_orange">业界动态</h4>
                 [e:loop={72,1,0,0}]
                 <h6 class="thetitle"><?=esub($bqr['title'],28)?></h6>
-                <p><?=esub($bqr['smalltext'],80)?>…</p>
+                <p><?=esub($bqr['smalltext'],80,'…')?></p>
                 [/e:loop]
             </span>
             <img src="[!--news.url--]skin/default/images/hw_195116.jpg">
         </a>
 
-        <a href="[!--news.url--]a/peixunzhuanti" class="last"  target="_blank">
+        <a href="[!--news.url--]a/ketang" class="last"  target="_blank">
             <span>
                 <h4 class="c_green">税收课堂</h4>
                 <p>
-                    · 营改增培训<br/>
+                    · 注册税务师<br/>
                     · 企业重组培训<br/>
-                    · 注册税务师培训<br/>
+                    · 营改增专题<br/>
                 </p>
              </span>                        
             <img src="[!--news.url--]skin/default/images/hw_146899.jpg">
@@ -162,7 +167,7 @@
                 <h4 class="c_green">税文化研究</h4>
                 [e:loop={75,1,0,0}]
                 <h6 class="thetitle"><?=esub($bqr['title'],28)?></h6>
-                <p><?=esub($bqr['smalltext'],80)?>…</p>
+                <p><?=esub($bqr['smalltext'],80,'…')?></p>
                 [/e:loop]
             </span>
             <img src="[!--news.url--]skin/default/images/hw_194666.jpg">
@@ -172,7 +177,7 @@
                 <h4 class="c_blue">最新法规</h4>
                 [e:loop={73,1,0,0}]
                 <h6 class="thetitle"><?=esub($bqr['title'],28)?></h6>
-                <p><?=esub($bqr['smalltext'],80)?>…</p>
+                <p><?=esub($bqr['smalltext'],80,'…')?></p>
                 [/e:loop]
             </span>
             <img src="[!--news.url--]skin/default/images/hw_u_165756.jpg">
